@@ -1,0 +1,21 @@
+# Environment and caches
+.env
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node and front-end artifacts
+node_modules/
+dist/
+build/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
