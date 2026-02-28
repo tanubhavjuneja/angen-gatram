@@ -1,0 +1,21 @@
+Hidden Structures Analysis for Partition 1
+Image: D:/Downloads/Evidence/Windows_Evidence_002.dd
+================================================================================
+
+Partition Slot: 1:
+Partition Size: 0 bytes
+Filesystem: NTFS
+
+--------------------------------------------------------------------------------
+ALTERNATE DATA STREAMS / HIDDEN FILES
+--------------------------------------------------------------------------------
+
+No alternate data streams found.
+
+================================================================================
+HIDDEN VOLUME / HIDDEN OS DETECTION
+================================================================================
+
+No hidden volume analysis results.
+
+================================================================================

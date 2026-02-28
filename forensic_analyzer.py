@@ -158,8 +158,8 @@ def run_forensic_analysis(task_id: str, image_path: str):
                 task.error = f"Image file not found: {image_path}\nTried: {', '.join(searched[:5])}"
                 return
 
-        ext = image_file.suffix.lower()
-        supported_formats = [".e01", ".dd", ".raw", ".img", ".ewf", ".aff", ".afm"]
+        ext = image_file.suffix.lower() if hasattr(image_file, 'suffix') else Path(image_file).suffix.lower()
+        supported_formats = [".e01", ".E01", ".dd", ".raw", ".img", ".ewf", ".aff", ".afm"]
         if ext not in supported_formats:
             task.status = "failed"
             task.error = f"Unsupported image format: {ext}. Supported: {', '.join(supported_formats)}"

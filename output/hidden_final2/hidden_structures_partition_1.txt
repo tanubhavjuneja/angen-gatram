@@ -1,0 +1,38 @@
+Hidden Structures Analysis for Partition 1
+Image: D:/Downloads/Evidence/Windows_Evidence_002.dd
+================================================================================
+
+Partition Slot: 1:
+Partition Size: 26,317,160,448 bytes (24.51 GB)
+Filesystem: NTFS
+
+--------------------------------------------------------------------------------
+ALTERNATE DATA STREAMS / HIDDEN FILES
+--------------------------------------------------------------------------------
+
+No alternate data streams found.
+
+================================================================================
+HIDDEN VOLUME / HIDDEN OS DETECTION
+================================================================================
+
+Hidden Volume Detected: False
+Confidence: 0.0%
+Detection Method: none
+
+Details: OS artifacts found but partition not encrypted; Encrypted: 6.1% - likely normal Windows install
+
+Entropy Analysis:
+  Regions Scanned: 32768
+  Encrypted Regions: 1994
+  Encrypted Percentage: 6.1%
+  High Entropy Regions (>7.9): 1969
+
+OS Artifact Analysis:
+  Artifacts Found: 1
+  Has Hidden OS Indicators: True
+
+  Detected Artifacts:
+    - Windows at offset 529919269
+
+================================================================================

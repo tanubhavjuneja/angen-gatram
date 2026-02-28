@@ -1,0 +1,19 @@
+{
+  "partition_offset": 0,
+  "analyzed_at": "2026-03-01T01:27:03.096040",
+  "filesystem": "unknown",
+  "total_mft_entries": 0,
+  "usn_journal_status": {
+    "found": false,
+    "reason": "No TSK tools available for USN extraction"
+  },
+  "inconsistencies": [
+    {
+      "type": "unknown_filesystem",
+      "severity": "info",
+      "message": "Unknown filesystem",
+      "description": "Could not identify filesystem type"
+    }
+  ],
+  "summary": "Filesystem: UNKNOWN. Analyzed 0 MFT entries. Found 1 inconsistencies (0 high, 0 medium)."
+}

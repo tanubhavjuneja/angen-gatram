@@ -59,13 +59,21 @@ except ImportError:
     pass
 
 try:
+    # Quick Docker check - just see if docker daemon responds
     result = subprocess.run(
-        ["docker", "images", "-q", "cincan/sleuthkit:latest"],
-        capture_output=True, timeout=30
+        ["docker", "version", "--format", "{{.Server.Version}}"],
+        capture_output=True, timeout=3
     )
-    if result.returncode == 0 and result.stdout.strip():
-        TSK_DOCKER_AVAILABLE = True
-except Exception:
+    if result.returncode == 0:
+        # Docker is available, check if TSK image exists
+        result2 = subprocess.run(
+            ["docker", "images", "-q", "cincan/sleuthkit:latest"],
+            capture_output=True, timeout=3
+        )
+        if result2.returncode == 0 and result2.stdout.strip():
+            TSK_DOCKER_AVAILABLE = True
+            print(f"[DEBUG] TSK Docker available")
+except Exception as e:
     pass
 
 def run_command(cmd: List[str], capture: bool = True) -> Tuple[int, str, str]:
@@ -188,10 +196,19 @@ class RawImageExtractor:
         else:
             partitions = self._parse_mbr()
         
-            if not partitions or len(partitions) <= 1:
+        # If MBR has only GPT protective partition (0xEE), try GPT
+        if partitions and len(partitions) == 1:
+            # Check if it's a GPT protective partition
+            if partitions[0].get('raw_type') == '0xee' or 'GPT' in partitions[0].get('desc', ''):
+                print("[DEBUG] GPT protective partition detected, trying GPT parsing...")
                 gpt_partitions = self._parse_gpt()
                 if gpt_partitions:
                     partitions = gpt_partitions
+        
+        if not partitions or len(partitions) <= 1:
+            gpt_partitions = self._parse_gpt()
+            if gpt_partitions:
+                partitions = gpt_partitions
         
         if not partitions:
             total_sectors = self.file_size // 512
@@ -232,10 +249,25 @@ class RawImageExtractor:
         try:
             with open(self.image_path, 'rb') as f:
                 f.seek(0)
-                data = f.read(1024 * 1024)
+                # Read more data to search for embedded partition table
+                data = f.read(16 * 1024 * 1024)  # Search first 16MB
                 
-                mbr_pos = data.find(b'\x55\xaa\x00\x00')
-                if mbr_pos > 0 and mbr_pos < 10 * 1024 * 1024:
+                # Look for MBR signature (0x55AA at offset 0x1FE from sector start)
+                # Search for pattern where 0xAA is followed by potential MBR data
+                mbr_pos = -1
+                for i in range(len(data) - 512):
+                    if data[i] == 0x55 and i + 1 < len(data) and data[i+1] == 0xaa:
+                        # Check if this looks like a valid MBR (at sector boundary)
+                        # and has partition entries after it
+                        if i % 512 == 0x1FE or i % 512 == 510:
+                            mbr_pos = i - (i % 512)  # Go back to sector start
+                            if mbr_pos >= 0 and mbr_pos < len(data) - 512:
+                                # Verify it's a valid MBR by checking partition entries exist
+                                if data[mbr_pos + 0x1BE:mbr_pos + 0x1EE] != b'\\x00' * 32:
+                                    print(f"[DEBUG] Found potential MBR at offset {mbr_pos}")
+                                    break
+                
+                if mbr_pos >= 0:
                     partitions = self._parse_mbr_at_offset(mbr_pos)
                     for p in partitions:
                         p["source"] = "E01 embedded MBR"
@@ -243,7 +275,7 @@ class RawImageExtractor:
                 
                 if not partitions:
                     gpt_sig = data.find(b'EFI PART')
-                    if gpt_sig > 0 and gpt_sig < 50 * 1024 * 1024:
+                    if gpt_sig > 0:
                         partitions = self._parse_gpt_at_offset(gpt_sig)
                         for p in partitions:
                             p["source"] = "E01 embedded GPT"
@@ -258,27 +290,32 @@ class RawImageExtractor:
         partitions = []
         try:
             with open(self.image_path, 'rb') as f:
-                f.seek(offset)
+                # MBR signature is at offset 0x1FE (510) from start of sector
+                f.seek(offset + 0x1FE)
                 signature = f.read(2)
-                print(f"[DEBUG] MBR signature at offset {offset}: {signature.hex()}")
+                print(f"[DEBUG] MBR signature at offset {offset + 0x1FE}: {signature.hex()}")
                 if signature != b'\x55\xaa':
                     print(f"[DEBUG] Invalid MBR signature, got {signature}")
                     return partitions
                 
+                # Partition table starts at offset 0x1BE (446)
                 f.seek(offset + 0x1BE)
                 for i in range(4):
                     part_entry = f.read(16)
                     print(f"[DEBUG] Partition {i}: {part_entry.hex()}")
-                    if part_entry[0] == 0:
+                    
+                    # Check partition type - 0 means empty entry
+                    part_type = part_entry[4]
+                    if part_type == 0:
                         continue
                     
-                    part_type = part_entry[4]
                     boot_indicator = part_entry[0]
                     start_sector = struct.unpack('<I', part_entry[8:12])[0]
                     num_sectors = struct.unpack('<I', part_entry[12:16])[0]
                     
                     print(f"[DEBUG] Partition {i}: type={hex(part_type)}, start={start_sector}, size={num_sectors}")
                     
+                    # Accept partition if it has valid size or is a known partition type
                     if start_sector > 0 and num_sectors > 0:
                         is_hidden = (boot_indicator & 0x80) != 0
                         partitions.append({
@@ -286,9 +323,13 @@ class RawImageExtractor:
                             "partition_num": i,
                             "start": str(start_sector),
                             "start_int": start_sector,
+                            "start_sector": start_sector,
                             "end": str(start_sector + num_sectors),
+                            "size_sectors": num_sectors,
                             "length": str(num_sectors),
                             "desc": self._get_partition_type(part_type),
+                            "description": self._get_partition_type(part_type),
+                            "fs": "NTFS" if part_type in [0x07, 0x17] else ("FAT" if part_type in [0x01, 0x04, 0x06, 0x0B, 0x0C, 0x0E] else "Unknown"),
                             "raw_type": hex(part_type),
                             "is_hidden": is_hidden,
                             "bootable": (boot_indicator & 0x80) != 0
@@ -348,22 +389,27 @@ class RawImageExtractor:
         partitions = []
         try:
             with open(self.image_path, 'rb') as f:
-                f.seek(offset + 0x200 - 512)
+                # GPT header is at LBA 1 (offset 512 from start)
+                f.seek(offset + 512)
                 header = f.read(92)
                 if header[:8] != b'EFI PART':
                     return partitions
                 
-                part_entries = struct.unpack('<I', header[80:84])[0]
-                num_parts = struct.unpack('<I', header[84:88])[0]
-                part_entry_size = struct.unpack('<I', header[92:96])[0]
+                # GPT header fields (offset from start of GPT header)
+                # Offset 80-83: Number of partition entries
+                # Offset 84-87: Size of partition entry  
+                # Offset 72-79: Starting LBA of partition array
+                part_entries = struct.unpack('<I', header[80:84])[0]  # Number of entries
+                part_entry_size = struct.unpack('<I', header[84:88])[0]  # Size of each entry
+                part_start_lba = struct.unpack('<Q', header[72:80])[0]  # LBA of partition table
                 
-                if part_entries == 0 or num_parts == 0 or part_entry_size == 0:
+                if part_entries == 0 or part_entry_size == 0 or part_start_lba == 0:
                     return partitions
                 
-                part_start = offset + part_entries * 512
+                part_start = offset + part_start_lba * 512
                 f.seek(part_start)
                 
-                for i in range(min(num_parts, 128)):
+                for i in range(min(part_entries, 128)):
                     entry = f.read(part_entry_size)
                     if len(entry) < part_entry_size:
                         break
@@ -374,21 +420,27 @@ class RawImageExtractor:
                     
                     start_lba = struct.unpack('<Q', entry[32:40])[0]
                     end_lba = struct.unpack('<Q', entry[40:48])[0]
-                    name = entry[56:128].decode('utf-16-le', errors='ignore').strip('\x00')
+                    name = entry[56:128].decode('utf-16-le', errors='ignore').strip('\x00 ')
                     
                     if start_lba > 0 and end_lba > start_lba:
+                        size_sectors = end_lba - start_lba + 1
                         partitions.append({
-                            "slot": f"{i}:",
+                            "slot": f"GPT {i}",
                             "partition_num": i,
                             "start": str(start_lba),
                             "start_int": start_lba,
+                            "start_sector": start_lba,
+                            "end_sector": end_lba,
                             "end": str(end_lba),
-                            "length": str(end_lba - start_lba + 1),
+                            "size_sectors": size_sectors,
+                            "length": str(size_sectors),
                             "desc": name or f"GPT Partition {i}",
-                            "is_gpt": True
+                            "description": name or f"GPT Partition {i}",
+                            "is_gpt": True,
+                            "fs": "NTFS" if "NTFS" in name or "Basic" in name else "Unknown"
                         })
-        except Exception:
-            pass
+        except Exception as e:
+            print(f"[DEBUG] GPT parse error: {e}")
         return partitions
     
     def _parse_gpt(self) -> List[Dict]:
@@ -930,7 +982,7 @@ class ForensicExtractor:
         """Get sector offset for a partition by index."""
         if partition_idx < len(self.partitions):
             part = self.partitions[partition_idx]
-            start = part.get("start_int", 0)
+            start = part.get("start_int", part.get("start_sector", 0))
             return start
         return 0
 
@@ -1510,8 +1562,9 @@ class ForensicExtractor:
             # Get partition info
             if partition_num < len(self.partitions):
                 part = self.partitions[partition_num]
+                size_sectors = part.get('size_sectors', int(part.get('length', 0)))
                 f.write(f"Partition Slot: {part.get('slot', 'N/A')}\n")
-                f.write(f"Partition Size: {part.get('size_sectors', 0) * 512:,} bytes\n")
+                f.write(f"Partition Size: {size_sectors * 512:,} bytes ({size_sectors * 512 / (1024**3):.2f} GB)\n")
                 f.write(f"Filesystem: {part.get('fs', 'N/A')}\n\n")
             
             # Part 1: Alternate Data Streams detection
@@ -1520,14 +1573,19 @@ class ForensicExtractor:
             f.write("-" * 80 + "\n\n")
             
             offset = self.get_partition_offset(partition_num)
+            cmd_result = None
             
             # Try TSK first, fallback to basic
             if hasattr(self.backend, 'fls'):
-                cmd_result = self.backend.fls(self.image_path, offset, "/")
-            else:
+                try:
+                    cmd_result = self.backend.fls(self.image_name or Path(self.image_path).name, offset, "/")
+                except:
+                    pass
+            
+            if not cmd_result:
                 cmd = ["fls", "-o", str(offset), "-r", "-p", self.image_path]
                 code, stdout, stderr = self.run_command(cmd)
-                stdout = stdout if code == 0 else ""
+                cmd_result = stdout if code == 0 else ""
             
             hidden_items = []
             if cmd_result and isinstance(cmd_result, str):

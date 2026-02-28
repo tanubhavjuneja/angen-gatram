@@ -1,0 +1,53 @@
+================================================================================
+FORENSIC DISK ANALYSIS REPORT
+================================================================================
+
+Generated: 2026-03-01 00:58:57
+Image: Windows_Evidence_001.E01
+Output Directory: c:\Users\Tanubhav Juneja\Desktop\projects\Angen Gatram\forensic_output\Windows_Evidence_001
+
+--------------------------------------------------------------------------------
+PARTITION ANALYSIS
+--------------------------------------------------------------------------------
+
+Partition 0:
+  Slot: 0:
+  Start Sector: 0
+  End Sector: 3219070
+  Size: 0 sectors
+  Filesystem: 
+  Description: E01 Container (raw disk image inside)
+
+--------------------------------------------------------------------------------
+TIMESTAMP INTEGRITY ANALYSIS
+--------------------------------------------------------------------------------
+
+partition_0:
+  USN Journal: NOT FOUND
+    Reason: No TSK tools available for USN extraction
+
+  Timestamp Inconsistencies: 1
+    [INFO] unknown_filesystem: Unknown filesystem
+
+--------------------------------------------------------------------------------
+ANTI-FORENSIC DETECTION RESULTS
+--------------------------------------------------------------------------------
+
+No anti-forensic indicators found.
+
+--------------------------------------------------------------------------------
+RISK ASSESSMENT
+--------------------------------------------------------------------------------
+
+Risk Level: Medium
+Summary: Analysis complete. Found 1 potential indicators (0 high severity).
+
+Recommendations:
+  - Review timestamp inconsistencies for evidence of timestomping
+  - Check files with modified-after-changed timestamps
+  - Compare with known baseline timestamps
+  - Review metadata timestamp mismatches for file manipulation evidence
+
+================================================================================
+END OF REPORT
+================================================================================

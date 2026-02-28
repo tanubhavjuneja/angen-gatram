@@ -269,8 +269,15 @@ class HiddenVolumeDetector:
         detection_method = "none"
         details = []
         
+        # High encryption (95%+) strongly suggests encrypted container without OS
+        if encrypted_info["encrypted_percentage"] > 95:
+            confidence = 0.9
+            detection_method = "high_entropy_encrypted_container"
+            details.append(f"Very high encryption detected: {encrypted_info['encrypted_percentage']:.1f}%")
+            details.append("Likely VeraCrypt/TrueCrypt encrypted container")
+        
         # High encryption with clusters suggests hidden volume
-        if encrypted_info["encrypted_percentage"] > 90:
+        elif encrypted_info["encrypted_percentage"] > 90:
             if len(encrypted_info["clusters"]) >= 2:
                 confidence = 0.75
                 detection_method = "entropy_clustering"

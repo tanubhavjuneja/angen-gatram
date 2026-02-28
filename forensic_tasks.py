@@ -142,8 +142,8 @@ class ForensicTaskManager:
                 )
                 return
 
-            ext = image_file.suffix.lower()
-            if ext not in [".e01", ".dd", ".raw", ".img"]:
+            ext = image_file.suffix.lower() if hasattr(image_file, 'suffix') else Path(image_file).suffix.lower()
+            if ext not in [".e01", ".E01", ".dd", ".raw", ".img"]:
                 self.update_task(
                     task_id,
                     status=TaskStatus.FAILED,

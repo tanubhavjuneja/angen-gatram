@@ -1,13 +1,13 @@
 {
-  "directory": "c:\\Users\\Tanubhav Juneja\\Desktop\\projects\\Angen Gatram\\forensic_output\\Windows_Evidence_002",
-  "analyzed_at": "2026-03-01T01:29:43.526876",
-  "files_analyzed": 11,
+  "directory": "c:\\Users\\Tanubhav Juneja\\Desktop\\projects\\Angen Gatram\\forensic_output\\Windows_Evidence_001",
+  "analyzed_at": "2026-03-01T01:27:03.107543",
+  "files_analyzed": 7,
   "files_with_metadata": 0,
   "files_with_inconsistencies": 0,
   "total_inconsistencies": 0,
   "file_results": [],
   "summary": {
-    "total_files": 11,
+    "total_files": 7,
     "with_metadata": 0,
     "with_inconsistencies": 0,
     "total_inconsistencies": 0,
