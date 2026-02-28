@@ -488,6 +488,114 @@ function App() {
               )}
             </div>
 
+            <div className="card data-wipe-card">
+              <h3><Activity size={20} /> Data Wipe Detection</h3>
+              
+              {results.data_wipe_analysis && results.data_wipe_analysis.wipe_detected ? (
+                <div className="wipe-detected">
+                  <div className="wipe-alert">
+                    <AlertTriangle size={24} />
+                    <span>Data Wiping Detected</span>
+                  </div>
+                  <p className="wipe-summary">{results.data_wipe_analysis.summary}</p>
+                  <p className="wipe-confidence">
+                    Confidence: {Math.round((results.data_wipe_analysis.confidence || 0) * 100)}%
+                  </p>
+                  
+                  {results.data_wipe_analysis.details && results.data_wipe_analysis.details.partition_scan && (
+                    <div className="wipe-stats">
+                      <div className="stat-item">
+                        <span className="stat-label">High Entropy Regions:</span>
+                        <span className="stat-value">{results.data_wipe_analysis.details.partition_scan.high_entropy_percentage?.toFixed(1)}%</span>
+                      </div>
+                      <div className="stat-item">
+                        <span className="stat-label">Zero-Filled Regions:</span>
+                        <span className="stat-value">{results.data_wipe_analysis.details.partition_scan.zero_percentage?.toFixed(1)}%</span>
+                      </div>
+                      <div className="stat-item">
+                        <span className="stat-label">Wipe Method:</span>
+                        <span className="stat-value">{results.data_wipe_analysis.details.partition_scan.method || 'unknown'}</span>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              ) : (
+                <div className="no-wipe-detected">
+                  <CheckCircle size={32} />
+                  <p>No evidence of data wiping or file shredding detected</p>
+                </div>
+              )}
+              
+              {results.data_wipe_analysis && results.data_wipe_analysis.indicators && results.data_wipe_analysis.indicators.length > 0 && (
+                <div className="wipe-indicators">
+                  <h4>Indicators ({results.data_wipe_analysis.indicators.length})</h4>
+                  {results.data_wipe_analysis.indicators.map((indicator: any, idx: number) => (
+                    <div 
+                      key={idx} 
+                      className="wipe-indicator"
+                      style={{
+                        borderLeftColor: indicator.severity === 'high' ? '#dc2626' : indicator.severity === 'medium' ? '#eab308' : '#6b7280',
+                      }}
+                    >
+                      <span className={`severity-badge ${indicator.severity}`}>
+                        {indicator.severity?.toUpperCase()}
+                      </span>
+                      <span className="indicator-type">{indicator.type}</span>
+                      <p className="indicator-desc">{indicator.description}</p>
+                      <p className="indicator-evidence"><strong>Evidence:</strong> {indicator.evidence}</p>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            <div className="card hidden-volume-card">
+              <h3><Shield size={20} /> Hidden Volume / Encrypted Container Detection</h3>
+              
+              {results.hidden_volume_analysis && results.hidden_volume_analysis.wipe_detected ? (
+                <div className="wipe-detected">
+                  <div className="wipe-alert">
+                    <AlertTriangle size={24} />
+                    <span>Hidden Volume/Encrypted Container Detected</span>
+                  </div>
+                  <p className="wipe-summary">{results.hidden_volume_analysis.summary}</p>
+                </div>
+              ) : (
+                <div className="no-wipe-detected">
+                  <CheckCircle size={32} />
+                  <p>No hidden volumes or encrypted containers detected</p>
+                </div>
+              )}
+              
+              {results.hidden_volume_analysis && results.hidden_volume_analysis.partitions && results.hidden_volume_analysis.partitions.length > 0 && (
+                <div className="partition-results">
+                  <h4>Partition Analysis</h4>
+                  {results.hidden_volume_analysis.partitions.map((partition: any, idx: number) => (
+                    <div 
+                      key={idx} 
+                      className="partition-result"
+                      style={{
+                        borderLeftColor: partition.hidden_volume_detected ? '#dc2626' : '#22c55e',
+                        }}
+                      >
+                        <span className={`severity-badge ${partition.hidden_volume_detected ? 'high' : 'low'}`}>
+                          {partition.hidden_volume_detected ? 'DETECTED' : 'CLEAN'}
+                        </span>
+                        <span className="partition-slot">{partition.partition_slot || `Partition ${idx + 1}`}</span>
+                        <p className="partition-details">
+                          {partition.details || partition.detection_method || 'No details'}
+                        </p>
+                        {partition.confidence > 0 && (
+                          <p className="partition-confidence">
+                            Confidence: {Math.round(partition.confidence * 100)}%
+                          </p>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                )}
+            </div>
+
             {results.recommendations.length > 0 && (
               <div className="card recommendations-card">
                 <h3><Lightbulb size={20} /> Recommendations</h3>

@@ -1,0 +1,67 @@
+================================================================================
+FORENSIC DISK ANALYSIS REPORT
+================================================================================
+
+Generated: 2026-03-01 02:56:35
+Image: Windows_Evidence_002.dd
+Output Directory: c:\Users\Tanubhav Juneja\Desktop\projects\Angen Gatram\forensic_output\Windows_Evidence_002
+
+--------------------------------------------------------------------------------
+PARTITION ANALYSIS
+--------------------------------------------------------------------------------
+
+Partition 0:
+  Slot: 0:
+  Start Sector: 2048
+  End Sector: 1026048
+  Size: 524,288,000 bytes (0.49 GB)
+  Filesystem: NTFS
+  Description: NTFS/HPFS
+  [!] HIDDEN PARTITION DETECTED
+
+Partition 1:
+  Slot: 1:
+  Start Sector: 1026048
+  End Sector: 52426752
+  Size: 26,317,160,448 bytes (24.51 GB)
+  Filesystem: NTFS
+  Description: NTFS/HPFS
+
+--------------------------------------------------------------------------------
+TIMESTAMP INTEGRITY ANALYSIS
+--------------------------------------------------------------------------------
+
+partition_0:
+  USN Journal: NOT FOUND
+    Reason: Invalid MFT header at 42666
+
+  No timestamp inconsistencies detected.
+
+partition_1:
+  USN Journal: NOT FOUND
+    Reason: Invalid MFT header at 786432
+
+  No timestamp inconsistencies detected.
+
+--------------------------------------------------------------------------------
+ANTI-FORENSIC DETECTION RESULTS
+--------------------------------------------------------------------------------
+
+No anti-forensic indicators found.
+
+--------------------------------------------------------------------------------
+RISK ASSESSMENT
+--------------------------------------------------------------------------------
+
+Risk Level: Medium
+Summary: Analysis complete. Found 0 potential indicators (0 high severity).
+
+Recommendations:
+  - Review timestamp inconsistencies for evidence of timestomping
+  - Check files with modified-after-changed timestamps
+  - Compare with known baseline timestamps
+  - Review metadata timestamp mismatches for file manipulation evidence
+
+================================================================================
+END OF REPORT
+================================================================================

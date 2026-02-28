@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-01T01:29:43.467279",
+  "timestamp": "2026-03-01T03:08:53.162058",
   "output_dir": "c:\\Users\\Tanubhav Juneja\\Desktop\\projects\\Angen Gatram\\forensic_output\\Windows_Evidence_002",
   "file_analysis": {
     "files_by_priority": {
@@ -17,6 +17,27 @@
           "path": "c:\\Users\\Tanubhav Juneja\\Desktop\\projects\\Angen Gatram\\forensic_output\\Windows_Evidence_002\\forensic_report_20260301_004023.txt",
           "name": "forensic_report_20260301_004023.txt",
           "size_bytes": 1990,
+          "size_mb": 0.0,
+          "priority": "standard"
+        },
+        {
+          "path": "c:\\Users\\Tanubhav Juneja\\Desktop\\projects\\Angen Gatram\\forensic_output\\Windows_Evidence_002\\forensic_report_20260301_012943.txt",
+          "name": "forensic_report_20260301_012943.txt",
+          "size_bytes": 2322,
+          "size_mb": 0.0,
+          "priority": "standard"
+        },
+        {
+          "path": "c:\\Users\\Tanubhav Juneja\\Desktop\\projects\\Angen Gatram\\forensic_output\\Windows_Evidence_002\\forensic_report_20260301_024952.txt",
+          "name": "forensic_report_20260301_024952.txt",
+          "size_bytes": 2322,
+          "size_mb": 0.0,
+          "priority": "standard"
+        },
+        {
+          "path": "c:\\Users\\Tanubhav Juneja\\Desktop\\projects\\Angen Gatram\\forensic_output\\Windows_Evidence_002\\forensic_report_20260301_025635.txt",
+          "name": "forensic_report_20260301_025635.txt",
+          "size_bytes": 2322,
           "size_mb": 0.0,
           "priority": "standard"
         }
@@ -85,10 +106,100 @@
             "  Description: Whole disk (unpartitioned)",
             ""
           ]
+        },
+        {
+          "name": "forensic_report_20260301_012943.txt",
+          "path": "c:\\Users\\Tanubhav Juneja\\Desktop\\projects\\Angen Gatram\\forensic_output\\Windows_Evidence_002\\forensic_report_20260301_012943.txt",
+          "size": 2322,
+          "line_count": 68,
+          "key_findings": [],
+          "suspicious_patterns": [],
+          "sample_lines": [
+            "================================================================================",
+            "FORENSIC DISK ANALYSIS REPORT",
+            "================================================================================",
+            "",
+            "Generated: 2026-03-01 01:29:43",
+            "Image: Windows_Evidence_002.dd",
+            "Output Directory: c:\\Users\\Tanubhav Juneja\\Desktop\\projects\\Angen Gatram\\forensic_output\\Windows_Evidence_002",
+            "",
+            "--------------------------------------------------------------------------------",
+            "PARTITION ANALYSIS",
+            "--------------------------------------------------------------------------------",
+            "",
+            "Partition 0:",
+            "  Slot: 0:",
+            "  Start Sector: 2048",
+            "  End Sector: 1026048",
+            "  Size: 524,288,000 bytes (0.49 GB)",
+            "  Filesystem: NTFS",
+            "  Description: NTFS/HPFS",
+            "  [!] HIDDEN PARTITION DETECTED"
+          ]
+        },
+        {
+          "name": "forensic_report_20260301_024952.txt",
+          "path": "c:\\Users\\Tanubhav Juneja\\Desktop\\projects\\Angen Gatram\\forensic_output\\Windows_Evidence_002\\forensic_report_20260301_024952.txt",
+          "size": 2322,
+          "line_count": 68,
+          "key_findings": [],
+          "suspicious_patterns": [],
+          "sample_lines": [
+            "================================================================================",
+            "FORENSIC DISK ANALYSIS REPORT",
+            "================================================================================",
+            "",
+            "Generated: 2026-03-01 02:49:52",
+            "Image: Windows_Evidence_002.dd",
+            "Output Directory: c:\\Users\\Tanubhav Juneja\\Desktop\\projects\\Angen Gatram\\forensic_output\\Windows_Evidence_002",
+            "",
+            "--------------------------------------------------------------------------------",
+            "PARTITION ANALYSIS",
+            "--------------------------------------------------------------------------------",
+            "",
+            "Partition 0:",
+            "  Slot: 0:",
+            "  Start Sector: 2048",
+            "  End Sector: 1026048",
+            "  Size: 524,288,000 bytes (0.49 GB)",
+            "  Filesystem: NTFS",
+            "  Description: NTFS/HPFS",
+            "  [!] HIDDEN PARTITION DETECTED"
+          ]
+        },
+        {
+          "name": "forensic_report_20260301_025635.txt",
+          "path": "c:\\Users\\Tanubhav Juneja\\Desktop\\projects\\Angen Gatram\\forensic_output\\Windows_Evidence_002\\forensic_report_20260301_025635.txt",
+          "size": 2322,
+          "line_count": 68,
+          "key_findings": [],
+          "suspicious_patterns": [],
+          "sample_lines": [
+            "================================================================================",
+            "FORENSIC DISK ANALYSIS REPORT",
+            "================================================================================",
+            "",
+            "Generated: 2026-03-01 02:56:35",
+            "Image: Windows_Evidence_002.dd",
+            "Output Directory: c:\\Users\\Tanubhav Juneja\\Desktop\\projects\\Angen Gatram\\forensic_output\\Windows_Evidence_002",
+            "",
+            "--------------------------------------------------------------------------------",
+            "PARTITION ANALYSIS",
+            "--------------------------------------------------------------------------------",
+            "",
+            "Partition 0:",
+            "  Slot: 0:",
+            "  Start Sector: 2048",
+            "  End Sector: 1026048",
+            "  Size: 524,288,000 bytes (0.49 GB)",
+            "  Filesystem: NTFS",
+            "  Description: NTFS/HPFS",
+            "  [!] HIDDEN PARTITION DETECTED"
+          ]
         }
       ]
     },
-    "total_files": 2
+    "total_files": 5
   },
   "evidence": {
     "timestomping": {
@@ -128,13 +239,13 @@
     "json_output_schema": "\nJSON Output Schema:\n{\n  \"findings\": [\n    {\n      \"technique\": \"timestomping|shadow_deletion|ads|deletion|registry_tampering|log_clearing|other\",\n      \"severity\": \"LOW|MEDIUM|HIGH|CRITICAL\",\n      \"evidence\": \"Specific data supporting this finding\",\n      \"explanation\": \"Detailed reasoning for why this is/isn't suspicious\",\n      \"recommendation\": \"Specific follow-up investigation\",\n      \"file_source\": \"Which artifact file contains this evidence\"\n    }\n  ],\n  \"summary\": \"Overall assessment in 2-3 sentences\",\n  \"risk_level\": \"LOW|MEDIUM|HIGH|CRITICAL\",\n  \"recommendations\": [\"List of general recommendations\"]\n}\n"
   },
   "statistics": {
-    "total_files_processed": 2,
-    "total_size_bytes": 3980,
-    "total_size_mb": 0.0,
+    "total_files_processed": 5,
+    "total_size_bytes": 10946,
+    "total_size_mb": 0.01,
     "files_by_priority": {
       "critical": 0,
       "important": 0,
-      "standard": 2
+      "standard": 5
     }
   }
 }

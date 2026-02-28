@@ -32,6 +32,30 @@ export interface ForensicFinding {
   confidence: number;
 }
 
+export interface DataWipeIndicator {
+  type: string;
+  severity: string;
+  description: string;
+  evidence: string;
+  confidence: number;
+  file_path?: string;
+  offset?: number;
+}
+
+export interface DataWipeAnalysis {
+  wipe_detected: boolean;
+  confidence: number;
+  indicators: DataWipeIndicator[];
+  summary: string;
+  details?: any;
+}
+
+export interface HiddenVolumeAnalysis {
+  wipe_detected?: boolean;
+  summary: string;
+  partitions?: any[];
+}
+
 export interface ForensicResultsResponse {
   task_id: string;
   status: string;
@@ -43,6 +67,8 @@ export interface ForensicResultsResponse {
   timestamp: string;
   timestamp_analysis?: any;
   metadata_analysis?: any;
+  data_wipe_analysis?: DataWipeAnalysis;
+  hidden_volume_analysis?: HiddenVolumeAnalysis;
   partitions?: PartitionInfo[];
   report_files?: { txt?: string; html?: string };
   model: string;

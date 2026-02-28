@@ -119,6 +119,8 @@ class ForensicResultsResponse(BaseModel):
     analysis_time_seconds: float = 0.0
     timestamp_analysis: dict = {}
     metadata_analysis: dict = {}
+    data_wipe_analysis: dict = {}
+    hidden_volume_analysis: dict = {}
     partitions: list = []
     report_files: dict = {}
 
@@ -282,6 +284,85 @@ def run_forensic_analysis(task_id: str, image_path: str):
         except Exception as e:
             pass
 
+        task.progress = 68
+        task.stage = "data_wipe_detection"
+        task.message = "Analyzing for data wiping evidence..."
+
+        data_wipe_results = {}
+        try:
+            from imageProcessor.data_wipe_detector import detect_data_wipe
+
+            partitions_list = extractor.partitions if extractor else []
+            wipe_results = detect_data_wipe(str(image_file), str(output_dir), partitions_list)
+
+            wipe_json_file = output_dir / "data_wipe_analysis.json"
+            with open(wipe_json_file, "w") as f:
+                json.dump(wipe_results, f, indent=2)
+
+            data_wipe_results = wipe_results
+
+            for indicator in wipe_results.get("indicators", []):
+                findings.append({
+                    "technique": f"Data Wipe - {indicator.get('type', 'unknown')}",
+                    "severity": indicator.get("severity", "high").upper(),
+                    "evidence": indicator.get("evidence", ""),
+                    "explanation": indicator.get("description", ""),
+                    "recommendation": "Investigate potential secure deletion or file shredding activity",
+                    "confidence": indicator.get("confidence", 0.7),
+                })
+        except Exception as e:
+            print(f"[DEBUG] Data wipe detection error: {e}")
+            data_wipe_results = {}
+
+        task.progress = 71
+        task.stage = "hidden_volume_detection"
+        task.message = "Analyzing for hidden volumes..."
+
+        hidden_volume_results = {}
+        try:
+            from imageProcessor.hidden_volume_detector import detect_hidden_volumes
+
+            partitions_for_hv = []
+            for p in (extractor.partitions if extractor else []):
+                slot = p.get("slot", "")
+                if slot in ["Meta", "meta"] or "-------" in str(slot):
+                    continue
+                size = p.get("size_sectors", 0)
+                if size < 10000:
+                    continue
+                partitions_for_hv.append(p)
+
+            if partitions_for_hv:
+                hv_results = detect_hidden_volumes(str(image_file), partitions_for_hv)
+                hidden_volume_results = {"partitions": hv_results, "summary": ""}
+                
+                found_hv = any(r.get("hidden_volume_detected", False) for r in hv_results)
+                if found_hv:
+                    hidden_volume_results["summary"] = "Hidden volume or encrypted container detected"
+                    hidden_volume_results["wipe_detected"] = True
+                    for r in hv_results:
+                        if r.get("hidden_volume_detected", False):
+                            findings.append({
+                                "technique": "Hidden Volume/Encrypted Container",
+                                "severity": "HIGH",
+                                "evidence": r.get("details", ""),
+                                "explanation": f"Encrypted volume detected using {r.get('detection_method', 'unknown')} method with {r.get('confidence', 0)*100:.0f}% confidence",
+                                "recommendation": "Investigate encrypted container - may contain hidden volume or hidden OS",
+                                "confidence": r.get("confidence", 0),
+                            })
+                else:
+                    hidden_volume_results["summary"] = "No hidden volumes detected"
+                    hidden_volume_results["wipe_detected"] = False
+
+            hv_json_file = output_dir / "hidden_volume_analysis.json"
+            with open(hv_json_file, "w") as f:
+                json.dump(hidden_volume_results, f, indent=2, default=str)
+
+            task.results["hidden_volume_analysis"] = hidden_volume_results
+        except Exception as e:
+            print(f"[DEBUG] Hidden volume detection error: {e}")
+            pass
+
         task.results = {
             "findings": findings,
             "summary": f"Analysis complete. Found {len(findings)} potential indicators ({high_count} high severity).",
@@ -296,6 +377,8 @@ def run_forensic_analysis(task_id: str, image_path: str):
             "analysis_time_seconds": 0,
             "timestamp_analysis": timestamp_analysis,
             "metadata_analysis": metadata_analysis,
+            "data_wipe_analysis": data_wipe_results,
+            "hidden_volume_analysis": hidden_volume_results,
             "partitions": [
                 {
                     "slot": p.get("slot", ""),
@@ -420,6 +503,8 @@ async def get_forensic_results(task_id: str):
         analysis_time_seconds=task.results.get("analysis_time_seconds", 0) if task.results else 0,
         timestamp_analysis=task.results.get("timestamp_analysis", {}) if task.results else {},
         metadata_analysis=task.results.get("metadata_analysis", {}) if task.results else {},
+        data_wipe_analysis=task.results.get("data_wipe_analysis", {}) if task.results else {},
+        hidden_volume_analysis=task.results.get("hidden_volume_analysis", {}) if task.results else {},
         partitions=task.results.get("partitions", []) if task.results else [],
         report_files=task.results.get("report_files", {}) if task.results else {},
     )

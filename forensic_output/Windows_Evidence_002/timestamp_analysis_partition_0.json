@@ -1,6 +1,6 @@
 {
   "partition_offset": 2048,
-  "analyzed_at": "2026-03-01T01:29:43.473996",
+  "analyzed_at": "2026-03-01T03:08:53.169651",
   "filesystem": "ntfs",
   "total_mft_entries": 167,
   "usn_journal_status": {
