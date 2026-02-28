@@ -1,0 +1,183 @@
+/* Justice Updates Box */
+.updatesbox {
+	width:250px;
+	height:75px;
+	border:solid #999999;
+	border-width:6px;
+	background-color:#FFFFFF;
+	padding: 7px 4px 10px 5px;
+}
+
+.stayconnectedNew {width:268px; height:235px; background-color:#ffffff; text-align:center; margin: 12px 0 0 10px;}
+
+/* AG Page */
+.ag-top{ width:770px; float:left; padding:0 0 10px 25px;}
+.leftnav{ width:180px; float:left;}
+.ag-top .headline{ background-color:#333333; font-family:Helvetica; font-size:12px; font-weight:bold; color:#FFFFFF; text-transform: uppercase; height:20px;}
+.ag-bottom-left{ width:470px; float:left}
+.ag-bottom-left1{ width:220px; float:left}
+.ag-bottom-left2{ width:210px; float:right}
+.ag-bottom-right{ width:300px; float:right;}
+
+.image-title {font-family:Helvetica; font-size:11px; color:#FFFFFF; padding-left:6px; text-transform:uppercase; font-stretch:wider; }
+
+/* Stay Connected Box */
+.stayconnectedbox {
+width:264px;
+height:135px; 
+border:double #cccccc; 
+text-align:center; 
+padding-top: 10px;  
+margin-top:20px;
+background-color:#FFFFFF;}
+
+.bodytext .taskforce {font-size:20px; font-family:Georgia; font-style:italic; outline-color:#000000; }
+.bodytext .taskforce a, .bodytext .taskforce a:link, .bodytext .taskforce a:visited, .bodytext .taskforce a:active{
+	color:#663300; text-decoration:none; font-weight:300;
+}
+.bodytext .taskforce a:hover { 
+	color:#A48860; text-decoration:none;}
+
+.read {font-family:Helvetica; font-weight: bold; text-transform: uppercase; color:#a6824b; font-size:12px;}
+.read a, .read a:read, .read a:visited, .read a:active {color:#a6824b; text-decoration:none;}
+.read a:hover {color:#765821; text-decoration:underline;}
+
+.read-title {font-family:Georgia; color:#765821; font-size:19px;}
+.read-title a, .read-title a:read-title, .read-title a:visited, .read-title a:active {color:#765821; text-decoration:none;}
+.read a:read-title {color:#765821; text-decoration:underline;}
+
+
+.otherln a:hover {color:#a6824b; text-decoration:underline;}
+
+/* News and Blog Boxes */
+.news_date {font-family:Georgia; font-size:11px; color:#999999; margin: 12px 0 2px 0; }
+.news_title {font-family:Georgia; font-size:15px; margin-bottom:1em;}
+.news_title a, .news_title a:link, .news_title a:visited, .news_title a:active {color:#765821; text-decoration:none;}
+.news_title a:hover {color:#765821; text-decoration:underline;}
+.type {color:#171e24; font-family:Georgia; font-size:13px; font-weight:bold; margin:0 0 1px 0;}
+.typeln {color:#171e24; font-family:Georgia; font-size:13px; font-weight:bold; margin:0 0 1px 0;}
+.prnumber {font-size: 60%; padding: 0 0 0 5px; color:#dddddd;}
+.prspeeches {font-size: 60%; padding: 0 0 0 5px; color:#999999; display: none;}
+ 
+.lnkttl {font-family:Georgia; font-size:17px; margin:0 0 15px 0; }
+.lnkttl a, .lnkttl a:link, .lnkttl a:visited, .lnkttl a:active {color:#765821; text-decoration:none;}
+.lnkttl a:hover {color:#765821; text-decoration:underline;}
+.dateln-pr {font-family:Georgia; color:#999999; font-size: 11px; margin:0 0 1px 0; margin-top:-10px;}
+.dateln {font-family:Georgia; color:#999999; font-size: 11px; margin:0 0 1px 0;}
+.teaser {font-family:Georgia; color:#171e24; font-size: 13px; margin-bottom:8px;}
+.otherln {font-family:Helvetica; font-weight: bold; text-transform: uppercase; color:#a6824b; font-size:11px; letter-spacing:1px; text-decoration:none; margin-bottom:10px;}
+.otherln a, .otherln a:link, .otherln a:visited, .otherln a:active {color:#a6824b; text-decoration:none;}
+.otherln a:hover {color:#a6824b; text-decoration:underline;}
+/* AG Vertical Navigation */
+.leftnav ul {
+margin: 0 0 5px 0;
+padding: 0 0 2px 15px;
+list-style-type: none;
+width:175px;
+font-family:Georgia; font-size:14px;}
+
+.leftnav li a {
+color:#8c8c8b;
+display: block;
+padding:2px 0 6px 0;
+border-bottom-style:solid;
+border-bottom-color:#e6ddcc;
+border-bottom-width:1px;
+text-decoration: none;
+}
+
+.leftnav li a:hover {color:#000000;}
+
+.leftsubnav ul {
+margin: 0 0 5px 0;
+padding: 0 0 2px 15px;
+list-style-type: none;
+width:165px;
+font-family:Georgia; font-size:12px;}
+
+.leftsubnav li a {
+color:#8c8c8b;
+display: block;
+padding: 5px 0px 0px 0;
+border-bottom-style:none;
+text-decoration: none;
+}
+
+.leftsubnav li a:hover {color:#000000;}
+
+/* AG Breadcrumb Menu */
+.breadcrumbmenu {width:996px; height:42px; font-family:Georgia; font-size:12px;}  
+.breadcrumbmenu .breadcrumbmenucontent {width:800px; height:23px; float: left; color:#333333; margin: 10px 0 15px 15px;}
+.breadcrumbmenu .breadcrumbmenucontent a, .breadcrumbmenu .breadcrumbmenucontent a:link, .breadcrumbmenu .breadcrumbmenucontent a:visited  {color:#92794a; text-decoration:none;}
+.breadcrumbmenu .breadcrumbmenucontent a:hover {color:#92794a; text-decoration:underline;}
+.breadcrumbmenu .breadcrumbmenucontent a:active {color:#92794a; text-decoration:none;}
+.printer {float:right; width:150px; margin: 10px 20px 15px 0; font-family:Georgia; font-size:12px; color:#a6824b;}
+.printer a, .printer a:link, .printer a:visited, .printer a:active {color:#a6824b; text-decoration:none; }
+.printer a:hover{color:#a6824b; text-decoration:underline; }
+
+
+
+/* AG Info Box */
+.generalinfo{width:262px; border: 4px solid #a6824b; margin-bottom:15px;}
+.generalinfocontent{ padding:10px; font-size:13px; line-height:1.5em; font-family:Georgia; }
+.generalinfo .generalinfocontent a, .breadcrumbmenu .breadcrumbmenucontent a:link, .breadcrumbmenu .breadcrumbmenucontent a:visited  {color:#92794a; text-decoration:none;}
+.generalinfo .generalinfocontent a:hover {color:#92794a; text-decoration:underline;}
+.generalinfo .generalinfocontent a:active {color:#92794a; text-decoration:none;}
+#name {font-weight: bold; margin: 12px 0 0 0; color:#333333}
+#number { margin: 0 0 12px 0; color:#333333} 
+
+/* AG History Pages */
+
+.back{padding-top:5px; padding-bottom:5px; font-family:Georgia; font-size:12px; color:#a6824b;}
+.back a, .back a:link, .back a:visited, .back a:active {color:#765821; text-decoration:none;}
+.back a:hover{color:#765821; text-decoration:underline; }
+.his-img { float:left; width:225; padding-right:20px; font-family:Georgia; font-size:11px; color:#666666;}
+.his-cont{ float:right; font-family:Georgia; font-size:13px; width:525px; color:#333333; line-height:1.5em; }
+.his-cont a, .his-cont a:link, .his-cont a:visited, .his-cont a:active {color:#765821; text-decoration:none;}
+.his-cont a:hover{color:#765821; text-decoration:underline; }
+
+.paginator  {font-size: 73%; color: #a6824b; text-align:center;} 
+.paginator {color:#ccc; text-align:center;}
+.paginator strong {color:#ffffff; font-size: 1.4em; font-weight: bold;}
+.paginator a, .leftcolcontentpress .prnavigator a:link, .leftcolcontentpress .prnavigator a:visited {color:#a6824b; font-size: 1.3em; text-decoration:none; }
+.paginator a:hover{color:#a6824b; text-decoration:underline; }
+.paginator a:active{color:#a6824b; text-decoration:none; }
+.paginator .page {float: left; margin:0 1px 0 0;  padding: 0px 5px 0px 5px;}
+.paginator .current {float: left; margin:0 1px 0 0; padding: 2px 5px 3px 5px; background-color:#a6824b; color: #ffffff;}
+.paginator .more {font-size: 1.4em; font-weight: bold;}
+
+.bodytext { color: #171e24; font-family:Georgia; font-size:13px;}
+.bodytext a, .bodytext a:link, .bodytext a:visited, .bodytext a:active {color:#a6824b; text-decoration:none;}
+.bodytext a:hover {color:#a6824b; text-decoration:underline;}
+
+/*------------------------------------*\
+	Theft ID
+\*------------------------------------*/
+
+.theft-id-row {
+	width:100%;
+	height:25px;
+	text-align:left;
+}
+
+.theft-id-hdr {
+	width:100%; 
+}
+
+.theft-id-title {
+	float:left;
+	font-weight: bold;
+}
+
+.theft-id-arrow {
+	float:left;
+	margin-left:5px;
+	padding-top:5px;
+}
+
+.theft-id-list {
+	width:100%;
+	display:none;
+	margin-top:10px;
+	margin-bottom:15px;  
+}

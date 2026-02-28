@@ -1,0 +1,357 @@
+[
+  {
+    "EventID": 2,
+    "Timestamp": "2014-01-25 16:24:33.526636+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">2</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:24:33.526636+00:00\"></TimeCreated>\n<EventRecordID>1</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"968\" ThreadID=\"2952\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5,
+    "Timestamp": "2014-01-25 16:24:33.526636+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PackagePath": "C:\\Windows\\diagnostics\\scheduled\\Maintenance"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">5</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:24:33.526636+00:00\"></TimeCreated>\n<EventRecordID>2</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"968\" ThreadID=\"1544\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PackagePath\">C:\\Windows\\diagnostics\\scheduled\\Maintenance</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 6,
+    "Timestamp": "2014-01-25 16:24:34.930639+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PackageID": "MaintenanceDiagnostic"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">6</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:24:34.930639+00:00\"></TimeCreated>\n<EventRecordID>3</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"968\" ThreadID=\"1544\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PackageID\">MaintenanceDiagnostic</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-01-25 16:24:34.930639+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PackageID": "MaintenanceDiagnostic"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:24:34.930639+00:00\"></TimeCreated>\n<EventRecordID>4</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"968\" ThreadID=\"1544\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PackageID\">MaintenanceDiagnostic</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:24:52.745871+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RootCauseID": "RC_WERQueue/DefaultInstanceId",
+      "RootCauseName": "Error reports are taking up disk space",
+      "RootCauseDescription": "Error reports and logs are currently taking up %UnwantedSpace%MB of disk space."
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:24:52.745871+00:00\"></TimeCreated>\n<EventRecordID>5</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"968\" ThreadID=\"1544\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"RootCauseID\">RC_WERQueue/DefaultInstanceId</Data>\n<Data Name=\"RootCauseName\">Error reports are taking up disk space</Data>\n<Data Name=\"RootCauseDescription\">Error reports and logs are currently taking up %UnwantedSpace%MB of disk space.</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-01-25 16:24:52.745871+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PackageID": "MaintenanceDiagnostic",
+      "RootCauseCount": "6"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:24:52.745871+00:00\"></TimeCreated>\n<EventRecordID>6</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"968\" ThreadID=\"1544\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PackageID\">MaintenanceDiagnostic</Data>\n<Data Name=\"RootCauseCount\">6</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:24:52.745871+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RootCauseID": "RC_WERQueue/DefaultInstanceId",
+      "ResolutionID": "RC_WERQueue/DefaultInstanceId/RS_MachineWERQueue"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:24:52.745871+00:00\"></TimeCreated>\n<EventRecordID>7</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"968\" ThreadID=\"1544\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"RootCauseID\">RC_WERQueue/DefaultInstanceId</Data>\n<Data Name=\"ResolutionID\">RC_WERQueue/DefaultInstanceId/RS_MachineWERQueue</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 11,
+    "Timestamp": "2014-01-25 16:24:53.837872+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RootCauseID": "RC_WERQueue/DefaultInstanceId",
+      "ResolutionID": "RC_WERQueue/DefaultInstanceId/RS_MachineWERQueue"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">11</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:24:53.837872+00:00\"></TimeCreated>\n<EventRecordID>8</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"968\" ThreadID=\"1544\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"RootCauseID\">RC_WERQueue/DefaultInstanceId</Data>\n<Data Name=\"ResolutionID\">RC_WERQueue/DefaultInstanceId/RS_MachineWERQueue</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 12,
+    "Timestamp": "2014-01-25 16:24:53.837872+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RootCauseID": "RC_WERQueue/DefaultInstanceId"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">12</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:24:53.837872+00:00\"></TimeCreated>\n<EventRecordID>9</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"968\" ThreadID=\"1544\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"RootCauseID\">RC_WERQueue/DefaultInstanceId</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 13,
+    "Timestamp": "2014-01-25 16:24:53.947071+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RootCauseID": "RC_WERQueue/DefaultInstanceId"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">13</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:24:53.947071+00:00\"></TimeCreated>\n<EventRecordID>10</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"968\" ThreadID=\"1544\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"RootCauseID\">RC_WERQueue/DefaultInstanceId</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 100,
+    "Timestamp": "2014-01-25 16:24:53.947071+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Critical",
+    "EventData": {
+      "hc_stateid": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">100</EventID>\n<Version>0</Version>\n<Level>1</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000400000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:24:53.947071+00:00\"></TimeCreated>\n<EventRecordID>11</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"968\" ThreadID=\"1544\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"hc_stateid\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 3,
+    "Timestamp": "2014-01-25 16:24:53.962671+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">3</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:24:53.962671+00:00\"></TimeCreated>\n<EventRecordID>12</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"968\" ThreadID=\"1544\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 2,
+    "Timestamp": "2014-01-29 14:33:21.726866+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">2</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 14:33:21.726866+00:00\"></TimeCreated>\n<EventRecordID>13</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"564\" ThreadID=\"2480\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1003\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5,
+    "Timestamp": "2014-01-29 14:33:21.726866+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PackagePath": "C:\\Windows\\diagnostics\\scheduled\\Maintenance"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">5</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 14:33:21.726866+00:00\"></TimeCreated>\n<EventRecordID>14</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"564\" ThreadID=\"3476\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1003\"></Security>\n</System>\n<EventData><Data Name=\"PackagePath\">C:\\Windows\\diagnostics\\scheduled\\Maintenance</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 6,
+    "Timestamp": "2014-01-29 14:33:22.428867+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PackageID": "MaintenanceDiagnostic"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">6</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 14:33:22.428867+00:00\"></TimeCreated>\n<EventRecordID>15</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"564\" ThreadID=\"3476\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1003\"></Security>\n</System>\n<EventData><Data Name=\"PackageID\">MaintenanceDiagnostic</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-01-29 14:33:22.428867+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PackageID": "MaintenanceDiagnostic"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 14:33:22.428867+00:00\"></TimeCreated>\n<EventRecordID>16</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"564\" ThreadID=\"3476\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1003\"></Security>\n</System>\n<EventData><Data Name=\"PackageID\">MaintenanceDiagnostic</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-01-29 14:33:48.465313+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PackageID": "MaintenanceDiagnostic",
+      "RootCauseCount": "6"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 14:33:48.465313+00:00\"></TimeCreated>\n<EventRecordID>17</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"564\" ThreadID=\"3476\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1003\"></Security>\n</System>\n<EventData><Data Name=\"PackageID\">MaintenanceDiagnostic</Data>\n<Data Name=\"RootCauseCount\">6</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 100,
+    "Timestamp": "2014-01-29 14:33:48.465313+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Critical",
+    "EventData": {
+      "hc_stateid": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">100</EventID>\n<Version>0</Version>\n<Level>1</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000400000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 14:33:48.465313+00:00\"></TimeCreated>\n<EventRecordID>18</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"564\" ThreadID=\"3476\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1003\"></Security>\n</System>\n<EventData><Data Name=\"hc_stateid\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 3,
+    "Timestamp": "2014-01-29 14:33:48.480913+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">3</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 14:33:48.480913+00:00\"></TimeCreated>\n<EventRecordID>19</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"564\" ThreadID=\"3476\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1003\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 2,
+    "Timestamp": "2014-02-03 13:57:24.508772+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">2</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 13:57:24.508772+00:00\"></TimeCreated>\n<EventRecordID>20</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3176\" ThreadID=\"3080\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5,
+    "Timestamp": "2014-02-03 13:57:24.508772+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PackagePath": "C:\\Windows\\diagnostics\\scheduled\\Maintenance"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">5</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 13:57:24.508772+00:00\"></TimeCreated>\n<EventRecordID>21</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3176\" ThreadID=\"2524\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PackagePath\">C:\\Windows\\diagnostics\\scheduled\\Maintenance</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 6,
+    "Timestamp": "2014-02-03 13:57:25.241974+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PackageID": "MaintenanceDiagnostic"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">6</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 13:57:25.241974+00:00\"></TimeCreated>\n<EventRecordID>22</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3176\" ThreadID=\"2524\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PackageID\">MaintenanceDiagnostic</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-02-03 13:57:25.241974+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PackageID": "MaintenanceDiagnostic"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 13:57:25.241974+00:00\"></TimeCreated>\n<EventRecordID>23</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3176\" ThreadID=\"2524\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PackageID\">MaintenanceDiagnostic</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-02-03 13:57:48.111614+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PackageID": "MaintenanceDiagnostic",
+      "RootCauseCount": "6"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 13:57:48.111614+00:00\"></TimeCreated>\n<EventRecordID>24</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3176\" ThreadID=\"2524\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PackageID\">MaintenanceDiagnostic</Data>\n<Data Name=\"RootCauseCount\">6</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 100,
+    "Timestamp": "2014-02-03 13:57:48.111614+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Critical",
+    "EventData": {
+      "hc_stateid": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">100</EventID>\n<Version>0</Version>\n<Level>1</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000400000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 13:57:48.111614+00:00\"></TimeCreated>\n<EventRecordID>25</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3176\" ThreadID=\"2524\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"hc_stateid\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 3,
+    "Timestamp": "2014-02-03 13:57:48.158413+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">3</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 13:57:48.158413+00:00\"></TimeCreated>\n<EventRecordID>26</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3176\" ThreadID=\"2524\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 2,
+    "Timestamp": "2014-02-10 15:50:10.272600+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">2</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 15:50:10.272600+00:00\"></TimeCreated>\n<EventRecordID>27</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2064\" ThreadID=\"2500\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1004\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5,
+    "Timestamp": "2014-02-10 15:50:10.272600+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PackagePath": "C:\\Windows\\diagnostics\\scheduled\\Maintenance"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">5</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 15:50:10.272600+00:00\"></TimeCreated>\n<EventRecordID>28</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2064\" ThreadID=\"844\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1004\"></Security>\n</System>\n<EventData><Data Name=\"PackagePath\">C:\\Windows\\diagnostics\\scheduled\\Maintenance</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 6,
+    "Timestamp": "2014-02-10 15:50:11.083801+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PackageID": "MaintenanceDiagnostic"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">6</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 15:50:11.083801+00:00\"></TimeCreated>\n<EventRecordID>29</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2064\" ThreadID=\"844\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1004\"></Security>\n</System>\n<EventData><Data Name=\"PackageID\">MaintenanceDiagnostic</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-02-10 15:50:11.083801+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PackageID": "MaintenanceDiagnostic"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 15:50:11.083801+00:00\"></TimeCreated>\n<EventRecordID>30</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2064\" ThreadID=\"844\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1004\"></Security>\n</System>\n<EventData><Data Name=\"PackageID\">MaintenanceDiagnostic</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-02-10 15:50:43.329058+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PackageID": "MaintenanceDiagnostic",
+      "RootCauseCount": "6"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 15:50:43.329058+00:00\"></TimeCreated>\n<EventRecordID>31</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2064\" ThreadID=\"844\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1004\"></Security>\n</System>\n<EventData><Data Name=\"PackageID\">MaintenanceDiagnostic</Data>\n<Data Name=\"RootCauseCount\">6</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 100,
+    "Timestamp": "2014-02-10 15:50:43.329058+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Critical",
+    "EventData": {
+      "hc_stateid": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">100</EventID>\n<Version>0</Version>\n<Level>1</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000400000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 15:50:43.329058+00:00\"></TimeCreated>\n<EventRecordID>32</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2064\" ThreadID=\"844\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1004\"></Security>\n</System>\n<EventData><Data Name=\"hc_stateid\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 3,
+    "Timestamp": "2014-02-10 15:50:43.375856+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Diagnosis-Scheduled/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Diagnosis-Scheduled\" Guid=\"{40ab57c2-1c53-4df9-9324-ff7cf898a02c}\"></Provider>\n<EventID Qualifiers=\"\">3</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000800000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 15:50:43.375856+00:00\"></TimeCreated>\n<EventRecordID>33</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2064\" ThreadID=\"844\"></Execution>\n<Channel>Microsoft-Windows-Diagnosis-Scheduled/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1004\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  }
+]

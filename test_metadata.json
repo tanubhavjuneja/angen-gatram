@@ -1,0 +1,18 @@
+{
+  "directory": "C:\\Users\\Tanubhav Juneja\\Desktop\\projects\\Angen Gatram\\imageProcessor\\agents",
+  "analyzed_at": "2026-02-28T17:38:31.756981",
+  "files_analyzed": 3,
+  "files_with_metadata": 0,
+  "files_with_inconsistencies": 0,
+  "total_inconsistencies": 0,
+  "file_results": [],
+  "summary": {
+    "total_files": 3,
+    "with_metadata": 0,
+    "with_inconsistencies": 0,
+    "total_inconsistencies": 0,
+    "high_severity_count": 0,
+    "medium_severity_count": 0,
+    "timestomping_detected": false
+  }
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "EventID": 1001,
+    "Timestamp": "2014-01-25 02:10:02.115112+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Dhcp-Client/Admin",
+    "Level": "Error",
+    "EventData": {
+      "HWLength": "6",
+      "HWAddress": "ABl+MNQi",
+      "StatusCode": "121"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Dhcp-Client\" Guid=\"{15a7a4f8-0072-4eab-abad-f98a4d666aed}\"></Provider>\n<EventID Qualifiers=\"\">1001</EventID>\n<Version>0</Version>\n<Level>2</Level>\n<Task>3</Task>\n<Opcode>75</Opcode>\n<Keywords>0x4000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 02:10:02.115112+00:00\"></TimeCreated>\n<EventRecordID>1</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"936\" ThreadID=\"2888\"></Execution>\n<Channel>Microsoft-Windows-Dhcp-Client/Admin</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"HWLength\">6</Data>\n<Data Name=\"HWAddress\">ABl+MNQi</Data>\n<Data Name=\"StatusCode\">121</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 13:39:23.789837+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Dhcp-Client/Admin",
+    "Level": "Error",
+    "EventData": {
+      "Address1": "1745275402",
+      "HWLength": "6",
+      "HWAddress": "ABZB57tr",
+      "Address2": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Dhcp-Client\" Guid=\"{15a7a4f8-0072-4eab-abad-f98a4d666aed}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>2</Level>\n<Task>3</Task>\n<Opcode>76</Opcode>\n<Keywords>0x4000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:39:23.789837+00:00\"></TimeCreated>\n<EventRecordID>2</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"744\" ThreadID=\"2920\"></Execution>\n<Channel>Microsoft-Windows-Dhcp-Client/Admin</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"Address1\">1745275402</Data>\n<Data Name=\"HWLength\">6</Data>\n<Data Name=\"HWAddress\">ABZB57tr</Data>\n<Data Name=\"Address2\">0</Data>\n</EventData>\n</Event>\n"
+  }
+]

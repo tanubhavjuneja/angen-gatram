@@ -1,0 +1,1 @@
+window.google.isr.imgevent && window.google.isr.imgevent([{"page":27,"ei":"8yX6UqOfBerR2QXy44GoBA"}]);

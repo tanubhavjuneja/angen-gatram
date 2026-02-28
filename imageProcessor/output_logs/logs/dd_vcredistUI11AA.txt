@@ -1,0 +1,109 @@
+﻿
+[02/11/14,12:08:01] ========== Logging started ==========
+[02/11/14,12:08:01] =====================================
+[02/11/14,12:08:01] No language specified in ini file default to OS language
+[02/11/14,12:08:01] Set lang to 1033
+[02/11/14,12:08:01]  Pending Reboot Table state : Logging start 
+[02/11/14,12:08:01]    _________________________________________
+[02/11/14,12:08:01] There are no queued up pending reboot entries.
+[02/11/14,12:08:01] Logging property values
+[02/11/14,12:08:01] PROPERTY	ProductName	Microsoft Visual C++ 2008 Redistributable
+[02/11/14,12:08:01] PROPERTY		c:\2e4009a1bc97f7c301fa5740731228\vc_red.msi
+[02/11/14,12:08:01] PROPERTY	ProductMsi	vc_red.msi
+[02/11/14,12:08:01] PROPERTY	Ini Filename	c:\2e4009a1bc97f7c301fa5740731228\install.ini
+[02/11/14,12:08:01] PROPERTY	ProductCode	
+[02/11/14,12:08:01] PROPERTY	ProductRegKey	
+[02/11/14,12:08:01] PROPERTY	ProductRegValue	
+[02/11/14,12:08:01] PROPERTY	ProductRegData	
+[02/11/14,12:08:01] PROPERTY	ProductSupportURL	http://go.microsoft.com/fwlink/?LinkId=119537
+[02/11/14,12:08:01] PROPERTY	DefaultDirInstallToken	
+[02/11/14,12:08:01] PROPERTY	Install	0
+[02/11/14,12:08:01] PROPERTY	SupportWin9X	0
+[02/11/14,12:08:01] PROPERTY	MinNTVersion	5.0
+[02/11/14,12:08:01] PROPERTY	CheckAdminRights	1
+[02/11/14,12:08:01] PROPERTY	BlockOn64Platform	
+[02/11/14,12:08:01] PROPERTY	ShowFeatureOptions	0
+[02/11/14,12:08:01] PROPERTY	ShowDestinationFolder	0
+[02/11/14,12:08:01] PROPERTY	LogFilePrefix	dd_vcredist
+[02/11/14,12:08:01] PROPERTY	CustomTextPrefix	CustomText
+[02/11/14,12:08:01] PROPERTY	MSI Log name	C:\Users\JIMMYW~1\AppData\Local\Temp\dd_vcredistMSI11AA.txt
+[02/11/14,12:08:01] PROPERTY	Msi Command Line properties	
+[02/11/14,12:08:01] PROPERTY	VerboseLog	1
+[02/11/14,12:08:01] PROPERTY	RebootMode	0
+[02/11/14,12:08:01] PROPERTY	UILanguage	1033
+[02/11/14,12:08:01] PROPERTY	BitmapFile	c:\2e4009a1bc97f7c301fa5740731228\vcredist.bmp
+[02/11/14,12:08:01] PROPERTY	User Canceled	0
+[02/11/14,12:08:01] PROPERTY	Red	
+[02/11/14,12:08:01] PROPERTY	Green	
+[02/11/14,12:08:01] PROPERTY	Blue	
+[02/11/14,12:08:01] PROPERTY	Current Dir	c:\2e4009a1bc97f7c301fa5740731228\
+[02/11/14,12:08:01] PROPERTY	Temp Dir	C:\Users\JIMMYW~1\AppData\Local\Temp\
+[02/11/14,12:08:01] PROPERTY	Usage Mode	0
+[02/11/14,12:08:01] PROPERTY	Admin Mode	0
+[02/11/14,12:08:01] PROPERTY	Maintenance Mode	
+[02/11/14,12:08:01] PROPERTY	Silent Mode	1
+[02/11/14,12:08:01] PROPERTY	Silent Mode Uninstall	0
+[02/11/14,12:08:01] PROPERTY	WatsonSilent	0
+[02/11/14,12:08:01] PROPERTY	WatsonUI	0
+[02/11/14,12:08:01] PROPERTY	Silent Mode UI string	/qb
+[02/11/14,12:08:01] PROPERTY	SkipAllChecks	0
+[02/11/14,12:08:01] PROPERTY	WatsonGenerateManifestOnly	
+[02/11/14,12:08:01] PROPERTY	UninstallWarning	
+[02/11/14,12:08:01] PROPERTY	ControlMSIService	
+[02/11/14,12:08:01] PROPERTY	RTL Language	0
+[02/11/14,12:08:01] PROPERTY	PostSetupCommandRegKey	
+[02/11/14,12:08:01] PROPERTY	GlobDataINIPresent	1
+[02/11/14,12:08:01] Checking Windows Installer version...
+[02/11/14,12:08:01] msi.dll loaded ok
+[02/11/14,12:08:01] Looking for: 2.0.0
+[02/11/14,12:08:01] Found: 5.0.7601
+[02/11/14,12:08:01] Windows Installer version ok
+[02/11/14,12:08:01] Finished Checking Windows Installer version. Return code 0
+[02/11/14,12:08:01] Entering CMsiInstaller::ThreadInit
+[02/11/14,12:08:01] Leaving CMsiInstaller::ThreadInit
+[02/11/14,12:08:01] Checking Windows Installer version...
+[02/11/14,12:08:01] msi.dll loaded ok
+[02/11/14,12:08:01] Looking for: 2.0.0
+[02/11/14,12:08:01] Found: 5.0.7601
+[02/11/14,12:08:01] Windows Installer version ok
+[02/11/14,12:08:01] Finished Checking Windows Installer version. Return code 0
+[02/11/14,12:08:01] Entering Silent Mode CSilentNavigator::Start
+[02/11/14,12:08:01] Running all checks
+[02/11/14,12:08:01] Running system checks
+[02/11/14,12:08:01] SYSTEM CHECK:	: One instance of setup running		Passed
+[02/11/14,12:08:01] SYSTEM CHECK:	: Administrative rights check		Passed
+[02/11/14,12:08:01] SYSTEM CHECK:	: Minimum NT Version 5.0		Passed
+[02/11/14,12:08:01] SYSTEM CHECK:	: Not runing on 9x check		Passed
+[02/11/14,12:08:01] Running prereq checks
+[02/11/14,12:08:01] Checking Windows Installer version...
+[02/11/14,12:08:01] msi.dll loaded ok
+[02/11/14,12:08:01] Looking for: 2.0.2
+[02/11/14,12:08:01] Found: 5.0.7601
+[02/11/14,12:08:01] Windows Installer version ok
+[02/11/14,12:08:01] Finished Checking Windows Installer version. Return code 0
+[02/11/14,12:08:01] PREREQ CHECK:	: Microsoft Windows Installer 2.0		Passed
+[02/11/14,12:08:01] PREREQ CHECKS:		Passed
+[02/11/14,12:08:01] Running block checks
+[02/11/14,12:08:01] BETA CHECK:			Passed
+[02/11/14,12:08:01] Entering CMsiInstaller::IsInstalled
+[02/11/14,12:08:01] Entering CMsiInstaller::GetProductCode
+[02/11/14,12:08:01] Leaving CMsiInstaller::GetProductCode
+[02/11/14,12:08:01] Leaving CMsiInstaller::IsInstalled
+[02/11/14,12:08:01] Entering CMsiInstaller::RegisterUIInterfaces
+[02/11/14,12:08:01] Leaving CMsiInstaller::RegisterUIInterfaces
+[02/11/14,12:08:01] Entering CMsiInstaller::BeginInstall
+[02/11/14,12:09:08] Entering CMsiInstaller::SuppressReboot
+[02/11/14,12:09:08] Leaving CMsiInstaller::SuppressReboot
+[02/11/14,12:09:08] Entering CMsiInstaller::Stop
+[02/11/14,12:09:08] Leaving CMsiInstaller::WorkerThread
+[02/11/14,12:09:08] Leaving CMsiInstaller::Stop
+[02/11/14,12:09:08] Leaving  CSilentNavigator::Start
+[02/11/14,12:09:08] Process returning code 0
+[02/11/14,12:09:08]  Pending Reboot Table state : Logging start 
+[02/11/14,12:09:08]    _________________________________________
+[02/11/14,12:09:08] There are no queued up pending reboot entries.
+[02/11/14,12:09:08] =========== Logging ended ===========
+[02/11/14,12:09:08] =====================================
+[02/11/14,12:09:08]  
+[02/11/14,12:09:08]  
+[02/11/14,12:09:08]  

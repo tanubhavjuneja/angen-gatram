@@ -1,0 +1,63 @@
+
+@import url("http://www.vagabondish.com/wp-content/plugins/global-gallery/css/frontend.css");
+
+.gg_gallery_wrap .gg_container {
+	}
+
+
+/* image border, radius and shadow */
+.gg_gallery_wrap .gg_img {
+	border: 2px solid #cccccc;    
+    border-radius: 2px;	
+	}
+
+
+/* main overlay */
+.gg_gallery_wrap .gg_img .gg_main_overlay {
+	display: none;    
+    bottom: 0px;    
+        
+    color: #cccccc;background: rgb(0, 0, 0);
+	  background: rgba(0, 0, 0, 0.7);}
+.gg_gallery_wrap .gg_img .gg_main_overlay span {
+	}
+
+
+/* secondary overlay */
+.gg_gallery_wrap .gg_img .gg_sec_overlay {
+	display: none;    
+     background-color: #eee;
+	  right: -140px; top: -140px;}
+.gg_gallery_wrap .gg_img:hover .gg_sec_overlay {
+	right: -80px; top: -80px;}
+.gg_gallery_wrap .gg_img:hover .gg_sec_overlay span,
+.gg_gallery_wrap .gg_img.gg_touch_on .gg_sec_overlay span {
+	bottom: 5px; right: 51px; 
+}
+.gg_gallery_wrap .gg_img .gg_sec_overlay span {
+	    background: url(http://www.vagabondish.com/wp-content/plugins/global-gallery/img/overlay_img/more_icon_d.png) no-repeat top left transparent;
+}
+
+
+
+/* ************************************************** */
+
+/* standard gallery images */
+.gg_standard_gallery .gg_img {
+	margin-right: 3px;
+    margin-bottom: 3px;
+}
+
+/* masonry gallery images */
+.gg_masonry_gallery .gg_img {
+	    margin-left: 6px;
+    margin-bottom: 6px;
+}
+
+/* photostring gallery images */
+.gg_string_gallery .gg_img {
+	margin-right: px;
+    margin-bottom: px;
+}
+
+

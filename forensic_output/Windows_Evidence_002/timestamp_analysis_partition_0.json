@@ -1,0 +1,16 @@
+{
+  "partition_offset": 0,
+  "analyzed_at": "2026-03-01T00:26:59.875834",
+  "filesystem": "ntfs",
+  "total_mft_entries": 167,
+  "usn_journal_status": {
+    "found": false,
+    "reason": "Invalid MFT header at 42666",
+    "max_size": 0,
+    "allocated_size": 0,
+    "next_usn": 0,
+    "oldest_usn": 0
+  },
+  "inconsistencies": [],
+  "summary": "Filesystem: NTFS. Analyzed 167 MFT entries. Found 0 inconsistencies (0 high, 0 medium)."
+}

@@ -1,0 +1,1 @@
+jQuery19105711957072402893_1392045498533({"meta":{"success":true,"status":200,"message":"Ok","error":{}},"data":{"token":"edef5e40-1d01-4311-a368-173354bbbe6f","session":"e1ffc6f7-6261-472b-b35e-b41d24f20069","createdMillis":1392045499719,"consumerId":"5708932828343897694"}})

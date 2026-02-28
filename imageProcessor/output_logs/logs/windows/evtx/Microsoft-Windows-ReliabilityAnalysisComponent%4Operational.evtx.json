@@ -1,0 +1,236 @@
+[
+  {
+    "EventID": 2005,
+    "Timestamp": "2014-01-29 12:32:59.014389+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReliabilityAnalysisComponent/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Reliability-Analysis-Engine\" Guid=\"{4ba32972-6fc5-488a-8368-5da620d05127}\"></Provider>\n<EventID Qualifiers=\"\">2005</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000001000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 12:32:59.014389+00:00\"></TimeCreated>\n<EventRecordID>1</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2492\" ThreadID=\"2544\"></Execution>\n<Channel>Microsoft-Windows-ReliabilityAnalysisComponent/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<UserData><ProcessInfo xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/ReliabilityAnalysis/Engine/Event\"><Stability>10.0</Stability>\n<Date>2014-01-26 00:00:00+00:00</Date>\n</ProcessInfo>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 2005,
+    "Timestamp": "2014-01-29 12:32:59.185989+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReliabilityAnalysisComponent/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Reliability-Analysis-Engine\" Guid=\"{4ba32972-6fc5-488a-8368-5da620d05127}\"></Provider>\n<EventID Qualifiers=\"\">2005</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000001000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 12:32:59.185989+00:00\"></TimeCreated>\n<EventRecordID>2</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2492\" ThreadID=\"2544\"></Execution>\n<Channel>Microsoft-Windows-ReliabilityAnalysisComponent/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<UserData><ProcessInfo xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/ReliabilityAnalysis/Engine/Event\"><Stability>10.0</Stability>\n<Date>2014-01-27 00:00:00+00:00</Date>\n</ProcessInfo>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 2005,
+    "Timestamp": "2014-01-29 12:32:59.326389+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReliabilityAnalysisComponent/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Reliability-Analysis-Engine\" Guid=\"{4ba32972-6fc5-488a-8368-5da620d05127}\"></Provider>\n<EventID Qualifiers=\"\">2005</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000001000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 12:32:59.326389+00:00\"></TimeCreated>\n<EventRecordID>3</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2492\" ThreadID=\"2544\"></Execution>\n<Channel>Microsoft-Windows-ReliabilityAnalysisComponent/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<UserData><ProcessInfo xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/ReliabilityAnalysis/Engine/Event\"><Stability>10.0</Stability>\n<Date>2014-01-28 00:00:00+00:00</Date>\n</ProcessInfo>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 2005,
+    "Timestamp": "2014-01-29 12:32:59.482389+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReliabilityAnalysisComponent/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Reliability-Analysis-Engine\" Guid=\"{4ba32972-6fc5-488a-8368-5da620d05127}\"></Provider>\n<EventID Qualifiers=\"\">2005</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000001000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 12:32:59.482389+00:00\"></TimeCreated>\n<EventRecordID>4</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2492\" ThreadID=\"2544\"></Execution>\n<Channel>Microsoft-Windows-ReliabilityAnalysisComponent/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<UserData><ProcessInfo xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/ReliabilityAnalysis/Engine/Event\"><Stability>10.0</Stability>\n<Date>2014-01-29 00:00:00+00:00</Date>\n</ProcessInfo>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 2005,
+    "Timestamp": "2014-02-03 12:07:06.721478+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReliabilityAnalysisComponent/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Reliability-Analysis-Engine\" Guid=\"{4ba32972-6fc5-488a-8368-5da620d05127}\"></Provider>\n<EventID Qualifiers=\"\">2005</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000001000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 12:07:06.721478+00:00\"></TimeCreated>\n<EventRecordID>5</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"2680\"></Execution>\n<Channel>Microsoft-Windows-ReliabilityAnalysisComponent/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<UserData><ProcessInfo xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/ReliabilityAnalysis/Engine/Event\"><Stability>10.0</Stability>\n<Date>2014-01-30 00:00:00+00:00</Date>\n</ProcessInfo>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 2005,
+    "Timestamp": "2014-02-03 12:07:06.848778+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReliabilityAnalysisComponent/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Reliability-Analysis-Engine\" Guid=\"{4ba32972-6fc5-488a-8368-5da620d05127}\"></Provider>\n<EventID Qualifiers=\"\">2005</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000001000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 12:07:06.848778+00:00\"></TimeCreated>\n<EventRecordID>6</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"2680\"></Execution>\n<Channel>Microsoft-Windows-ReliabilityAnalysisComponent/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<UserData><ProcessInfo xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/ReliabilityAnalysis/Engine/Event\"><Stability>10.0</Stability>\n<Date>2014-01-31 00:00:00+00:00</Date>\n</ProcessInfo>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 2005,
+    "Timestamp": "2014-02-03 12:07:06.976078+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReliabilityAnalysisComponent/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Reliability-Analysis-Engine\" Guid=\"{4ba32972-6fc5-488a-8368-5da620d05127}\"></Provider>\n<EventID Qualifiers=\"\">2005</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000001000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 12:07:06.976078+00:00\"></TimeCreated>\n<EventRecordID>7</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"2680\"></Execution>\n<Channel>Microsoft-Windows-ReliabilityAnalysisComponent/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<UserData><ProcessInfo xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/ReliabilityAnalysis/Engine/Event\"><Stability>10.0</Stability>\n<Date>2014-02-01 00:00:00+00:00</Date>\n</ProcessInfo>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 2005,
+    "Timestamp": "2014-02-03 12:07:07.123978+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReliabilityAnalysisComponent/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Reliability-Analysis-Engine\" Guid=\"{4ba32972-6fc5-488a-8368-5da620d05127}\"></Provider>\n<EventID Qualifiers=\"\">2005</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000001000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 12:07:07.123978+00:00\"></TimeCreated>\n<EventRecordID>8</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"2680\"></Execution>\n<Channel>Microsoft-Windows-ReliabilityAnalysisComponent/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<UserData><ProcessInfo xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/ReliabilityAnalysis/Engine/Event\"><Stability>10.0</Stability>\n<Date>2014-02-02 00:00:00+00:00</Date>\n</ProcessInfo>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 2005,
+    "Timestamp": "2014-02-03 12:07:07.266878+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReliabilityAnalysisComponent/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Reliability-Analysis-Engine\" Guid=\"{4ba32972-6fc5-488a-8368-5da620d05127}\"></Provider>\n<EventID Qualifiers=\"\">2005</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000001000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 12:07:07.266878+00:00\"></TimeCreated>\n<EventRecordID>9</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"2680\"></Execution>\n<Channel>Microsoft-Windows-ReliabilityAnalysisComponent/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<UserData><ProcessInfo xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/ReliabilityAnalysis/Engine/Event\"><Stability>10.0</Stability>\n<Date>2014-02-03 00:00:00+00:00</Date>\n</ProcessInfo>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 2005,
+    "Timestamp": "2014-02-04 14:19:01.870464+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReliabilityAnalysisComponent/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Reliability-Analysis-Engine\" Guid=\"{4ba32972-6fc5-488a-8368-5da620d05127}\"></Provider>\n<EventID Qualifiers=\"\">2005</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000001000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 14:19:01.870464+00:00\"></TimeCreated>\n<EventRecordID>10</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"792\" ThreadID=\"2408\"></Execution>\n<Channel>Microsoft-Windows-ReliabilityAnalysisComponent/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<UserData><ProcessInfo xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/ReliabilityAnalysis/Engine/Event\"><Stability>10.0</Stability>\n<Date>2014-02-04 00:00:00+00:00</Date>\n</ProcessInfo>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 2005,
+    "Timestamp": "2014-02-05 13:39:39.425802+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReliabilityAnalysisComponent/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Reliability-Analysis-Engine\" Guid=\"{4ba32972-6fc5-488a-8368-5da620d05127}\"></Provider>\n<EventID Qualifiers=\"\">2005</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000001000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 13:39:39.425802+00:00\"></TimeCreated>\n<EventRecordID>11</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"368\" ThreadID=\"2820\"></Execution>\n<Channel>Microsoft-Windows-ReliabilityAnalysisComponent/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<UserData><ProcessInfo xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/ReliabilityAnalysis/Engine/Event\"><Stability>8.531999588012695</Stability>\n<Date>2014-02-05 00:00:00+00:00</Date>\n</ProcessInfo>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 2005,
+    "Timestamp": "2014-02-06 11:26:35.553690+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReliabilityAnalysisComponent/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Reliability-Analysis-Engine\" Guid=\"{4ba32972-6fc5-488a-8368-5da620d05127}\"></Provider>\n<EventID Qualifiers=\"\">2005</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000001000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 11:26:35.553690+00:00\"></TimeCreated>\n<EventRecordID>12</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3788\" ThreadID=\"3828\"></Execution>\n<Channel>Microsoft-Windows-ReliabilityAnalysisComponent/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<UserData><ProcessInfo xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/ReliabilityAnalysis/Engine/Event\"><Stability>8.793999671936035</Stability>\n<Date>2014-02-06 00:00:00+00:00</Date>\n</ProcessInfo>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 2005,
+    "Timestamp": "2014-02-07 12:39:41.414789+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReliabilityAnalysisComponent/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Reliability-Analysis-Engine\" Guid=\"{4ba32972-6fc5-488a-8368-5da620d05127}\"></Provider>\n<EventID Qualifiers=\"\">2005</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000001000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 12:39:41.414789+00:00\"></TimeCreated>\n<EventRecordID>13</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3332\" ThreadID=\"3372\"></Execution>\n<Channel>Microsoft-Windows-ReliabilityAnalysisComponent/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<UserData><ProcessInfo xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/ReliabilityAnalysis/Engine/Event\"><Stability>9.029000282287598</Stability>\n<Date>2014-02-07 00:00:00+00:00</Date>\n</ProcessInfo>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 2005,
+    "Timestamp": "2014-02-10 14:59:42.947382+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReliabilityAnalysisComponent/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Reliability-Analysis-Engine\" Guid=\"{4ba32972-6fc5-488a-8368-5da620d05127}\"></Provider>\n<EventID Qualifiers=\"\">2005</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000001000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 14:59:42.947382+00:00\"></TimeCreated>\n<EventRecordID>14</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3764\" ThreadID=\"1172\"></Execution>\n<Channel>Microsoft-Windows-ReliabilityAnalysisComponent/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<UserData><ProcessInfo xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/ReliabilityAnalysis/Engine/Event\"><Stability>9.232000350952148</Stability>\n<Date>2014-02-08 00:00:00+00:00</Date>\n</ProcessInfo>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 2005,
+    "Timestamp": "2014-02-10 14:59:43.181381+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReliabilityAnalysisComponent/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Reliability-Analysis-Engine\" Guid=\"{4ba32972-6fc5-488a-8368-5da620d05127}\"></Provider>\n<EventID Qualifiers=\"\">2005</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000001000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 14:59:43.181381+00:00\"></TimeCreated>\n<EventRecordID>15</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3764\" ThreadID=\"1172\"></Execution>\n<Channel>Microsoft-Windows-ReliabilityAnalysisComponent/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<UserData><ProcessInfo xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/ReliabilityAnalysis/Engine/Event\"><Stability>9.232000350952148</Stability>\n<Date>2014-02-09 00:00:00+00:00</Date>\n</ProcessInfo>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 2005,
+    "Timestamp": "2014-02-10 14:59:43.399782+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReliabilityAnalysisComponent/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Reliability-Analysis-Engine\" Guid=\"{4ba32972-6fc5-488a-8368-5da620d05127}\"></Provider>\n<EventID Qualifiers=\"\">2005</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000001000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 14:59:43.399782+00:00\"></TimeCreated>\n<EventRecordID>16</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3764\" ThreadID=\"1172\"></Execution>\n<Channel>Microsoft-Windows-ReliabilityAnalysisComponent/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<UserData><ProcessInfo xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/ReliabilityAnalysis/Engine/Event\"><Stability>9.241000175476074</Stability>\n<Date>2014-02-10 00:00:00+00:00</Date>\n</ProcessInfo>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 2005,
+    "Timestamp": "2014-02-11 13:32:44.026085+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReliabilityAnalysisComponent/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Reliability-Analysis-Engine\" Guid=\"{4ba32972-6fc5-488a-8368-5da620d05127}\"></Provider>\n<EventID Qualifiers=\"\">2005</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000001000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 13:32:44.026085+00:00\"></TimeCreated>\n<EventRecordID>17</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"4080\" ThreadID=\"2248\"></Execution>\n<Channel>Microsoft-Windows-ReliabilityAnalysisComponent/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<UserData><ProcessInfo xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/ReliabilityAnalysis/Engine/Event\"><Stability>9.430999755859375</Stability>\n<Date>2014-02-11 00:00:00+00:00</Date>\n</ProcessInfo>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 2005,
+    "Timestamp": "2014-02-16 19:06:56.345982+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReliabilityAnalysisComponent/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Reliability-Analysis-Engine\" Guid=\"{4ba32972-6fc5-488a-8368-5da620d05127}\"></Provider>\n<EventID Qualifiers=\"\">2005</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000001000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 19:06:56.345982+00:00\"></TimeCreated>\n<EventRecordID>18</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1100\" ThreadID=\"1836\"></Execution>\n<Channel>Microsoft-Windows-ReliabilityAnalysisComponent/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<UserData><ProcessInfo xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/ReliabilityAnalysis/Engine/Event\"><Stability>9.595000267028809</Stability>\n<Date>2014-02-12 00:00:00+00:00</Date>\n</ProcessInfo>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 2005,
+    "Timestamp": "2014-02-16 19:06:56.548784+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReliabilityAnalysisComponent/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Reliability-Analysis-Engine\" Guid=\"{4ba32972-6fc5-488a-8368-5da620d05127}\"></Provider>\n<EventID Qualifiers=\"\">2005</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000001000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 19:06:56.548784+00:00\"></TimeCreated>\n<EventRecordID>19</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1100\" ThreadID=\"1836\"></Execution>\n<Channel>Microsoft-Windows-ReliabilityAnalysisComponent/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<UserData><ProcessInfo xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/ReliabilityAnalysis/Engine/Event\"><Stability>9.595000267028809</Stability>\n<Date>2014-02-13 00:00:00+00:00</Date>\n</ProcessInfo>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 2005,
+    "Timestamp": "2014-02-16 19:06:56.751583+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReliabilityAnalysisComponent/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Reliability-Analysis-Engine\" Guid=\"{4ba32972-6fc5-488a-8368-5da620d05127}\"></Provider>\n<EventID Qualifiers=\"\">2005</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000001000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 19:06:56.751583+00:00\"></TimeCreated>\n<EventRecordID>20</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1100\" ThreadID=\"1836\"></Execution>\n<Channel>Microsoft-Windows-ReliabilityAnalysisComponent/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<UserData><ProcessInfo xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/ReliabilityAnalysis/Engine/Event\"><Stability>9.595000267028809</Stability>\n<Date>2014-02-14 00:00:00+00:00</Date>\n</ProcessInfo>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 2005,
+    "Timestamp": "2014-02-16 19:06:56.985584+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReliabilityAnalysisComponent/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Reliability-Analysis-Engine\" Guid=\"{4ba32972-6fc5-488a-8368-5da620d05127}\"></Provider>\n<EventID Qualifiers=\"\">2005</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000001000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 19:06:56.985584+00:00\"></TimeCreated>\n<EventRecordID>21</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1100\" ThreadID=\"1836\"></Execution>\n<Channel>Microsoft-Windows-ReliabilityAnalysisComponent/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<UserData><ProcessInfo xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/ReliabilityAnalysis/Engine/Event\"><Stability>9.595000267028809</Stability>\n<Date>2014-02-15 00:00:00+00:00</Date>\n</ProcessInfo>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 2005,
+    "Timestamp": "2014-02-16 19:06:57.203983+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReliabilityAnalysisComponent/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Reliability-Analysis-Engine\" Guid=\"{4ba32972-6fc5-488a-8368-5da620d05127}\"></Provider>\n<EventID Qualifiers=\"\">2005</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000001000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 19:06:57.203983+00:00\"></TimeCreated>\n<EventRecordID>22</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1100\" ThreadID=\"1836\"></Execution>\n<Channel>Microsoft-Windows-ReliabilityAnalysisComponent/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<UserData><ProcessInfo xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/ReliabilityAnalysis/Engine/Event\"><Stability>9.60099983215332</Stability>\n<Date>2014-02-16 00:00:00+00:00</Date>\n</ProcessInfo>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 2005,
+    "Timestamp": "2014-02-19 13:37:30.258024+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReliabilityAnalysisComponent/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Reliability-Analysis-Engine\" Guid=\"{4ba32972-6fc5-488a-8368-5da620d05127}\"></Provider>\n<EventID Qualifiers=\"\">2005</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000001000</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 13:37:30.258024+00:00\"></TimeCreated>\n<EventRecordID>23</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3832\" ThreadID=\"1720\"></Execution>\n<Channel>Microsoft-Windows-ReliabilityAnalysisComponent/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<UserData><ProcessInfo xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/ReliabilityAnalysis/Engine/Event\"><Stability>9.74899959564209</Stability>\n<Date>2014-02-17 00:00:00+00:00</Date>\n</ProcessInfo>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 2005,
+    "Timestamp": "2014-02-19 13:37:30.507624+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReliabilityAnalysisComponent/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Reliability-Analysis-Engine\" Guid=\"{4ba32972-6fc5-488a-8368-5da620d05127}\"></Provider>\n<EventID Qualifiers=\"\">2005</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000001000</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 13:37:30.507624+00:00\"></TimeCreated>\n<EventRecordID>24</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3832\" ThreadID=\"1720\"></Execution>\n<Channel>Microsoft-Windows-ReliabilityAnalysisComponent/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<UserData><ProcessInfo xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/ReliabilityAnalysis/Engine/Event\"><Stability>9.74899959564209</Stability>\n<Date>2014-02-18 00:00:00+00:00</Date>\n</ProcessInfo>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 2005,
+    "Timestamp": "2014-02-19 13:37:30.772823+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReliabilityAnalysisComponent/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Reliability-Analysis-Engine\" Guid=\"{4ba32972-6fc5-488a-8368-5da620d05127}\"></Provider>\n<EventID Qualifiers=\"\">2005</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000001000</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 13:37:30.772823+00:00\"></TimeCreated>\n<EventRecordID>25</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3832\" ThreadID=\"1720\"></Execution>\n<Channel>Microsoft-Windows-ReliabilityAnalysisComponent/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<UserData><ProcessInfo xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/ReliabilityAnalysis/Engine/Event\"><Stability>9.755000114440918</Stability>\n<Date>2014-02-19 00:00:00+00:00</Date>\n</ProcessInfo>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 2005,
+    "Timestamp": "2014-02-20 14:28:22.772871+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReliabilityAnalysisComponent/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Reliability-Analysis-Engine\" Guid=\"{4ba32972-6fc5-488a-8368-5da620d05127}\"></Provider>\n<EventID Qualifiers=\"\">2005</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000001000</Keywords>\n<TimeCreated SystemTime=\"2014-02-20 14:28:22.772871+00:00\"></TimeCreated>\n<EventRecordID>26</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1512\" ThreadID=\"2244\"></Execution>\n<Channel>Microsoft-Windows-ReliabilityAnalysisComponent/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<UserData><ProcessInfo xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/ReliabilityAnalysis/Engine/Event\"><Stability>9.892999649047852</Stability>\n<Date>2014-02-20 00:00:00+00:00</Date>\n</ProcessInfo>\n</UserData>\n</Event>\n"
+  }
+]

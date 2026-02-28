@@ -1,0 +1,128 @@
+[
+  {
+    "EventID": 701,
+    "Timestamp": "2014-01-25 16:17:39.602428+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Telemetry",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">701</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:39.602428+00:00\"></TimeCreated>\n<EventRecordID>1</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"820\" ThreadID=\"2708\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Telemetry</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 701,
+    "Timestamp": "2014-01-29 13:20:09.434380+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Telemetry",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">701</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 13:20:09.434380+00:00\"></TimeCreated>\n<EventRecordID>2</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3984\" ThreadID=\"2376\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Telemetry</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 701,
+    "Timestamp": "2014-02-03 13:50:27.098839+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Telemetry",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">701</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 13:50:27.098839+00:00\"></TimeCreated>\n<EventRecordID>3</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2780\" ThreadID=\"2964\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Telemetry</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 701,
+    "Timestamp": "2014-02-04 16:02:59.770000+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Telemetry",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">701</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 16:02:59.770000+00:00\"></TimeCreated>\n<EventRecordID>4</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2244\" ThreadID=\"2548\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Telemetry</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 701,
+    "Timestamp": "2014-02-05 16:15:58.875368+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Telemetry",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">701</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 16:15:58.875368+00:00\"></TimeCreated>\n<EventRecordID>5</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1812\" ThreadID=\"2908\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Telemetry</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 701,
+    "Timestamp": "2014-02-06 12:07:00.583151+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Telemetry",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">701</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 12:07:00.583151+00:00\"></TimeCreated>\n<EventRecordID>6</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1916\" ThreadID=\"2608\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Telemetry</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 701,
+    "Timestamp": "2014-02-07 13:09:22.294718+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Telemetry",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">701</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 13:09:22.294718+00:00\"></TimeCreated>\n<EventRecordID>7</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2236\" ThreadID=\"3248\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Telemetry</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 701,
+    "Timestamp": "2014-02-10 15:43:22.082283+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Telemetry",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">701</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 15:43:22.082283+00:00\"></TimeCreated>\n<EventRecordID>8</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3308\" ThreadID=\"1712\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Telemetry</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 701,
+    "Timestamp": "2014-02-11 14:14:17.537363+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Telemetry",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">701</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 14:14:17.537363+00:00\"></TimeCreated>\n<EventRecordID>9</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"4032\" ThreadID=\"4000\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Telemetry</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 500,
+    "Timestamp": "2014-02-11 17:14:29.875580+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Telemetry",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">500</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:14:29.875580+00:00\"></TimeCreated>\n<EventRecordID>10</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1240\" ThreadID=\"3732\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Telemetry</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1004\"></Security>\n</System>\n<UserData><CompatibilityFixEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PCA/events\"><ProcessId>1240</ProcessId>\n<StartTime>2014-02-11 17:14:29.750780+00:00</StartTime>\n<FixID>{1614bf80-344e-4ebd-b7ec-621f6a058db6}</FixID>\n<Flags>0x00010101</Flags>\n<ExePath>C:\\Program Files (x86)\\OpenOffice 4\\program\\soffice.exe</ExePath>\n<FixName>StarOffice 6/7 and OpenOffice</FixName>\n</CompatibilityFixEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 500,
+    "Timestamp": "2014-02-11 17:14:29.875580+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Telemetry",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">500</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:14:29.875580+00:00\"></TimeCreated>\n<EventRecordID>11</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1240\" ThreadID=\"3732\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Telemetry</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1004\"></Security>\n</System>\n<UserData><CompatibilityFixEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PCA/events\"><ProcessId>1240</ProcessId>\n<StartTime>2014-02-11 17:14:29.750780+00:00</StartTime>\n<FixID>{f949dd49-448c-4653-81ca-d53c03d20be4}</FixID>\n<Flags>0x00010101</Flags>\n<ExePath>C:\\Program Files (x86)\\OpenOffice 4\\program\\soffice.exe</ExePath>\n<FixName>000 Legacy Registry Entries (User Compat Flags)</FixName>\n</CompatibilityFixEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 701,
+    "Timestamp": "2014-02-16 19:54:01.531347+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Telemetry",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">701</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 19:54:01.531347+00:00\"></TimeCreated>\n<EventRecordID>12</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1148\" ThreadID=\"3980\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Telemetry</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 701,
+    "Timestamp": "2014-02-19 14:07:15.310759+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Telemetry",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">701</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 14:07:15.310759+00:00\"></TimeCreated>\n<EventRecordID>13</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1584\" ThreadID=\"3020\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Telemetry</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 701,
+    "Timestamp": "2014-02-20 15:22:39.998198+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Telemetry",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">701</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-20 15:22:39.998198+00:00\"></TimeCreated>\n<EventRecordID>14</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1048\" ThreadID=\"1536\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Telemetry</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  }
+]

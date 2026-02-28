@@ -1,0 +1,50 @@
+/* header */
+.site-logo {
+	background-image: url('/assets/images/logos/lifehacker.png');
+	width: 145px;
+	background-size: 145px 50px;
+}
+.sidebar-container .site-logo {
+	background-image: url('/assets/images/logos/lifehacker-300.png');
+	height: 85px;
+}
+.logo-content .site-logo {
+	background-image: url('/assets/images/logos/lifehacker-30.png');
+	width: 100px;
+	background-size: 100px 30px;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+	.site-logo {
+		background-image: url('/assets/images/logos/lifehacker@2x.png');
+	}
+	.sidebar-container .site-logo {
+		background-image: url('/assets/images/logos/lifehacker-300@2x.png');
+	}
+	.logo-content .site-logo {
+		background-image: url('/assets/images/logos/lifehacker-30@2x.png');
+	}
+}
+.site-logo .media {
+	display: none !important;
+}
+/* site colors */
+a,
+a:focus,
+a:hover,
+.link,
+.link:focus,
+.link:hover,
+.maincolor,
+.maincolor-hover:hover {
+	color: #709602;
+}
+.maincolor-bg,
+.maincolor-bg-hover:hover {
+	background-color: #709602;
+}
+.maincolor-border {
+	border-color: #709602;
+}
+.force-maincolor {
+	color: #709602 !important;
+}

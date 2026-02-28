@@ -1,0 +1,1 @@
+YUI.Env.JSONP.yui_3_8_1_1_1392044826475_214({"query":{"count":1,"created":"2014-02-10T15:07:10Z","lang":"en-US","results":{"Response":{"xmlns":"urn:yahoo:ups:V1.0","xsi":"http://www.w3.org/2001/XMLSchema-instance","Attribute":{"actionTaken":"get","error_code":"NOVALUE_NOACL","id":"930","status":"ERROR","content":"The given crumb is invalid :null"}}}}});

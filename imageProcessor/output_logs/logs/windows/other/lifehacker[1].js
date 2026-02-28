@@ -1,0 +1,1 @@
+PARSELY.pInit({"apikey":"lifehacker.com","customizations":null,"bundle":"/code/slim_v04.js","settings":{"debug":false,"widget":false,"tracker":true},"uuid":"07642783-d24d-47b0-a424-26e2bf08c402"});

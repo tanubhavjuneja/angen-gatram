@@ -1,0 +1,740 @@
+[
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.481133+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.481133+00:00\"></TimeCreated>\n<EventRecordID>1</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>XML HTTP</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{f6d90f16-9c73-11d3-b32e-00c04f990bb4}</CLSID>\n<FileName>msxml3.dll</FileName>\n<FileID>0000d9f90bf62d40aa4daf347814253f6c4e9f9365e7</FileID>\n<Language>0</Language>\n<FileVersion>8.110.7601.17988</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.481133+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.481133+00:00\"></TimeCreated>\n<EventRecordID>2</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>XML Data Source Object</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{f6d90f14-9c73-11d3-b32e-00c04f990bb4}</CLSID>\n<FileName>msxml3.dll</FileName>\n<FileID>0000d9f90bf62d40aa4daf347814253f6c4e9f9365e7</FileID>\n<Language>0</Language>\n<FileVersion>8.110.7601.17988</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.481133+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.481133+00:00\"></TimeCreated>\n<EventRecordID>3</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Free Threaded XML DOM Document</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{f6d90f12-9c73-11d3-b32e-00c04f990bb4}</CLSID>\n<FileName>msxml3.dll</FileName>\n<FileID>0000d9f90bf62d40aa4daf347814253f6c4e9f9365e7</FileID>\n<Language>0</Language>\n<FileVersion>8.110.7601.17988</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.481133+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.481133+00:00\"></TimeCreated>\n<EventRecordID>4</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>XML DOM Document</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{f6d90f11-9c73-11d3-b32e-00c04f990bb4}</CLSID>\n<FileName>msxml3.dll</FileName>\n<FileID>0000d9f90bf62d40aa4daf347814253f6c4e9f9365e7</FileID>\n<Language>0</Language>\n<FileVersion>8.110.7601.17988</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.481133+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.481133+00:00\"></TimeCreated>\n<EventRecordID>5</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>XML Data Source Object 3.0</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{f5078f39-c551-11d3-89b9-0000f81fe221}</CLSID>\n<FileName>msxml3.dll</FileName>\n<FileID>0000d9f90bf62d40aa4daf347814253f6c4e9f9365e7</FileID>\n<Language>0</Language>\n<FileVersion>8.110.7601.17988</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>6</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>XSL Template 3.0</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{f5078f36-c551-11d3-89b9-0000f81fe221}</CLSID>\n<FileName>msxml3.dll</FileName>\n<FileID>0000d9f90bf62d40aa4daf347814253f6c4e9f9365e7</FileID>\n<Language>0</Language>\n<FileVersion>8.110.7601.17988</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>7</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>XML HTTP 3.0</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{f5078f35-c551-11d3-89b9-0000f81fe221}</CLSID>\n<FileName>msxml3.dll</FileName>\n<FileID>0000d9f90bf62d40aa4daf347814253f6c4e9f9365e7</FileID>\n<Language>0</Language>\n<FileVersion>8.110.7601.17988</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>8</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>XML Schema Cache 3.0</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{f5078f34-c551-11d3-89b9-0000f81fe221}</CLSID>\n<FileName>msxml3.dll</FileName>\n<FileID>0000d9f90bf62d40aa4daf347814253f6c4e9f9365e7</FileID>\n<Language>0</Language>\n<FileVersion>8.110.7601.17988</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>9</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Free Threaded XML DOM Document 3.0</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{f5078f33-c551-11d3-89b9-0000f81fe221}</CLSID>\n<FileName>msxml3.dll</FileName>\n<FileID>0000d9f90bf62d40aa4daf347814253f6c4e9f9365e7</FileID>\n<Language>0</Language>\n<FileVersion>8.110.7601.17988</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>10</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>XML DOM Document 3.0</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{f5078f32-c551-11d3-89b9-0000f81fe221}</CLSID>\n<FileName>msxml3.dll</FileName>\n<FileID>0000d9f90bf62d40aa4daf347814253f6c4e9f9365e7</FileID>\n<Language>0</Language>\n<FileVersion>8.110.7601.17988</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>11</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Scripting.Dictionary</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{ee09b103-97e0-11cf-978f-00a02463e06f}</CLSID>\n<FileName>scrrun.dll</FileName>\n<FileID>0000d396653abb32997fb6e3702d74d21bb855581d80</FileID>\n<Language>1033</Language>\n<FileVersion>5.8.7600.16385</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>12</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>OleInstall Class</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{c3701884-b39b-11d1-9d68-00c04fc30df6}</CLSID>\n<FileName>oleprn.dll</FileName>\n<FileID>0000dbe7e379e77aa93c26456a787169d70a1cd7bb37</FileID>\n<Language>1033</Language>\n<FileVersion>6.1.7600.16385(win7_rtm.090713-1255)</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>13</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>RMGetLicense Class</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{a9fc132b-096d-460b-b7d5-1db0fae0c062}</CLSID>\n<FileName>msnetobj.dll</FileName>\n<FileID>0000d53f369d595d97213da95e643a414d6aa6a0e6b2</FileID>\n<Language>1033</Language>\n<FileVersion>11.0.7601.17514</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>14</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>prturl Class</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{92337a8c-e11d-11d0-be48-00c04fc30df6}</CLSID>\n<FileName>oleprn.dll</FileName>\n<FileID>0000dbe7e379e77aa93c26456a787169d70a1cd7bb37</FileID>\n<Language>1033</Language>\n<FileVersion>6.1.7600.16385(win7_rtm.090713-1255)</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>15</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Registration Control</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{8e4062d9-fe1b-4b9e-aa16-5e8eef68f48e}</CLSID>\n<FileName>RegCtrl.dll</FileName>\n<FileID>0000fbfb589af1f264af88b879f8aaf16475d499e737</FileID>\n<Language>1033</Language>\n<FileVersion>6.1.7600.16385(win7_rtm.090713-1255)</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>16</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>XML HTTP 6.0</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{88d96a0a-f192-11d4-a65f-0040963251e5}</CLSID>\n<FileName>msxml6.dll</FileName>\n<FileID>00001e925c68b59374b28450e52c35fa4a3dd32ac320</FileID>\n<Language>0</Language>\n<FileVersion>6.30.7601.17988</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>17</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>XSL Template 6.0</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{88d96a08-f192-11d4-a65f-0040963251e5}</CLSID>\n<FileName>msxml6.dll</FileName>\n<FileID>00001e925c68b59374b28450e52c35fa4a3dd32ac320</FileID>\n<Language>0</Language>\n<FileVersion>6.30.7601.17988</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>18</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>XML Schema Cache 6.0</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{88d96a07-f192-11d4-a65f-0040963251e5}</CLSID>\n<FileName>msxml6.dll</FileName>\n<FileID>00001e925c68b59374b28450e52c35fa4a3dd32ac320</FileID>\n<Language>0</Language>\n<FileVersion>6.30.7601.17988</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>19</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Free Threaded XML DOM Document 6.0</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{88d96a06-f192-11d4-a65f-0040963251e5}</CLSID>\n<FileName>msxml6.dll</FileName>\n<FileID>00001e925c68b59374b28450e52c35fa4a3dd32ac320</FileID>\n<Language>0</Language>\n<FileVersion>6.30.7601.17988</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>20</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>XML DOM Document 6.0</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{88d96a05-f192-11d4-a65f-0040963251e5}</CLSID>\n<FileName>msxml6.dll</FileName>\n<FileID>00001e925c68b59374b28450e52c35fa4a3dd32ac320</FileID>\n<Language>0</Language>\n<FileVersion>6.30.7601.17988</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>21</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>X509 Machine Enrollment Factory</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{884e2051-217d-11da-b2a4-000e7bbb2b09}</CLSID>\n<FileName>CertEnroll.dll</FileName>\n<FileID>0000cee23e7afce68bc02ed0912a3dab110528be66cb</FileID>\n<Language>1033</Language>\n<FileVersion>6.1.7600.16385(win7_rtm.090713-1255)</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>22</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>X509 Enrollment WebClassFactory</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{884e2049-217d-11da-b2a4-000e7bbb2b09}</CLSID>\n<FileName>CertEnrollCtrl.exe</FileName>\n<FileID>0000c6f773d69ed859ae48a767e439dd24dca9cbc45e</FileID>\n<Language>1033</Language>\n<FileVersion>6.1.7600.16385(win7_rtm.090713-1255)</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>23</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Windows Media Services DRM Storage object</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{760c4b83-e211-11d2-bf3e-00805fbe84a6}</CLSID>\n<FileName>msnetobj.dll</FileName>\n<FileID>0000d53f369d595d97213da95e643a414d6aa6a0e6b2</FileID>\n<Language>1033</Language>\n<FileVersion>11.0.7601.17514</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>24</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Windows Media Player</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{6bf52a52-394a-11d3-b153-00c04f79faa6}</CLSID>\n<FileName>wmp.dll</FileName>\n<FileID>00006d08eb142d0fc76f05c332194eacf28ca635016b</FileID>\n<Language>1033</Language>\n<FileVersion>12.0.7601.17514(win7sp1_rtm.101119-1850)</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>25</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>OleCvt Class</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{65303443-ad66-11d1-9d65-00c04fc30df6}</CLSID>\n<FileName>oleprn.dll</FileName>\n<FileID>0000dbe7e379e77aa93c26456a787169d70a1cd7bb37</FileID>\n<Language>1033</Language>\n<FileVersion>6.1.7600.16385(win7_rtm.090713-1255)</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>26</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Microsoft Shell UI Helper</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{64ab4bb7-111e-11d1-8f79-00c04fc2fbe1}</CLSID>\n<FileName>ieframe.dll</FileName>\n<FileID>000097eac55ab4453e21e300852c95daa83ae27a3f12</FileID>\n<Language>1033</Language>\n<FileVersion>11.00.9600.16428(winblue_gdr.131013-1700)</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>27</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>OleSNMP Class</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{4f664f91-ff01-11d0-8aed-00c04fd7b597}</CLSID>\n<FileName>oleprn.dll</FileName>\n<FileID>0000dbe7e379e77aa93c26456a787169d70a1cd7bb37</FileID>\n<Language>1033</Language>\n<FileVersion>6.1.7600.16385(win7_rtm.090713-1255)</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>28</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>DSPrintQueue Class</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{435899c9-44ab-11d1-af00-080036234103}</CLSID>\n<FileName>oleprn.dll</FileName>\n<FileID>0000dbe7e379e77aa93c26456a787169d70a1cd7bb37</FileID>\n<Language>1033</Language>\n<FileVersion>6.1.7600.16385(win7_rtm.090713-1255)</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>29</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>oleprn Class</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{3e4d4f1c-2aee-11d1-9d3d-00c04fc30df6}</CLSID>\n<FileName>oleprn.dll</FileName>\n<FileID>0000dbe7e379e77aa93c26456a787169d70a1cd7bb37</FileID>\n<Language>1033</Language>\n<FileVersion>6.1.7600.16385(win7_rtm.090713-1255)</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>30</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>XML Schema Cache</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{373984c9-b845-449b-91e7-45ac83036ade}</CLSID>\n<FileName>msxml3.dll</FileName>\n<FileID>0000d9f90bf62d40aa4daf347814253f6c4e9f9365e7</FileID>\n<Language>0</Language>\n<FileVersion>8.110.7601.17988</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>31</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Tabular Data Control</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{333c7bc4-460f-11d0-bc04-0080c7055a83}</CLSID>\n<FileName>tdc.ocx</FileName>\n<FileID>0000c169fb5eb2118b3f01bcee4825ebc90fbc6073e4</FileID>\n<Language>1033</Language>\n<FileVersion>11.00.9600.16428(winblue_gdr.131013-1700)</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>32</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>HtmlDlgSafeHelper Class</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{3050f819-98b5-11cf-bb82-00aa00bdce0b}</CLSID>\n<FileName>mshtmled.dll</FileName>\n<FileID>0000deab361f78279ff46b5d2b53aea838f0dba65244</FileID>\n<Language>1033</Language>\n<FileVersion>11.00.9600.16428(winblue_gdr.131013-1700)</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>33</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>XSL Template</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{2933bf94-7b36-11d2-b20e-00c04f983e60}</CLSID>\n<FileName>msxml3.dll</FileName>\n<FileID>0000d9f90bf62d40aa4daf347814253f6c4e9f9365e7</FileID>\n<Language>0</Language>\n<FileVersion>8.110.7601.17988</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>34</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>XML DOM Document</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{2933bf90-7b36-11d2-b20e-00c04f983e60}</CLSID>\n<FileName>msxml3.dll</FileName>\n<FileID>0000d9f90bf62d40aa4daf347814253f6c4e9f9365e7</FileID>\n<Language>0</Language>\n<FileVersion>8.110.7601.17988</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>35</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>InformationCardSigninHelper Class</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{19916e01-b44e-4e31-94a4-4696df46157b}</CLSID>\n<FileName>icardie.dll</FileName>\n<FileID>00009a0defec862e4d1a912d37e3c174872a36daef46</FileID>\n<Language>1033</Language>\n<FileVersion>11.00.9600.16428(winblue_gdr.131013-1700)</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 903,
+    "Timestamp": "2014-01-25 16:17:52.496733+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">903</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:52.496733+00:00\"></TimeCreated>\n<EventRecordID>36</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Microsoft Security Essentials</Name>\n<Version>4.4.304.0</Version>\n<Publisher>Microsoft Corporation</Publisher>\n<Language></Language>\n<Source>AddRemoveProgram</Source>\n<ProgramID>00008b77e85ccf47d3122e904eec928c5f330000ffff</ProgramID>\n<FileInstanceID>0000a59153af85136dd6916f4037330f92b332e99498</FileInstanceID>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 800,
+    "Timestamp": "2014-01-25 16:18:06.786358+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">800</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:18:06.786358+00:00\"></TimeCreated>\n<EventRecordID>37</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2952\" ThreadID=\"1944\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><SessionInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><StartTime>2014-01-25 16:17:34.003107+00:00</StartTime>\n<StopTime>2014-01-25 16:18:06.786358+00:00</StopTime>\n<ExitCode>223</ExitCode>\n<NumNewPrograms>1</NumNewPrograms>\n<NumRemovedPrograms>0</NumRemovedPrograms>\n<NumUpdatedPrograms>0</NumUpdatedPrograms>\n<NumInstalledPrograms>1</NumInstalledPrograms>\n<NumNewOrphans>84</NumNewOrphans>\n<NumNewAddOns>35</NumNewAddOns>\n<NumRemovedAddOns>0</NumRemovedAddOns>\n<NumUpdatedAddOns>0</NumUpdatedAddOns>\n<NumInstalledAddOns>35</NumInstalledAddOns>\n<NumNewInstallations>0</NumNewInstallations>\n</SessionInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 800,
+    "Timestamp": "2014-01-29 13:20:13.755587+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">800</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 13:20:13.755587+00:00\"></TimeCreated>\n<EventRecordID>38</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"3248\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><SessionInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><StartTime>2014-01-29 13:20:03.256769+00:00</StartTime>\n<StopTime>2014-01-29 13:20:13.755587+00:00</StopTime>\n<ExitCode>223</ExitCode>\n<NumNewPrograms>0</NumNewPrograms>\n<NumRemovedPrograms>0</NumRemovedPrograms>\n<NumUpdatedPrograms>0</NumUpdatedPrograms>\n<NumInstalledPrograms>1</NumInstalledPrograms>\n<NumNewOrphans>11</NumNewOrphans>\n<NumNewAddOns>0</NumNewAddOns>\n<NumRemovedAddOns>0</NumRemovedAddOns>\n<NumUpdatedAddOns>0</NumUpdatedAddOns>\n<NumInstalledAddOns>35</NumInstalledAddOns>\n<NumNewInstallations>0</NumNewInstallations>\n</SessionInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-02-03 13:50:30.187645+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 13:50:30.187645+00:00\"></TimeCreated>\n<EventRecordID>39</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2888\" ThreadID=\"3788\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Shockwave Flash Object</Name>\n<Type>ActiveX</Type>\n<Publisher>Adobe Systems, Inc.</Publisher>\n<CLSID>{d27cdb6e-ae6d-11cf-96b8-444553540000}</CLSID>\n<FileName>Flash64_12_0_0_38.ocx</FileName>\n<FileID>0000ccadabe4d109ebb0705a6f2d0f4161bb9df0f492</FileID>\n<Language>1033</Language>\n<FileVersion>12.0.0.38</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 901,
+    "Timestamp": "2014-02-03 13:50:30.187645+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">901</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 13:50:30.187645+00:00\"></TimeCreated>\n<EventRecordID>40</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2888\" ThreadID=\"3788\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Microsoft Shell UI Helper</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corporation</Publisher>\n<CLSID>{64ab4bb7-111e-11d1-8f79-00c04fc2fbe1}</CLSID>\n<FileName>ieframe.dll</FileName>\n<FileID>00006d0eb2ff4d5864b11d4d010bbaa4b77f0c88f0cf</FileID>\n<Language>1033</Language>\n<FileVersion>11.00.9600.16428(winblue_gdr.131013-1700)</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 903,
+    "Timestamp": "2014-02-03 13:50:30.187645+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">903</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 13:50:30.187645+00:00\"></TimeCreated>\n<EventRecordID>41</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2888\" ThreadID=\"3788\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>TrueCrypt</Name>\n<Version>7.1a</Version>\n<Publisher>TrueCrypt Foundation</Publisher>\n<Language></Language>\n<Source>AddRemoveProgram</Source>\n<ProgramID>000021b2eee7abf1f4935a053fb96361c4bb0000ffff</ProgramID>\n<FileInstanceID>0000e27cfcb124ec8a71b33777f618755bd1670febf9</FileInstanceID>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 903,
+    "Timestamp": "2014-02-03 13:50:30.187645+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">903</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 13:50:30.187645+00:00\"></TimeCreated>\n<EventRecordID>42</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2888\" ThreadID=\"3788\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>KeePass Password Safe 2.24</Name>\n<Version>2.24</Version>\n<Publisher>Dominik Reichl</Publisher>\n<Language></Language>\n<Source>AddRemoveProgram</Source>\n<ProgramID>0000b06a4bb416171e25cf5ea2f10944446b0000ffff</ProgramID>\n<FileInstanceID>0000c46499ee4a70f4084471aa82d0b7da10e44f6778</FileInstanceID>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 903,
+    "Timestamp": "2014-02-03 13:50:30.187645+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">903</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 13:50:30.187645+00:00\"></TimeCreated>\n<EventRecordID>43</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2888\" ThreadID=\"3788\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Adobe Flash Player 12 ActiveX</Name>\n<Version>12.0.0.38</Version>\n<Publisher>Adobe Systems Incorporated</Publisher>\n<Language></Language>\n<Source>AddRemoveProgram</Source>\n<ProgramID>0000a270718b2243691e73050cff3845775b0000ffff</ProgramID>\n<FileInstanceID>0000da39a3ee5e6b4b0d3255bfef95601890afd80709</FileInstanceID>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 800,
+    "Timestamp": "2014-02-03 13:50:31.154846+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">800</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 13:50:31.154846+00:00\"></TimeCreated>\n<EventRecordID>44</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2888\" ThreadID=\"3788\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><SessionInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><StartTime>2014-02-03 13:50:24.696434+00:00</StartTime>\n<StopTime>2014-02-03 13:50:31.154846+00:00</StopTime>\n<ExitCode>223</ExitCode>\n<NumNewPrograms>3</NumNewPrograms>\n<NumRemovedPrograms>0</NumRemovedPrograms>\n<NumUpdatedPrograms>0</NumUpdatedPrograms>\n<NumInstalledPrograms>4</NumInstalledPrograms>\n<NumNewOrphans>5</NumNewOrphans>\n<NumNewAddOns>1</NumNewAddOns>\n<NumRemovedAddOns>0</NumRemovedAddOns>\n<NumUpdatedAddOns>1</NumUpdatedAddOns>\n<NumInstalledAddOns>36</NumInstalledAddOns>\n<NumNewInstallations>0</NumNewInstallations>\n</SessionInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-02-04 16:03:42.857277+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 16:03:42.857277+00:00\"></TimeCreated>\n<EventRecordID>45</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3268\" ThreadID=\"1632\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Windows Live ID Sign-in Control</Name>\n<Type>ActiveX</Type>\n<Publisher>Microsoft Corp.</Publisher>\n<CLSID>{d2517915-48ce-4286-970f-921e881b8c5c}</CLSID>\n<FileName>WindowsLiveLogin.dll</FileName>\n<FileID>0000325d32295808a6c4cef8de28da1fcc95a316b655</FileID>\n<Language>1033</Language>\n<FileVersion>7.250.4311.0</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-02-04 16:03:42.857277+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 16:03:42.857277+00:00\"></TimeCreated>\n<EventRecordID>46</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3268\" ThreadID=\"1632\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Windows Live ID Sign-in Helper</Name>\n<Type>BrowserHelperObject</Type>\n<Publisher>Microsoft Corp.</Publisher>\n<CLSID>{9030d464-4c02-4abf-8ecc-5164760863c6}</CLSID>\n<FileName>WindowsLiveLogin.dll</FileName>\n<FileID>0000325d32295808a6c4cef8de28da1fcc95a316b655</FileID>\n<Language>1033</Language>\n<FileVersion>7.250.4311.0</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 903,
+    "Timestamp": "2014-02-04 16:03:42.857277+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">903</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 16:03:42.857277+00:00\"></TimeCreated>\n<EventRecordID>47</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3268\" ThreadID=\"1632\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Windows Live Essentials</Name>\n<Version>16.4.3508.0205</Version>\n<Publisher>Microsoft Corporation</Publisher>\n<Language>9</Language>\n<Source>AddRemoveProgram</Source>\n<ProgramID>00000c8c623790c9b0d1bc2adc31011aa43700000900</ProgramID>\n<FileInstanceID>000032e81aff93ad69d3e91ce77db77872a964b87d29</FileInstanceID>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 903,
+    "Timestamp": "2014-02-04 16:03:42.857277+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">903</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 16:03:42.857277+00:00\"></TimeCreated>\n<EventRecordID>48</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3268\" ThreadID=\"1632\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Microsoft .NET Framework 4 Extended</Name>\n<Version>4.0.30319</Version>\n<Publisher>Microsoft Corporation</Publisher>\n<Language></Language>\n<Source>AddRemoveProgram</Source>\n<ProgramID>0000b466d18157d97df3301c665be82d3b960000ffff</ProgramID>\n<FileInstanceID>0000f0ffb67f2d479a55fcb3e859d914f59b61df7438</FileInstanceID>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 903,
+    "Timestamp": "2014-02-04 16:03:42.857277+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">903</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 16:03:42.857277+00:00\"></TimeCreated>\n<EventRecordID>49</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3268\" ThreadID=\"1632\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Microsoft .NET Framework 4 Client Profile</Name>\n<Version>4.0.30319</Version>\n<Publisher>Microsoft Corporation</Publisher>\n<Language></Language>\n<Source>AddRemoveProgram</Source>\n<ProgramID>0000d2ebf46831d2cb329af767293eb20cfd0000ffff</ProgramID>\n<FileInstanceID>0000cb4043a7cdb4e55854ba0fc46a83275efb34943b</FileInstanceID>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 904,
+    "Timestamp": "2014-02-04 16:03:42.857277+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">904</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 16:03:42.857277+00:00\"></TimeCreated>\n<EventRecordID>50</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3268\" ThreadID=\"1632\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Skype&#8482; 6.13</Name>\n<Version>6.13.104</Version>\n<Publisher>Skype Technologies S.A.</Publisher>\n<Language>1033</Language>\n<Source>Msi</Source>\n<ProgramID>00000de49e74efe68da5d66b74b70301e05b00000904</ProgramID>\n<FileInstanceID>0000d5ddc6d33574cb7d5d3aaef0e4b093a0ae49bb69</FileInstanceID>\n<MsiProductCode>{7A3C7E05-EE37-47D6-99E1-2EB05A3DA3F7}</MsiProductCode>\n<MsiPackageCode>{BB7839E7-C4C7-44B9-A4FE-02525FA21712}</MsiPackageCode>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 800,
+    "Timestamp": "2014-02-04 16:03:49.378088+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">800</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 16:03:49.378088+00:00\"></TimeCreated>\n<EventRecordID>51</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3268\" ThreadID=\"1632\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><SessionInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><StartTime>2014-02-04 16:02:58.631197+00:00</StartTime>\n<StopTime>2014-02-04 16:03:49.378088+00:00</StopTime>\n<ExitCode>223</ExitCode>\n<NumNewPrograms>4</NumNewPrograms>\n<NumRemovedPrograms>0</NumRemovedPrograms>\n<NumUpdatedPrograms>0</NumUpdatedPrograms>\n<NumInstalledPrograms>8</NumInstalledPrograms>\n<NumNewOrphans>41</NumNewOrphans>\n<NumNewAddOns>2</NumNewAddOns>\n<NumRemovedAddOns>0</NumRemovedAddOns>\n<NumUpdatedAddOns>0</NumUpdatedAddOns>\n<NumInstalledAddOns>38</NumInstalledAddOns>\n<NumNewInstallations>0</NumNewInstallations>\n</SessionInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 800,
+    "Timestamp": "2014-02-05 16:16:12.275789+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">800</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 16:16:12.275789+00:00\"></TimeCreated>\n<EventRecordID>52</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3552\" ThreadID=\"2072\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><SessionInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><StartTime>2014-02-05 16:15:44.741741+00:00</StartTime>\n<StopTime>2014-02-05 16:16:12.275789+00:00</StopTime>\n<ExitCode>400</ExitCode>\n<NumNewPrograms>0</NumNewPrograms>\n<NumRemovedPrograms>0</NumRemovedPrograms>\n<NumUpdatedPrograms>0</NumUpdatedPrograms>\n<NumInstalledPrograms>0</NumInstalledPrograms>\n<NumNewOrphans>0</NumNewOrphans>\n<NumNewAddOns>0</NumNewAddOns>\n<NumRemovedAddOns>0</NumRemovedAddOns>\n<NumUpdatedAddOns>0</NumUpdatedAddOns>\n<NumInstalledAddOns>0</NumInstalledAddOns>\n<NumNewInstallations>0</NumNewInstallations>\n</SessionInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 903,
+    "Timestamp": "2014-02-05 16:55:43.685957+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">903</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 16:55:43.685957+00:00\"></TimeCreated>\n<EventRecordID>53</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1952\" ThreadID=\"3280\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Security Update for Microsoft .NET Framework 4 Client Profile (KB2858302v2)</Name>\n<Version>2</Version>\n<Publisher>Microsoft Corporation</Publisher>\n<Language></Language>\n<Source>AddRemoveProgram</Source>\n<ProgramID>0000a046715ce416bcd162f5652c54debf290000ffff</ProgramID>\n<FileInstanceID>0000da39a3ee5e6b4b0d3255bfef95601890afd80709</FileInstanceID>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 903,
+    "Timestamp": "2014-02-05 16:55:43.685957+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">903</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 16:55:43.685957+00:00\"></TimeCreated>\n<EventRecordID>54</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1952\" ThreadID=\"3280\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Security Update for Microsoft .NET Framework 4 Client Profile (KB2840628v2)</Name>\n<Version>2</Version>\n<Publisher>Microsoft Corporation</Publisher>\n<Language></Language>\n<Source>AddRemoveProgram</Source>\n<ProgramID>00006c6c482693dade1d062d4716ab8d10b30000ffff</ProgramID>\n<FileInstanceID>0000da39a3ee5e6b4b0d3255bfef95601890afd80709</FileInstanceID>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 903,
+    "Timestamp": "2014-02-05 16:55:43.685957+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">903</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 16:55:43.685957+00:00\"></TimeCreated>\n<EventRecordID>55</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1952\" ThreadID=\"3280\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Security Update for Microsoft .NET Framework 4 Client Profile (KB2835393)</Name>\n<Version>1</Version>\n<Publisher>Microsoft Corporation</Publisher>\n<Language></Language>\n<Source>AddRemoveProgram</Source>\n<ProgramID>0000fcfcae49462abc77a3f666d888aba9de0000ffff</ProgramID>\n<FileInstanceID>0000da39a3ee5e6b4b0d3255bfef95601890afd80709</FileInstanceID>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 903,
+    "Timestamp": "2014-02-05 16:55:43.685957+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">903</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 16:55:43.685957+00:00\"></TimeCreated>\n<EventRecordID>56</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1952\" ThreadID=\"3280\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Security Update for Microsoft .NET Framework 4 Client Profile (KB2789642)</Name>\n<Version>1</Version>\n<Publisher>Microsoft Corporation</Publisher>\n<Language></Language>\n<Source>AddRemoveProgram</Source>\n<ProgramID>000054ee6d2ef25fdebc75d20920a04fb54f0000ffff</ProgramID>\n<FileInstanceID>0000da39a3ee5e6b4b0d3255bfef95601890afd80709</FileInstanceID>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 903,
+    "Timestamp": "2014-02-05 16:55:43.685957+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">903</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 16:55:43.685957+00:00\"></TimeCreated>\n<EventRecordID>57</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1952\" ThreadID=\"3280\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Security Update for Microsoft .NET Framework 4 Client Profile (KB2742595)</Name>\n<Version>1</Version>\n<Publisher>Microsoft Corporation</Publisher>\n<Language></Language>\n<Source>AddRemoveProgram</Source>\n<ProgramID>000088acf8e6e8f73f9c7af57dbe2d40bed00000ffff</ProgramID>\n<FileInstanceID>0000da39a3ee5e6b4b0d3255bfef95601890afd80709</FileInstanceID>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 903,
+    "Timestamp": "2014-02-05 16:55:43.685957+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">903</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 16:55:43.685957+00:00\"></TimeCreated>\n<EventRecordID>58</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1952\" ThreadID=\"3280\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Security Update for Microsoft .NET Framework 4 Client Profile (KB2737019)</Name>\n<Version>1</Version>\n<Publisher>Microsoft Corporation</Publisher>\n<Language></Language>\n<Source>AddRemoveProgram</Source>\n<ProgramID>0000a09b92734665c7194b694ae8044aeeeb0000ffff</ProgramID>\n<FileInstanceID>0000da39a3ee5e6b4b0d3255bfef95601890afd80709</FileInstanceID>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 903,
+    "Timestamp": "2014-02-05 16:55:43.685957+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">903</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 16:55:43.685957+00:00\"></TimeCreated>\n<EventRecordID>59</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1952\" ThreadID=\"3280\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Security Update for Microsoft .NET Framework 4 Client Profile (KB2736428)</Name>\n<Version>1</Version>\n<Publisher>Microsoft Corporation</Publisher>\n<Language></Language>\n<Source>AddRemoveProgram</Source>\n<ProgramID>0000f90cec7429fdac1ed33eb447913ef48c0000ffff</ProgramID>\n<FileInstanceID>0000da39a3ee5e6b4b0d3255bfef95601890afd80709</FileInstanceID>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 903,
+    "Timestamp": "2014-02-05 16:55:43.685957+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">903</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 16:55:43.685957+00:00\"></TimeCreated>\n<EventRecordID>60</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1952\" ThreadID=\"3280\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Security Update for Microsoft .NET Framework 4 Client Profile (KB2729449)</Name>\n<Version>1</Version>\n<Publisher>Microsoft Corporation</Publisher>\n<Language></Language>\n<Source>AddRemoveProgram</Source>\n<ProgramID>000070cb6952aec1ad4f37afd3ef436f9d410000ffff</ProgramID>\n<FileInstanceID>0000da39a3ee5e6b4b0d3255bfef95601890afd80709</FileInstanceID>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 903,
+    "Timestamp": "2014-02-05 16:55:43.685957+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">903</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 16:55:43.685957+00:00\"></TimeCreated>\n<EventRecordID>61</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1952\" ThreadID=\"3280\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Security Update for Microsoft .NET Framework 4 Client Profile (KB2604121)</Name>\n<Version>1</Version>\n<Publisher>Microsoft Corporation</Publisher>\n<Language></Language>\n<Source>AddRemoveProgram</Source>\n<ProgramID>0000fa5c2f2608d2abaa6468e14bca1ab7490000ffff</ProgramID>\n<FileInstanceID>0000da39a3ee5e6b4b0d3255bfef95601890afd80709</FileInstanceID>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 903,
+    "Timestamp": "2014-02-05 16:55:43.685957+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">903</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 16:55:43.685957+00:00\"></TimeCreated>\n<EventRecordID>62</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1952\" ThreadID=\"3280\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Security Update for Microsoft .NET Framework 4 Extended (KB2858302v2)</Name>\n<Version>2</Version>\n<Publisher>Microsoft Corporation</Publisher>\n<Language></Language>\n<Source>AddRemoveProgram</Source>\n<ProgramID>0000efcfbe3195f081a4d6ead7118238b4840000ffff</ProgramID>\n<FileInstanceID>0000da39a3ee5e6b4b0d3255bfef95601890afd80709</FileInstanceID>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 903,
+    "Timestamp": "2014-02-05 16:55:43.685957+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">903</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 16:55:43.685957+00:00\"></TimeCreated>\n<EventRecordID>63</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1952\" ThreadID=\"3280\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Security Update for Microsoft .NET Framework 4 Extended (KB2742595)</Name>\n<Version>1</Version>\n<Publisher>Microsoft Corporation</Publisher>\n<Language></Language>\n<Source>AddRemoveProgram</Source>\n<ProgramID>00001f74415bd748ff8f733c7458823b27480000ffff</ProgramID>\n<FileInstanceID>0000da39a3ee5e6b4b0d3255bfef95601890afd80709</FileInstanceID>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 903,
+    "Timestamp": "2014-02-05 16:55:43.685957+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">903</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 16:55:43.685957+00:00\"></TimeCreated>\n<EventRecordID>64</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1952\" ThreadID=\"3280\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Security Update for Microsoft .NET Framework 4 Extended (KB2736428)</Name>\n<Version>1</Version>\n<Publisher>Microsoft Corporation</Publisher>\n<Language></Language>\n<Source>AddRemoveProgram</Source>\n<ProgramID>000057ec638bc9271ebc1b668647caabbb480000ffff</ProgramID>\n<FileInstanceID>0000da39a3ee5e6b4b0d3255bfef95601890afd80709</FileInstanceID>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 903,
+    "Timestamp": "2014-02-05 16:55:43.685957+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">903</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 16:55:43.685957+00:00\"></TimeCreated>\n<EventRecordID>65</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1952\" ThreadID=\"3280\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Security Update for Microsoft .NET Framework 4 Extended (KB2487367)</Name>\n<Version>1</Version>\n<Publisher>Microsoft Corporation</Publisher>\n<Language></Language>\n<Source>AddRemoveProgram</Source>\n<ProgramID>000050b1a6ea01747e3e3ae11b7911e581070000ffff</ProgramID>\n<FileInstanceID>0000da39a3ee5e6b4b0d3255bfef95601890afd80709</FileInstanceID>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 905,
+    "Timestamp": "2014-02-05 16:55:43.685957+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">905</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 16:55:43.685957+00:00\"></TimeCreated>\n<EventRecordID>66</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1952\" ThreadID=\"3280\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Microsoft .NET Framework 4 Extended</Name>\n<Version>4.0.30319</Version>\n<Publisher>Microsoft Corporation</Publisher>\n<Language></Language>\n<Source>AddRemoveProgram</Source>\n<ProgramID>0000b466d18157d97df3301c665be82d3b960000ffff</ProgramID>\n<FileInstanceID>0000b0645d8aa89466212f0ad06b6b75d468c5e28513</FileInstanceID>\n<OldFileInstanceID>0000f0ffb67f2d479a55fcb3e859d914f59b61df7438</OldFileInstanceID>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 905,
+    "Timestamp": "2014-02-05 16:55:43.685957+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">905</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 16:55:43.685957+00:00\"></TimeCreated>\n<EventRecordID>67</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1952\" ThreadID=\"3280\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Microsoft .NET Framework 4 Client Profile</Name>\n<Version>4.0.30319</Version>\n<Publisher>Microsoft Corporation</Publisher>\n<Language></Language>\n<Source>AddRemoveProgram</Source>\n<ProgramID>0000d2ebf46831d2cb329af767293eb20cfd0000ffff</ProgramID>\n<FileInstanceID>00002131006867f56d133f28349271a55c2735793ade</FileInstanceID>\n<OldFileInstanceID>0000cb4043a7cdb4e55854ba0fc46a83275efb34943b</OldFileInstanceID>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 800,
+    "Timestamp": "2014-02-05 16:55:44.840359+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">800</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 16:55:44.840359+00:00\"></TimeCreated>\n<EventRecordID>68</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1952\" ThreadID=\"3280\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><SessionInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><StartTime>2014-02-05 16:55:19.661913+00:00</StartTime>\n<StopTime>2014-02-05 16:55:44.840359+00:00</StopTime>\n<ExitCode>223</ExitCode>\n<NumNewPrograms>13</NumNewPrograms>\n<NumRemovedPrograms>0</NumRemovedPrograms>\n<NumUpdatedPrograms>2</NumUpdatedPrograms>\n<NumInstalledPrograms>21</NumInstalledPrograms>\n<NumNewOrphans>4</NumNewOrphans>\n<NumNewAddOns>0</NumNewAddOns>\n<NumRemovedAddOns>0</NumRemovedAddOns>\n<NumUpdatedAddOns>0</NumUpdatedAddOns>\n<NumInstalledAddOns>38</NumInstalledAddOns>\n<NumNewInstallations>0</NumNewInstallations>\n</SessionInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 903,
+    "Timestamp": "2014-02-06 12:07:21.455986+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">903</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 12:07:21.455986+00:00\"></TimeCreated>\n<EventRecordID>69</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3056\" ThreadID=\"3248\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Mozilla Maintenance Service</Name>\n<Version>27.0</Version>\n<Publisher>Mozilla</Publisher>\n<Language></Language>\n<Source>AddRemoveProgram</Source>\n<ProgramID>000062a9b5cbd360e24f0bb0aeec8dfed82c0000ffff</ProgramID>\n<FileInstanceID>0000b63915a04b6a290eccfd6b13bccf056aa398116d</FileInstanceID>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 903,
+    "Timestamp": "2014-02-06 12:07:21.455986+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">903</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 12:07:21.455986+00:00\"></TimeCreated>\n<EventRecordID>70</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3056\" ThreadID=\"3248\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Mozilla Firefox 27.0 (x86 en-US)</Name>\n<Version>27.0</Version>\n<Publisher>Mozilla</Publisher>\n<Language></Language>\n<Source>AddRemoveProgram</Source>\n<ProgramID>0000fd8ef21441af64a9dfc7bc9bd367b6320000ffff</ProgramID>\n<FileInstanceID>0000c55a23da38e832bb7fc3f9a887a2ffb3be334a3f</FileInstanceID>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 800,
+    "Timestamp": "2014-02-06 12:07:24.731993+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">800</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 12:07:24.731993+00:00\"></TimeCreated>\n<EventRecordID>71</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3056\" ThreadID=\"3248\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><SessionInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><StartTime>2014-02-06 12:07:00.489550+00:00</StartTime>\n<StopTime>2014-02-06 12:07:24.731993+00:00</StopTime>\n<ExitCode>223</ExitCode>\n<NumNewPrograms>2</NumNewPrograms>\n<NumRemovedPrograms>0</NumRemovedPrograms>\n<NumUpdatedPrograms>0</NumUpdatedPrograms>\n<NumInstalledPrograms>23</NumInstalledPrograms>\n<NumNewOrphans>2</NumNewOrphans>\n<NumNewAddOns>0</NumNewAddOns>\n<NumRemovedAddOns>0</NumRemovedAddOns>\n<NumUpdatedAddOns>0</NumUpdatedAddOns>\n<NumInstalledAddOns>38</NumInstalledAddOns>\n<NumNewInstallations>0</NumNewInstallations>\n</SessionInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 800,
+    "Timestamp": "2014-02-07 13:09:43.541956+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">800</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 13:09:43.541956+00:00\"></TimeCreated>\n<EventRecordID>72</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3892\" ThreadID=\"1520\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><SessionInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><StartTime>2014-02-07 13:09:21.639519+00:00</StartTime>\n<StopTime>2014-02-07 13:09:43.541956+00:00</StopTime>\n<ExitCode>223</ExitCode>\n<NumNewPrograms>0</NumNewPrograms>\n<NumRemovedPrograms>0</NumRemovedPrograms>\n<NumUpdatedPrograms>0</NumUpdatedPrograms>\n<NumInstalledPrograms>23</NumInstalledPrograms>\n<NumNewOrphans>2</NumNewOrphans>\n<NumNewAddOns>0</NumNewAddOns>\n<NumRemovedAddOns>0</NumRemovedAddOns>\n<NumUpdatedAddOns>0</NumUpdatedAddOns>\n<NumInstalledAddOns>38</NumInstalledAddOns>\n<NumNewInstallations>0</NumNewInstallations>\n</SessionInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 900,
+    "Timestamp": "2014-02-10 15:43:48.025127+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">900</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 15:43:48.025127+00:00\"></TimeCreated>\n<EventRecordID>73</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3448\" ThreadID=\"2464\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><IEAddOnChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Adobe PDF Reader</Name>\n<Type>ActiveX</Type>\n<Publisher>Adobe Systems, Inc.</Publisher>\n<CLSID>{ca8a9780-280d-11cf-a24d-444553540000}</CLSID>\n<FileName>AcroPDF.dll</FileName>\n<FileID>0000cca330b84aea8e289cdf572cab1c69956f9aeaa6</FileID>\n<Language>1033</Language>\n<FileVersion>11.0.06.70</FileVersion>\n</IEAddOnChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 904,
+    "Timestamp": "2014-02-10 15:43:48.025127+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">904</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 15:43:48.025127+00:00\"></TimeCreated>\n<EventRecordID>74</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3448\" ThreadID=\"2464\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Adobe Reader XI (11.0.06)</Name>\n<Version>11.0.06</Version>\n<Publisher>Adobe Systems Incorporated</Publisher>\n<Language>1033</Language>\n<Source>Msi</Source>\n<ProgramID>00001de14ac0f5af84534116c7ec4890cd9600000904</ProgramID>\n<FileInstanceID>0000265e03e52b2045025eb3cc38a64b73e8703714c9</FileInstanceID>\n<MsiProductCode>{AC76BA86-7AD7-1033-7B44-AB0000000001}</MsiProductCode>\n<MsiPackageCode>{D4D01680-CBA4-47E0-BB20-755BDE5D1870}</MsiPackageCode>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 800,
+    "Timestamp": "2014-02-10 15:43:48.664728+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">800</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 15:43:48.664728+00:00\"></TimeCreated>\n<EventRecordID>75</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3448\" ThreadID=\"2464\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><SessionInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><StartTime>2014-02-10 15:43:16.091871+00:00</StartTime>\n<StopTime>2014-02-10 15:43:48.664728+00:00</StopTime>\n<ExitCode>223</ExitCode>\n<NumNewPrograms>1</NumNewPrograms>\n<NumRemovedPrograms>0</NumRemovedPrograms>\n<NumUpdatedPrograms>0</NumUpdatedPrograms>\n<NumInstalledPrograms>24</NumInstalledPrograms>\n<NumNewOrphans>4</NumNewOrphans>\n<NumNewAddOns>1</NumNewAddOns>\n<NumRemovedAddOns>0</NumRemovedAddOns>\n<NumUpdatedAddOns>0</NumUpdatedAddOns>\n<NumInstalledAddOns>39</NumInstalledAddOns>\n<NumNewInstallations>0</NumNewInstallations>\n</SessionInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 800,
+    "Timestamp": "2014-02-11 14:14:42.669008+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">800</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 14:14:42.669008+00:00\"></TimeCreated>\n<EventRecordID>76</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3148\" ThreadID=\"3160\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><SessionInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><StartTime>2014-02-11 14:14:14.947758+00:00</StartTime>\n<StopTime>2014-02-11 14:14:42.669008+00:00</StopTime>\n<ExitCode>223</ExitCode>\n<NumNewPrograms>0</NumNewPrograms>\n<NumRemovedPrograms>0</NumRemovedPrograms>\n<NumUpdatedPrograms>0</NumUpdatedPrograms>\n<NumInstalledPrograms>24</NumInstalledPrograms>\n<NumNewOrphans>3</NumNewOrphans>\n<NumNewAddOns>0</NumNewAddOns>\n<NumRemovedAddOns>0</NumRemovedAddOns>\n<NumUpdatedAddOns>0</NumUpdatedAddOns>\n<NumInstalledAddOns>39</NumInstalledAddOns>\n<NumNewInstallations>0</NumNewInstallations>\n</SessionInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 904,
+    "Timestamp": "2014-02-16 19:55:05.257458+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">904</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 19:55:05.257458+00:00\"></TimeCreated>\n<EventRecordID>77</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3188\" ThreadID=\"1588\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161</Name>\n<Version>9.0.30729.6161</Version>\n<Publisher>Microsoft Corporation</Publisher>\n<Language>1033</Language>\n<Source>Msi</Source>\n<ProgramID>0000cefe0311c4937cb18dd07637d57e45e700000904</ProgramID>\n<FileInstanceID>000017aa0d68b5bc41e3142a435ea99e789ce81efcc2</FileInstanceID>\n<MsiProductCode>{5FCE6D76-F5DC-37AB-B2B8-22AB8CEDB1D4}</MsiProductCode>\n<MsiPackageCode>{9C7D912C-6EDE-47A4-962E-7A83663440BA}</MsiPackageCode>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 904,
+    "Timestamp": "2014-02-16 19:55:05.257458+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">904</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 19:55:05.257458+00:00\"></TimeCreated>\n<EventRecordID>78</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3188\" ThreadID=\"1588\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161</Name>\n<Version>9.0.30729.6161</Version>\n<Publisher>Microsoft Corporation</Publisher>\n<Language>1033</Language>\n<Source>Msi</Source>\n<ProgramID>00008691777ad6859922fe285949af735d9300000904</ProgramID>\n<FileInstanceID>00004e0b191613941fea079aec55210ee8486f591065</FileInstanceID>\n<MsiProductCode>{9BE518E6-ECC6-35A9-88E4-87755C07200F}</MsiProductCode>\n<MsiPackageCode>{00073E4B-0EA7-48DB-9C41-FDA7E9BB4839}</MsiPackageCode>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 904,
+    "Timestamp": "2014-02-16 19:55:05.257458+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">904</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 19:55:05.257458+00:00\"></TimeCreated>\n<EventRecordID>79</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3188\" ThreadID=\"1588\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ProgramChangeInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><Name>OpenOffice 4.0.1</Name>\n<Version>4.01.9714</Version>\n<Publisher>Apache Software Foundation</Publisher>\n<Language>1033</Language>\n<Source>Msi</Source>\n<ProgramID>0000d4cb098a2100c66b66d53fa5731af97d00000904</ProgramID>\n<FileInstanceID>0000367800af10a9aa83625ff50721ead2eae1dd4b63</FileInstanceID>\n<MsiProductCode>{47F460DA-D1BE-4D85-8DF2-AA1F31D3445F}</MsiProductCode>\n<MsiPackageCode>{853A0B40-6E46-4F0D-B595-E90B806176C7}</MsiPackageCode>\n</ProgramChangeInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 800,
+    "Timestamp": "2014-02-16 19:55:06.739462+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">800</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 19:55:06.739462+00:00\"></TimeCreated>\n<EventRecordID>80</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3188\" ThreadID=\"1588\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><SessionInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><StartTime>2014-02-16 19:54:00.532946+00:00</StartTime>\n<StopTime>2014-02-16 19:55:06.739462+00:00</StopTime>\n<ExitCode>223</ExitCode>\n<NumNewPrograms>3</NumNewPrograms>\n<NumRemovedPrograms>0</NumRemovedPrograms>\n<NumUpdatedPrograms>0</NumUpdatedPrograms>\n<NumInstalledPrograms>27</NumInstalledPrograms>\n<NumNewOrphans>3</NumNewOrphans>\n<NumNewAddOns>0</NumNewAddOns>\n<NumRemovedAddOns>0</NumRemovedAddOns>\n<NumUpdatedAddOns>0</NumUpdatedAddOns>\n<NumInstalledAddOns>39</NumInstalledAddOns>\n<NumNewInstallations>0</NumNewInstallations>\n</SessionInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 800,
+    "Timestamp": "2014-02-19 14:08:12.063658+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">800</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 14:08:12.063658+00:00\"></TimeCreated>\n<EventRecordID>81</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3544\" ThreadID=\"2252\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><SessionInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><StartTime>2014-02-19 14:07:10.162750+00:00</StartTime>\n<StopTime>2014-02-19 14:08:12.063658+00:00</StopTime>\n<ExitCode>223</ExitCode>\n<NumNewPrograms>0</NumNewPrograms>\n<NumRemovedPrograms>0</NumRemovedPrograms>\n<NumUpdatedPrograms>0</NumUpdatedPrograms>\n<NumInstalledPrograms>27</NumInstalledPrograms>\n<NumNewOrphans>2</NumNewOrphans>\n<NumNewAddOns>0</NumNewAddOns>\n<NumRemovedAddOns>0</NumRemovedAddOns>\n<NumUpdatedAddOns>0</NumUpdatedAddOns>\n<NumInstalledAddOns>39</NumInstalledAddOns>\n<NumNewInstallations>0</NumNewInstallations>\n</SessionInfoEvent>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 800,
+    "Timestamp": "2014-02-20 15:22:39.826597+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Application-Experience/Program-Inventory",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-Application-Experience\" Guid=\"{eef54e71-0661-422d-9a98-82fd4940b820}\"></Provider>\n<EventID Qualifiers=\"\">800</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x0800000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-20 15:22:39.826597+00:00\"></TimeCreated>\n<EventRecordID>82</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1916\" ThreadID=\"2036\"></Execution>\n<Channel>Microsoft-Windows-Application-Experience/Program-Inventory</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><SessionInfoEvent xmlns:auto-ns2=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://www.microsoft.com/Windows/Diagnosis/PDU/events\"><StartTime>2014-02-20 15:22:39.826597+00:00</StartTime>\n<StopTime>2014-02-20 15:22:39.826597+00:00</StopTime>\n<ExitCode>200</ExitCode>\n<NumNewPrograms>0</NumNewPrograms>\n<NumRemovedPrograms>0</NumRemovedPrograms>\n<NumUpdatedPrograms>0</NumUpdatedPrograms>\n<NumInstalledPrograms>0</NumInstalledPrograms>\n<NumNewOrphans>0</NumNewOrphans>\n<NumNewAddOns>0</NumNewAddOns>\n<NumRemovedAddOns>0</NumRemovedAddOns>\n<NumUpdatedAddOns>0</NumUpdatedAddOns>\n<NumInstalledAddOns>0</NumInstalledAddOns>\n<NumNewInstallations>0</NumNewInstallations>\n</SessionInfoEvent>\n</UserData>\n</Event>\n"
+  }
+]

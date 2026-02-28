@@ -1,0 +1,146 @@
+.hitcount {
+	color: #000000;
+}
+
+.hitcount div {
+	margin-left: 10px;
+}
+
+#sortby {
+	float: right;
+}
+
+#filter_nav {
+	margin: 0;
+	margin-bottom: 2em;
+}
+
+.leftborder {
+	border-left: 1px solid #dddddd;
+}
+
+div.filter_category {
+	padding: 0;
+	margin-bottom: 1em;
+}
+
+div.filter_category h3, #leftcol div.filter_category h3 {
+	border: 0;
+	font-size: 13px;
+	background: none;
+	margin-top: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+	padding-bottom: 0;
+}
+
+p#mfg_select {
+	margin-top: 0px;
+}
+
+div.filter_grouping_nav, div.filter_grouping_nav_all, div.filter_grouping_nav_popular, div#selected_filters_nav, div.filter_grouping_nav ul, div.filter_grouping_nav_all ul, div.filter_grouping_nav_popular ul, div#selected_filters_nav ul {
+	margin: 0;
+	padding: 0;
+	padding-left: 0em;
+	padding-top: 1px;
+	padding-right: 5px;
+	list-style: none none;
+}
+
+div.filter_grouping_nav_all {
+	display: none;
+}
+
+div.filter_grouping_nav ul li, div.filter_grouping_nav_all ul li, div.filter_grouping_nav_popular ul li, div#selected_filters_nav ul li {
+	display: block;
+	margin-bottom: 0.4em;
+	padding: 0;
+	//margin-left: 5px;
+	background: transparent 0px 1px no-repeat scroll;
+}
+
+div#selected_filters_nav {
+	border-bottom: 1px solid #dddddd;
+}	
+
+div#selected_filters_nav li {
+	background-image: url(/images/icons/remove.gif) !important;
+	background-position: 1px 3px !important;
+	padding: 0 !important;
+}	
+
+div.filter_category a {
+	text-decoration: none;
+}
+
+div.filter_category a:hover {
+	text-decoration: underline;
+}
+
+div#selected_filters_nav ul li a 
+{
+	padding-left: 15px;
+}
+
+div#selected_filters_nav a:hover {
+	text-decoration: line-through !important;
+}
+
+.filter_count {
+	color: #666;
+	font-size: 11px;
+}
+
+ul.filter_group_nav {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 5px;
+	list-style: none none;
+}
+
+li.filter_group_nav_on {
+	display: none;
+	padding-left: 0;
+}
+
+li.filter_group_nav_off {
+	display: block;
+	margin: 0;
+	padding-left: 0;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+#results {
+	margin: 0;
+	padding: 0;
+	padding-left: 1em;
+}
+
+#expand_results_outer {
+	padding-top: 2em;
+}
+
+#expand_results_outer h2 {
+	display: block;
+	margin: 0;
+	font-size: 12px;
+}
+
+ul#expand_results_nav {
+	margin: 0;
+	padding-left: 0.25em;
+	list-style: none none;
+}
+
+ul#expand_results_nav li {
+	margin: 0;
+	list-style: none none;
+}
+
+div.custom {
+	font-size: 13px; margin-left: 195px; margin-bottom: 2em
+}
+
+div.custom b {font-size: 16px}

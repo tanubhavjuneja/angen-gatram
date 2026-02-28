@@ -1,0 +1,182 @@
+[
+  {
+    "EventID": 3000,
+    "Timestamp": "2014-01-25 04:24:45.299002+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-MUI/Operational",
+    "Level": "Information",
+    "EventData": {
+      "Flags": "264",
+      "NewLanguage": "(null)",
+      "PrevLanguage": "(null)",
+      "ExtendedFlag": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-MUI\" Guid=\"{a8a1f2f6-a13a-45e9-b1fe-3419569e5ef2}\"></Provider>\n<EventID Qualifiers=\"\">3000</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>30</Task>\n<Opcode>30</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:24:45.299002+00:00\"></TimeCreated>\n<EventRecordID>1</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"812\" ThreadID=\"280\"></Execution>\n<Channel>Microsoft-Windows-MUI/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"Flags\">264</Data>\n<Data Name=\"NewLanguage\">(null)</Data>\n<Data Name=\"PrevLanguage\">(null)</Data>\n<Data Name=\"ExtendedFlag\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 3002,
+    "Timestamp": "2014-01-25 04:24:45.455002+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-MUI/Operational",
+    "Level": "Information",
+    "EventData": {
+      "FileName": "c:\\windows\\system32\\muifontsetup.dll",
+      "FunctionName": "OnMachineUILanguageInit",
+      "ReturnValue": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-MUI\" Guid=\"{a8a1f2f6-a13a-45e9-b1fe-3419569e5ef2}\"></Provider>\n<EventID Qualifiers=\"\">3002</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>30</Task>\n<Opcode>31</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:24:45.455002+00:00\"></TimeCreated>\n<EventRecordID>2</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"812\" ThreadID=\"280\"></Execution>\n<Channel>Microsoft-Windows-MUI/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"FileName\">c:\\windows\\system32\\muifontsetup.dll</Data>\n<Data Name=\"FunctionName\">OnMachineUILanguageInit</Data>\n<Data Name=\"ReturnValue\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 3002,
+    "Timestamp": "2014-01-25 04:24:45.642204+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-MUI/Operational",
+    "Level": "Information",
+    "EventData": {
+      "FileName": "c:\\windows\\system32\\nci.dll",
+      "FunctionName": "OnMachineUILanguageInit",
+      "ReturnValue": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-MUI\" Guid=\"{a8a1f2f6-a13a-45e9-b1fe-3419569e5ef2}\"></Provider>\n<EventID Qualifiers=\"\">3002</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>30</Task>\n<Opcode>31</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:24:45.642204+00:00\"></TimeCreated>\n<EventRecordID>3</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"812\" ThreadID=\"280\"></Execution>\n<Channel>Microsoft-Windows-MUI/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"FileName\">c:\\windows\\system32\\nci.dll</Data>\n<Data Name=\"FunctionName\">OnMachineUILanguageInit</Data>\n<Data Name=\"ReturnValue\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 3002,
+    "Timestamp": "2014-01-25 04:24:46.921406+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-MUI/Operational",
+    "Level": "Information",
+    "EventData": {
+      "FileName": "c:\\windows\\system32\\samlib.dll",
+      "FunctionName": "OnMachineUILanguageInit",
+      "ReturnValue": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-MUI\" Guid=\"{a8a1f2f6-a13a-45e9-b1fe-3419569e5ef2}\"></Provider>\n<EventID Qualifiers=\"\">3002</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>30</Task>\n<Opcode>31</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:24:46.921406+00:00\"></TimeCreated>\n<EventRecordID>4</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"812\" ThreadID=\"280\"></Execution>\n<Channel>Microsoft-Windows-MUI/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"FileName\">c:\\windows\\system32\\samlib.dll</Data>\n<Data Name=\"FunctionName\">OnMachineUILanguageInit</Data>\n<Data Name=\"ReturnValue\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 3000,
+    "Timestamp": "2014-01-25 04:24:46.921406+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-MUI/Operational",
+    "Level": "Information",
+    "EventData": {
+      "Flags": "1",
+      "NewLanguage": "en-US",
+      "PrevLanguage": "en-US",
+      "ExtendedFlag": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-MUI\" Guid=\"{a8a1f2f6-a13a-45e9-b1fe-3419569e5ef2}\"></Provider>\n<EventID Qualifiers=\"\">3000</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>30</Task>\n<Opcode>30</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:24:46.921406+00:00\"></TimeCreated>\n<EventRecordID>5</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"812\" ThreadID=\"280\"></Execution>\n<Channel>Microsoft-Windows-MUI/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"Flags\">1</Data>\n<Data Name=\"NewLanguage\">en-US</Data>\n<Data Name=\"PrevLanguage\">en-US</Data>\n<Data Name=\"ExtendedFlag\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 3002,
+    "Timestamp": "2014-01-25 04:24:47.139807+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-MUI/Operational",
+    "Level": "Information",
+    "EventData": {
+      "FileName": "c:\\windows\\system32\\setbcdlocale.dll",
+      "FunctionName": "OnMachineUILanguageSwitch",
+      "ReturnValue": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-MUI\" Guid=\"{a8a1f2f6-a13a-45e9-b1fe-3419569e5ef2}\"></Provider>\n<EventID Qualifiers=\"\">3002</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>30</Task>\n<Opcode>31</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:24:47.139807+00:00\"></TimeCreated>\n<EventRecordID>6</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"812\" ThreadID=\"280\"></Execution>\n<Channel>Microsoft-Windows-MUI/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"FileName\">c:\\windows\\system32\\setbcdlocale.dll</Data>\n<Data Name=\"FunctionName\">OnMachineUILanguageSwitch</Data>\n<Data Name=\"ReturnValue\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 3002,
+    "Timestamp": "2014-01-25 04:24:47.311405+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-MUI/Operational",
+    "Level": "Information",
+    "EventData": {
+      "FileName": "c:\\windows\\system32\\muifontsetup.dll",
+      "FunctionName": "OnMachineUILanguageSwitch",
+      "ReturnValue": "512"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-MUI\" Guid=\"{a8a1f2f6-a13a-45e9-b1fe-3419569e5ef2}\"></Provider>\n<EventID Qualifiers=\"\">3002</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>30</Task>\n<Opcode>31</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:24:47.311405+00:00\"></TimeCreated>\n<EventRecordID>7</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"812\" ThreadID=\"280\"></Execution>\n<Channel>Microsoft-Windows-MUI/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"FileName\">c:\\windows\\system32\\muifontsetup.dll</Data>\n<Data Name=\"FunctionName\">OnMachineUILanguageSwitch</Data>\n<Data Name=\"ReturnValue\">512</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 3002,
+    "Timestamp": "2014-01-25 04:24:47.420607+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-MUI/Operational",
+    "Level": "Information",
+    "EventData": {
+      "FileName": "c:\\windows\\system32\\muilanguagecleanup.dll",
+      "FunctionName": "OnMachineUILanguageSwitch",
+      "ReturnValue": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-MUI\" Guid=\"{a8a1f2f6-a13a-45e9-b1fe-3419569e5ef2}\"></Provider>\n<EventID Qualifiers=\"\">3002</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>30</Task>\n<Opcode>31</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:24:47.420607+00:00\"></TimeCreated>\n<EventRecordID>8</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"812\" ThreadID=\"280\"></Execution>\n<Channel>Microsoft-Windows-MUI/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"FileName\">c:\\windows\\system32\\muilanguagecleanup.dll</Data>\n<Data Name=\"FunctionName\">OnMachineUILanguageSwitch</Data>\n<Data Name=\"ReturnValue\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 3003,
+    "Timestamp": "2014-01-25 04:24:47.483007+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-MUI/Operational",
+    "Level": "Information",
+    "EventData": {
+      "Parameter": "-m en-US "
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-MUI\" Guid=\"{a8a1f2f6-a13a-45e9-b1fe-3419569e5ef2}\"></Provider>\n<EventID Qualifiers=\"\">3003</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>31</Task>\n<Opcode>30</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:24:47.483007+00:00\"></TimeCreated>\n<EventRecordID>9</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1676\" ThreadID=\"1680\"></Execution>\n<Channel>Microsoft-Windows-MUI/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"Parameter\">-m en-US </Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 3002,
+    "Timestamp": "2014-01-25 04:24:47.623407+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-MUI/Operational",
+    "Level": "Information",
+    "EventData": {
+      "FileName": "c:\\windows\\system32\\timedatemuicallback.dll",
+      "FunctionName": "OnMachineUILanguageSwitch",
+      "ReturnValue": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-MUI\" Guid=\"{a8a1f2f6-a13a-45e9-b1fe-3419569e5ef2}\"></Provider>\n<EventID Qualifiers=\"\">3002</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>30</Task>\n<Opcode>31</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:24:47.623407+00:00\"></TimeCreated>\n<EventRecordID>10</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"812\" ThreadID=\"280\"></Execution>\n<Channel>Microsoft-Windows-MUI/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"FileName\">c:\\windows\\system32\\timedatemuicallback.dll</Data>\n<Data Name=\"FunctionName\">OnMachineUILanguageSwitch</Data>\n<Data Name=\"ReturnValue\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 3002,
+    "Timestamp": "2014-01-25 04:24:47.639008+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-MUI/Operational",
+    "Level": "Information",
+    "EventData": {
+      "FileName": "c:\\windows\\system32\\nci.dll",
+      "FunctionName": "OnMachineUILanguageSwitch",
+      "ReturnValue": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-MUI\" Guid=\"{a8a1f2f6-a13a-45e9-b1fe-3419569e5ef2}\"></Provider>\n<EventID Qualifiers=\"\">3002</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>30</Task>\n<Opcode>31</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:24:47.639008+00:00\"></TimeCreated>\n<EventRecordID>11</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"812\" ThreadID=\"280\"></Execution>\n<Channel>Microsoft-Windows-MUI/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"FileName\">c:\\windows\\system32\\nci.dll</Data>\n<Data Name=\"FunctionName\">OnMachineUILanguageSwitch</Data>\n<Data Name=\"ReturnValue\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 3007,
+    "Timestamp": "2014-01-25 04:25:00.399830+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-MUI/Operational",
+    "Level": "Information",
+    "EventData": {
+      "NewCacheIndex": "2",
+      "LiveCacheIndex": "2",
+      "Config": "3"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-MUI\" Guid=\"{a8a1f2f6-a13a-45e9-b1fe-3419569e5ef2}\"></Provider>\n<EventID Qualifiers=\"\">3007</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>31</Task>\n<Opcode>34</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:25:00.399830+00:00\"></TimeCreated>\n<EventRecordID>12</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1676\" ThreadID=\"1680\"></Execution>\n<Channel>Microsoft-Windows-MUI/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"NewCacheIndex\">2</Data>\n<Data Name=\"LiveCacheIndex\">2</Data>\n<Data Name=\"Config\">3</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 3003,
+    "Timestamp": "2014-01-25 16:24:37.520243+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-MUI/Operational",
+    "Level": "Information",
+    "EventData": {
+      "Parameter": "(null)"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-MUI\" Guid=\"{a8a1f2f6-a13a-45e9-b1fe-3419569e5ef2}\"></Provider>\n<EventID Qualifiers=\"\">3003</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>31</Task>\n<Opcode>30</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:24:37.520243+00:00\"></TimeCreated>\n<EventRecordID>13</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1596\" ThreadID=\"2052\"></Execution>\n<Channel>Microsoft-Windows-MUI/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"Parameter\">(null)</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 3007,
+    "Timestamp": "2014-01-25 16:25:35.599146+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-MUI/Operational",
+    "Level": "Information",
+    "EventData": {
+      "NewCacheIndex": "3",
+      "LiveCacheIndex": "3",
+      "Config": "3"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-MUI\" Guid=\"{a8a1f2f6-a13a-45e9-b1fe-3419569e5ef2}\"></Provider>\n<EventID Qualifiers=\"\">3007</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>31</Task>\n<Opcode>34</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:25:35.599146+00:00\"></TimeCreated>\n<EventRecordID>14</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1596\" ThreadID=\"2052\"></Execution>\n<Channel>Microsoft-Windows-MUI/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"NewCacheIndex\">3</Data>\n<Data Name=\"LiveCacheIndex\">3</Data>\n<Data Name=\"Config\">3</Data>\n</EventData>\n</Event>\n"
+  }
+]

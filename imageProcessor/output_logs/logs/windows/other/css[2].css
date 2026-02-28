@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Bevan';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://themes.googleusercontent.com/static/fonts/bevan/v5/ZRUOnkoGzgM5n00L6uhVOg.eot);
+  src: local('Bevan'), url(http://themes.googleusercontent.com/static/fonts/bevan/v5/ZRUOnkoGzgM5n00L6uhVOg.eot) format('embedded-opentype'), url(http://themes.googleusercontent.com/static/fonts/bevan/v5/kZxOvEFDTL6rhtQAWC2LTw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Marvel';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://themes.googleusercontent.com/static/fonts/marvel/v4/rQKzmESGGi6gyMeVaFWl9Q.eot);
+  src: local('Marvel'), local('Marvel-Regular'), url(http://themes.googleusercontent.com/static/fonts/marvel/v4/rQKzmESGGi6gyMeVaFWl9Q.eot) format('embedded-opentype'), url(http://themes.googleusercontent.com/static/fonts/marvel/v4/L2PPfTze83vDMefumW3xvw.woff) format('woff');
+}

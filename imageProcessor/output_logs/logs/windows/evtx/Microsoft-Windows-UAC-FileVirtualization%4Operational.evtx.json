@@ -1,0 +1,20 @@
+[
+  {
+    "EventID": 2007,
+    "Timestamp": "2014-02-03 12:30:18.945713+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-UAC-FileVirtualization/Operational",
+    "Level": "Error",
+    "EventData": {
+      "Flags": "0",
+      "SidLength": "28",
+      "Sid": "S-1-5-21-1171287513-3642516788-2358256967-1001",
+      "FileNameLength": "133",
+      "FileNameBuffer": "\\Device\\HarddiskVolume2\\Users\\BillyBob\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Low\\Content.IE5\\U6FJ09YU\\Scout[1].swf",
+      "ProcessImageNameLength": "74",
+      "ProcessImageNameBuffer": "\\Device\\HarddiskVolume2\\Program Files (x86)\\Internet Explorer\\iexplore.exe",
+      "Error": "3221225506"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-UAC-FileVirtualization\" Guid=\"{c02afc2b-e24e-4449-ad76-bcc2c2575ead}\"></Provider>\n<EventID Qualifiers=\"\">2007</EventID>\n<Version>0</Version>\n<Level>2</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 12:30:18.945713+00:00\"></TimeCreated>\n<EventRecordID>1</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"4072\" ThreadID=\"2628\"></Execution>\n<Channel>Microsoft-Windows-UAC-FileVirtualization/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"Flags\">0</Data>\n<Data Name=\"SidLength\">28</Data>\n<Data Name=\"Sid\">S-1-5-21-1171287513-3642516788-2358256967-1001</Data>\n<Data Name=\"FileNameLength\">133</Data>\n<Data Name=\"FileNameBuffer\">\\Device\\HarddiskVolume2\\Users\\BillyBob\\AppData\\Local\\Microsoft\\Windows\\Temporary Internet Files\\Low\\Content.IE5\\U6FJ09YU\\Scout[1].swf</Data>\n<Data Name=\"ProcessImageNameLength\">74</Data>\n<Data Name=\"ProcessImageNameBuffer\">\\Device\\HarddiskVolume2\\Program Files (x86)\\Internet Explorer\\iexplore.exe</Data>\n<Data Name=\"Error\">3221225506</Data>\n</EventData>\n</Event>\n"
+  }
+]

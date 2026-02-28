@@ -1,0 +1,65 @@
+[
+  {
+    "EventID": 823,
+    "Timestamp": "2014-01-25 01:27:57.607924+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-PrintService/Admin",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-PrintService\" Guid=\"{747ef6fd-e535-4d16-b510-42c90f6873a1}\"></Provider>\n<EventID Qualifiers=\"\">823</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>49</Task>\n<Opcode>11</Opcode>\n<Keywords>0x8000000000020000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 01:27:57.607924+00:00\"></TimeCreated>\n<EventRecordID>1</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1240\" ThreadID=\"1244\"></Execution>\n<Channel>Microsoft-Windows-PrintService/Admin</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<UserData><ChangingDefaultPrinter xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events\"><DefaultPrinterSelectedBySpooler>1</DefaultPrinterSelectedBySpooler>\n<OldDefaultPrinter></OldDefaultPrinter>\n<NewDefaultPrinter>Microsoft XPS Document Writer,winspool,Ne00:</NewDefaultPrinter>\n<Status>0x00000000</Status>\n<Module>spoolsv.exe</Module>\n</ChangingDefaultPrinter>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 808,
+    "Timestamp": "2014-01-25 13:27:30.138090+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-PrintService/Admin",
+    "Level": "Error",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-PrintService\" Guid=\"{747ef6fd-e535-4d16-b510-42c90f6873a1}\"></Provider>\n<EventID Qualifiers=\"\">808</EventID>\n<Version>0</Version>\n<Level>2</Level>\n<Task>36</Task>\n<Opcode>12</Opcode>\n<Keywords>0x8000000000020000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:27:30.138090+00:00\"></TimeCreated>\n<EventRecordID>2</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1176\" ThreadID=\"1200\"></Execution>\n<Channel>Microsoft-Windows-PrintService/Admin</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><LoadPluginFailed xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events\"><PluginDllName>localspl.dll</PluginDllName>\n<ErrorCode>0x00000020</ErrorCode>\n<Context>115</Context>\n</LoadPluginFailed>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 511,
+    "Timestamp": "2014-01-25 13:27:30.138090+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-PrintService/Admin",
+    "Level": "Error",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-PrintService\" Guid=\"{747ef6fd-e535-4d16-b510-42c90f6873a1}\"></Provider>\n<EventID Qualifiers=\"\">511</EventID>\n<Version>0</Version>\n<Level>2</Level>\n<Task>1</Task>\n<Opcode>12</Opcode>\n<Keywords>0x8000000000002800</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:27:30.138090+00:00\"></TimeCreated>\n<EventRecordID>3</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1176\" ThreadID=\"1200\"></Execution>\n<Channel>Microsoft-Windows-PrintService/Admin</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><RouterError xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events\"><Name>localspl.dll</Name>\n<Error>0x00000020</Error>\n</RouterError>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 503,
+    "Timestamp": "2014-01-25 13:27:30.138090+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-PrintService/Admin",
+    "Level": "Error",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-PrintService\" Guid=\"{747ef6fd-e535-4d16-b510-42c90f6873a1}\"></Provider>\n<EventID Qualifiers=\"\">503</EventID>\n<Version>0</Version>\n<Level>2</Level>\n<Task>39</Task>\n<Opcode>12</Opcode>\n<Keywords>0x8000000000002800</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:27:30.138090+00:00\"></TimeCreated>\n<EventRecordID>4</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1176\" ThreadID=\"1200\"></Execution>\n<Channel>Microsoft-Windows-PrintService/Admin</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><RouterError xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events\"><Name>-</Name>\n<Error>0x00000020</Error>\n</RouterError>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 823,
+    "Timestamp": "2014-01-25 13:32:39.379927+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-PrintService/Admin",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-PrintService\" Guid=\"{747ef6fd-e535-4d16-b510-42c90f6873a1}\"></Provider>\n<EventID Qualifiers=\"\">823</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>49</Task>\n<Opcode>11</Opcode>\n<Keywords>0x8000000000020000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:32:39.379927+00:00\"></TimeCreated>\n<EventRecordID>5</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1160\" ThreadID=\"1184\"></Execution>\n<Channel>Microsoft-Windows-PrintService/Admin</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><ChangingDefaultPrinter xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events\"><DefaultPrinterSelectedBySpooler>1</DefaultPrinterSelectedBySpooler>\n<OldDefaultPrinter></OldDefaultPrinter>\n<NewDefaultPrinter>Microsoft XPS Document Writer,winspool,Ne00:</NewDefaultPrinter>\n<Status>0x00000000</Status>\n<Module>spoolsv.exe</Module>\n</ChangingDefaultPrinter>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 823,
+    "Timestamp": "2014-01-25 18:25:42.210306+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-PrintService/Admin",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-PrintService\" Guid=\"{747ef6fd-e535-4d16-b510-42c90f6873a1}\"></Provider>\n<EventID Qualifiers=\"\">823</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>49</Task>\n<Opcode>11</Opcode>\n<Keywords>0x8000000000020000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:25:42.210306+00:00\"></TimeCreated>\n<EventRecordID>6</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1248\" ThreadID=\"1252\"></Execution>\n<Channel>Microsoft-Windows-PrintService/Admin</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1003\"></Security>\n</System>\n<UserData><ChangingDefaultPrinter xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events\"><DefaultPrinterSelectedBySpooler>1</DefaultPrinterSelectedBySpooler>\n<OldDefaultPrinter></OldDefaultPrinter>\n<NewDefaultPrinter>Microsoft XPS Document Writer,winspool,Ne00:</NewDefaultPrinter>\n<Status>0x00000000</Status>\n<Module>spoolsv.exe</Module>\n</ChangingDefaultPrinter>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 823,
+    "Timestamp": "2014-01-25 18:27:39.952915+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-PrintService/Admin",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-PrintService\" Guid=\"{747ef6fd-e535-4d16-b510-42c90f6873a1}\"></Provider>\n<EventID Qualifiers=\"\">823</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>49</Task>\n<Opcode>11</Opcode>\n<Keywords>0x8000000000020000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:27:39.952915+00:00\"></TimeCreated>\n<EventRecordID>7</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1248\" ThreadID=\"1252\"></Execution>\n<Channel>Microsoft-Windows-PrintService/Admin</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1004\"></Security>\n</System>\n<UserData><ChangingDefaultPrinter xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"http://manifests.microsoft.com/win/2005/08/windows/printing/spooler/core/events\"><DefaultPrinterSelectedBySpooler>1</DefaultPrinterSelectedBySpooler>\n<OldDefaultPrinter></OldDefaultPrinter>\n<NewDefaultPrinter>Microsoft XPS Document Writer,winspool,Ne00:</NewDefaultPrinter>\n<Status>0x00000000</Status>\n<Module>spoolsv.exe</Module>\n</ChangingDefaultPrinter>\n</UserData>\n</Event>\n"
+  }
+]

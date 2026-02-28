@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-03-01T00:26:59.871116",
+  "output_dir": "c:\\Users\\Tanubhav Juneja\\Desktop\\projects\\Angen Gatram\\forensic_output\\Windows_Evidence_002",
+  "file_analysis": {
+    "files_by_priority": {
+      "critical": [],
+      "important": [],
+      "standard": []
+    },
+    "files_analyzed": {
+      "critical": [],
+      "important": [],
+      "standard": []
+    },
+    "total_files": 0
+  },
+  "evidence": {
+    "timestomping": {
+      "future_dates": [],
+      "zero_timestamps": [],
+      "identical_timestamps": [],
+      "total_checked": 0
+    },
+    "shadow_copies": {
+      "extend_exists": false,
+      "system_volume_info": false,
+      "indicators": []
+    },
+    "alternate_data_streams": {
+      "total_found": 0,
+      "zone_identifier": 0,
+      "samples": []
+    },
+    "file_deletion": {
+      "orphans": 0,
+      "deleted_entries": 0,
+      "recycle_bin": false
+    },
+    "registry": {
+      "hives_found": [],
+      "tool_indicators": []
+    },
+    "logs": {
+      "event_logs": 0,
+      "log_files": []
+    }
+  },
+  "context": {
+    "system_prompt": "You are an expert forensic analyst specializing in digital forensics and anti-forensic technique detection. Your role is to analyze extracted disk image artifacts and identify evidence of anti-forensic activities.\n\nKNOWLEDGE AREAS:\n- Windows NTFS filesystem forensics\n- Master File Table (MFT) analysis\n- USN Journal interpretation\n- Registry forensics (SAM, SECURITY, SOFTWARE, SYSTEM hives)\n- Volume Shadow Copy (VSS) analysis\n- Alternate Data Streams (ADS)\n- Timestomping techniques\n- Log manipulation and clearing\n- Common anti-forensic tools (Timestomp, CCleaner, BleachBit, etc.)\n\nRESPONSE REQUIREMENTS:\n1. Provide reasoning for each finding\n2. Distinguish between normal Windows behavior and suspicious activity\n3. Correlate findings across multiple artifacts\n4. Assign severity levels with justification\n5. Suggest specific follow-up investigations",
+    "evidence_summary": "\nEVIDENCE SUMMARY\n================\n\nTIMESTOMPING ANALYSIS:\n- Files with future dates: 0\n- Zero timestamps: 0\n- Total timeline entries analyzed: 0\n- Sample future dates: []\n\nSHADOW COPY STATUS:\n- $Extend exists: False\n- System Volume Information: False\n- Other indicators: []\n\nALTERNATE DATA STREAMS:\n- Total ADS found: 0\n- Zone.Identifier (downloaded): 0\n- Samples: []\n\nFILE DELETION:\n- Orphaned files: 0\n- Deleted MFT entries: 0\n- Recycle Bin present: False\n\nREGISTRY:\n- Hives found: []\n- Tool indicators: []\n\nLOG FILES:\n- Event logs (.evtx): 0\n",
+    "analysis_instructions": "\nTASK:\nAnalyze the extracted forensic artifacts and produce a structured analysis report.\n\nFOR EACH FINDING, PROVIDE:\n1. Technique detected (e.g., timestomping, shadow copy deletion)\n2. Severity (LOW/MEDIUM/HIGH/CRITICAL)\n3. Evidence: Specific file entries or data that supports the finding\n4. Explanation: WHY this indicates anti-forensic activity vs normal behavior\n5. Recommendation: Specific follow-up investigation steps\n\nCORRELATE ACROSS ARTIFACTS:\n- Timestomping: Cross-reference timeline with USN journal timestamps\n- Deletion: Check MFT deleted entries + Recycle Bin + orphan files\n- Shadow Copies: Verify $Extend + System Volume Information status\n- ADS: Note which files have streams and their types\n\nFINAL OUTPUT:\nProvide a JSON object with your findings (schema below).\n",
+    "json_output_schema": "\nJSON Output Schema:\n{\n  \"findings\": [\n    {\n      \"technique\": \"timestomping|shadow_deletion|ads|deletion|registry_tampering|log_clearing|other\",\n      \"severity\": \"LOW|MEDIUM|HIGH|CRITICAL\",\n      \"evidence\": \"Specific data supporting this finding\",\n      \"explanation\": \"Detailed reasoning for why this is/isn't suspicious\",\n      \"recommendation\": \"Specific follow-up investigation\",\n      \"file_source\": \"Which artifact file contains this evidence\"\n    }\n  ],\n  \"summary\": \"Overall assessment in 2-3 sentences\",\n  \"risk_level\": \"LOW|MEDIUM|HIGH|CRITICAL\",\n  \"recommendations\": [\"List of general recommendations\"]\n}\n"
+  },
+  "statistics": {
+    "total_files_processed": 0,
+    "total_size_bytes": 0,
+    "total_size_mb": 0.0,
+    "files_by_priority": {
+      "critical": 0,
+      "important": 0,
+      "standard": 0
+    }
+  }
+}

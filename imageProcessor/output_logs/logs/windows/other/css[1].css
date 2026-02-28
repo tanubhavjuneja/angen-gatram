@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Nobile';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Nobile'), local('Nobile-Regular'), url(https://themes.googleusercontent.com/static/fonts/nobile/v5/LJdSuYk02E6wtyvk5bnaeA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Nobile';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Nobile Bold'), local('Nobile-Bold'), url(https://themes.googleusercontent.com/static/fonts/nobile/v5/W-bwIcGmtt6wHyJeSNFUXz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}

@@ -1,0 +1,508 @@
+import { useState, useEffect, useRef } from 'react';
+import {
+  HardDrive,
+  FileSearch,
+  AlertTriangle,
+  Shield,
+  Clock,
+  Download,
+  Loader2,
+  CheckCircle,
+  XCircle,
+  RefreshCw,
+  Activity,
+  Target,
+  Lightbulb,
+  FolderOpen,
+  Upload,
+} from 'lucide-react';
+import {
+  getForensicHealth,
+  startForensicAnalysis,
+  getForensicStatus,
+  getForensicResults,
+  downloadForensicPdf,
+  getDrives,
+  browseDirectory,
+  selectImage,
+  type ForensicHealthResponse,
+  type ForensicResultsResponse,
+  type FileItem,
+} from './api';
+
+function App() {
+  const [health, setHealth] = useState<ForensicHealthResponse | null>(null);
+  const [imagePath, setImagePath] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [taskId, setTaskId] = useState<string | null>(null);
+  const [progress, setProgress] = useState(0);
+  const [stage, setStage] = useState('');
+  const [message, setMessage] = useState('');
+  const [results, setResults] = useState<ForensicResultsResponse | null>(null);
+  const [error, setError] = useState<string | null>(null);
+  const pollRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  
+  // File browser state
+  const [showFileBrowser, setShowFileBrowser] = useState(false);
+  const [drives, setDrives] = useState<string[]>([]);
+  const [currentPath, setCurrentPath] = useState('C:/');
+  const [browseItems, setBrowseItems] = useState<FileItem[]>([]);
+  const [browseLoading, setBrowseLoading] = useState(false);
+
+  const openFileBrowser = async () => {
+    setShowFileBrowser(true);
+    setBrowseLoading(true);
+    try {
+      const driveData = await getDrives();
+      setDrives(driveData.drives);
+      if (driveData.drives.length > 0) {
+        setCurrentPath(driveData.drives[0]);
+        const browseData = await browseDirectory(driveData.drives[0]);
+        setBrowseItems(browseData.items);
+      }
+    } catch (err) {
+      console.error('Failed to load drives:', err);
+    }
+    setBrowseLoading(false);
+  };
+
+  const navigateTo = async (path: string) => {
+    setBrowseLoading(true);
+    setCurrentPath(path);
+    try {
+      const data = await browseDirectory(path);
+      setBrowseItems(data.items);
+    } catch (err) {
+      console.error('Failed to browse:', err);
+    }
+    setBrowseLoading(false);
+  };
+
+  const selectFile = async (item: FileItem) => {
+    if (item.is_dir) {
+      await navigateTo(item.path);
+    } else {
+      const result = await selectImage(item.path);
+      if (result.valid && result.path) {
+        setImagePath(result.path);
+        setShowFileBrowser(false);
+      } else {
+        setError(result.error || 'Invalid file selected');
+      }
+    }
+  };
+
+  const goUp = () => {
+    const parts = currentPath.replace(/\\/g, '/').split('/').filter(Boolean);
+    if (parts.length > 1) {
+      parts.pop();
+      const newPath = parts.join('/');
+      navigateTo(newPath.length === 1 ? newPath + ':/' : newPath + '/');
+    }
+  };
+
+  useEffect(() => {
+    checkHealth();
+    return () => {
+      if (pollRef.current) clearInterval(pollRef.current);
+    };
+  }, []);
+
+  const checkHealth = async () => {
+    try {
+      const h = await getForensicHealth();
+      setHealth(h);
+    } catch {
+      setHealth({ status: 'unavailable', pipeline_available: false });
+    }
+  };
+
+  const startAnalysis = async () => {
+    if (!imagePath.trim()) return;
+
+    setLoading(true);
+    setError(null);
+    setMessage('Starting forensic analysis...');
+
+    try {
+      const response = await startForensicAnalysis(imagePath.trim());
+      setTaskId(response.task_id);
+      setMessage('Analysis queued...');
+
+      pollRef.current = setInterval(async () => {
+        try {
+          const status = await getForensicStatus(response.task_id);
+          setProgress(status.progress);
+          setStage(status.stage);
+          setMessage(status.message);
+
+          if (status.status === 'completed') {
+            if (pollRef.current) {
+              clearInterval(pollRef.current);
+              pollRef.current = null;
+            }
+            const resultsData = await getForensicResults(response.task_id);
+            setResults(resultsData);
+            setLoading(false);
+          } else if (status.status === 'failed') {
+            if (pollRef.current) {
+              clearInterval(pollRef.current);
+              pollRef.current = null;
+            }
+            setError(status.error || 'Analysis failed');
+            setLoading(false);
+          }
+        } catch (err) {
+          console.error('Error polling status:', err);
+        }
+      }, 2000);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to start analysis');
+      setLoading(false);
+    }
+  };
+
+  const reset = () => {
+    setImagePath('');
+    setTaskId(null);
+    setProgress(0);
+    setStage('');
+    setMessage('');
+    setResults(null);
+    setError(null);
+    if (pollRef.current) {
+      clearInterval(pollRef.current);
+      pollRef.current = null;
+    }
+  };
+
+  const handleDownloadPdf = async () => {
+    if (!taskId) return;
+    try {
+      await downloadForensicPdf(taskId);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to download PDF');
+    }
+  };
+
+  const getSeverityColor = (severity: string) => {
+    switch (severity.toUpperCase()) {
+      case 'CRITICAL': return { bg: '#fee2e2', text: '#dc2626', border: '#ef4444' };
+      case 'HIGH': return { bg: '#ffedd5', text: '#ea580c', border: '#f97316' };
+      case 'MEDIUM': return { bg: '#fef9c3', text: '#ca8a04', border: '#eab308' };
+      case 'LOW': return { bg: '#dcfce7', text: '#16a34a', border: '#22c55e' };
+      default: return { bg: '#f3f4f6', text: '#6b7280', border: '#9ca3af' };
+    }
+  };
+
+  const getRiskBadge = (risk: string) => {
+    switch (risk.toLowerCase()) {
+      case 'critical': return { bg: '#dc2626', text: 'white' };
+      case 'high': return { bg: '#ea580c', text: 'white' };
+      case 'medium': return { bg: '#ca8a04', text: 'white' };
+      case 'low': return { bg: '#16a34a', text: 'white' };
+      default: return { bg: '#6b7280', text: 'white' };
+    }
+  };
+
+  return (
+    <div className="app">
+      <header className="header">
+        <div className="header-content">
+          <div className="logo">
+            <HardDrive size={32} />
+            <h1>Forensic Disk Analyzer</h1>
+          </div>
+          <div className="status-badge">
+            {health?.pipeline_available ? (
+              <span className="badge success"><Shield size={14} /> Ready</span>
+            ) : (
+              <span className="badge error"><XCircle size={14} /> Unavailable</span>
+            )}
+          </div>
+        </div>
+      </header>
+
+      <main className="main">
+        {!results ? (
+          <div className="upload-section">
+            <div className="card">
+              <div className="card-header">
+                <FileSearch size={28} />
+                <h2>Disk Image Analysis</h2>
+              </div>
+              <p className="description">
+                Analyze disk images (.E01, .DD, .RAW, .IMG) for anti-forensic techniques
+                including timestomping, shadow copy deletion, ADS, and more.
+              </p>
+
+              <div className="input-group">
+                <FolderOpen size={20} />
+                <input
+                  type="text"
+                  placeholder="Enter path to disk image file..."
+                  value={imagePath}
+                  onChange={(e) => setImagePath(e.target.value)}
+                  onKeyDown={(e) => e.key === 'Enter' && !loading && startAnalysis()}
+                  disabled={loading}
+                />
+                <button
+                  type="button"
+                  className="btn-icon"
+                  onClick={openFileBrowser}
+                  disabled={loading}
+                  title="Browse for file"
+                >
+                  <Upload size={18} />
+                </button>
+              </div>
+
+              <button
+                className="btn primary"
+                onClick={startAnalysis}
+                disabled={loading || !imagePath.trim() || !health?.pipeline_available}
+              >
+                {loading ? <Loader2 className="spin" size={20} /> : <FileSearch size={20} />}
+                {loading ? 'Analyzing...' : 'Start Analysis'}
+              </button>
+
+              {loading && (
+                <div className="progress-section">
+                  <div className="progress-bar">
+                    <div className="progress-fill" style={{ width: `${progress}%` }} />
+                  </div>
+                  <div className="progress-info">
+                    <span className="stage">{stage}</span>
+                    <span className="percent">{progress}%</span>
+                  </div>
+                  <p className="message">{message}</p>
+                </div>
+              )}
+
+              {error && (
+                <div className="error-message">
+                  <AlertTriangle size={20} />
+                  {error}
+                </div>
+              )}
+
+              {showFileBrowser && (
+                <div className="file-browser-overlay">
+                  <div className="file-browser-modal">
+                    <div className="browser-header">
+                      <h3>Select Disk Image</h3>
+                      <button className="btn-close" onClick={() => setShowFileBrowser(false)}>×</button>
+                    </div>
+                    
+                    <div className="browser-drives">
+                      {drives.map(drive => (
+                        <button
+                          key={drive}
+                          className={`drive-btn ${currentPath.startsWith(drive) ? 'active' : ''}`}
+                          onClick={() => navigateTo(drive)}
+                        >
+                          {drive}
+                        </button>
+                      ))}
+                    </div>
+
+                    <div className="browser-path">
+                      <button onClick={goUp} disabled={!currentPath.match(/^[A-Z]:\\/)}>↑ Up</button>
+                      <span>{currentPath}</span>
+                    </div>
+
+                    <div className="browser-content">
+                      {browseLoading ? (
+                        <div className="browser-loading"><Loader2 className="spin" /> Loading...</div>
+                      ) : (
+                        <div className="browser-items">
+                          {browseItems.slice(0, 100).map(item => (
+                            <div
+                              key={item.path}
+                              className={`browser-item ${item.is_dir ? 'folder' : 'file'}`}
+                              onClick={() => selectFile(item)}
+                            >
+                              {item.is_dir ? '📁' : '📄'} {item.name}
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+
+                    <div className="browser-help">
+                      Click on folders to navigate, files to select. Supported: .dd, .raw, .img, .e01
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        ) : (
+          <div className="results-section">
+            <div className="results-header">
+              <div className="header-info">
+                <Shield size={32} className="shield-icon" />
+                <div>
+                  <h2>Analysis Complete</h2>
+                  <p className="meta">
+                    <Clock size={14} /> {new Date(results.timestamp).toLocaleString()} |
+                    Model: {results.model} |
+                    Time: {results.analysis_time_seconds.toFixed(1)}s
+                  </p>
+                </div>
+              </div>
+              <div className="header-actions">
+                <button className="btn" onClick={handleDownloadPdf}>
+                  <Download size={18} /> Download PDF
+                </button>
+                <button className="btn" onClick={reset}>
+                  <RefreshCw size={18} /> New Analysis
+                </button>
+              </div>
+            </div>
+
+            <div className="risk-banner" style={{ backgroundColor: getRiskBadge(results.risk_level).bg }}>
+              <Activity size={24} style={{ color: getRiskBadge(results.risk_level).text }} />
+              <span style={{ color: getRiskBadge(results.risk_level).text }}>
+                Risk Level: {results.risk_level}
+              </span>
+            </div>
+
+            <div className="card summary-card">
+              <h3><Target size={20} /> Summary</h3>
+              <p>{results.summary}</p>
+            </div>
+
+            {results.timestamp_analysis && Object.keys(results.timestamp_analysis).length > 0 && (
+              <div className="card timestamp-card">
+                <h3><Clock size={20} /> Timestamp Integrity Analysis</h3>
+                
+                {Object.entries(results.timestamp_analysis).map(([partition, data]: [string, any]) => (
+                  <div key={partition} className="timestamp-partition">
+                    <h4>{partition.replace('_', ' ').toUpperCase()}</h4>
+                    
+                    {data.usn_journal_status && (
+                      <div className="usn-status">
+                        <span className={`status-badge ${data.usn_journal_status.found ? 'found' : 'missing'}`}>
+                          {data.usn_journal_status.found ? 'USN Journal Found' : 'USN Journal Missing'}
+                        </span>
+                        {data.usn_journal_status.error && (
+                          <p className="usn-error">{data.usn_journal_status.error}</p>
+                        )}
+                      </div>
+                    )}
+                    
+                    {data.time_gaps && data.time_gaps.length > 0 && (
+                      <div className="time-gaps-section">
+                        <h5>Time Gaps in USN Journal</h5>
+                        {data.time_gaps.map((gap: any, idx: number) => (
+                          <div key={idx} className="time-gap-item">
+                            <span className="gap-seconds">{gap.gap_seconds}s</span>
+                            <span className="gap-hours">({gap.gap_hours} hours, {gap.gap_days} days)</span>
+                            <p className="gap-range">
+                              {gap.from_timestamp} → {gap.to_timestamp}
+                            </p>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                    
+                    {data.inconsistencies && data.inconsistencies.length > 0 ? (
+                      <div className="inconsistencies-list">
+                        <h5>Timestamp Inconsistencies ({data.inconsistencies.length})</h5>
+                        {data.inconsistencies.map((inc: any, idx: number) => (
+                          <div 
+                            key={idx} 
+                            className="inconsistency-item"
+                            style={{
+                              borderLeftColor: inc.severity === 'high' ? '#ef4444' : inc.severity === 'medium' ? '#eab308' : '#6b7280',
+                            }}
+                          >
+                            <span className={`severity-badge ${inc.severity}`}>
+                              {inc.severity?.toUpperCase()}
+                            </span>
+                            <span className="inc-type">{inc.type}</span>
+                            <p className="inc-message">{inc.message}</p>
+                            {inc.description && <p className="inc-desc">{inc.description}</p>}
+                          </div>
+                        ))}
+                      </div>
+                    ) : (
+                      <p className="no-issues">No timestamp inconsistencies detected</p>
+                    )}
+                    
+                    <p className="partition-summary">
+                      {data.total_mft_entries} MFT entries, {data.total_usn_records} USN records analyzed
+                    </p>
+                  </div>
+                ))}
+                
+                <details className="raw-data-toggle">
+                  <summary>View Raw Data</summary>
+                  <pre style={{whiteSpace: 'pre-wrap', color: '#9ca3af', fontSize: '12px'}}>
+{JSON.stringify(results.timestamp_analysis, null, 2)}
+                  </pre>
+                </details>
+              </div>
+            )}
+
+            <div className="findings-grid">
+              {results.findings.map((finding, idx) => (
+                <div
+                  key={idx}
+                  className="card finding-card"
+                  style={{
+                    borderColor: getSeverityColor(finding.severity).border,
+                    backgroundColor: getSeverityColor(finding.severity).bg,
+                  }}
+                >
+                  <div className="finding-header">
+                    <span
+                      className="severity-badge"
+                      style={{
+                        backgroundColor: getSeverityColor(finding.severity).text,
+                        color: 'white',
+                      }}
+                    >
+                      {finding.severity}
+                    </span>
+                    <span className="confidence">
+                      {Math.round(finding.confidence * 100)}% confidence
+                    </span>
+                  </div>
+                  <h4>{finding.technique}</h4>
+                  <p className="evidence"><strong>Evidence:</strong> {finding.evidence}</p>
+                  <p className="explanation">{finding.explanation}</p>
+                  <p className="recommendation">
+                    <Lightbulb size={14} />
+                    <strong>Recommendation:</strong> {finding.recommendation}
+                  </p>
+                </div>
+              ))}
+              {results.findings.length === 0 && (
+                <div className="card no-findings">
+                  <CheckCircle size={48} />
+                  <h3>No Anti-Forest Indicators Found</h3>
+                  <p>The analysis did not find evidence of anti-forensic techniques in this image.</p>
+                </div>
+              )}
+            </div>
+
+            {results.recommendations.length > 0 && (
+              <div className="card recommendations-card">
+                <h3><Lightbulb size={20} /> Recommendations</h3>
+                <ul>
+                  {results.recommendations.map((rec, idx) => (
+                    <li key={idx}>{rec}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </div>
+        )}
+      </main>
+    </div>
+  );
+}
+
+export default App;

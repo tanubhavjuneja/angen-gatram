@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  tsk:
+    build:
+      context: ./tsk
+      dockerfile: Dockerfile
+    container_name: tsk-forensics
+    volumes:
+      - ./images:/forensics/images
+      - ./output:/forensics/output
+    stdin_open: true
+    tty: true
+    networks:
+      - forensic-net
+
+networks:
+  forensic-net:
+    driver: bridge

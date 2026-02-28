@@ -1,0 +1,1339 @@
+[
+  {
+    "EventID": 1017,
+    "Timestamp": "2014-01-25 04:20:19.555378+00:00",
+    "Computer": "37L4247F27-25",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "DeviceName": "Unknown Unknown"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1017</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1019</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000004000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:20:19.555378+00:00\"></TimeCreated>\n<EventRecordID>1</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"844\" ThreadID=\"1148\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>37L4247F27-25</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"DeviceName\">Unknown Unknown</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-01-25 04:20:29.944996+00:00",
+    "Computer": "37L4247F27-25",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-01-24 20:20:29.851397+00:00",
+      "ErrorCode": "232",
+      "Duration (ms)": "94",
+      "Reason": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:20:29.944996+00:00\"></TimeCreated>\n<EventRecordID>2</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"844\" ThreadID=\"1792\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>37L4247F27-25</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-01-24 20:20:29.851397+00:00</Data>\n<Data Name=\"ErrorCode\">232</Data>\n<Data Name=\"Duration (ms)\">94</Data>\n<Data Name=\"Reason\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1009,
+    "Timestamp": "2014-01-25 04:25:23.940271+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "DeviceName": "Unknown Unknown",
+      "IntValue": "99",
+      "SecondIntValue": "235"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1009</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1019</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000004000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:25:23.940271+00:00\"></TimeCreated>\n<EventRecordID>3</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"864\" ThreadID=\"1388\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"DeviceName\">Unknown Unknown</Data>\n<Data Name=\"IntValue\">99</Data>\n<Data Name=\"SecondIntValue\">235</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1015,
+    "Timestamp": "2014-01-25 04:25:34.392288+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RB_IoReadBytes": "673628160",
+      "RB_CacheHitBytes": "0",
+      "RB_PrefetchBytes": "0",
+      "RB_CacheHitPercentage": "0.0",
+      "RB_IoReadCount": "24567",
+      "RB_CacheHitCount": "0",
+      "RB_PrefetchReadCount": "0",
+      "RB_PrefetchDiskTimeUs": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1015</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:25:34.392288+00:00\"></TimeCreated>\n<EventRecordID>4</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"864\" ThreadID=\"1936\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"RB_IoReadBytes\">673628160</Data>\n<Data Name=\"RB_CacheHitBytes\">0</Data>\n<Data Name=\"RB_PrefetchBytes\">0</Data>\n<Data Name=\"RB_CacheHitPercentage\">0.0</Data>\n<Data Name=\"RB_IoReadCount\">24567</Data>\n<Data Name=\"RB_CacheHitCount\">0</Data>\n<Data Name=\"RB_PrefetchReadCount\">0</Data>\n<Data Name=\"RB_PrefetchDiskTimeUs\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-01-25 04:25:34.735489+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-01-24 20:25:33.986689+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "749",
+      "Reason": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:25:34.735489+00:00\"></TimeCreated>\n<EventRecordID>5</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"864\" ThreadID=\"1936\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-01-24 20:25:33.986689+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">749</Data>\n<Data Name=\"Reason\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-01-25 01:32:57.153202+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-01-24 20:30:27.960989+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "65535",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 01:32:57.153202+00:00\"></TimeCreated>\n<EventRecordID>6</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"864\" ThreadID=\"2356\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-01-24 20:30:27.960989+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">65535</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-01-25 01:57:44.811016+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-01-24 20:57:18.150570+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "26661",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 01:57:44.811016+00:00\"></TimeCreated>\n<EventRecordID>7</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"864\" ThreadID=\"1688\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-01-24 20:57:18.150570+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">26661</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1015,
+    "Timestamp": "2014-01-25 13:27:26.035282+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RB_IoReadBytes": "363815424",
+      "RB_CacheHitBytes": "51946496",
+      "RB_PrefetchBytes": "409096192",
+      "RB_CacheHitPercentage": "0.24400522317188983",
+      "RB_IoReadCount": "16848",
+      "RB_CacheHitCount": "4111",
+      "RB_PrefetchReadCount": "7659",
+      "RB_PrefetchDiskTimeUs": "35338127"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1015</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:27:26.035282+00:00\"></TimeCreated>\n<EventRecordID>8</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"800\" ThreadID=\"1784\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"RB_IoReadBytes\">363815424</Data>\n<Data Name=\"RB_CacheHitBytes\">51946496</Data>\n<Data Name=\"RB_PrefetchBytes\">409096192</Data>\n<Data Name=\"RB_CacheHitPercentage\">0.24400522317188983</Data>\n<Data Name=\"RB_IoReadCount\">16848</Data>\n<Data Name=\"RB_CacheHitCount\">4111</Data>\n<Data Name=\"RB_PrefetchReadCount\">7659</Data>\n<Data Name=\"RB_PrefetchDiskTimeUs\">35338127</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-01-25 13:27:26.409685+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-01-25 08:26:25.163977+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "61246",
+      "Reason": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:27:26.409685+00:00\"></TimeCreated>\n<EventRecordID>9</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"800\" ThreadID=\"1784\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-01-25 08:26:25.163977+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">61246</Data>\n<Data Name=\"Reason\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-01-25 13:30:54.280840+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-01-25 08:30:15.935972+00:00",
+      "ErrorCode": "995",
+      "Duration (ms)": "38345",
+      "Reason": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:30:54.280840+00:00\"></TimeCreated>\n<EventRecordID>10</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"800\" ThreadID=\"1284\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-01-25 08:30:15.935972+00:00</Data>\n<Data Name=\"ErrorCode\">995</Data>\n<Data Name=\"Duration (ms)\">38345</Data>\n<Data Name=\"Reason\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1015,
+    "Timestamp": "2014-01-25 13:33:09.123980+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RB_IoReadBytes": "377582080",
+      "RB_CacheHitBytes": "130541568",
+      "RB_PrefetchBytes": "629080064",
+      "RB_CacheHitPercentage": "0.6644011877268229",
+      "RB_IoReadCount": "15155",
+      "RB_CacheHitCount": "10069",
+      "RB_PrefetchReadCount": "14151",
+      "RB_PrefetchDiskTimeUs": "87936055"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1015</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:33:09.123980+00:00\"></TimeCreated>\n<EventRecordID>11</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"808\" ThreadID=\"340\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"RB_IoReadBytes\">377582080</Data>\n<Data Name=\"RB_CacheHitBytes\">130541568</Data>\n<Data Name=\"RB_PrefetchBytes\">629080064</Data>\n<Data Name=\"RB_CacheHitPercentage\">0.6644011877268229</Data>\n<Data Name=\"RB_IoReadCount\">15155</Data>\n<Data Name=\"RB_CacheHitCount\">10069</Data>\n<Data Name=\"RB_PrefetchReadCount\">14151</Data>\n<Data Name=\"RB_PrefetchDiskTimeUs\">87936055</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-01-25 13:33:09.576380+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-01-25 08:33:06.456375+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "3120",
+      "Reason": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:33:09.576380+00:00\"></TimeCreated>\n<EventRecordID>12</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"808\" ThreadID=\"340\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-01-25 08:33:06.456375+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">3120</Data>\n<Data Name=\"Reason\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1015,
+    "Timestamp": "2014-01-25 13:54:19.602962+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RB_IoReadBytes": "345200640",
+      "RB_CacheHitBytes": "135123968",
+      "RB_PrefetchBytes": "278810624",
+      "RB_CacheHitPercentage": "0.6345894194181907",
+      "RB_IoReadCount": "16294",
+      "RB_CacheHitCount": "10340",
+      "RB_PrefetchReadCount": "8711",
+      "RB_PrefetchDiskTimeUs": "70798419"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1015</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:54:19.602962+00:00\"></TimeCreated>\n<EventRecordID>13</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"808\" ThreadID=\"2984\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"RB_IoReadBytes\">345200640</Data>\n<Data Name=\"RB_CacheHitBytes\">135123968</Data>\n<Data Name=\"RB_PrefetchBytes\">278810624</Data>\n<Data Name=\"RB_CacheHitPercentage\">0.6345894194181907</Data>\n<Data Name=\"RB_IoReadCount\">16294</Data>\n<Data Name=\"RB_CacheHitCount\">10340</Data>\n<Data Name=\"RB_PrefetchReadCount\">8711</Data>\n<Data Name=\"RB_PrefetchDiskTimeUs\">70798419</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-01-25 13:54:20.008564+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-01-25 08:54:05.984138+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "14025",
+      "Reason": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:54:20.008564+00:00\"></TimeCreated>\n<EventRecordID>14</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"808\" ThreadID=\"2984\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-01-25 08:54:05.984138+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">14025</Data>\n<Data Name=\"Reason\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1017,
+    "Timestamp": "2014-01-25 13:57:27.598892+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "DeviceName": "Unknown Unknown"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1017</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1019</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000004000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:57:27.598892+00:00\"></TimeCreated>\n<EventRecordID>15</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"808\" ThreadID=\"1380\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"DeviceName\">Unknown Unknown</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1017,
+    "Timestamp": "2014-01-25 13:58:57.751451+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "DeviceName": "Unknown Unknown"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1017</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1019</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000004000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:58:57.751451+00:00\"></TimeCreated>\n<EventRecordID>16</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"808\" ThreadID=\"1380\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"DeviceName\">Unknown Unknown</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1009,
+    "Timestamp": "2014-01-25 14:00:25.860405+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "DeviceName": "Unknown Unknown",
+      "IntValue": "209",
+      "SecondIntValue": "235"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1009</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1019</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000004000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 14:00:25.860405+00:00\"></TimeCreated>\n<EventRecordID>17</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"808\" ThreadID=\"1380\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"DeviceName\">Unknown Unknown</Data>\n<Data Name=\"IntValue\">209</Data>\n<Data Name=\"SecondIntValue\">235</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1015,
+    "Timestamp": "2014-01-25 15:26:31.853642+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RB_IoReadBytes": "430611456",
+      "RB_CacheHitBytes": "144953344",
+      "RB_PrefetchBytes": "205258752",
+      "RB_CacheHitPercentage": "0.745704945398901",
+      "RB_IoReadCount": "14377",
+      "RB_CacheHitCount": "10721",
+      "RB_PrefetchReadCount": "6729",
+      "RB_PrefetchDiskTimeUs": "54445206"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1015</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 15:26:31.853642+00:00\"></TimeCreated>\n<EventRecordID>18</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"904\" ThreadID=\"2316\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"RB_IoReadBytes\">430611456</Data>\n<Data Name=\"RB_CacheHitBytes\">144953344</Data>\n<Data Name=\"RB_PrefetchBytes\">205258752</Data>\n<Data Name=\"RB_CacheHitPercentage\">0.745704945398901</Data>\n<Data Name=\"RB_IoReadCount\">14377</Data>\n<Data Name=\"RB_CacheHitCount\">10721</Data>\n<Data Name=\"RB_PrefetchReadCount\">6729</Data>\n<Data Name=\"RB_PrefetchDiskTimeUs\">54445206</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-01-25 15:26:32.368441+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-01-25 10:26:25.083229+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "7286",
+      "Reason": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 15:26:32.368441+00:00\"></TimeCreated>\n<EventRecordID>19</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"904\" ThreadID=\"2316\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-01-25 10:26:25.083229+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">7286</Data>\n<Data Name=\"Reason\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1017,
+    "Timestamp": "2014-01-25 15:43:56.483479+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "DeviceName": "Unknown Unknown"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1017</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1019</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000004000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 15:43:56.483479+00:00\"></TimeCreated>\n<EventRecordID>20</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"904\" ThreadID=\"1452\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"DeviceName\">Unknown Unknown</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1017,
+    "Timestamp": "2014-01-25 15:44:11.951506+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "DeviceName": "Unknown Unknown"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1017</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1019</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000004000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 15:44:11.951506+00:00\"></TimeCreated>\n<EventRecordID>21</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"904\" ThreadID=\"1452\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"DeviceName\">Unknown Unknown</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1018,
+    "Timestamp": "2014-01-25 16:14:48.161928+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "DiskAssessmentTimestamp": "2014-01-25 11:14:31.797501+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "16365"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1018</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:48.161928+00:00\"></TimeCreated>\n<EventRecordID>22</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"904\" ThreadID=\"2784\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"DiskAssessmentTimestamp\">2014-01-25 11:14:31.797501+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">16365</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-01-25 16:27:17.935326+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-01-25 11:27:12.974516+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "4961",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:27:17.935326+00:00\"></TimeCreated>\n<EventRecordID>23</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"904\" ThreadID=\"2720\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-01-25 11:27:12.974516+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">4961</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1015,
+    "Timestamp": "2014-01-25 18:20:43.470182+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RB_IoReadBytes": "311670272",
+      "RB_CacheHitBytes": "133933568",
+      "RB_PrefetchBytes": "219406336",
+      "RB_CacheHitPercentage": "0.8096998882105082",
+      "RB_IoReadCount": "11629",
+      "RB_CacheHitCount": "9416",
+      "RB_PrefetchReadCount": "6975",
+      "RB_PrefetchDiskTimeUs": "55100187"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1015</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:20:43.470182+00:00\"></TimeCreated>\n<EventRecordID>24</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"2288\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"RB_IoReadBytes\">311670272</Data>\n<Data Name=\"RB_CacheHitBytes\">133933568</Data>\n<Data Name=\"RB_PrefetchBytes\">219406336</Data>\n<Data Name=\"RB_CacheHitPercentage\">0.8096998882105082</Data>\n<Data Name=\"RB_IoReadCount\">11629</Data>\n<Data Name=\"RB_CacheHitCount\">9416</Data>\n<Data Name=\"RB_PrefetchReadCount\">6975</Data>\n<Data Name=\"RB_PrefetchDiskTimeUs\">55100187</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-01-25 18:20:44.406183+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-01-25 13:20:33.189764+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "11217",
+      "Reason": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:20:44.406183+00:00\"></TimeCreated>\n<EventRecordID>25</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"2288\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-01-25 13:20:33.189764+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">11217</Data>\n<Data Name=\"Reason\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1017,
+    "Timestamp": "2014-01-25 18:22:18.877150+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "DeviceName": "Unknown Unknown"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1017</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1019</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000004000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:22:18.877150+00:00\"></TimeCreated>\n<EventRecordID>26</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"1432\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"DeviceName\">Unknown Unknown</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1017,
+    "Timestamp": "2014-01-25 18:22:19.157951+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "DeviceName": "Unknown Unknown"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1017</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1019</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000004000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:22:19.157951+00:00\"></TimeCreated>\n<EventRecordID>27</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"1432\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"DeviceName\">Unknown Unknown</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1017,
+    "Timestamp": "2014-01-25 18:22:19.547951+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "DeviceName": "Unknown Unknown"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1017</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1019</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000004000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:22:19.547951+00:00\"></TimeCreated>\n<EventRecordID>28</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"1432\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"DeviceName\">Unknown Unknown</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1009,
+    "Timestamp": "2014-01-25 18:22:19.688351+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "DeviceName": "Unknown Unknown",
+      "IntValue": "213",
+      "SecondIntValue": "235"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1009</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1019</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000004000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:22:19.688351+00:00\"></TimeCreated>\n<EventRecordID>29</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"1432\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"DeviceName\">Unknown Unknown</Data>\n<Data Name=\"IntValue\">213</Data>\n<Data Name=\"SecondIntValue\">235</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1015,
+    "Timestamp": "2014-01-29 12:29:00.364014+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RB_IoReadBytes": "257530368",
+      "RB_CacheHitBytes": "102356992",
+      "RB_PrefetchBytes": "163463168",
+      "RB_CacheHitPercentage": "0.8742168104976947",
+      "RB_IoReadCount": "8459",
+      "RB_CacheHitCount": "7395",
+      "RB_PrefetchReadCount": "4787",
+      "RB_PrefetchDiskTimeUs": "27967939"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1015</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 12:29:00.364014+00:00\"></TimeCreated>\n<EventRecordID>30</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"900\" ThreadID=\"1988\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"RB_IoReadBytes\">257530368</Data>\n<Data Name=\"RB_CacheHitBytes\">102356992</Data>\n<Data Name=\"RB_PrefetchBytes\">163463168</Data>\n<Data Name=\"RB_CacheHitPercentage\">0.8742168104976947</Data>\n<Data Name=\"RB_IoReadCount\">8459</Data>\n<Data Name=\"RB_CacheHitCount\">7395</Data>\n<Data Name=\"RB_PrefetchReadCount\">4787</Data>\n<Data Name=\"RB_PrefetchDiskTimeUs\">27967939</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-01-29 12:29:01.066013+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-01-29 07:28:47.930792+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "13135",
+      "Reason": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 12:29:01.066013+00:00\"></TimeCreated>\n<EventRecordID>31</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"900\" ThreadID=\"1988\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-01-29 07:28:47.930792+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">13135</Data>\n<Data Name=\"Reason\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-01-29 12:44:14.220964+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-01-29 07:43:16.589464+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "57611",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 12:44:14.220964+00:00\"></TimeCreated>\n<EventRecordID>32</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"900\" ThreadID=\"2116\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-01-29 07:43:16.589464+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">57611</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-01-29 13:23:55.848225+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-01-29 08:23:54.023022+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "1825",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 13:23:55.848225+00:00\"></TimeCreated>\n<EventRecordID>33</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"900\" ThreadID=\"3300\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-01-29 08:23:54.023022+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">1825</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-01-29 14:31:00.671419+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-01-29 09:30:59.033415+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "1638",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 14:31:00.671419+00:00\"></TimeCreated>\n<EventRecordID>34</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"900\" ThreadID=\"1968\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-01-29 09:30:59.033415+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">1638</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1015,
+    "Timestamp": "2014-02-03 12:03:02.193571+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RB_IoReadBytes": "310430720",
+      "RB_CacheHitBytes": "116873216",
+      "RB_PrefetchBytes": "169009152",
+      "RB_CacheHitPercentage": "0.740737369139736",
+      "RB_IoReadCount": "10985",
+      "RB_CacheHitCount": "8137",
+      "RB_PrefetchReadCount": "4811",
+      "RB_PrefetchDiskTimeUs": "26113363"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1015</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 12:03:02.193571+00:00\"></TimeCreated>\n<EventRecordID>35</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"900\" ThreadID=\"1512\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"RB_IoReadBytes\">310430720</Data>\n<Data Name=\"RB_CacheHitBytes\">116873216</Data>\n<Data Name=\"RB_PrefetchBytes\">169009152</Data>\n<Data Name=\"RB_CacheHitPercentage\">0.740737369139736</Data>\n<Data Name=\"RB_IoReadCount\">10985</Data>\n<Data Name=\"RB_CacheHitCount\">8137</Data>\n<Data Name=\"RB_PrefetchReadCount\">4811</Data>\n<Data Name=\"RB_PrefetchDiskTimeUs\">26113363</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-03 12:03:02.801971+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-03 07:02:53.925556+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "8876",
+      "Reason": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 12:03:02.801971+00:00\"></TimeCreated>\n<EventRecordID>36</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"900\" ThreadID=\"1512\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-03 07:02:53.925556+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">8876</Data>\n<Data Name=\"Reason\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-03 12:17:12.419746+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-03 07:16:27.239655+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "45162",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 12:17:12.419746+00:00\"></TimeCreated>\n<EventRecordID>37</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"900\" ThreadID=\"3692\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-03 07:16:27.239655+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">45162</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-03 12:57:00.950266+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-03 07:56:58.859859+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "2091",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 12:57:00.950266+00:00\"></TimeCreated>\n<EventRecordID>38</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"900\" ThreadID=\"2472\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-03 07:56:58.859859+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">2091</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-03 13:31:35.988136+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-03 08:31:34.833735+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "1154",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 13:31:35.988136+00:00\"></TimeCreated>\n<EventRecordID>39</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"900\" ThreadID=\"3984\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-03 08:31:34.833735+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">1154</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-03 13:52:56.437902+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-03 08:52:55.065098+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "1373",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 13:52:56.437902+00:00\"></TimeCreated>\n<EventRecordID>40</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"900\" ThreadID=\"3328\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-03 08:52:55.065098+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">1373</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1009,
+    "Timestamp": "2014-02-03 15:20:51.245167+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "DeviceName": "LEXAR JUMPDRIVE",
+      "IntValue": "122",
+      "SecondIntValue": "235"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1009</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1019</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000004000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 15:20:51.245167+00:00\"></TimeCreated>\n<EventRecordID>41</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"900\" ThreadID=\"1488\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"DeviceName\">LEXAR JUMPDRIVE</Data>\n<Data Name=\"IntValue\">122</Data>\n<Data Name=\"SecondIntValue\">235</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1015,
+    "Timestamp": "2014-02-04 14:12:40.762794+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RB_IoReadBytes": "265636352",
+      "RB_CacheHitBytes": "116049408",
+      "RB_PrefetchBytes": "161853440",
+      "RB_CacheHitPercentage": "0.6225185634186998",
+      "RB_IoReadCount": "13198",
+      "RB_CacheHitCount": "8216",
+      "RB_PrefetchReadCount": "4527",
+      "RB_PrefetchDiskTimeUs": "25868250"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1015</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 14:12:40.762794+00:00\"></TimeCreated>\n<EventRecordID>42</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"1860\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"RB_IoReadBytes\">265636352</Data>\n<Data Name=\"RB_CacheHitBytes\">116049408</Data>\n<Data Name=\"RB_PrefetchBytes\">161853440</Data>\n<Data Name=\"RB_CacheHitPercentage\">0.6225185634186998</Data>\n<Data Name=\"RB_IoReadCount\">13198</Data>\n<Data Name=\"RB_CacheHitCount\">8216</Data>\n<Data Name=\"RB_PrefetchReadCount\">4527</Data>\n<Data Name=\"RB_PrefetchDiskTimeUs\">25868250</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-04 14:12:41.511597+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-04 09:12:35.926786+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "5585",
+      "Reason": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 14:12:41.511597+00:00\"></TimeCreated>\n<EventRecordID>43</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"1860\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-04 09:12:35.926786+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">5585</Data>\n<Data Name=\"Reason\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-04 15:02:56.487627+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-04 10:01:51.903509+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "64585",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 15:02:56.487627+00:00\"></TimeCreated>\n<EventRecordID>44</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"3396\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-04 10:01:51.903509+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">64585</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-04 15:16:06.304304+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-04 10:12:59.846008+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "65535",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 15:16:06.304304+00:00\"></TimeCreated>\n<EventRecordID>45</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"2636\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-04 10:12:59.846008+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">65535</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1015,
+    "Timestamp": "2014-02-05 13:31:31.948545+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RB_IoReadBytes": "265479680",
+      "RB_CacheHitBytes": "124044800",
+      "RB_PrefetchBytes": "142331904",
+      "RB_CacheHitPercentage": "0.6455876830642133",
+      "RB_IoReadCount": "13315",
+      "RB_CacheHitCount": "8596",
+      "RB_PrefetchReadCount": "4051",
+      "RB_PrefetchDiskTimeUs": "21521659"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1015</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 13:31:31.948545+00:00\"></TimeCreated>\n<EventRecordID>46</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"928\" ThreadID=\"1928\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"RB_IoReadBytes\">265479680</Data>\n<Data Name=\"RB_CacheHitBytes\">124044800</Data>\n<Data Name=\"RB_PrefetchBytes\">142331904</Data>\n<Data Name=\"RB_CacheHitPercentage\">0.6455876830642133</Data>\n<Data Name=\"RB_IoReadCount\">13315</Data>\n<Data Name=\"RB_CacheHitCount\">8596</Data>\n<Data Name=\"RB_PrefetchReadCount\">4051</Data>\n<Data Name=\"RB_PrefetchDiskTimeUs\">21521659</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-05 13:31:32.962547+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-05 08:31:28.922140+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "4040",
+      "Reason": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 13:31:32.962547+00:00\"></TimeCreated>\n<EventRecordID>47</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"928\" ThreadID=\"1928\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-05 08:31:28.922140+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">4040</Data>\n<Data Name=\"Reason\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-05 13:48:07.008295+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-05 08:48:01.860287+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "5148",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 13:48:07.008295+00:00\"></TimeCreated>\n<EventRecordID>48</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"928\" ThreadID=\"3160\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-05 08:48:01.860287+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">5148</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-05 17:14:38.338348+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-05 12:14:36.856346+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "1482",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 17:14:38.338348+00:00\"></TimeCreated>\n<EventRecordID>49</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"928\" ThreadID=\"2236\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-05 12:14:36.856346+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">1482</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1015,
+    "Timestamp": "2014-02-06 11:21:33.926361+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RB_IoReadBytes": "230210560",
+      "RB_CacheHitBytes": "128120832",
+      "RB_PrefetchBytes": "152010752",
+      "RB_CacheHitPercentage": "0.8092049419975479",
+      "RB_IoReadCount": "10603",
+      "RB_CacheHitCount": "8580",
+      "RB_PrefetchReadCount": "4261",
+      "RB_PrefetchDiskTimeUs": "28330078"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1015</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 11:21:33.926361+00:00\"></TimeCreated>\n<EventRecordID>50</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"888\" ThreadID=\"1952\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"RB_IoReadBytes\">230210560</Data>\n<Data Name=\"RB_CacheHitBytes\">128120832</Data>\n<Data Name=\"RB_PrefetchBytes\">152010752</Data>\n<Data Name=\"RB_CacheHitPercentage\">0.8092049419975479</Data>\n<Data Name=\"RB_IoReadCount\">10603</Data>\n<Data Name=\"RB_CacheHitCount\">8580</Data>\n<Data Name=\"RB_PrefetchReadCount\">4261</Data>\n<Data Name=\"RB_PrefetchDiskTimeUs\">28330078</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-06 11:21:34.971563+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-06 06:21:28.060749+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "6911",
+      "Reason": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 11:21:34.971563+00:00\"></TimeCreated>\n<EventRecordID>51</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"888\" ThreadID=\"1952\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-06 06:21:28.060749+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">6911</Data>\n<Data Name=\"Reason\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-06 13:48:57.304003+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-06 08:48:53.981195+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "3323",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 13:48:57.304003+00:00\"></TimeCreated>\n<EventRecordID>52</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"888\" ThreadID=\"3160\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-06 08:48:53.981195+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">3323</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1015,
+    "Timestamp": "2014-02-06 18:55:59.403633+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RB_IoReadBytes": "301661184",
+      "RB_CacheHitBytes": "125933568",
+      "RB_PrefetchBytes": "154025984",
+      "RB_CacheHitPercentage": "0.6191343325395714",
+      "RB_IoReadCount": "14278",
+      "RB_CacheHitCount": "8840",
+      "RB_PrefetchReadCount": "4272",
+      "RB_PrefetchDiskTimeUs": "31004237"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1015</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 18:55:59.403633+00:00\"></TimeCreated>\n<EventRecordID>53</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"904\" ThreadID=\"2996\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"RB_IoReadBytes\">301661184</Data>\n<Data Name=\"RB_CacheHitBytes\">125933568</Data>\n<Data Name=\"RB_PrefetchBytes\">154025984</Data>\n<Data Name=\"RB_CacheHitPercentage\">0.6191343325395714</Data>\n<Data Name=\"RB_IoReadCount\">14278</Data>\n<Data Name=\"RB_CacheHitCount\">8840</Data>\n<Data Name=\"RB_PrefetchReadCount\">4272</Data>\n<Data Name=\"RB_PrefetchDiskTimeUs\">31004237</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-06 18:56:00.636036+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-06 13:55:09.267141+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "51371",
+      "Reason": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 18:56:00.636036+00:00\"></TimeCreated>\n<EventRecordID>54</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"904\" ThreadID=\"2996\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-06 13:55:09.267141+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">51371</Data>\n<Data Name=\"Reason\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1015,
+    "Timestamp": "2014-02-07 12:36:04.590010+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RB_IoReadBytes": "227768832",
+      "RB_CacheHitBytes": "140396032",
+      "RB_PrefetchBytes": "169734144",
+      "RB_CacheHitPercentage": "0.9220188125821787",
+      "RB_IoReadCount": "9887",
+      "RB_CacheHitCount": "9116",
+      "RB_PrefetchReadCount": "4843",
+      "RB_PrefetchDiskTimeUs": "33872041"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1015</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 12:36:04.590010+00:00\"></TimeCreated>\n<EventRecordID>55</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"1132\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"RB_IoReadBytes\">227768832</Data>\n<Data Name=\"RB_CacheHitBytes\">140396032</Data>\n<Data Name=\"RB_PrefetchBytes\">169734144</Data>\n<Data Name=\"RB_CacheHitPercentage\">0.9220188125821787</Data>\n<Data Name=\"RB_IoReadCount\">9887</Data>\n<Data Name=\"RB_CacheHitCount\">9116</Data>\n<Data Name=\"RB_PrefetchReadCount\">4843</Data>\n<Data Name=\"RB_PrefetchDiskTimeUs\">33872041</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-07 12:36:05.635210+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-07 07:35:32.412352+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "33228",
+      "Reason": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 12:36:05.635210+00:00\"></TimeCreated>\n<EventRecordID>56</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"1132\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-07 07:35:32.412352+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">33228</Data>\n<Data Name=\"Reason\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-07 13:11:27.032537+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-07 08:11:24.801733+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "2231",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 13:11:27.032537+00:00\"></TimeCreated>\n<EventRecordID>57</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"3996\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-07 08:11:24.801733+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">2231</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-07 14:33:18.772123+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-07 09:33:07.836506+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "10936",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 14:33:18.772123+00:00\"></TimeCreated>\n<EventRecordID>58</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"3816\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-07 09:33:07.836506+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">10936</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1015,
+    "Timestamp": "2014-02-07 16:52:49.215162+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RB_IoReadBytes": "272742912",
+      "RB_CacheHitBytes": "146880512",
+      "RB_PrefetchBytes": "159674368",
+      "RB_CacheHitPercentage": "0.7961917600471817",
+      "RB_IoReadCount": "11869",
+      "RB_CacheHitCount": "9450",
+      "RB_PrefetchReadCount": "4636",
+      "RB_PrefetchDiskTimeUs": "33888728"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1015</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 16:52:49.215162+00:00\"></TimeCreated>\n<EventRecordID>59</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"888\" ThreadID=\"1080\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"RB_IoReadBytes\">272742912</Data>\n<Data Name=\"RB_CacheHitBytes\">146880512</Data>\n<Data Name=\"RB_PrefetchBytes\">159674368</Data>\n<Data Name=\"RB_CacheHitPercentage\">0.7961917600471817</Data>\n<Data Name=\"RB_IoReadCount\">11869</Data>\n<Data Name=\"RB_CacheHitCount\">9450</Data>\n<Data Name=\"RB_PrefetchReadCount\">4636</Data>\n<Data Name=\"RB_PrefetchDiskTimeUs\">33888728</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-07 16:52:50.494366+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-07 11:52:43.926752+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "6568",
+      "Reason": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 16:52:50.494366+00:00\"></TimeCreated>\n<EventRecordID>60</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"888\" ThreadID=\"1080\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-07 11:52:43.926752+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">6568</Data>\n<Data Name=\"Reason\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-07 17:30:42.419956+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-07 12:30:39.830351+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "2558",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 17:30:42.419956+00:00\"></TimeCreated>\n<EventRecordID>61</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"888\" ThreadID=\"2456\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-07 12:30:39.830351+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">2558</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1015,
+    "Timestamp": "2014-02-10 14:50:45.333139+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RB_IoReadBytes": "274798080",
+      "RB_CacheHitBytes": "150135296",
+      "RB_PrefetchBytes": "164446208",
+      "RB_CacheHitPercentage": "0.8493604079076841",
+      "RB_IoReadCount": "11179",
+      "RB_CacheHitCount": "9495",
+      "RB_PrefetchReadCount": "4851",
+      "RB_PrefetchDiskTimeUs": "38284078"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1015</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 14:50:45.333139+00:00\"></TimeCreated>\n<EventRecordID>62</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"904\" ThreadID=\"1984\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"RB_IoReadBytes\">274798080</Data>\n<Data Name=\"RB_CacheHitBytes\">150135296</Data>\n<Data Name=\"RB_PrefetchBytes\">164446208</Data>\n<Data Name=\"RB_CacheHitPercentage\">0.8493604079076841</Data>\n<Data Name=\"RB_IoReadCount\">11179</Data>\n<Data Name=\"RB_CacheHitCount\">9495</Data>\n<Data Name=\"RB_PrefetchReadCount\">4851</Data>\n<Data Name=\"RB_PrefetchDiskTimeUs\">38284078</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-10 14:50:46.705942+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-10 09:50:42.930735+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "3775",
+      "Reason": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 14:50:46.705942+00:00\"></TimeCreated>\n<EventRecordID>63</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"904\" ThreadID=\"1984\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-10 09:50:42.930735+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">3775</Data>\n<Data Name=\"Reason\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-10 15:04:19.678600+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-10 10:04:07.608158+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "12059",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 15:04:19.678600+00:00\"></TimeCreated>\n<EventRecordID>64</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"904\" ThreadID=\"2836\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-10 10:04:07.608158+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">12059</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-10 15:45:19.534889+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-10 10:45:17.475685+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "2059",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 15:45:19.534889+00:00\"></TimeCreated>\n<EventRecordID>65</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"904\" ThreadID=\"3668\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-10 10:45:17.475685+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">2059</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1015,
+    "Timestamp": "2014-02-11 13:25:46.380764+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RB_IoReadBytes": "305385472",
+      "RB_CacheHitBytes": "155502080",
+      "RB_PrefetchBytes": "176218112",
+      "RB_CacheHitPercentage": "0.7053735612613227",
+      "RB_IoReadCount": "14683",
+      "RB_CacheHitCount": "10357",
+      "RB_PrefetchReadCount": "4901",
+      "RB_PrefetchDiskTimeUs": "34202962"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1015</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 13:25:46.380764+00:00\"></TimeCreated>\n<EventRecordID>66</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"2924\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"RB_IoReadBytes\">305385472</Data>\n<Data Name=\"RB_CacheHitBytes\">155502080</Data>\n<Data Name=\"RB_PrefetchBytes\">176218112</Data>\n<Data Name=\"RB_CacheHitPercentage\">0.7053735612613227</Data>\n<Data Name=\"RB_IoReadCount\">14683</Data>\n<Data Name=\"RB_CacheHitCount\">10357</Data>\n<Data Name=\"RB_PrefetchReadCount\">4901</Data>\n<Data Name=\"RB_PrefetchDiskTimeUs\">34202962</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-11 13:25:47.550766+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-11 08:25:36.240747+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "11310",
+      "Reason": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 13:25:47.550766+00:00\"></TimeCreated>\n<EventRecordID>67</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"2924\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-11 08:25:36.240747+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">11310</Data>\n<Data Name=\"Reason\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-11 17:11:42.924086+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-11 12:11:38.836880+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "4025",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:11:42.924086+00:00\"></TimeCreated>\n<EventRecordID>68</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"2836\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-11 12:11:38.836880+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">4025</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-11 17:14:15.476755+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-11 12:14:11.841948+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "3635",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:14:15.476755+00:00\"></TimeCreated>\n<EventRecordID>69</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"2100\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-11 12:14:11.841948+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">3635</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1015,
+    "Timestamp": "2014-02-11 17:42:36.024977+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RB_IoReadBytes": "765781504",
+      "RB_CacheHitBytes": "155575296",
+      "RB_PrefetchBytes": "175853568",
+      "RB_CacheHitPercentage": "0.37793509497441646",
+      "RB_IoReadCount": "28534",
+      "RB_CacheHitCount": "10784",
+      "RB_PrefetchReadCount": "4921",
+      "RB_PrefetchDiskTimeUs": "34128492"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1015</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:42:36.024977+00:00\"></TimeCreated>\n<EventRecordID>70</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"924\" ThreadID=\"2876\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"RB_IoReadBytes\">765781504</Data>\n<Data Name=\"RB_CacheHitBytes\">155575296</Data>\n<Data Name=\"RB_PrefetchBytes\">175853568</Data>\n<Data Name=\"RB_CacheHitPercentage\">0.37793509497441646</Data>\n<Data Name=\"RB_IoReadCount\">28534</Data>\n<Data Name=\"RB_CacheHitCount\">10784</Data>\n<Data Name=\"RB_PrefetchReadCount\">4921</Data>\n<Data Name=\"RB_PrefetchDiskTimeUs\">34128492</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-11 17:42:37.350979+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-11 12:42:32.920572+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "4431",
+      "Reason": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:42:37.350979+00:00\"></TimeCreated>\n<EventRecordID>71</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"924\" ThreadID=\"2876\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-11 12:42:32.920572+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">4431</Data>\n<Data Name=\"Reason\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1015,
+    "Timestamp": "2014-02-11 17:51:34.243151+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RB_IoReadBytes": "331921920",
+      "RB_CacheHitBytes": "193160704",
+      "RB_PrefetchBytes": "214413312",
+      "RB_CacheHitPercentage": "0.7502218016206305",
+      "RB_IoReadCount": "16907",
+      "RB_CacheHitCount": "12684",
+      "RB_PrefetchReadCount": "5904",
+      "RB_PrefetchDiskTimeUs": "39402728"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1015</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:51:34.243151+00:00\"></TimeCreated>\n<EventRecordID>72</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"908\" ThreadID=\"3160\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"RB_IoReadBytes\">331921920</Data>\n<Data Name=\"RB_CacheHitBytes\">193160704</Data>\n<Data Name=\"RB_PrefetchBytes\">214413312</Data>\n<Data Name=\"RB_CacheHitPercentage\">0.7502218016206305</Data>\n<Data Name=\"RB_IoReadCount\">16907</Data>\n<Data Name=\"RB_CacheHitCount\">12684</Data>\n<Data Name=\"RB_PrefetchReadCount\">5904</Data>\n<Data Name=\"RB_PrefetchDiskTimeUs\">39402728</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-11 17:51:35.849951+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-11 12:51:30.452341+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "5397",
+      "Reason": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:51:35.849951+00:00\"></TimeCreated>\n<EventRecordID>73</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"908\" ThreadID=\"3160\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-11 12:51:30.452341+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">5397</Data>\n<Data Name=\"Reason\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1015,
+    "Timestamp": "2014-02-16 19:00:58.511148+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RB_IoReadBytes": "262413824",
+      "RB_CacheHitBytes": "161235968",
+      "RB_PrefetchBytes": "233517056",
+      "RB_CacheHitPercentage": "0.8507221750212405",
+      "RB_IoReadCount": "11770",
+      "RB_CacheHitCount": "10013",
+      "RB_PrefetchReadCount": "6448",
+      "RB_PrefetchDiskTimeUs": "44574502"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1015</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 19:00:58.511148+00:00\"></TimeCreated>\n<EventRecordID>74</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"908\" ThreadID=\"2504\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"RB_IoReadBytes\">262413824</Data>\n<Data Name=\"RB_CacheHitBytes\">161235968</Data>\n<Data Name=\"RB_PrefetchBytes\">233517056</Data>\n<Data Name=\"RB_CacheHitPercentage\">0.8507221750212405</Data>\n<Data Name=\"RB_IoReadCount\">11770</Data>\n<Data Name=\"RB_CacheHitCount\">10013</Data>\n<Data Name=\"RB_PrefetchReadCount\">6448</Data>\n<Data Name=\"RB_PrefetchDiskTimeUs\">44574502</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-16 19:00:59.946352+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-16 14:00:54.439541+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "5507",
+      "Reason": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 19:00:59.946352+00:00\"></TimeCreated>\n<EventRecordID>75</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"908\" ThreadID=\"2504\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-16 14:00:54.439541+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">5507</Data>\n<Data Name=\"Reason\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-16 19:13:25.251469+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-16 14:13:20.805460+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "4446",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 19:13:25.251469+00:00\"></TimeCreated>\n<EventRecordID>76</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"908\" ThreadID=\"3356\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-16 14:13:20.805460+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">4446</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-16 19:31:37.323786+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-16 14:31:35.810583+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "1513",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 19:31:37.323786+00:00\"></TimeCreated>\n<EventRecordID>77</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"908\" ThreadID=\"3156\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-16 14:31:35.810583+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">1513</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-16 19:55:34.304710+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-16 14:55:31.808706+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "2496",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 19:55:34.304710+00:00\"></TimeCreated>\n<EventRecordID>78</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"908\" ThreadID=\"3892\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-16 14:55:31.808706+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">2496</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-16 20:00:08.319191+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-16 15:00:06.103989+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "2216",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 20:00:08.319191+00:00\"></TimeCreated>\n<EventRecordID>79</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"908\" ThreadID=\"2692\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-16 15:00:06.103989+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">2216</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-16 20:03:11.915915+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-16 15:03:09.794310+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "2121",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 20:03:11.915915+00:00\"></TimeCreated>\n<EventRecordID>80</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"908\" ThreadID=\"2192\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-16 15:03:09.794310+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">2121</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1015,
+    "Timestamp": "2014-02-16 21:51:48.825138+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RB_IoReadBytes": "333097472",
+      "RB_CacheHitBytes": "205692416",
+      "RB_PrefetchBytes": "227930112",
+      "RB_CacheHitPercentage": "0.7957383841373188",
+      "RB_IoReadCount": "16895",
+      "RB_CacheHitCount": "13444",
+      "RB_PrefetchReadCount": "6433",
+      "RB_PrefetchDiskTimeUs": "43236187"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1015</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 21:51:48.825138+00:00\"></TimeCreated>\n<EventRecordID>81</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"908\" ThreadID=\"3084\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"RB_IoReadBytes\">333097472</Data>\n<Data Name=\"RB_CacheHitBytes\">205692416</Data>\n<Data Name=\"RB_PrefetchBytes\">227930112</Data>\n<Data Name=\"RB_CacheHitPercentage\">0.7957383841373188</Data>\n<Data Name=\"RB_IoReadCount\">16895</Data>\n<Data Name=\"RB_CacheHitCount\">13444</Data>\n<Data Name=\"RB_PrefetchReadCount\">6433</Data>\n<Data Name=\"RB_PrefetchDiskTimeUs\">43236187</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-16 21:51:51.321144+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-16 16:51:45.985933+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "5335",
+      "Reason": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 21:51:51.321144+00:00\"></TimeCreated>\n<EventRecordID>82</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"908\" ThreadID=\"3084\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-16 16:51:45.985933+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">5335</Data>\n<Data Name=\"Reason\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1015,
+    "Timestamp": "2014-02-16 22:41:03.507338+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RB_IoReadBytes": "340485632",
+      "RB_CacheHitBytes": "241273344",
+      "RB_PrefetchBytes": "263872512",
+      "RB_CacheHitPercentage": "0.9226991738401987",
+      "RB_IoReadCount": "17309",
+      "RB_CacheHitCount": "15971",
+      "RB_PrefetchReadCount": "7120",
+      "RB_PrefetchDiskTimeUs": "48721719"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1015</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 22:41:03.507338+00:00\"></TimeCreated>\n<EventRecordID>83</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"908\" ThreadID=\"3424\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"RB_IoReadBytes\">340485632</Data>\n<Data Name=\"RB_CacheHitBytes\">241273344</Data>\n<Data Name=\"RB_PrefetchBytes\">263872512</Data>\n<Data Name=\"RB_CacheHitPercentage\">0.9226991738401987</Data>\n<Data Name=\"RB_IoReadCount\">17309</Data>\n<Data Name=\"RB_CacheHitCount\">15971</Data>\n<Data Name=\"RB_PrefetchReadCount\">7120</Data>\n<Data Name=\"RB_PrefetchDiskTimeUs\">48721719</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-16 22:41:05.816141+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-16 17:40:35.939287+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "29874",
+      "Reason": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 22:41:05.816141+00:00\"></TimeCreated>\n<EventRecordID>84</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"908\" ThreadID=\"3424\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-16 17:40:35.939287+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">29874</Data>\n<Data Name=\"Reason\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1015,
+    "Timestamp": "2014-02-19 13:31:25.768982+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RB_IoReadBytes": "339876352",
+      "RB_CacheHitBytes": "243628544",
+      "RB_PrefetchBytes": "263942144",
+      "RB_CacheHitPercentage": "0.911791486455725",
+      "RB_IoReadCount": "17572",
+      "RB_CacheHitCount": "16022",
+      "RB_PrefetchReadCount": "7172",
+      "RB_PrefetchDiskTimeUs": "50744909"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1015</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 13:31:25.768982+00:00\"></TimeCreated>\n<EventRecordID>85</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"3168\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"RB_IoReadBytes\">339876352</Data>\n<Data Name=\"RB_CacheHitBytes\">243628544</Data>\n<Data Name=\"RB_PrefetchBytes\">263942144</Data>\n<Data Name=\"RB_CacheHitPercentage\">0.911791486455725</Data>\n<Data Name=\"RB_IoReadCount\">17572</Data>\n<Data Name=\"RB_CacheHitCount\">16022</Data>\n<Data Name=\"RB_PrefetchReadCount\">7172</Data>\n<Data Name=\"RB_PrefetchDiskTimeUs\">50744909</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-19 13:31:27.781385+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-19 08:31:22.929777+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "4851",
+      "Reason": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 13:31:27.781385+00:00\"></TimeCreated>\n<EventRecordID>86</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"3168\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-19 08:31:22.929777+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">4851</Data>\n<Data Name=\"Reason\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-19 14:13:23.331005+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-19 09:13:20.819401+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "2512",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 14:13:23.331005+00:00\"></TimeCreated>\n<EventRecordID>87</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"2840\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-19 09:13:20.819401+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">2512</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-19 14:16:26.366125+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-19 09:16:23.823320+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "2543",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 14:16:26.366125+00:00\"></TimeCreated>\n<EventRecordID>88</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"2252\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-19 09:16:23.823320+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">2543</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1015,
+    "Timestamp": "2014-02-20 14:23:18.338337+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "RB_IoReadBytes": "276558848",
+      "RB_CacheHitBytes": "161485824",
+      "RB_PrefetchBytes": "258392064",
+      "RB_CacheHitPercentage": "0.8982045929018789",
+      "RB_IoReadCount": "11975",
+      "RB_CacheHitCount": "10756",
+      "RB_PrefetchReadCount": "7031",
+      "RB_PrefetchDiskTimeUs": "49991817"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1015</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-20 14:23:18.338337+00:00\"></TimeCreated>\n<EventRecordID>89</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"2312\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"RB_IoReadBytes\">276558848</Data>\n<Data Name=\"RB_CacheHitBytes\">161485824</Data>\n<Data Name=\"RB_PrefetchBytes\">258392064</Data>\n<Data Name=\"RB_CacheHitPercentage\">0.8982045929018789</Data>\n<Data Name=\"RB_IoReadCount\">11975</Data>\n<Data Name=\"RB_CacheHitCount\">10756</Data>\n<Data Name=\"RB_PrefetchReadCount\">7031</Data>\n<Data Name=\"RB_PrefetchDiskTimeUs\">49991817</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-20 14:23:20.288340+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-20 09:23:15.436731+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "4851",
+      "Reason": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-20 14:23:20.288340+00:00\"></TimeCreated>\n<EventRecordID>90</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"2312\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-20 09:23:15.436731+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">4851</Data>\n<Data Name=\"Reason\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1016,
+    "Timestamp": "2014-02-20 15:25:32.222502+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-ReadyBoost/Operational",
+    "Level": "Information",
+    "EventData": {
+      "BootPlanTimestamp": "2014-02-20 10:25:29.820097+00:00",
+      "ErrorCode": "0",
+      "Duration (ms)": "2402",
+      "Reason": "1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-ReadyBoost\" Guid=\"{e6307a09-292c-497e-aad6-498f68e2b619}\"></Provider>\n<EventID Qualifiers=\"\">1016</EventID>\n<Version>1</Version>\n<Level>4</Level>\n<Task>1016</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000002000</Keywords>\n<TimeCreated SystemTime=\"2014-02-20 15:25:32.222502+00:00\"></TimeCreated>\n<EventRecordID>91</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"1672\"></Execution>\n<Channel>Microsoft-Windows-ReadyBoost/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"BootPlanTimestamp\">2014-02-20 10:25:29.820097+00:00</Data>\n<Data Name=\"ErrorCode\">0</Data>\n<Data Name=\"Duration (ms)\">2402</Data>\n<Data Name=\"Reason\">1</Data>\n</EventData>\n</Event>\n"
+  }
+]

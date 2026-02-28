@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    	<script type='text/javascript'>var _sf_startpt=(new Date()).getTime()</script>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+        <title>WBUR Media Player</title>
+
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+        <link href='//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.1/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+        <link href='http://cdn.wbur.org/css/jquery.jplayer.css' rel='stylesheet' type='text/css'>
+
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script type="text/javascript" src="//cdn.wbur.org/javascript/jquery.jplayer.js"></script>
+        <script type="text/javascript" src="//cdn.wbur.org/javascript/jquery.slimscroll.js"></script>
+
+		
+	        <style type="text/css">
+				.mp-btn, .mp-play-bar {
+					background: #0081C6; /* Old browsers */
+					background: -moz-linear-gradient(top, #30a4dc 0%, #0081C6 100%); /* FF3.6+ */
+					background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,##30a4dc), color-stop(100%,#0081C6)); /* Chrome,Safari4+ */
+					background: -webkit-linear-gradient(top, #30a4dc 0%,#0081C6 100%); /* Chrome10+,Safari5.1+ */
+					background: -o-linear-gradient(top, #30a4dc 0%,#0081C6 100%); /* Opera 11.10+ */
+					background: -ms-linear-gradient(top, #30a4dc 0%,#0081C6 100%); /* IE10+ */
+					background: linear-gradient(to bottom, #30a4dc 0%,#0081C6 100%); /* W3C */
+				}
+
+				.jp-playlist li a.jp-playlist-current {
+					border-left: 6px solid #0081C6;
+				}
+
+				.no-touch .jp-playlist li a.jp-playlist-current:HOVER {
+					border-left: 6px solid #0081C6;
+				}
+
+				.jp-upnext {
+					color:#0081C6;
+				}
+
+	        </style>    </head>
+
+	<body>
+
+        <div id="mp-player" class="mp-player"></div>
+
+        <div id="mp" class="mp-wrap">
+
+            <div class="mp">
+
+                <div class="mp-ctrl">
+                    <div class="mp-btn">
+                        <a class="jp-play" href="javascript:;"><i class="fa fa-play"></i></a>
+                        <a class="jp-pause" href="javascript:;"><i class="fa fa-pause"></i></a>
+                    </div>
+
+                                        <div class="mp-embed">
+                        <a class="mp-embed-btn" href="#"><i class="fa fa-share"></i> Embed</a>
+                    </div>
+                    
+                    <div class="mp-info">
+                        <a class="mp-source mp-truncate" href="#">Here &amp; Now</a>
+                        <a class="mp-title mp-truncate" href="#" title="Private Investigator Explains How To ‘Vanish Without A Trace’">Private Investigator Explains How To &#8216;Vanish Without A Trace&#8217;</a>
+                    </div>
+                </div>
+
+                <div class="mp-scrub">
+                    <div class="mp-progress">
+                        <div class="mp-seek-bar">
+                            <div class="mp-play-bar"></div>
+                        </div>
+                        <div class="mp-times">
+                            <span class="jp-current-time"></span>
+                            <span class="mp-time-sep">/</span>
+                            <span class="jp-duration"></span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="mp-foot">
+                	                    <div class="mp-dl">
+                        <a href="http://audio.wbur.org/download.php?url=http://audio.wbur.org/storage/2010/12/hereandnow_1203_frank-ahearn-privacy.mp3" data:ga-category="Audio Player" data:ga-action="Download" data:ga-label="Private Investigator Explains How To ‘Vanish Without A Trace’" class="google-event"><i class="fa fa-download"></i> Download this story</a>
+                    </div>
+                                        <div class="mp-cnt">
+                        <i class="fa fa-play"></i>
+                        <span class="mp-cnt-val"></span>
+                        <span class="mp-cnt-lbl">plays</span>
+                    </div>
+                </div>
+
+                
+				                <div class="mp-embed-pane">
+                    <div class="mp-embed-lbl">Embed <span> Copy/paste the following code</span></div>
+                    <input type="text" id="mp-embed-copy" value='<iframe width="100%" height="124" scrolling="no" frameborder="no" src="http://cache.wbur.org/audio/player/hereandnow/2010/12/03/frank-ahearn-privacy"></iframe>' />
+                </div>
+                
+            </div>
+
+        </div>
+
+		<script type="text/javascript">
+
+            function increment_playcount(id) {
+                var url = 'http://cache.wbur.org/audio/increment/' + id;
+                jQuery.get(url);
+            }
+
+			/* Player event tracking */
+
+			var current_title = "";
+            var set1sec = false;
+            var set30sec = false;
+			var set50per = false;
+			var set95per = false;
+
+			function wmp_event_tracker(event, title){
+
+				var percent = event.jPlayer.status.currentPercentRelative;
+				var duration = event.jPlayer.status.duration;
+				var audioListenedSec = event.jPlayer.status.currentTime;
+				var id = event.jPlayer.status.media.id;
+
+				if(duration == 0 || audioListenedSec == 0) return;
+
+                if(!set1sec && audioListenedSec >= 1) {
+                    if(id) increment_playcount(id);
+                    _gaq.push(["_trackEvent", "Audio Player", "1 second listened", title]);
+                    set1sec = true;
+                }
+				if(!set30sec && audioListenedSec >= 30) {
+					if(id) increment_playcount(id);
+                    _gaq.push(["_trackEvent", "Audio Player", "30 seconds listened", title]);
+					set30sec = true;
+				}
+				if(!set50per && percent >= 50) {
+					_gaq.push(["_trackEvent", "Audio Player", "50pct Listened", title]);
+					set50per = true;
+				}
+				if(!set95per && percent >= 95) {
+					_gaq.push(["_trackEvent", "Audio Player", "95pct listened", title]);
+					set95per = true;
+				}
+			}
+
+            function wmp_chartbeat_push() {
+                window['_cbv_strategies'] = window['_cbv_strategies'] || [];
+                window['_cbv_strategies'].push(AudioStrategy);
+                var _cbv = window._cbv || (window._cbv = []);
+                var player = document.getElementsByTagName('audio')[0];
+                _cbv.push(player);
+            }
+
+            // slimscroll
+			var s = setTimeout(function(){
+				jQuery('.jp-playlist').slimScroll({
+					alwaysVisible: true,
+					disableFadeOut: true,
+					height: '148px',
+					wheelStep: 8
+				});
+			},1000);
+
+			// player
+			jQuery(document).ready(function(){
+
+				jQuery('.mp-embed-btn').click(function() {
+					jQuery(this).toggleClass('mp-embed-btn-on');
+					var m = jQuery('.mp-embed-pane');
+					m.animate({
+						marginTop: parseInt(m.css('marginTop')) == 56 ? 126 : m.outerHeight()
+					}, 500);
+
+					if( !Modernizr.touch ) {
+						jQuery('#mp-embed-copy').select();
+					}
+
+					return false;
+				});
+
+				
+				jQuery("#mp-player").jPlayer({
+                    cssSelectorAncestor: "#mp",
+                    ready: function (event) {
+                        jQuery(this).jPlayer("setMedia", {"id":703131,"title":"Private Investigator Explains How To \u2018Vanish Without A Trace\u2019","duration":"15:52","playcount":30,"mp3":"http://audio.wbur.org/storage/2010/12/hereandnow_1203_frank-ahearn-privacy.mp3","oga":"http://audio.wbur.org/storage/2010/12/hereandnow_1203_frank-ahearn-privacy.ogg"});
+                        
+                        /* Set title and poster attribute in html5 audio element for Chartbeat tracking */
+                        jQuery('#mp-player audio').attr('poster', 'http://cdn.wbur.org/images/chartbeat/hereandnow.jpg');
+                        jQuery('#mp-player audio').attr('title', jQuery(".mp-title").html() );
+                                            },
+                    loadstart: function (event) {
+						current_title = event.jPlayer.status.media.title;
+                    	var playcount = event.jPlayer.status.media.playcount;
+                    	if(playcount > 5) {
+                    		jQuery('.mp-cnt-val').html(playcount);
+                    		jQuery('.mp-cnt').fadeIn('fast');
+                    	}
+
+                        //chartbeat
+                        wmp_chartbeat_push();
+                    },
+					timeupdate: function(event) {
+						wmp_event_tracker(event, current_title);
+					},
+                    swfPath: "http://cdn.wbur.org/flash/Jplayer.swf",
+                    supplied: "mp3,oga",
+                    wmode: "window",
+                    smoothPlayBar: true,
+                    keyEnabled: false,
+                    timeFormat: { 'padMin' : false, 'padHour' : false, 'showMin' : true },
+					cssSelector: { seekBar: '.mp-seek-bar', playBar: '.mp-play-bar'},
+                    solution: "html,flash"
+                });
+
+                			});
+
+        </script>
+
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-70853-10']);
+			_gaq.push(['_setDomainName', 'wbur.org']);
+
+			(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+
+			$(document).ready(function(){
+				$('BODY').on('click', '.google-event', function(){
+					var cat = $(this).attr('data:ga-category');
+					var action = $(this).attr('data:ga-action');
+					var label = $(this).attr('data:ga-label');
+					_gaq.push(['_trackEvent', cat, action, label]);
+				});
+			});
+ 	
+		</script>
+
+
+        <script type="text/javascript" src="//cdn.wbur.org/javascript/chartbeat_audio.js"></script>
+		<script type="text/javascript">
+
+			var _sf_async_config={};
+			_sf_async_config.uid = 40780;
+			_sf_async_config.domain = "wbur.org";
+			(function(){
+				function loadChartbeat() {
+					window._sf_endpt=(new Date()).getTime();
+					var e = document.createElement("script");
+					e.setAttribute("language", "javascript");
+					e.setAttribute("type", "text/javascript");
+					e.setAttribute('src', '//static.chartbeat.com/js/chartbeat_video.js');
+					document.body.appendChild(e);
+				}
+				var oldonload = window.onload;
+				window.onload = (typeof window.onload != "function") ?
+					 loadChartbeat : function() { oldonload(); loadChartbeat(); };
+			})();
+
+		</script>
+
+    </body>
+</html>

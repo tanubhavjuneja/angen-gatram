@@ -1,0 +1,631 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>USDOJ: CRM: About the Criminal Division</title>
+<meta name="keywords" content="">
+<meta name="creator" content="DeonGee">
+<meta name="date.created" content="2010-04-12">
+<meta name="description" content="">
+<link rel="stylesheet" href="/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/crm-style.css" type="text/css" />
+<script type="text/javascript" language="Javascript" src="js/print-frndly.js"> </script>
+<!--<script type="text/javascript" language="JavaScript" src="../js/flipmenu.js"></script>-->
+<script language="javascript"  src="../js/jquery-1.7.1.min.js"></script>
+<script language="javascript"  src="../js/theft-id.js"></script>
+<script type="text/javascript" language="Javascript"  src="/justiceiso.js"> </script>
+<style type="text/css">
+#body_left {
+	margin-left: 12px;
+	width: 300px;
+}
+li.nav_agencies {background-position:-126px -33px;}
+.tier4 {display: block;} 
+.leftnav #i4  {color: #000000;}
+.leftnav #i4a  {color: #000000;}
+</style>
+</head>
+<body class="mainbody">
+<div class="bdywrpr">
+   <!-- start header -->
+  <div class="hdrwrpr">
+  <script type="text/javascript" src="/jquery-1.9.1.min.js"></script>
+<!--[if lt IE 7]>
+<link rel="stylesheet" href="/ltie7.css" type="text/css" />
+<![endif]-->
+<script type="text/javascript" src="/scripts/federated-analytics.js"></script>
+<script type="text/javascript" src="/jqfunctions.js"></script>
+<script type="text/javascript" src="/redirection-mobile.js"></script>
+<script type="text/javascript" language="Javascript">
+	SA.redirection_mobile({
+		beforeredirection_callback : (function() {
+			var android = navigator.userAgent.match(/Android/i);
+			var iphone = navigator.userAgent.match(/iPhone/i);
+			var berry = navigator.userAgent.match(/BlackBerry/i);
+			var windows = navigator.userAgent.match(/Windows Phone/i);
+			var url = window.location.pathname;
+		
+			var sessionCheck = false;
+			if(window.sessionStorage) {
+				sessionCheck = window.sessionStorage.getItem("mobile_redirect");
+			}
+			else {
+				sessionCheck = document.cookie ? document.cookie.indexOf("mobile_redirect") >= 0 : true;
+			}
+			if((berry || iphone || android || windows) && sessionCheck != "false") {
+				if(url.match("/ag/") || url.match("/agencies/") || url.match("/careers/") || url.match("accessibility_info") || url.match("opa/pr") || url.match("/actioncenter/") || url.match("contact-us") || url.match("privacy-file") || url.match("legalpolicies") || url.match("accessibility_info") || url == "/") {
+					return true;
+				}
+				else {
+					if (window.sessionStorage) {
+						window.sessionStorage.setItem("mobile_redirect", "false");
+					} else {
+						var exdate = new Date();
+						exdate.setTime(exdate.getTime() + (3600*1000));
+						document.cookie = "mobile_redirect=false;expires="+exdate.toUTCString();
+					}
+					return false;
+				}
+			}
+		}),
+		keep_path : true
+	});
+</script>
+       
+<!--[if lt IE 7]>	
+<script type="text/javascript">
+
+onLoadFunctions = function() {
+	mainNav();
+	setMobileButton();
+}
+
+window.onload=onLoadFunctions;
+</script>
+<![endif]-->
+
+<div class="hdlogo">
+	<img src="/images/logo.jpg" alt="The Common Law is the Will of Mankind Issuing from the Life of the People" />
+</div>
+<div class="hdseal">
+	 
+		<img src="/images/seal.jpg" alt="The United States Department of Justice" border="0" usemap="#Map3" /> 
+<map name="Map3" id="Map3">
+  <area shape="rect" coords="72,9,233,101" href="/" alt="Department of Justice Seal" />
+  <area shape="rect" coords="8,107,294,162" href="/" alt="The United States Department of Justice" />
+</map>
+	
+</div>
+<!-- Search Box Starts -->
+<div class="dojsearchbox">
+	<form action="http://searchjustice.usdoj.gov/search" method="get" name="gs">
+		<table width="233" border="0" cellpadding="2" cellspacing="2">
+			<tr>
+				<td colspan="2"><img src="/images/search_site.gif" alt="Search The Site" />	</td>
+			</tr>
+			<tr>
+				<td><input type="text" title="Enter search text" name="q" style="width:165px; height: 18px; border-style: solid;  border-color: #000000; border-width: 1px; padding: 1px 0px 1px 3px;" maxlength="256" value="" /></td>
+				<td><input type="image" name="btnG" value="Search" id="search" src="/images/searchsite-icon.jpg" alt="Search" /><input value="date:D:L:d1" name="sort" type="hidden" /><input value="xml_no_dtd" name="output" type="hidden" /><input value="iso-8859-1" name="ie" type="hidden" /><input value="UTF-8" name="oe" type="hidden" /><input value="default_frontend" name="client" type="hidden" /><input value="default_frontend" name="proxystylesheet" type="hidden" /><input value="default_collection" name="site" type="hidden" /></td>
+			</tr>
+		</table>
+	</form>
+</div>
+<!-- Search Box Ends -->
+<!-- Navigaion Starts -->
+<ul id="topnav">
+	<li class="nav_home">
+		<a href="/" class="nav_item">
+			<span>Home</span>
+		</a>
+	</li>
+	<li class="nav_aboutdoj">
+		<a href="/about/about.html" class="nav_item">
+			<span>About Us</span>
+		</a>
+		<div class="menu">
+			<ul class="sub_nav">
+				 
+				<li>
+					<a href="/ag/">The Attorney General </a></li>
+				
+				<li>
+					<a href="/about/bpp.htm">Budget &amp; Performance</a>
+				</li>
+				<li>
+					<a href="/05publications/05_4.html">Strategic Plans</a>
+				</li>
+			</ul>
+			<div class="clear">&nbsp;</div>
+		</div>
+	</li>
+    <li class="nav_agencies">
+		<a href="/agencies/index-list.html" class="nav_item">
+			<span>Agencies</span>
+		</a>
+        
+        
+	</li>
+    
+	<li class="nav_business">
+		<a href="/business/business-grants.html" class="nav_item">
+			<span>Business &amp; Grants</span>
+		</a>
+		<div class="menu">
+			<ul class="sub_nav">
+				<li>
+					<a href="/business/business-opportunities.htm">Business Opportunities</a>
+				</li>
+				<li>
+					<a href="/jmd/osdbu/">Small &amp; Disadvantaged Business</a>
+				</li>
+				<li>
+					<a href="/business/">Grants</a>
+				</li>
+			</ul>
+			<div class="clear">&nbsp;</div>
+		</div>
+	</li>
+	<li class="nav_resources">
+		<a href="/05publications/resources.html" class="nav_item">
+			<span>Resources</span>
+		</a>
+		<div class="menu">
+			<ul class="sub_nav">
+				<li>
+					<a href="/forms/dojform.php">Forms</a>
+				</li>
+				<li>
+					<a href="/05publications/05_3_a.html">Publications</a>
+				</li>
+				<li>
+					<a href="/05publications/05_2.html">Case Highlights</a>
+				</li>
+				<li>
+					<a href="/jmd/ls/legislative_histories/legislative-histories.html">Legislative Histories</a>
+				</li>
+				 
+			</ul>
+			<div class="clear">&nbsp;</div>
+		</div>
+	</li>
+	<li class="nav_press">
+		<a href="/briefing-room.html" class="nav_item">
+			<span>Briefing Room</span>
+		</a>
+		<div class="menu">
+			<ul class="sub_nav">
+				<li>
+					<a href="/opa/justicenews.php">Justice News</a>
+				</li>
+				 <li>
+					<a href="http://blogs.justice.gov/blog/">The Justice Blog</a>
+				</li>
+				<li>
+					<a href="/opa/calendar/">Public Schedule</a>
+				</li>
+				<li>
+					<a href="/video.php">Videos</a>
+				</li>
+				<li>
+					<a href="/css-gallery/">Photo Gallery</a>
+				</li>
+				
+			</ul>
+			<div class="clear">&nbsp;</div>
+		</div>
+	</li>
+	<li class="nav_careers">
+		<a href="/careers/careers.html" class="nav_item">
+			<span>Careers</span>
+		</a>
+		<div class="menu">
+			<ul class="sub_nav">
+			<li>
+					<a href="/careers/legal/">Legal Careers</a>
+				</li>
+				<li>
+					<a href="/careers/student_programs.html">Interns, Recent Graduates, and Fellows</a>
+				</li>
+				<li>
+					<a href="/careers/diversity-policy.html">Diversity Policy</a>
+				</li>
+			
+				<li>
+					<a href="/careers/veterans/">Veteran Recruitment</a>
+				</li>
+			</ul>
+			<div class="clear">&nbsp;</div>
+		</div>
+	</li>
+	<li class="nav_contacts">
+		<a href="/contact-us.html" class="nav_item">
+			<span>Contacts</span>
+		</a>
+	</li>
+</ul>
+
+
+  <div class="skip"> <a href="#maincontent">Skip to main content</a> | <a href="#sitemap">Skip to footer site map</a> </div>
+  </div>
+  <!-- end header -->
+  <div class="gridwrpr"><span style="position:absolute;"> <a name="maincontent" ></a> </span>
+    <div class="breadcrumbmenu">
+      <!-- start breadcrumb -->
+	  <div class="breadcrumbmenucontent"><a href="http://www.justice.gov/">Home</a> &nbsp;<font color="#999999">&raquo;</font>  <a href="http://www.justice.gov/agencies/">Agencies</a>&nbsp; <font color="#999999">&raquo;</font>&nbsp; <a href="../../">Criminal Division</a>&nbsp;<font color="#999999">&raquo;</font>&nbsp;<a href="../../about/graphic.html">Organizations</a> <font color="#999999">&raquo;</font>&nbsp;Fraud Section</div>
+     
+      <div class="printer">
+   <table border="0" align="right">
+   <tr>
+   <td><a href="Javascript:Clickheretoprint();"><img src="../images/printer.gif" alt="Printer Friendly Icon" border="0"></a></td>
+   <td valign="middle"><a href="Javascript:Clickheretoprint();" title="Printer Friendly">Printer Friendly</a></td>
+   </tr>
+   </table>
+</div>
+   <!-- end breadcrumb -->
+    </div>
+    <div class="clear">&nbsp;</div>
+    <div class="leftnav">
+      <ul>
+	  	<li><a id="i1" href="/criminal/fraud/">Fraud Section Home</a></li>
+    	<li><a id="i2" href="/criminal/fraud/fcpa/">Foreign Corrupt Practices Act (FCPA)  </a></li>
+		<li><a id="i3" href="/criminal/fraud/documents/">Documents and Reports</a></li>
+		<li><a id="i4" href="/criminal/fraud/websites/idtheft.html">Identity Theft</a></li>
+		<div class="tier4">
+  			<ul>
+				<li><a id="i4a" href="idtheft.html">Identity Theft and Identity Fraud</a></li>
+				<li><a id="i4b" href="idquiz.html">Identity Theft Quiz</a></li>
+			</ul>
+		</div>
+		<li><a id="i5" href="/criminal/fraud/internet/">Mass-Marketing Fraud</a></li>
+		<li><a id="i6" href="/criminal/fraud/career/attorneys.html">Career Opportunities </a></li>
+		<li><a id="i7" href="/criminal/fraud/working-grps/">Interagency Working Groups</a></li>
+		<li><a id="i8" href="/criminal/fraud/contact/report-fraud.html">Report Fraud</a></li>
+		<li><a id="i9" href="/criminal/fraud/contact/">Contact the Fraud Section</a></li>
+		<li><a id="i10" href="/criminal/">Criminal Division Home</a></li>
+</ul>
+
+    </div>
+    <!-- start AG page -->
+  <div class="ag-top">
+          
+      <!-- start AG bottom left -->
+	 <div id="print_content">
+      <div class="ag-bottom-left">
+	
+		<div class="headline"><img src="../images/idtheft-bar.jpg" alt="Identity Theft" ></div>
+        <div class="bodytext" >
+        <body>
+            <p style="margin-bottom:10px;"><a id="theft-id-show-all" href="javascript:void(0)"> &nbsp;<b>Show All</b></a> &nbsp;
+            <font color="e6ddcc">|</font>&nbsp;<a id="theft-id-hide-all" href="javascript:void(0)"><b>Hide All</b></a></p>
+            <div id="theft-id-row-1" class="theft-id-row">
+                <div class="theft-id-hdr">
+                    <div id="theft-id-arrow-1" class="theft-id-arrow"><img src="/criminal/fraud/images/down-arrow.png" width="8" height="8" alt="Down Arrow" border="0" /></div><div class="theft-id-title">What Are Identity Theft and Identity Fraud?</div>
+                </div>
+            </div>
+            <div id="theft-id-list-1" class="theft-id-list">
+            	<p style="margin-left:20px;">"But he that filches from me my good name/Robs me of that which not enriches him/And makes me poor indeed."<br >- Shakespeare, Othello, act iii. Sc. 3.</p>
+          		<p style="margin-left:20px;">The short answer is that identity theft is a crime.&nbsp;Identity theft and   identity fraud are terms used to refer to all types of crime in which someone   wrongfully obtains and uses another person's personal data in some way that   involves fraud or deception, typically for economic gain.&nbsp;These Web pages are   intended to explain why you need to take precautions to protect yourself from   identity theft. Unlike your fingerprints, which are unique to you and cannot be   given to someone else for their use, your personal data &shy; especially your Social   Security number, your bank account or credit card number, your telephone calling   card number, and other valuable identifying data &shy; can be used, if they fall   into the wrong hands, to personally profit at your expense. In the United States   and Canada, for example, many people have reported that unauthorized persons   have taken funds out of their bank or financial accounts, or, in the worst   cases, taken over their identities altogether, running up vast debts and   committing crimes while using the victims's names. In many cases, a victim's   losses may include not only out-of-pocket financial losses, but substantial   additional financial costs associated with trying to restore his reputation in   the community and correcting erroneous information for which the criminal is   responsible. </p>
+                <p style="margin-left:20px;">In one notorious case of identity theft, the criminal, a convicted felon, not only incurred more than $100,000 of credit card debt, obtained a federal home   loan, and bought homes, motorcycles, and handguns in the victim's name, but   called his victim to taunt him -- saying that he could continue to pose as the   victim for as long as he wanted because identity theft was not a federal crime   at that time -- before filing for bankruptcy, also in the victim's name. While the victim and his wife spent more than four years and more than $15,000 of   their own money to restore their credit and reputation, the criminal served a   brief sentence for making a false statement to procure a firearm, but made no restitution to his victim for any of the harm he had caused. This case, and   others like it, prompted Congress in 1998 to create a new federal offense of identity theft. </p>
+            </div>
+            <div id="theft-id-row-2" class="theft-id-row">
+            	<div class="theft-id-hdr">
+                    <div id="theft-id-arrow-2" class="theft-id-arrow"><img src="/criminal/fraud/images/down-arrow.png" width="8" height="8" alt="Down Arrow" border="0" /></div><div class="theft-id-title">What are the Most Common Ways To Commit Identity Theft or Fraud?</div>
+                </div>	
+         	</div>
+             <div id="theft-id-list-2" class="theft-id-list">
+            	<p style="margin-left:20px;">Many people do not realize how easily criminals can obtain our personal data   without having to break into our homes. In public places, for example, criminals   may engage in &quot;shoulder surfing&quot; &shy; watching you from a nearby location as you   punch in your telephone calling card number or credit card number &shy; or listen in   on your conversation if you give your credit-card number over the telephone to a   hotel or rental car company.</p>
+          <p style="margin-left:20px;">Even the area near your home or office may not be secure. Some criminals   engage in &quot;dumpster diving&quot; &shy; going through your garbage cans or a communal   dumpster or trash bin -- to obtain copies of your checks, credit card or bank   statements, or other records that typically bear your name, address, and even   your telephone number. These types of records make it easier for criminals to   get control over accounts in your name and assume your identity.</p>
+          <p style="margin-left:20px;">If you receive applications for &quot;preapproved&quot; credit cards in the mail, but   discard them without tearing up the enclosed materials, criminals may retrieve   them and try to activate the cards for their use without your knowledge. (Some   credit card companies, when sending credit cards, have adopted security measures   that allow a card recipient to activate the card only from his or her home   telephone number but this is not yet a universal practice.) Also, if your mail   is delivered to a place where others have ready access to it, criminals may   simply intercept and redirect your mail to another location.</p>
+          <p style="margin-left:20px;">In recent years, the Internet has become an appealing place for criminals to   obtain identifying data, such as passwords or even banking information. In their   haste to explore the exciting features of the Internet, many people respond to   &quot;spam&quot; &shy; unsolicited E-mail &shy; that promises them some benefit but requests   identifying data, without realizing that in many cases, the requester has no   intention of keeping his promise. In some cases, criminals reportedly have used   computer technology to obtain large amounts of personal data.</p>
+          <p style="margin-left:20px;">With enough identifying information about an individual, a criminal can take   over that individual's identity to conduct a wide range of crimes: for example,   false applications for loans and credit cards, fraudulent withdrawals from bank   accounts, fraudulent use of telephone calling cards, or obtaining other goods or   privileges which the criminal might be denied if he were to use his real name.   If the criminal takes steps to ensure that bills for the falsely obtained credit   cards, or bank statements showing the unauthorized withdrawals, are sent to an   address other than the victim's, the victim may not become aware of what is happening until the criminal has already inflicted substantial damage on the   victim's assets, credit, and reputation.</p>
+             </div> 
+             <br />
+            <div id="theft-id-row-3" class="theft-id-row">
+            	<div class="theft-id-hdr">
+                    <div id="theft-id-arrow-3" class="theft-id-arrow"><img src="/criminal/fraud/images/down-arrow.png" width="8" height="8" alt="Down Arrow" border="0" /></div><div class="theft-id-title">What's the Department of Justice Doing About Identity   Theft and Fraud?</div>
+                </div>
+        	</div>
+            <div id="theft-id-list-3" class="theft-id-list">
+            	<p style="margin-left:20px;">The Department of Justice prosecutes cases of identity theft and fraud under   a variety of federal statutes. In the fall of 1998, for example, Congress passed   the <a href="http://www.ftc.gov/os/statutes/itada/itadact.htm">Identity   Theft and Assumption Deterrence Act</a> . This legislation created a new offense   of identity theft, which prohibits "knowingly transfer[ring] or us[ing], without   lawful authority, a means of identification of another person with the intent to   commit, or to aid or abet, any unlawful activity that constitutes a violation of   Federal law, or that constitutes a felony under any applicable State or local law."</p>
+          <p style="margin-left:20px;">18 U.S.C. &sect; 1028(a)(7). This offense, in most circumstances, carries a   maximum term of 15 years' imprisonment, a fine, and criminal forfeiture of any   personal property used or intended to be used to commit the offense.</p>
+          <p style="margin-left:20px;">Schemes to commit identity theft or fraud may also involve violations of   other statutes such as identification fraud (18 U.S.C. &sect; 1028), credit card   fraud (18 U.S.C. &sect; 1029), computer fraud (18 U.S.C. &sect; 1030), mail fraud (18   U.S.C. &sect; 1341), wire fraud (18 U.S.C. &sect; 1343), or financial institution fraud   (18 U.S.C. &sect; 1344). Each of these federal offenses are felonies that carry   substantial penalties &shy; in some cases, as high as 30 years' imprisonment, fines,   and criminal forfeiture.</p>
+          <p style="margin-left:20px;">Federal prosecutors work with federal investigative agencies such as the <a href="http://www.fbi.gov">Federal Bureau of Investigation</a>, the <a href="http://www.secretservice.gov/criminal.shtml">United States Secret Service</a>, and the <a href="http://postalinspectors.uspis.gov/">United States Postal Inspection   Service</a> to prosecute identity theft and fraud cases.</p>
+          <p style="margin-left:20px;"><b>Here are some examples of recent cases:</b></p>
+          <p style="margin-left:20px;">Central District of California. A woman pleaded guilty to federal charges of   using a stolen Social Security number to obtain thousands of dollars in credit   and then filing for bankruptcy in the name of her victim. More recently, a man   was indicted, pleaded guilty to federal charges and was sentenced to 27 months'   imprisonment for obtaining private bank account information about an insurance   company's policyholders and using that information to deposit $764,000 in   counterfeit checks into a bank account he established.</p>
+          <p style="margin-left:20px;">Central District of California.&nbsp; Two of three defendants have pleaded guilty   to identity theft, bank fraud,&nbsp; and related charges for their roles in a scheme   to open bank accounts with both real and fake identification documents, deposit   U.S. Treasury checks that were stolen from the mail, and withdraw funds from   those accounts.</p>
+          <p style="margin-left:20px;">Middle District of Florida.&nbsp; A defendant has been indicted on bank fraud   charges for obtaining names, addresses, and Social Security numbers from a Web   site and using those data to apply for a series of car loans over the   Internet.</p>
+          <p style="margin-left:20px;">Southern District of Florida. A woman was indicted and pleaded guilty to   federal charges involving her obtaining a fraudulent driver's license in the   name of the victim, using the license to withdraw more than $13,000 from the   victim's bank account, and obtaining five department store credit cards in the   victim's name and charging approximately $4,000 on those cards.</p>
+          <p style="margin-left:20px;">District of Kansas.&nbsp; A defendant pleaded guilty to conspiracy, odometer   fraud, and mail fraud for operating an odometer &quot;rollback&quot; scheme on used cars.&nbsp;   The defendant used false and assumed identities, including the identities of   deceased persons, to obtain false identification documents and fraudulent car   titles.</p>
+    
+             </div>
+           <br />
+            <div id="theft-id-row-4" class="theft-id-row">
+            	<div class="theft-id-hdr">
+                    <div id="theft-id-arrow-4" class="theft-id-arrow"><img src="/criminal/fraud/images/down-arrow.png" width="8" height="8" alt="Down Arrow" border="0" /></div><div class="theft-id-title">What Can I Do About Identity Theft and Fraud?</div>
+                </div>
+        	</div> 
+			
+            <div id="theft-id-list-4" class="theft-id-list">		  
+            	<p style="margin-left:20px;">To victims of identity theft and fraud, the task of correcting incorrect   information about their financial or personal status, and trying to restore   their good names and reputations, may seem as daunting as trying to solve a   puzzle in which some of the pieces are missing and other pieces no longer fit as   they once did. Unfortunately, the damage that criminals do in stealing another   person's identity and using it to commit fraud often takes far longer to undo   than it took the criminal to commit the crimes.</p>
+             </div>
+             <div id="theft-id-row-5" class="theft-id-row">
+            	<div class="theft-id-hdr">
+                    <div id="theft-id-arrow-5" class="theft-id-arrow"><img src="/criminal/fraud/images/down-arrow.png" width="8" height="8" alt="Down Arrow" border="0" /></div><div class="theft-id-title">What Should I Do To Avoid Becoming a Victim of Identity Theft?</div>
+                </div>
+        	</div> 
+             <div id="theft-id-list-5" class="theft-id-list">
+            	<p style="margin-left:20px;">To reduce or minimize the risk of becoming a victim of identity   theft or fraud, there are some basic steps you can take. For starters, just   remember the word &quot;<strong>SCAM</strong>&quot;: </p>
+          <p style="margin-left:20px;"><strong>S</strong>&nbsp;&nbsp;&nbsp;&nbsp; Be <strong>stingy</strong> about giving out your personal information to others unless you have a   reason to trust them, regardless of where you are:</p>
+          <p style="margin-left:20px;"><b><em>At Home:</em></b></p>
+          <p style="margin-left:20px;"><b>1.</b> Start by adopting a &quot;need to know&quot; approach to your personal data. Your   credit card company may need to know your mother's maiden name, so that it can   verify your identity when you call to inquire about your account. A person who   calls you and says he's from your bank, however, doesn't need to know that   information if it's already on file with your bank; the only purpose of such a   call is to acquire that information for that person's personal benefit. Also,   the more information that you have printed on your personal bank checks -- such   as your Social Security number or home telephone number -- the more personal   data you are routinely handing out to people who may not need that information. </p>
+            <p style="margin-left:20px;"><b>2.</b>If someone you don't know calls you on the telephone and offers you the   chance to receive a &quot;major&quot; credit card, a prize, or other valuable item, but   asks you for personal data -- such as your Social Security number, credit card   number or expiration date, or mother's maiden name -- ask them to send you a   written application form. </p>
+            <p style="margin-left:20px;"><b>3.</b>If they won't do it, tell them you're not interested and hang up.  </p>
+            <p style="margin-left:20px;"><b>4.</b>If they will, review the application carefully when you receive it and make   sure it's going to a company or financial institution that's well-known and   reputable. The <a href="http://www.justice.gov/cgi-bin/outside.cgi?http://www.bbb.com" target="_blank">Better   Business Bureau</a> can give you information about businesses that have been the   subject of complaints. </p>
+          <p style="margin-left:20px;"><b><em>On Travel:</em></b> </p>
+            <p style="margin-left:20px;"><b>1.</b>If you're traveling, have your mail held at your local post office, or ask   someone you know well and trust &shy; another family member, a friend, or a neighbor   &shy; to collect and hold your mail while you're away.  </p>
+            <p style="margin-left:20px;"><b>2.</b>If you have to telephone someone while you're traveling, and need to pass on   personal financial information to the person you're calling, don't do it at an   open telephone booth where passersby can listen in on what you're saying; use a   telephone booth where you can close the door, or wait until you're at a less   public location to call. </p>
+         <p style="margin-left:20px;"><b>C&nbsp;&nbsp;&nbsp;   Check</b> your financial information regularly, and look for what should   be there and what shouldn't:
+          
+          <p style="margin-left:20px;"><b>What Should Be There:</b> </p>
+            <p style="margin-left:20px;"><b>1.</b>If you have bank or credit card accounts, you should be receiving monthly   statements that list transactions for the most recent month or reporting period.  </p>
+            <p style="margin-left:20px;"><b>2.</b>If you're not receiving monthly statements for the accounts you know you   have, call the financial institution or credit card company immediately and ask   about it.  </p>
+            <p style="margin-left:20px;"><b>3.</b>If you're told that your statements are being mailed to another address that   you haven't authorized, tell the financial institution or credit card   representative immediately that you did not authorize the change of address and   that someone may be improperly using your accounts. In that situation, you   should also ask for copies of all statements and debit or charge transactions   that have occurred since the last statement you received. Obtaining those copies   will help you to work with the financial institution or credit card company in   determining whether some or all of those debit or charge transactions were   fraudulent. </p>
+          <p style="margin-left:20px;"><b>What Shouldn't Be There:</b> </p>
+            <p style="margin-left:20px;"><b>1.</b>If someone has gotten your financial data and made unauthorized debits or   charges against your financial accounts, checking your monthly statements   carefully may be the quickest way for you to find out. Too many of us give those   statements, or the enclosed checks or credit transactions, only a quick glance,   and don't review them closely to make sure there are no unauthorized withdrawals   or charges.  </p>
+            <p style="margin-left:20px;"><b>2.</b>If someone has managed to get access to your mail or other personal data,   and opened any credit cards in your name or taken any funds from your bank   account, contact your financial institution or credit card company <b>immediately</b> to report those transactions and to request further action. </p>
+          <p style="margin-left:20px;">
+              <strong>A</strong>&nbsp;&nbsp;&nbsp; <strong>Ask</strong> periodically for a copy   of your credit report.</p>
+          <p style="margin-left:20px;">Your credit report should list all bank and financial accounts under your   name, and will provide other indications of whether someone has wrongfully   opened or used any accounts in your name.</p>
+          <p style="margin-left:20px;"><strong>M</strong>&nbsp;&nbsp;&nbsp; <strong>Maintain</strong> careful records of   your banking and financial accounts.</p>
+          <p style="margin-left:20px;">Even though financial institutions are required to maintain copies of your   checks, debit transactions, and similar transactions for five years, you should   retain your monthly statements and checks for at least one year, if not more. If   you need to dispute a particular check or transaction &shy; especially if they   purport to bear your signatures &shy; your original records will be more immediately   accessible and useful to the institutions that you have contacted.</p>
+          <p style="margin-left:20px;">Even if you take all of these steps, however, it's still possible that you   can become a victim of identity theft. Records containing your personal data --   credit-card receipts or car-rental agreements, for example -- may be found by or   shared with someone who decides to use your data for fraudulent   purposes.</p>
+           </div>  
+           <br />
+           <div id="theft-id-row-6" class="theft-id-row">
+            	<div class="theft-id-hdr">
+                    <div id="theft-id-arrow-6" class="theft-id-arrow"><img src="/criminal/fraud/images/down-arrow.png" width="8" height="8" alt="Down Arrow" border="0" /></div><div class="theft-id-title">What Should I Do If I've Become a Victim of Identity Theft?</div>
+                </div>
+        	</div>   
+         	
+            <div id="theft-id-list-6" class="theft-id-list">
+            	<p style="margin-left:20px;">If you think you've become a victim of identity theft or fraud, act   immediately to minimize the damage to your personal funds and financial   accounts, as well as your reputation. Here's a list -- based in part on a <a href="http://www.justice.gov/cgi-bin/outside.cgi?https://www.privacyrights.org/fs/fs17a.htm" target="_blank">checklist</a> prepared by the <a href="http://www.justice.gov/cgi-bin/outside.cgi?http://www.calpirg.org/issues/identity-theft-prevention">California Public Interest Research Group (CalPIRG)</a> and the <a href="http://www.justice.gov/cgi-bin/outside.cgi?http://www.privacyrights.org" target="_blank">Privacy   Rights Clearinghouse</a> -- of some actions that you should take right away: </p>
+            <p style="margin-left:20px;"><b>1.</b> Contact the <a href="http://www.ftc.gov">Federal Trade Commission (FTC)</a> to report the situation, whether <a href="http://www.ftc.gov/bcp/edu/microsites/idtheft/">Online</a>,  </p>
+            <p style="margin-left:20px;"><b>2.</b> By telephone toll-free at 1-877-ID THEFT (877-438-4338) or TDD at 1-866-653-4261, or  </p>
+            <p style="margin-left:20px;"><b>3.</b> By mail to Consumer Response Center, FTC, 600 Pennsylvania Avenue, N.W.,   Washington, DC 20580.</p>
+          <p style="margin-left:20px;">Under the <a href="http://frwebgate.access.gpo.gov/cgi-bin/getdoc.cgi?dbname=105_cong_public_laws&amp;docid=publ318.105">Identity   Theft and Assumption Deterrence Act</a> , the <a href="http://www.ftc.gov">Federal Trade Commission</a> is responsible for   receiving and processing complaints from people who believe they may be victims   of identity theft, providing informational materials to those people, and   referring those complaints to appropriate entities, including the major credit   reporting agencies and law enforcement agencies. For further information, please   check the <a href="http://www.ftc.gov/bcp/edu/microsites/idtheft/">FTC's   identity theft Web pages</a> . You can also call your local office of the <a href="http://www.fbi.gov/contact/fo/fo.htm">FBI</a> or the <a href="http://www.secretservice.gov/criminal.shtml/field_offices.shtml">U.S. Secret Service</a> to   report crimes relating to identity theft and fraud.</p>
+          <p style="margin-left:20px;">You may also need to contact other agencies for other types of identity   theft: </p>
+            <p style="margin-left:20px;"><b>1.</b> Your local office of the <a href="http://www.justice.gov/cgi-bin/outside.cgi?https://postalinspectors.uspis.gov/forms/IDTheft.aspx">Postal   Inspection Service </a>if you suspect that an identity thief has submitted a   change-of-address form with the Post Office to redirect your mail, or has used   the mail to commit frauds involving your identity;  </p>
+            <p style="margin-left:20px;"><b>2.</b> The <a href="http://www.ssa.gov/">Social Security Administration</a> if you suspect that your Social Security number is being   fraudulently used (call 800-269-0271 to report the fraud);  </p>
+            <p style="margin-left:20px;"><b>3.</b> The <a href="http://www.irs.gov/privacy/article/0,,id=186436,00.html">Internal Revenue   Service</a> if you suspect the improper use of identification information in   connection with tax violations (call 1-800-829-0433 to report the violations). </p>
+          <p style="margin-left:20px;">Call the fraud units of the three principal credit reporting   companies:
+          <p style="margin-left:20px;"><b><a href="http://www.justice.gov/cgi-bin/outside.cgi?http://www.equifax.com" target="_blank">Equifax:</a></b> </p>
+            <p style="margin-left:20px;"><b>1.</b> To report fraud, call (800) 525-6285 or write to P.O. Box 740250, Atlanta,   GA 30374-0250.</p>
+            <p style="margin-left:20px;"><b>2.</b> To order a copy of your credit report ($8 in most states), write to P.O. Box   740241, Atlanta, GA 30374-0241, or call (800) 685-1111. </p>
+            <p style="margin-left:20px;"><b>3.</b> To dispute information in your report, call the phone number provided on   your credit report. </p>
+            <p style="margin-left:20px;"><b>4.</b> To opt out of pre-approved offers of credit, call (888) 567-8688 or write to   Equifax Options, P.O. Box 740123, Atlanta GA 30374-0123. </p>
+		 
+          <p style="margin-left:20px;"><b><a href="http://www.justice.gov/cgi-bin/outside.cgi?http://www.experian.com" target="_blank">Experian</a> (formerly TRW)</b></p>
+            <p style="margin-left:20px;"><b>1.</b> To report fraud, call (888) EXPERIAN or (888) 397-3742, fax to (800)   301-7196, or write to P.O. Box 1017, Allen, TX 75013. </p>
+            <p style="margin-left:20px;"><b>2.</b> To order a copy of your credit report ($8 in most states): P.O. Box 2104,   Allen TX 75013, or call (888) EXPERIAN. </p>
+            <p style="margin-left:20px;"><b>3.</b> To dispute information in your report, call the phone number provided on   your credit report.</p>
+            <p style="margin-left:20px;"><b>4.</b> To opt out of pre-approved offers of credit and marketing lists, call (888) 5OPTOUT or write to P.O. Box 919, Allen, TX 75013.</p>
+          <p style="margin-left:20px;"><b><a href="http://www.justice.gov/cgi-bin/outside.cgi?http://www.tuc.com" target="_blank">Trans   Union</a></b></p>
+            <p style="margin-left:20px;"><b>1.</b> To report fraud, call (800) 680-7289 or write to P.O. Box 6790, Fullerton,   CA 92634. </p>
+            <p style="margin-left:20px;"><b>2.</b> To order a copy of your credit report ($8 in most states), write to P.O. Box   390, Springfield, PA 19064 or call: (800) 888-4213. </p>
+            <p style="margin-left:20px;"><b>3.</b> To dispute information in your report, call the phone number provided on   your credit report. </p>
+            <p style="margin-left:20px;"><b>4.</b> To opt out of pre-approved offers of credit and marketing lists, call (800)   680-7293 or (888) 5OPTOUT or write to P.O Box 97328, Jackson, MS 39238. </p>
+         
+          <p style="margin-left:20px;">Contact all creditors with whom your name or identifying data have been   fraudulently used. For example, you may need to contact your long-distance   telephone company if your long-distance calling card has been stolen or you find   fraudulent charges on your bill.</p>
+          <p style="margin-left:20px;">Contact all financial institutions where you have accounts that an identity   thief has taken over or that have been created in your name but without your   knowledge. You may need to cancel those accounts, place stop-payment orders on   any outstanding checks that may not have cleared, and change your Automated   Teller Machine (ATM) card, account, and Personal Identification Number   (PIN).</p>
+          <p style="margin-left:20px;">Contact the major check verification companies (listed in the <a href="https://www.privacyrights.org/fs/fs17a.htm" target="_blank">CalPIRG-Privacy Rights Clearinghouse checklist</a>) if you have had checks stolen or bank accounts set up by an identity thief. In particular, if you know that a particular merchant has received a check stolen from you, contact the verification company that the merchant uses. 
+          </p>
+          </div>
+          
+          <div id="theft-id-row-7" class="theft-id-row">
+            	<div class="theft-id-hdr">
+                    <div id="theft-id-arrow-7" class="theft-id-arrow"><img src="/criminal/fraud/images/down-arrow.png" width="8" height="8" alt="Down Arrow" border="0" /></div><div class="theft-id-title">Where Can I Find Out More About Identity Theft and Fraud?</div>
+                </div>
+        	</div>
+            
+            <div id="theft-id-list-7" class="theft-id-list">      
+            	<p style="margin-left:20px;">A number of government and private organizations have information about   various aspects of identity theft and fraud: how it can occur, what you can do   about it, and how to guard your privacy. To help you learn more about the   problem and its solutions, we've attached a list of Web sites that you might   find interesting and informative on identity theft and related topics. </p>
+          <p style="margin-left:20px;"><b>Note:</b> All Web sites to which these pages cross-link are included as a   service for the reader. Cross-links to non-governmental sites do not constitute   an endorsement or approval of their content, or of the organizations responsible   for that content, by the Department of Justice.</p>
+          <p style="margin-left:20px;"><b>Government</b></p>
+          <p style="margin-left:20px;"><b><em>United States:</em></b> </p>
+		   <p style="margin-left:30px"><a href="http://www.dca.ca.gov/">California   Department of Consumer Affairs</a> </p>
+		   <p style="margin-left:30px"><a href="http://www.fbi.gov">Federal Bureau of Investigation</a> </p>
+		   <p style="margin-left:30px"><a href="http://www.fdic.gov/consumers/consumer/news/cnfall97/wallet.html">Federal   Deposit Insurance Corporation</a> </p>
+		   <p style="margin-left:30px"><a href="http://www.ftc.gov/ocr/testimony/index.shtml">Federal Trade   Commission - Congressional Testimony</a> </p>
+		   <p style="margin-left:30px"><a href="http://www.ftc.gov/bcp/edu/microsites/idtheft/">Federal Trade   Commission - Fighting Back Against ID Theft</a> </p>
+		   <p style="margin-left:30px"><a href="http://postalinspectors.uspis.gov/">United States Postal Inspection   Service</a></p>
+		   <p style="margin-left:30px"><a href="http://www.secretservice.gov/">United States Secret Service</a> </p>
+          <p style="margin-left:20px;"><b><em>Canada:</em></b></p>
+		   <p style="margin-left:30px"><a href="http://www.justice.gov/cgi-bin/outside.cgi?http://www.ipc.on.ca/index.asp?navid=46&amp;fid1=165&amp;fid2=4">Ontario   Information and Privacy Commissioner</a> </p>
+          
+          <p style="margin-left:20px;"><b>Non-Government</b></p>
+          <p style="margin-left:20px;"><b><em>United States:</em></b></p>
+		   <p style="margin-left:30px"><a href="http://www.justice.gov/cgi-bin/outside.cgi?http://www.aarp.org" target="_blank">American   Association of Retired Persons</a></p>
+		   <p style="margin-left:30px"><a href="http://www.justice.gov/cgi-bin/outside.cgi?http://www.bbb.com/alerts/gwynn.html" target="_blank">Better   Business Bureau - Alert</a> </p>
+		   <p style="margin-left:30px"><a href="http://www.justice.gov/cgi-bin/outside.cgi?http://www.boston.bbb.org/WWWRoot/SitePage.aspx?site=27&amp;id=b9531757-8bff-425c-83ce-ef5cf233e6a5" target="_blank">Better   Business Bureau -- Eastern Massachusetts/Maine/Vermont</a> </p>
+		   <p style="margin-left:30px"><a href="http://www.justice.gov/cgi-bin/outside.cgi?http://www.calpirg.org/" target="_blank">CalPIRG</a></p>
+		   <p style="margin-left:30px"><a href="http://www.justice.gov/cgi-bin/outside.cgi?http://www.cdt.org" target="_blank">Center for   Democracy and Technology</a> </p>
+		   <p style="margin-left:30px"><a href="http://www.justice.gov/cgi-bin/outside.cgi?http://www.naag.org" target="_blank">National   Association of Attorneys General</a> </p>
+		   <p style="margin-left:30px"><a href="http://www.justice.gov/cgi-bin/outside.cgi?http://www.natlconsumersleague.org" target="_blank">National   Consumers League</a> </p>
+		   <p style="margin-left:30px"><a href="http://www.justice.gov/cgi-bin/outside.cgi?http://www.fraud.org" target="_blank">National   Fraud Information Center</a> </p>
+		   <p style="margin-left:30px"><a href="http://www.justice.gov/cgi-bin/outside.cgi?http://www.privacyrights.org" target="_blank">Privacy   Rights Clearinghouse</a> </p> 
+        </div>
+
+		 <div style="border-bottom-style:solid; border-bottom-color:#e6ddcc; border-bottom-width:1px;">
+    </div>
+  </div>
+	  </div>
+  <!-- end AG bottom left -->
+  <!-- start AG bottom right -->
+  <div class="ag-bottom-right">
+
+   <!-- AAG Info starts-->
+  <div class="generalinfo"  style="float:right;" >
+    <div class="generalinfocontent">
+      <table  border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="center"><img  src="/criminal/fraud/images/fraud-info.jpg"  alt="General Information Fraud Section"></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td bgcolor="#DFDFDF"><img  src="/criminal/fraud/images/ag-info-leadership.jpg"  alt="Leadership"></td>
+        </tr>
+        <tr>
+          <td><div id="name">Jeffrey Knox</div></td>
+        </tr>
+        <tr>
+          <td><div id ="number">Chief, Fraud Section </div></td>
+        </tr>
+        <tr>
+          <td bgcolor="#DFDFDF"><img  src="/criminal/fraud/images/ag-info-contact.jpg"  alt="Contact"></td>
+        </tr>
+		
+		<tr>
+                <td style="padding-top:10px;"><b>Department of Justice Main switchboard</b></td>
+              </tr>
+        <tr>
+          <td><div id ="number">(202) 514-2000</div></td>
+        </tr>
+      </table>
+    </div>
+	
+  </div>
+ <div style="padding-top:5px; margin-bottom:10px; float:right;"><img src="../images/sepr-line.jpg" alt="" width="268px"  /></div>
+ <!-- AAG Info ends-->
+  <!-- New Stay Connected Box -->
+<div class="stayconnectedNew">
+<script type="text/javascript">
+<!--
+function newImage(arg) {
+if (document.images) {
+rslt = new Image();
+rslt.src = arg;
+return rslt;
+}
+}
+function changeImages() {
+if (document.images && (preloadFlag == true)) {
+for (var i=0; i<changeImages.arguments.length; i+=2) {
+document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+}
+}
+}
+var preloadFlag = false;
+if (document.images) {
+get_connected_01_YouTube_over = newImage("/images/stayconnected-YouTube_overBig.jpg");
+get_connected_01_Twitter_over = newImage("/images/stayconnected-Twitter_overBig.jpg");
+get_connected_01_Facebook_over = newImage("/images/stayconnected-Facebook_overBig.jpg");
+get_connected_01_EmailUpdates_over = newImage("/images/stayconnected-EmailUpdates_overBig.jpg");
+get_connected_01_NewsFeeds_over = newImage("/images/stayconnected-NewsFeeds_overBig.jpg");
+preloadFlag = true;
+}
+// -->
+</script>
+<img name="get_connected_01" id="get_connected_01" src="/images/stayconnected-basebig.jpg" width="268" height="235" border="0" alt="Stay Connected" usemap="#get_connected_01_Map" />
+
+  <map name="get_connected_01_Map" id="get_connected_01_Map">
+    <area shape="rect" alt="YouTube" coords="174,146,236,223" href="javascript:exitWinOpen('http://www.youtube.com/TheJusticeDepartment');" target="_self" onmouseover="changeImages('get_connected_01', '/images/stayconnected-YouTube_overBig.jpg'); return true;" onmouseout="changeImages('get_connected_01', '/images/stayconnected-basebig.jpg'); return true;" onmousedown="changeImages('get_connected_01', '/images/stayconnected-YouTube_overBig.jpg'); return true;" onmouseup="changeImages('get_connected_01', '/images/stayconnected-YouTube_overBig.jpg'); return true;" />
+    <area shape="rect" alt="Twitter" coords="104,145,170,223" href="javascript:exitWinOpen('http://www.twitter.com/TheJusticeDept');" target="_self" onmouseover="changeImages('get_connected_01', '/images/stayconnected-Twitter_overBig.jpg'); return true;" onmouseout="changeImages('get_connected_01', '/images/stayconnected-basebig.jpg'); return true;" onmousedown="changeImages('get_connected_01', '/images/stayconnected-Twitter_overBig.jpg'); return true;" onmouseup="changeImages('get_connected_01', '/images/stayconnected-Twitter_overBig.jpg'); return true;" />
+    <area shape="rect" alt="Facebook" coords="31,146,100,223" href="javascript:exitWinOpen('http://www.facebook.com/DOJ');" target="_self" onmouseover="changeImages('get_connected_01', '/images/stayconnected-Facebook_overBig.jpg'); return true;" onmouseout="changeImages('get_connected_01', '/images/stayconnected-basebig.jpg'); return true;" onmousedown="changeImages('get_connected_01', '/images/stayconnected-Facebook_overBig.jpg'); return true;" onmouseup="changeImages('get_connected_01', '/images/stayconnected-Facebook_overBig.jpg'); return true;" />
+ 	<area shape="rect" alt="Sign Up for E-Mail Updates" coords="38,76,230,99" href="/govdelivery/subscribe.html" target="_self" onmouseover="changeImages('get_connected_01', '/images/stayconnected-EmailUpdates_overBig.jpg'); return true;" onmouseout="changeImages('get_connected_01', '/images/stayconnected-basebig.jpg'); return true;" onmousedown="changeImages('get_connected_01', '/images/stayconnected-EmailUpdates_overBig.jpg'); return true;" onmouseup="changeImages('get_connected_01', '/images/stayconnected-EmailUpdates_overBig.jpg'); return true;" />
+    <area shape="rect" alt="Subscribe to News Feeds" coords="38,100,230,123" href="/rss.htm" target="_self" onmouseover="changeImages('get_connected_01', '/images/stayconnected-NewsFeeds_overBig.jpg'); return true;" onmouseout="changeImages('get_connected_01', '/images/stayconnected-basebig.jpg'); return true;" onmousedown="changeImages('get_connected_01', '/images/stayconnected-NewsFeeds_overBig.jpg'); return true;" onmouseup="changeImages('get_connected_01', '/images/stayconnected-NewsFeeds_overBig.jpg'); return true;" /> 
+  </map>
+
+</div>
+<!-- end stay connected box -->
+</div>
+
+<div id="shadowFilter" class="blockout" style="display:none;"></div>
+<div id="exitMsg" class="exitMsg" style="display:none;"></div>
+
+  <!-- end AG bottom right -->
+  </div>
+  <!-- end AG page -->
+  </div>
+</div>
+<!-- start footer -->
+<div class="clear">&nbsp;</div>
+
+<div class="footer">
+  <table align="center" width="956px" border="0" >
+  <tr>
+    <td colspan="5"  align="left"><img src="/images/doj_footer.jpg" alt="U.S. Department of Justice - 950 Pennsylvania Avenue, NW, Washington DC 20530-0001" /></td>
+    <td rowspan="3" valign="top" width="20"></td>
+    <td rowspan="3" valign="top" width="260"><table width="100%" border="0" bgcolor="#333333" cellspacing="0" cellpadding="4" >
+        <tr>
+          <td colspan="5" align="center"><img src="/images/justice_gov.jpg" alt="Justice.gov"  /></td>
+        </tr>
+        <tr>
+          <td width="10px" >&nbsp;</td>
+          <td  valign="top" width="45%" align="left"><div class="footerlinksbreak"><a href="/sitemap/">Site Map</a></div>
+            <div class="footerlinksbreak"> <a href="/a-z-index.html">A to Z Index</a></div>
+            <div class="footerlinksbreak"> <a href="/archive/">Archive </a></div>
+            <div class="footerlinksbreak"><a href="/01whatsnew/accessibility_info.htm">Accessibility</a></div>
+            <div class="footerlinksbreak"><a href="/oip/">FOIA</a></div>
+            <div class="footerlinksbreak"><a href="/jmd/eeos/nofear.htm">No FEAR Act</a></div>
+            <div class="footerlinks"><a href="/iqpr/iqpr.html">Information Quality</a></div>
+            <div class="footerlinksbreak"><a href="/privacy-file.htm">Privacy Policy</a></div>
+            <div class="footerlinks"><a href="/legalpolicies.htm">Legal Policies &amp; Disclaimers</a></div></td>
+          <td  valign="top" width="10px"  >&nbsp;</td>
+          <td  valign="top" width="55%" align="left"><div class="footerlinksbreak"> <a href="/employees/index.html">For Employees </a></div>
+            <div class="footerlinks"> <a href="/oig/">Office of the Inspector General</a> </div>
+            <div class="footerlinks1"> <a href="/05publications/other_government_resources.html">Government Resources</a></div>
+            <div class="footerlinksbreak"> <a href="http://www.usa.gov/">USA.gov</a> </div>
+			<div class="footerlinksbreak"> <a href="http://business.usa.gov/">BusinessUSA</a> </div>
+			
+			</td>
+        </tr>
+        <tr>
+          <td colspan="4" >&nbsp;</td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td colspan="5"></td>
+  </tr>
+  <tr>
+    <td valign="top" align="left"><strong><a href="/02organizations/about.html">ABOUT</a></strong><br />
+      <div class="footermenu1"><a href="/ag/">The Attorney General</a></div>
+      <div class="footermenu1"><a href="/02organizations/bpp.htm">Budget &amp; Performance</a> </div>
+      <div class="footermenu2"> <a href="/05publications/05_4.html">Strategic Plans</a> </div>
+      <hr width="80%"  size="1px" style="color:#46494C; background-color:#46494C;" align="left" />
+      <strong><a href="/agencies/index-list.html">AGENCIES</a></strong><br />
+      <hr width="80%"  size="1px" style="color:#46494C; background-color:#46494C;" align="left" />
+      <div class="footermenu3"><strong><a href="/10grants/business-grants.html">BUSINESS &amp; GRANTS</a></strong></div>
+      <div class="footermenu1"> <a href="/10grants/business-opportunities.htm">Business Opportunities</a></div>
+      <div class="footermenu1"><a href="/jmd/osdbu/">Small &amp; Disadvantaged Business</a></div>
+      <div class="footermenu1"> <a href="/10grants/">Grants</a> </div></td>
+    <td width="20" valign="top">&nbsp;</td>
+    <td valign="top" align="left"><strong><a href="/05publications/resources.html">RESOURCES</a></strong> <br />
+      <div class="footermenu1"> <a href="/forms/dojform.php">Forms</a></div>
+      <div class="footermenu1"> <a href="/05publications/05_3_a.html">Publications</a></div>
+      <div class="footermenu1"><a href="/05publications/05_2.html">Case Highlights</a></div>
+      <div class="footermenu2"><a href="/jmd/ls/legislative_histories/legislative-histories.html">Legislative Histories</a></div>
+      <hr width="80%"  size="1px" style="color:#46494C; background-color:#46494C;" align="left" />
+      <div class="footermenu3"><strong><a href="/briefing-room.html">NEWS</a></strong> </div>
+      <div class="footermenu1"> <a href="/opa/justicenews.php">Justice News </a></div>
+      <div class="footermenu1"> <a href="http://blogs.justice.gov/main/">The Justice Blog</a></div>
+      <div class="footermenu1"> <a href="/opa/calendar/">Public Schedule</a></div>
+	  <div class="footermenu1"> <a href="/video.php">Videos</a></div>
+      <div class="footermenu1"> <a href="/css-gallery/">Photo Gallery</a></div></td>
+    <td width="20" valign="top">&nbsp;</td>
+    <td valign="top" align="left"><strong><a href="/careers/careers.html">CAREERS</a></strong><br />
+      <div class="footermenu1"> <a href="/careers/legal/">Legal Careers</a> </div>
+      <div class="footermenu1"> <a href="/careers/student_programs.html">Interns, Recent Graduates, and Fellows</a></div>
+      <div class="footermenu1"> <a href="/careers/diversity-policy.html">Diversity Policy</a> </div>
+      <div class="footermenu2"> <a href="/careers/veterans/">Veteran Recruitment</a> </div>
+      <hr width="80%"  size="1px" style="color:#46494C; background-color:#46494C;" align="left" />
+      <div class="footermenu3"><strong><a href="/contact-us.html">CONTACT</a></strong></div></td>
+  </tr>
+</table>
+
+</div>
+<!-- end footer 996-->
+</body>
+</html>

@@ -1,0 +1,1701 @@
+/* 
+	Theme Name: Vagabondish
+	Theme URL: http://www.vagabondish.com
+	Description: Vagabondish3 is a modern theme created for Wordpress.
+	Author: Clash Creative
+	Author URI: http://cla.sh
+	Version: 3.0
+*/
+
+
+/***
+
+GENERAL HTML STYLES
+
+***/
+
+* {
+	border: 0;
+	font-family: Verdana, Geneva, sans-serif;
+	margin:0;
+	padding:0;
+	}
+
+html {
+	background: #c6af8d;
+	}
+
+body {
+
+	}
+
+h1 {
+	color: #2b1a00;
+	font: 30px Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	margin: 8px 0;
+	}
+
+h2 {
+	color: #2b1a00;
+	font: 24px Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	}
+
+h3 {
+	color: #2b1a00;
+	font: 18px "PT Serif", "Times New Roman", Times, serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	}
+
+h4 {
+	color: #2b1a00;
+	font: 16px "PT Serif", "Times New Roman", Times, serif;
+	font-weight: bold;
+	}
+
+h5, h5 a {
+	font: 12px Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	}
+	
+	h5 a {
+		text-transform: uppercase;
+		}
+p {
+	font-size: 12px;
+	}
+
+em {
+	font-style: italic;
+	}
+	
+strong {
+	font-weight: bold;
+	}
+
+ul, li {
+	list-style-type: none;
+	}
+
+a {
+	color: #117296;
+	outline: none;
+	}
+
+img {
+	border-color: #e8ded0;	
+	}
+
+blockquote {
+	background: #f3e9d6 url(images/blockquotes.gif) top right no-repeat;
+	border-left: 3px solid #2b1a00;
+	clear: both;
+	margin: 30px;
+	padding: 20px;
+	}
+
+textarea {
+	background: none;
+	}
+
+div:after{ /* For Gecko Browsers which like to completely break float elements out of the parent's layout */
+	content: ".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden
+	}
+
+
+/***
+
+GLOBAL SITE STYLES
+
+***/
+
+#topper {
+	background: #000;
+	height: 31px;
+	}
+
+#topper-inner {
+	margin: auto;
+	width: 988px;	
+	}
+		
+#logo {
+	background: url('images/logo.png') no-repeat;
+	display: block;
+	height: 71px;
+	position: absolute;
+	text-indent: -9999px;
+	width: 251px;
+	}
+
+#ad-topper {
+	padding: 8px 0 0 260px;
+	font-size: 10px;
+	color: #d0b28e;
+	}
+	
+	#ad-topper a {
+		color: #d0b28e;	
+		}
+		
+#searchbar {
+	float: right;
+	padding-top: 3px;
+	width: 250px;	
+	}
+
+#navbar {
+	background: url('images/bg-nav.jpg') repeat-x;
+	border-bottom: 1px solid #31221a;
+	height: 102px;
+	}
+	
+#navbar-inner {
+	background: url('images/bg-nav-inner.jpg') no-repeat bottom right;
+	height: 102px;
+	margin: auto;
+	width: 988px;
+	}
+
+#ancillary {
+	background: url('images/horz-rule-nav.png') bottom repeat-x;
+	color: #d0b28e;
+	font-size: 10px;
+	padding-bottom: 10px;
+	padding-top: 8px;
+	padding-right: 2px;
+	margin-left: 260px;
+	text-align: right;
+	}
+	
+	#ancillary li {
+		display: inline;
+		}
+	
+	#ancillary a {
+		color: #d0b28e;	
+		text-decoration: none;			
+		}
+
+	#ancillary a:hover {
+		color: #fff;	
+		}
+
+	#nav {
+		margin-top: 8px;
+		}
+
+	#nav ul, #nav li {
+		background: url('images/nav-divider-vert.jpg') right no-repeat;
+		display: inline;
+		}
+		
+		#nav ul li {
+			display: block;
+			float: left;
+			padding-right: 12px;
+			padding-left: 12px;
+			padding-top: 8px;		
+			}
+			
+			#nav ul li.nav-last {
+				background: none;
+				}
+
+		#nav ul li a {
+			background-repeat: no-repeat;
+			height: 41px;
+			display: block;
+			padding-top: 10px;			
+			text-indent: -9999px;			
+			}
+			
+		li#nav-features a {
+			background: url('images/nav-features.png');
+			width: 117px;
+			}
+		
+		li#nav-features a:hover {
+			background-image: url('images/nav-features-hover.png');				
+			}
+			
+		li#nav-news a {
+			background: url('images/nav-news.png') no-repeat;
+			width: 117px;
+			}
+		
+		li#nav-news a:hover {
+			background: url('images/nav-news-hover.png') no-repeat;				
+			}
+
+		li#nav-modvagabond a {
+			background: url('images/nav-modvagabond.png') no-repeat;
+			width: 121px;
+			}
+		
+		li#nav-modvagabond a:hover {
+			background: url('images/nav-modvagabond-hover.png') no-repeat;				
+			}
+
+		li#nav-photo a {
+			background: url('images/nav-photo.png') no-repeat;
+			width: 89px;
+			}
+		
+		li#nav-photo a:hover {
+			background: url('images/nav-photo-hover.png') no-repeat;				
+			}
+
+		li#nav-dispatches a {
+			background: url('images/nav-dispatches.png') no-repeat;
+			width: 83px;
+			}
+		
+		li#nav-dispatches a:hover {
+			background: url('images/nav-dispatches-hover.png') no-repeat;				
+			}
+
+		li#nav-guides a {
+			background: url('images/nav-guides.png') no-repeat;
+			width: 92px;
+			}
+		
+		li#nav-guides a:hover {
+			background: url('images/nav-guides-hover.png') no-repeat;				
+			}
+
+		li#nav-travelreqs a {
+			background: url('images/nav-travelreqs.png') no-repeat;
+			width: 73px;
+			}
+
+		li#nav-travelreqs a:hover {
+			background: url('images/nav-travelreqs-hover.png') no-repeat;				
+			}
+
+		li#nav-bookhostels a {
+			background: url('images/nav-bookhostels.png') no-repeat;
+			width: 85px;
+			}
+
+		li#nav-bookhostels a:hover {
+			background: url('images/nav-bookhostels-hover.png') no-repeat;				
+			}
+				
+#content {
+	background: #fff;
+	color: #333;
+	margin: 5px auto 0;
+	padding: 10px 10px 3px;
+	width: 968px;
+	}
+	
+#content.homepage {
+	font: 11px/14px Verdana, Geneva, sans-serif;
+	}
+
+#main {
+	float: left;
+	width: 665px;
+	}
+	
+	#main * {
+		font-family: Georgia, "Times New Roman", Times, serif;	
+		}
+	
+	#main h1 {
+		margin-left: 15px; /* Account for slight spacing issue with sIFR */
+		margin-bottom: 0;
+		}
+	
+	#main h2, #main h3, #main h4, #main h5 {
+		margin-left: 16px;
+		}
+
+	#main h2 {
+		margin-top: 20px;
+		}
+	
+	#main h3 {
+		font-family: "PT Serif";
+		margin-top: 30px;
+		}
+	#main h4 {
+		font-family: "PT Serif";
+		margin-top: 30px;
+		}
+
+	#main #postcontent p, #main #postcontent  a, #main #postcontent  em, #main #postcontent  li {
+		font-size: 14px;
+		}
+	
+	#main p {
+		line-height: 20px;
+		margin: 10px 16px 20px;
+		}
+
+	#main ul, #main ol {
+		margin: 10px 16px 20px;
+		}
+		
+		#main ul li, #main ol li {
+			line-height: 20px;
+			list-style: disc;
+			margin-left: 32px;		
+			}
+
+	#main .head {
+		background: #31221a url('/wp-content/themes/vagabondish3/images/bg-features.gif') right no-repeat;
+		height: 22px;
+		margin-bottom: 2px;
+		padding: 3px 16px;
+		}
+
+	#main .head h3 {
+		display: block;
+		float: left;
+		height: 19px;
+		margin-top: 1px;
+		margin-left: 0;
+		text-indent: -9999px;		
+		}
+
+	#main .head h3.feature {
+		background: url('/wp-content/themes/vagabondish3/images/h-feature.jpg') no-repeat;
+		width: 97px;
+		}
+
+	#main .head h3.news {
+		background: url('/wp-content/themes/vagabondish3/images/h-news.jpg') no-repeat;
+		width: 65px;
+		}
+		
+	#main .head h3.sidelines {
+		background: url('/wp-content/themes/vagabondish3/images/h-sidelines.jpg') no-repeat;
+		width: 99px;
+		}
+		
+	#main .head h3.billboard {
+		background: url('/wp-content/themes/vagabondish3/images/h-billboard.jpg') no-repeat;
+		width: 114px;
+		}
+				
+	h5.author {
+		letter-spacing: 3px;
+		margin-top: 8px;
+		}
+	
+	#main .metabar {
+		width: 180px;
+		float: right;
+		border-left: 1px solid #d9d2c1;
+		margin: 0 8px 0 16px;
+		padding: 0 8px;
+		}
+		
+		.metabar p {
+			font: 12px Georgia, "Times New Roman", Times, serif;
+			font-style: italic;	
+			margin-top: 0;
+			}
+	
+	#main #postcontent p img {
+		border: 3px solid #e8ded0;
+		margin: 0 auto;
+		width: 631px;
+		}
+		
+	#main span.caption {
+		background: #31221a;
+		color: #ccc;
+		display: block;
+		font-size: 11px;
+		padding: 8px;
+		}
+		
+	#main span.caption a {
+		color: #ccc;	
+		font-size: 11px;
+		text-decoration: none;
+		}
+
+.twitter-compact {
+	float: left;
+	padding-top: 1px;
+	}
+	
+.stumble-compact {
+	float: left;
+	width: 118px;
+	}
+
+#learn-more {
+
+	}
+
+	#learn-more h2 {
+		background: url('/wp-content/themes/vagabondish3/images/h-learn-more.jpg') no-repeat;
+		height: 19px;
+		text-indent: -9999px;
+		width: 86px;
+		}
+		
+	#byline {
+		margin-bottom: 20px;
+		}
+		
+		#byline h2 {
+			background: url('/wp-content/themes/vagabondish3/images/h-about-the-author.jpg') no-repeat;
+			height: 21px;
+			margin-bottom: 16px;
+			text-indent: -9999px;
+			width: 127px;
+			}
+	
+		#byline p {
+			float: left;
+			margin: 0 8px 8px;
+			width: 470px;
+			}
+		
+		#byline img {
+			border: 1px solid #e8ded0;
+			float: left;
+			margin: 0 16px;
+			padding: 3px;
+			}
+
+	#social-bar {
+		padding-left: 16px;
+		margin-bottom: 8px;
+		}
+
+	#main .head#share-thoughts {
+		background: #31221a url('/wp-content/themes/vagabondish3/images/bg-share-thoughts.gif') right no-repeat;
+		float: left;
+		height: 22px;
+		margin-top: 10px;
+		margin-bottom: 2px;
+		padding: 3px 16px;
+		width: 633px;
+		}
+	
+	#main .head#share-thoughts h2 {
+		background: url('/wp-content/themes/vagabondish3/images/h-share-thoughts.jpg') no-repeat;
+		display: block;
+		float: left;
+		height: 22px;
+		margin-top: 1px;
+		margin-left: 0;
+		text-indent: -9999px;
+		width: 314px;
+		}
+
+#comment-block {
+	background-color: #fff;
+	font-size: 12px;
+	}
+	
+	#comment-list {
+		padding-left: 16px;	
+		}
+	
+	#comment-block p, #comment-block a {
+		font-size: 12px;
+		margin-top: 16px;
+		}
+	
+	#comment-block .alt {
+		background-color: #eee7de;	
+		}
+	
+	#comment-block img {
+		border: 3px solid #e8ded0;
+		}
+	
+	#comment-block input, #comment-block textarea {
+		border: 1px solid #ccc;
+		font-size: 12px;
+		padding: 4px;
+		}
+		
+	#comment-text {
+		float: left;		
+		margin: 0;
+		padding: 0 16px;	
+		width: 380px;		
+		}
+
+
+/***
+
+INDIVIDUAL POST STYLES
+
+***/
+
+#fully-exposed {
+	width: 968px;
+	}
+
+	#fully-exposed img {
+		width: 968px;	
+		}
+
+	#fully-exposed span.caption {
+		background: #31221a;
+		color: #ccc;
+		display: block;
+		font-size: 11px;
+		margin-bottom: 3px;
+		padding: 8px 18px;
+		}
+
+#fully-exposed .head {
+	background: #31221a url('/wp-content/themes/vagabondish3/images/bg-features.gif') right no-repeat;
+	height: 22px;
+	margin-bottom: 2px;
+	padding: 3px 16px;	
+	}
+	
+	#fully-exposed .head h3 {
+		background: url('/wp-content/themes/vagabondish3/images/h-gallery.jpg') no-repeat;
+		display: block;
+		float: left;
+		height: 19px;
+		margin-top: 1px;
+		margin-left: 0;
+		text-indent: -9999px;
+		width: 87px;	
+		}
+
+	#fully-exposed h1, #fully-exposed h5 {
+		margin-left: 15px;
+		}
+
+#post-sharebar {
+	background-color:#fff;
+	border:1px solid #ccc;
+	margin-left: -90px;
+	margin-top: 0;
+	padding:5px;
+	position:fixed;
+	text-align:center;
+	}
+
+
+
+/***
+
+SIDEBAR STYLES
+
+***/
+
+#sidebar {
+	float: left;
+	margin-left: 3px;
+	width: 300px;
+	}
+		
+	#sidebar h3 {
+		background: #eee7de url('images/bg-horz-rule.gif') bottom repeat-x;
+		border-top: 2px solid #31221a;
+		font-size: 12px;
+		padding: 8px;
+		margin: 18px 8px 0;
+		}
+		
+	#sidebar ul, #sidebar p {
+		margin: 16px;
+		}
+	
+	#sidebar li {
+		margin-bottom: 8px;
+		}
+	
+	#sidebar ul li, #sidebar p, #sidebar a {
+		font: 11px/14px Verdana, Geneva, sans-serif;
+		}
+		
+	.sideblock#media img, .sideblock#affiliations img {
+		margin-left: 16px;
+		}
+	
+	#sidebar #ad-featured {
+		background-color: #e4d9c9;
+		padding: 25px;
+		width: 250px;
+		}
+	
+	.sideblock {
+		margin: 8px 0 12px;
+		}
+	
+	.sideblock#sponsors1 {
+		margin: 8px auto 0;
+		width: 282px;
+		}
+		
+		.sideblock#sponsors1 img {
+			border: 1px solid #ccc;
+			float: left;
+			margin: 4px;
+			padding: 3px;
+			}
+
+	.sideblock#sponsors2 {
+		margin: 0 auto;
+		width: 282px;
+		}
+		
+		.sideblock#sponsors2 img {
+			border: 1px solid #ccc;
+			float: left;
+			margin: 4px;
+			padding: 3px;
+			}
+
+	.sideblock#sponsors3 {
+		margin: 0 auto;
+		width: 282px;
+		}
+		
+		.sideblock#sponsors3 img {
+			border: 1px solid #ccc;
+			float: left;
+			margin: 4px;
+			padding: 3px;
+			}
+
+	#jointwitter {
+		background: url('images/twitter-sidebar.jpg') no-repeat;
+		margin: 8px 0 0 15px;
+		width: 260px; 
+		height: 35px;
+		padding-left: 15px;
+		padding-top: 95px;			
+		}
+		
+	#instagram {
+		background: url('images/follow-on-instagram.jpg') no-repeat;
+		display: block;
+		height: 40px;
+		margin-left: 15px;
+		text-indent: -9999px;
+		width: 280px;	
+		}
+		
+	.sideblock#recent h3 a {
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 12px;
+		outline: none;
+		}
+	
+	.sideblock#recent h3 a.selected {
+		color: #333;
+		font-weight: bold;
+		text-decoration: none;
+		}
+	
+	#skyscraper {
+		margin: 10px auto 0;
+		width: 160px;	
+		}
+
+/***
+
+HOMEPAGE STYLES
+
+***/
+
+#features {
+	background-position: center;
+	background-size: 100%;
+	border-bottom: 1px solid #fff;
+	height: 490px;
+	margin-bottom: 2px;	
+	padding-top: 10px;	
+	}
+	
+#features .head {
+	background: #31221a url('images/bg-features.gif') right no-repeat;
+	border-bottom: 1px solid #ccc;
+	clear: both;
+	display: block;
+	float: left;
+	margin-bottom: 2px;
+	padding: 3px 16px;
+	width: 936px;
+	}
+	
+#features .head h3 {
+	background: url('images/h-features.jpg') no-repeat;
+	display: block;
+	float: left;
+	height: 19px;
+	margin-top: 1px;
+	text-indent: -9999px;
+	width: 97px;
+	}
+	
+#features .head h4 {
+	background: url('images/h-features-tagline.gif') no-repeat;
+	display: block;
+	float: left;
+	height: 11px;
+	margin-left: 5px;
+	margin-top: 5px;
+	text-indent: -9999px;
+	width: 314px;
+	}
+
+#prime {
+	float: left;
+	height: 468px;
+	margin-right: 18px;
+	position: relative;
+	width: 662px;
+	}
+	
+	#prime #inset {
+		/* border-left: 5px solid #31221a; */
+		/* float: right; */
+		margin-top: 210px;
+		width: 428px;
+		}
+	
+	#prime #inset-inner {
+		/* background: #000; */
+		opacity: .9;
+		padding: 20px 10px;
+		width: 478px;
+		}
+		
+	#prime #inset h1 {
+		color: #fff;		
+		font-size: 30px;
+		margin-bottom: 8px;
+		margin-top: 0;
+		/* text-shadow: 3px 3px #000; */
+		}
+	
+	#prime #inset p {
+		/* border-top: 1px solid #31221a; */
+		color: #fff;
+		font: 12px/18px Georgia, "Times New Roman", Times, serif;
+		padding-top: 10px;
+		text-shadow: 3px 3px #000;		
+		}
+		
+	#prime #inset a {
+		color: #e3d8c9;
+		font: 12px Georgia, "Times New Roman", Times, serif;
+		font-weight: bold;
+		text-decoration: underline;
+		}
+
+	#prime #inset cite {
+		color: #ccc;
+		font: 10px Georgia, "Times New Roman", Times, serif;
+		font-style: italic;
+		text-shadow: none;		
+		}	
+		
+#features-column {
+	float: left;
+	margin-top: 8px;
+	width: 280px;
+	}
+
+	#features-column li {
+		background: #31221a;
+		margin: 5px 0;		
+		opacity: .95;		
+		padding: 8px;
+		}
+
+		#features-column li:hover {
+			opacity: 1.0;		
+			}		
+		
+	#features-column li a {
+		color: #ccc;
+		display: block;
+		font: 16px/22px Georgia, "Times New Roman", Times, serif;
+		margin-bottom: 4px;
+		text-decoration: none;
+		}
+
+	#features-column li a:hover {
+		color: #fff;
+		}		
+	
+#news-sidelines {
+	background: #31221a;
+	clear: both;
+	display: block;
+	float: left; /* REQUIRED FOR IE7 */
+	margin: 2px 0;
+	padding: 0 0 10px 20px;
+	}
+	
+	#news-sidelines h3 {
+		background: url('images/h-home-news-sidelines.jpg') no-repeat;
+		display: block;
+		float: left;
+		height: 139px;
+		margin-right: 30px;
+		text-indent: -9999px;
+		width: 194px;
+		}
+		
+	#news-sidelines .news-item {
+		float: left;
+		margin: 15px 31px 10px 0;
+		width: 150px;
+		}
+		
+	#news-sidelines .news-item a {
+		color: #f2e7d7;
+		display: block;
+		font: 12px Georgia, "Times New Roman", Times, serif;
+		font-weight: bold;
+		text-decoration: none;
+		}
+		
+		.news-item a:hover div {
+			border-color: #fff;
+			}
+		
+	.news-item div.graphic {
+		border: 3px solid #c0a781;
+		height: 103px;
+		overflow: hidden;
+		margin-bottom: 8px;
+		width: 150px;
+		}
+
+#modern-vagabond {
+	float: left;
+	width: 451px;
+	}
+
+	#modern-vagabond #head {
+		background: #31221a url('images/bg-home-modern-vagabond.gif') right no-repeat;
+		height: 43px;
+		padding: 18px 4px 0 16px;	
+		}
+	
+	#modern-vagabond #head h3 {
+		background: url('images/h-home-modern-vagabond.jpg') no-repeat;
+		display: block;
+		float: left;
+		height: 24px;
+		margin-top: 1px;
+		text-indent: -9999px;
+		width: 210px;
+		}
+		
+	#modern-vagabond #head h4 {
+		background: url('images/h-home-modern-vagabond-tagline.gif') no-repeat;
+		display: block;
+		float: left;
+		height: 24px;
+		margin-left: 5px;
+		text-indent: -9999px;
+		width: 210px;
+		}
+		
+	#modern-vagabond h5 a {
+		color: #117296;
+		font: 18px Georgia, "Times New Roman", Times, serif;
+		font-weight: bold;
+		display: block;
+		margin: 16px;
+		text-decoration: none;	
+		}
+	
+	#modern-vagabond p {
+		line-height: 18px;
+		margin: 16px;
+		}
+		
+	#modern-vagabond div.graphic {
+		border: 3px solid #e8ded0;
+		float: right;
+		height: 150px;
+		overflow: hidden;
+		margin: 6px 16px;
+		width: 150px;		
+		}
+
+
+#were-reading {
+	background: #31221a url('images/bg-home-were-reading.gif') top right no-repeat;
+	float: left;
+	margin-left: 4px;
+	width: 250px;
+	}
+	
+#were-reading h3 {
+	background: url('images/h-home-were-reading.jpg') no-repeat;
+	display: block;
+	height: 23px;
+	margin: 19px 0 6px 16px;
+	text-indent: -9999px;
+	width: 208px;
+	}
+
+#were-reading h4 {
+	background: url('images/h-home-were-reading-tagline.gif') 0 8px no-repeat;
+	border-bottom: 1px solid #6c5b4d;
+	border-top: 1px solid #6c5b4d;
+	display: block;
+	height: 24px;
+	margin: 8px 16px;
+	padding: 8px 0;
+	text-indent: -9999px;
+	width: 218px;
+	}
+
+#were-reading li {
+	border-bottom: 1px dotted #6c5b4d;
+	color: #c6af8d;
+	margin: 4px 16px 8px;
+	}
+
+	#were-reading li.sponsored {
+		padding-bottom: 5px;
+		}	
+	#were-reading li.sponsored a {
+		display: inline;
+		}
+
+#were-reading a {
+	color: #c6af8d;
+	display: block;
+	margin-bottom: 8px;
+	text-decoration: none;
+	}
+
+#were-reading a:hover {
+	color: #fff;
+	}
+
+#potm {
+	float: left;
+	border-top: 2px solid #31221a;
+	margin-left: 4px;
+	width: 259px;
+	}
+	
+#potm h3 {
+	background: url('images/h-home-potm.jpg') 0 8px no-repeat;
+	display: block;
+	height: 19px;
+	margin: 8px 12px 0;
+	padding: 8px 0 0;
+	text-indent: -9999px;
+	width: 189px;
+	}
+
+#potm h4 {
+	background: url('images/h-home-potm-tagline.gif') 0 8px no-repeat;
+	display: block;
+	height: 27px;
+	margin: 0 12px;
+	padding: 8px 0;
+	text-indent: -9999px;
+	width: 175px;
+	}
+	
+#potm .graphic {
+	border: 3px solid #e8ded0;
+	overflow: hidden;
+	max-height: 200px;
+	margin-left: 1px;
+	width: 250px;
+	}
+	
+#potm img {
+	width: 250px;
+	}
+
+#potm h5 a {
+	color: #117296;
+	display: block;
+	font: 14px Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	margin: 8px 12px;
+	text-decoration: none;
+	}
+
+#snarky {
+	float: left;
+	border-top: 2px solid #31221a;
+	margin-left: 4px;
+	width: 259px;
+	}
+	
+#snarky h3 {
+	background: url('images/h-home-snarky.gif') 0 8px no-repeat;
+	display: block;
+	height: 19px;
+	margin: 8px 12px 0;
+	padding: 8px 0 0;
+	text-indent: -9999px;
+	width: 189px;
+	}
+
+#snarky h4 {
+	background: url('images/h-home-snarky-tagline.gif') 0 8px no-repeat;
+	display: block;
+	height: 27px;
+	margin: 0 12px;
+	padding: 8px 0;
+	text-indent: -9999px;
+	width: 230px;
+	}
+	
+#snarky .graphic {
+	border: 3px solid #e8ded0;
+	overflow: hidden;
+	max-height: 200px;
+	margin-left: 1px;
+	width: 250px;
+	}
+	
+#snarky img {
+	width: 250px;
+	}
+
+#snarky h5 a {
+	color: #117296;
+	display: block;
+	font: 14px Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	margin: 8px 12px;
+	text-decoration: none;
+	}
+	
+#dispatches {
+	background: url('/wp-content/themes/vagabondish3/images/bg-dispatches-home.jpg') no-repeat;
+	height: 85px;
+	margin: 0 auto;
+	padding: 65px 0 0 26px;
+	width: 962px; 
+	}
+
+	#dispatches h5 {
+		width: 430px;		
+		}
+		
+	#dispatches h5 a {
+		font-size: 18px;
+		text-decoration: none;
+		}
+
+	#dispatches p {
+		margin-left: 1px;
+		width: 400px;
+		}
+		
+		
+		
+/***
+
+MIDDLE RAIL
+
+***/
+
+#middle-rail {
+	background: #31221a;
+	clear: both;
+	margin: 0 auto 2px;
+	padding: 5px;
+	text-align: center;
+	}
+	
+#middle-rail a, #middle-rail p {
+	color: #c6af8d;
+	font-size: 10px;
+	}
+
+
+
+/***
+
+HOMEPAGE AD RAIL
+
+***/
+
+#ad-rail {
+	background: #31221a;
+	clear: both;
+	margin: 0 auto;
+	padding: 5px;
+	text-align: center;
+	width: 978px;
+	}
+	
+#ad-rail a, #ad-rail p {
+	color: #c6af8d;
+	font-size: 10px;
+	}
+
+
+/***
+
+NETWORKING BAR
+
+***/
+
+#network-bar {
+	background: url('images/bg-network-bar.jpg') repeat-x;
+	height: 104px;
+	margin: 0 auto;
+	width: 988px;
+	}
+
+#twitter-box {
+	background: url('images/bg-twitter-box.jpg') bottom right no-repeat;
+	float: left;
+	height: 104px;
+	width: 658px;
+	}
+
+#twitter-box h3 {
+	background: url('images/h-twitter-with-us.jpg') 0 8px no-repeat;
+	display: block;
+	float: left;
+	height: 19px;
+	margin: 8px 8px 0 4px;
+	padding: 8px 0 0;
+	text-indent: -9999px;
+	width: 131px;
+	}
+
+#twitter-box #query {
+	display: block;
+	width: 572px;
+	}
+
+#twitter-box p {
+	float: left;
+	margin: 0 0 0 8px;
+	width: 513px;
+	}
+	
+#network-bar .divider {
+	background: url('images/bg-network-bar-divider.jpg') no-repeat;
+	float: left;
+	height: 104px;
+	width: 2px;
+	}
+
+#subscribe-box {
+	background: url('images/bg-subscribe-box.jpg') bottom left no-repeat;
+	float: left;
+	height: 104px;
+	width: 328px;
+	}
+	
+#subscribe-box h3 {
+	background: url('images/h-subscribe.jpg') no-repeat;
+	display: block;
+	height: 19px;
+	margin: 16px 0 0 16px;
+	padding-top: 4px;
+	text-indent: -9999px;
+	width: 273px;
+	}
+
+#subscribe-box h5, #subscribe-box h5 a {
+	color: #31221a;
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-transform: none;
+	}
+
+#subscribe-box-email {
+	float: left;
+	margin-left: 16px;
+	padding-left: 2px;
+	width: 168px;
+	}
+
+#subscribe-box-rss {
+	background: url('images/seal-rss.jpg') bottom right no-repeat;
+	float: left;
+	height: 65px;
+	width: 140px;
+	}
+
+
+/***
+
+FOOTER STYLES
+
+***/
+
+#footer-topper {
+	background: url('http://www.vagabondish.com/wp-content/themes/vagabondish3/images/bg-footer.gif') bottom repeat-x;
+	height: 131px;
+	}
+
+#footer-topper-inner {
+	margin: 0 auto;
+	width: 988px;
+	}
+
+#footer {
+	background: #000;
+	color: #fff;
+	padding: 16px 40px;
+	}
+
+#footer-inner {
+	margin: 0 auto;
+	padding: 8px 0 0;
+	width: 958px;
+	}
+	
+	#footer-inner p, #footer-inner a {
+		font-size: 11px;	
+		}
+
+	#footer-inner p {
+		margin-top: 16px;
+		}
+
+	#footer-inner a {
+		color: #fff;
+		font-weight: bold;
+		}
+		
+	#footer-inner #advertising {
+		float: left;
+		width: 474px;
+		}
+	
+	#footer-inner #advertising h3 {
+		background: url('http://www.vagabondish.com/wp-content/themes/vagabondish3/images/h-footer-advertising.jpg') no-repeat;
+		display: block;
+		height: 22px;
+		margin: 16px 0 8px 0;
+		text-indent: -9999px;
+		width: 205px;
+		}
+
+	#footer-inner #getintouch {
+		float: left;
+		margin-left: 30px;
+		width: 225px;
+		}
+		
+	#footer-inner #getintouch h3 {
+		background: url('http://www.vagabondish.com/wp-content/themes/vagabondish3/images/h-footer-contact.jpg') no-repeat;
+		display: block;
+		height: 18px;
+		margin: 16px 0 8px 0;
+		text-indent: -9999px;
+		width: 99px;
+		}
+
+	#footer-inner #getintouch p {
+		line-height: 18px;	
+		}
+
+	#footer-inner #dotcomrades {
+		float: left;
+		margin-left: 30px;
+		width: 180px;
+		}
+		
+	#footer-inner #dotcomrades h3 {
+		background: url('http://www.vagabondish.com/wp-content/themes/vagabondish3/images/h-footer-dotcomrades.jpg') no-repeat;
+		display: block;
+		height: 19px;
+		margin: 16px 0 8px 0;
+		text-indent: -9999px;
+		width: 117px;
+		}
+
+	#footer-inner #dotcomrades a {
+		font-weight: normal;
+		text-decoration: none;
+		}
+		
+	#copyright {
+		clear: both;
+		padding-top: 15px;
+		text-align: center;		
+		}
+		
+#footer-sponsors {
+	background: #000;
+	}
+	
+#footer-sponsors-inner {
+	margin: 0 auto;
+	padding: 0 0 16px;
+	text-align: center;
+	width: 988px;
+	}
+	
+#footer-sponsors-inner p, #footer-sponsors-inner a {
+	color: #666;
+	font-size: 11px;
+	text-decoration: none;
+	}
+
+
+
+
+/***
+
+GLOBAL STYLES
+
+***/
+
+#leaderboard {
+	margin: 8px auto 0;
+	width: 970px;
+	}
+	
+#usmg_ad_320x50_1m {
+	display: none;
+	}
+
+.horz-rule {
+	background: url('http://www.vagabondish.com/wp-content/themes/vagabondish3/images/bg-horz-rule.gif') repeat-x;
+	clear: both;
+	height: 1px;
+	margin: 2px 0 8px;
+	}
+
+.horz-rule-narrow {
+	background: url('http://www.vagabondish.com/wp-content/themes/vagabondish3/images/bg-horz-rule.gif') repeat-x;
+	clear: both;
+	height: 1px;
+	margin: 8px 16px 8px;
+	}
+
+.btn-read-more {
+	background: url('http://www.vagabondish.com/wp-content/themes/vagabondish3/images/btn-read-more.jpg') no-repeat;
+	display: block;
+	height: 21px;
+	margin: 8px 16px;
+	outline: none;
+	text-indent: -9999px;
+	width: 75px;
+	}
+
+.pullquote {
+	padding: 10px;
+	float: right;
+	width: 200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #e8ded0;
+	border-bottom-color: #e8ded0;
+	font-size: 16px;
+	text-align: center;
+	line-height: 36px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	font-weight: normal;
+	}
+	
+.chitikamega {
+	margin: 10px 16px;
+	width: 500px;
+	}
+
+.subscribe-select {
+	background-color: #f3e9d6;
+	border-bottom: 1px dotted #333;
+	border-top: 1px dotted #333;
+	float: left;
+	margin-left: 16px;
+	}	
+
+	.subscribe-choice {
+		float: left;
+		margin: 8px;
+		padding: 0 20px 20px;
+		width: 260px;
+		}
+		
+		.subscribe-choice h3 {
+			text-align: center;
+			}
+
+.video {
+	background-color: #f3e9d6;
+	margin: 16px;
+	padding: 16px 0 0;
+	text-align: center;
+	}
+
+	.video object {
+		margin: 0 auto;
+		}
+
+.highlight {
+	background-color: #ff9;
+	border: 1px solid #fc6;
+	margin: 10px 15px;
+	padding: 5px;
+	text-align: center;
+	}
+		
+.contest-entry {
+	float: right;
+	width: 200px;
+	padding: 20px;
+	margin: 0 20px 20px 10px;
+	background: #f7f8c0;
+	border: 1px solid #ccc;	
+	}
+
+	.contest-entry a img {
+		border: none;
+		width: 150px;
+		}
+		
+.byline {
+	border: 1px solid #e8ded0;
+	float: left;
+	margin: 0 8px 8px 0;
+	padding: 3px;
+	width: 100px;
+	}
+	
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+#ad-topper { display: none; }
+
+#topper-inner {
+	clear: both;
+	width: 100%;
+	}
+
+#logo {
+	margin: 0 auto;
+	position: relative;
+	}
+	
+#searchbar {
+	clear: both;
+	display: block;
+	float: none;
+	margin: 2px auto;
+	}
+	
+#nav {
+	margin: 80px auto 10px;
+	width: 100%;
+	}
+
+#nav select { margin: 5px auto 0; width: 150px; }
+
+#navbar, #navbar-inner {
+	background: #31221a;
+	background-image: none;
+	height: auto;
+	/* margin-bottom: 5px; */
+	width: 100%;
+	}
+
+	#nav ul { text-align:center; }
+
+	#nav ul li {
+		background: none;
+		float: left;
+		padding: 5px;
+		}
+
+/*		
+		#nav ul li a {
+			color: #c6af8d;
+			font-size: 12px;
+			height: auto;
+			padding: auto;
+			text-indent: 0;	
+			}
+
+		li#nav-features a {
+			background: none;
+			}
+
+		li#nav-features a:hover {
+			background: none;
+			}
+			
+		li#nav-news a {
+			background: none;
+			}
+		
+		li#nav-news a:hover {
+			background: none;
+			}
+
+		li#nav-modvagabond a {
+			background: none;
+			}
+		
+		li#nav-modvagabond a:hover {
+			background: none;
+			}
+
+		li#nav-photo a {
+			background: none;
+			}
+		
+		li#nav-photo a:hover {
+			background: none;
+			}
+
+		li#nav-dispatches a {
+			background: none;
+			}
+		
+		li#nav-dispatches a:hover {
+			background: none;
+			}
+
+		li#nav-guides a {
+			background: none;
+			}
+		
+		li#nav-guides a:hover {
+			background: none;
+			}			
+
+		li#nav-travelreqs, li#nav-bookhostels, li#nav-travelreqs a, li#nav-bookhostels a {
+			display: none;
+			}
+*/
+		
+	#ancillary {
+		display: none;
+		}
+
+#usmg_ad_320x50_1m {
+	display: block;
+	}
+
+#content {
+	margin: 0 1%;
+	width: 97%;
+	}
+	
+#main {
+	width: 100%;
+	}
+	
+	#main h1 {
+		font-size: 1.6em;
+		}
+
+	#main #postcontent p img {
+		border: 2px solid #e8ded0;
+		width: 99%;
+		}
+		
+		#pullquote {
+			clear: both;
+			}
+			
+#scribol {
+	display: none;
+	}
+		
+#byline p {
+	width: 45%;
+	}
+	
+	.metabar {display: none}
+	
+#indivpostad {
+	display: none;
+}
+		
+#sidebar {
+	display: none;
+	}
+
+#main .head#share-thoughts {
+	float: none;
+	padding: 3px 0;
+	width: 100%;
+	}
+	
+	#main .head#share-thoughts h2 {
+		margin-left: 16px;
+		width: 178px;
+		}
+
+#post-sharebar {
+	display: none;
+	}
+
+#relatedposts {
+	display: none;
+	width: 100%;
+	}
+
+#comment-block {
+	clear: both;
+	}
+	
+	#comment {
+		width: 80%;
+		}
+
+	#comment-text {
+		float: none;
+		}
+
+#network-bar {
+	display: none;
+	}
+
+#leaderboard {
+	display: none;	
+	}
+
+#footer-topper {
+	display: none;
+	}
+
+#footer-inner {
+	padding: 8px 0 0;
+	width: 100%;
+	}
+
+	#footer-inner #advertising {
+		width: 100%;
+		}
+
+	#footer-inner #dotcomrades {
+		display: none;
+		}		
+}

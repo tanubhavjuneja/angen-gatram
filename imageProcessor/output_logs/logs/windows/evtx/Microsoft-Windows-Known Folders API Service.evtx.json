@@ -1,0 +1,1510 @@
+[
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 04:20:25.764191+00:00",
+    "Computer": "37L4247F27-25",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:20:25.764191+00:00\"></TimeCreated>\n<EventRecordID>1</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2024\" ThreadID=\"2044\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>37L4247F27-25</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 04:20:33.860603+00:00",
+    "Computer": "37L4247F27-25",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:20:33.860603+00:00\"></TimeCreated>\n<EventRecordID>2</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1880\" ThreadID=\"1604\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>37L4247F27-25</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 04:20:39.102213+00:00",
+    "Computer": "37L4247F27-25",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:20:39.102213+00:00\"></TimeCreated>\n<EventRecordID>3</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1932\" ThreadID=\"1864\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>37L4247F27-25</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 04:20:43.017820+00:00",
+    "Computer": "37L4247F27-25",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:20:43.017820+00:00\"></TimeCreated>\n<EventRecordID>4</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2000\" ThreadID=\"1928\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>37L4247F27-25</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 04:20:52.128237+00:00",
+    "Computer": "37L4247F27-25",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:20:52.128237+00:00\"></TimeCreated>\n<EventRecordID>5</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1652\" ThreadID=\"244\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>37L4247F27-25</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 01:27:38.661465+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{1b3ea5dc-b587-4786-b4ef-bd1dc332aeae}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Libraries"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 01:27:38.661465+00:00\"></TimeCreated>\n<EventRecordID>6</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"864\" ThreadID=\"1016\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{1b3ea5dc-b587-4786-b4ef-bd1dc332aeae}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Libraries</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 01:27:39.129465+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 01:27:39.129465+00:00\"></TimeCreated>\n<EventRecordID>7</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"864\" ThreadID=\"1016\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 01:28:02.303532+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070003",
+      "FolderId": "{7b0db17d-9cd2-4a93-9733-46cc89022e7c}",
+      "Path": "C:\\Users\\BillyBob\\AppData\\Roaming\\Microsoft\\Windows\\Libraries\\Documents.library-ms"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 01:28:02.303532+00:00\"></TimeCreated>\n<EventRecordID>8</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2860\" ThreadID=\"2428\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070003</Data>\n<Data Name=\"FolderId\">{7b0db17d-9cd2-4a93-9733-46cc89022e7c}</Data>\n<Data Name=\"Path\">C:\\Users\\BillyBob\\AppData\\Roaming\\Microsoft\\Windows\\Libraries\\Documents.library-ms</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 01:31:56.151943+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{1777f761-68ad-4d8a-87bd-30b759fa33dd}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Favorites"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 01:31:56.151943+00:00\"></TimeCreated>\n<EventRecordID>9</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1676\" ThreadID=\"976\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{1777f761-68ad-4d8a-87bd-30b759fa33dd}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Favorites</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 01:31:56.151943+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 01:31:56.151943+00:00\"></TimeCreated>\n<EventRecordID>10</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1676\" ThreadID=\"976\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 01:31:56.151943+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 01:31:56.151943+00:00\"></TimeCreated>\n<EventRecordID>11</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1676\" ThreadID=\"976\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 01:31:56.151943+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 01:31:56.151943+00:00\"></TimeCreated>\n<EventRecordID>12</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1676\" ThreadID=\"976\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 01:33:45.076487+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 01:33:45.076487+00:00\"></TimeCreated>\n<EventRecordID>13</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2904\" ThreadID=\"1752\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 01:33:56.651707+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{ae50c081-ebd2-438a-8655-8a092e34987a}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Recent"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 01:33:56.651707+00:00\"></TimeCreated>\n<EventRecordID>14</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2904\" ThreadID=\"1752\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{ae50c081-ebd2-438a-8655-8a092e34987a}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Recent</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 01:36:09.127138+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{4c5c32ff-bb9d-43b0-b5b4-2d72e54eaaa4}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Saved Games"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 01:36:09.127138+00:00\"></TimeCreated>\n<EventRecordID>15</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2904\" ThreadID=\"2200\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{4c5c32ff-bb9d-43b0-b5b4-2d72e54eaaa4}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Saved Games</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 02:07:33.493649+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 02:07:33.493649+00:00\"></TimeCreated>\n<EventRecordID>16</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"820\" ThreadID=\"3056\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 13:29:28.855089+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:29:28.855089+00:00\"></TimeCreated>\n<EventRecordID>17</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1740\" ThreadID=\"1748\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 13:29:34.377499+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:29:34.377499+00:00\"></TimeCreated>\n<EventRecordID>18</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1704\" ThreadID=\"1736\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 13:29:38.105907+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:29:38.105907+00:00\"></TimeCreated>\n<EventRecordID>19</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1884\" ThreadID=\"1896\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 13:37:27.803633+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{1777f761-68ad-4d8a-87bd-30b759fa33dd}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Favorites"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:37:27.803633+00:00\"></TimeCreated>\n<EventRecordID>20</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1220\" ThreadID=\"1700\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{1777f761-68ad-4d8a-87bd-30b759fa33dd}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Favorites</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 13:37:27.819233+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:37:27.819233+00:00\"></TimeCreated>\n<EventRecordID>21</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1220\" ThreadID=\"1700\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 13:37:27.819233+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:37:27.819233+00:00\"></TimeCreated>\n<EventRecordID>22</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1220\" ThreadID=\"1700\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 13:37:27.866035+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:37:27.866035+00:00\"></TimeCreated>\n<EventRecordID>23</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1220\" ThreadID=\"1700\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 13:37:45.774864+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:37:45.774864+00:00\"></TimeCreated>\n<EventRecordID>24</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1652\" ThreadID=\"2236\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 13:37:52.014875+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{ae50c081-ebd2-438a-8655-8a092e34987a}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Recent"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:37:52.014875+00:00\"></TimeCreated>\n<EventRecordID>25</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1652\" ThreadID=\"2236\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{ae50c081-ebd2-438a-8655-8a092e34987a}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Recent</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 13:56:51.968430+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{1777f761-68ad-4d8a-87bd-30b759fa33dd}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Favorites"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:56:51.968430+00:00\"></TimeCreated>\n<EventRecordID>26</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1000\" ThreadID=\"2072\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{1777f761-68ad-4d8a-87bd-30b759fa33dd}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Favorites</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 13:56:51.968430+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:56:51.968430+00:00\"></TimeCreated>\n<EventRecordID>27</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1000\" ThreadID=\"2072\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 13:56:51.968430+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:56:51.968430+00:00\"></TimeCreated>\n<EventRecordID>28</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1000\" ThreadID=\"2072\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 13:56:51.968430+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:56:51.968430+00:00\"></TimeCreated>\n<EventRecordID>29</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1000\" ThreadID=\"2072\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 15:29:08.497915+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{1777f761-68ad-4d8a-87bd-30b759fa33dd}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Favorites"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 15:29:08.497915+00:00\"></TimeCreated>\n<EventRecordID>30</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2108\" ThreadID=\"2196\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{1777f761-68ad-4d8a-87bd-30b759fa33dd}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Favorites</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 15:29:08.497915+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 15:29:08.497915+00:00\"></TimeCreated>\n<EventRecordID>31</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2108\" ThreadID=\"2196\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 15:29:08.497915+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 15:29:08.497915+00:00\"></TimeCreated>\n<EventRecordID>32</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2108\" ThreadID=\"2196\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 15:29:08.497915+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 15:29:08.497915+00:00\"></TimeCreated>\n<EventRecordID>33</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2108\" ThreadID=\"2196\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 16:18:06.567957+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{4c5c32ff-bb9d-43b0-b5b4-2d72e54eaaa4}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Saved Games"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:18:06.567957+00:00\"></TimeCreated>\n<EventRecordID>34</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1836\" ThreadID=\"2724\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{4c5c32ff-bb9d-43b0-b5b4-2d72e54eaaa4}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Saved Games</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 18:23:01.777225+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{1777f761-68ad-4d8a-87bd-30b759fa33dd}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Favorites"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:23:01.777225+00:00\"></TimeCreated>\n<EventRecordID>35</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1520\" ThreadID=\"792\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{1777f761-68ad-4d8a-87bd-30b759fa33dd}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Favorites</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 18:23:01.777225+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:23:01.777225+00:00\"></TimeCreated>\n<EventRecordID>36</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1520\" ThreadID=\"792\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 18:23:01.777225+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:23:01.777225+00:00\"></TimeCreated>\n<EventRecordID>37</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1520\" ThreadID=\"792\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 18:23:01.792826+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:23:01.792826+00:00\"></TimeCreated>\n<EventRecordID>38</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1520\" ThreadID=\"792\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 18:26:00.181540+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{4c5c32ff-bb9d-43b0-b5b4-2d72e54eaaa4}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Saved Games"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:26:00.181540+00:00\"></TimeCreated>\n<EventRecordID>39</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2344\" ThreadID=\"2584\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{4c5c32ff-bb9d-43b0-b5b4-2d72e54eaaa4}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Saved Games</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 18:26:01.772741+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:26:01.772741+00:00\"></TimeCreated>\n<EventRecordID>40</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2344\" ThreadID=\"1620\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-25 18:26:01.959942+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{ae50c081-ebd2-438a-8655-8a092e34987a}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Recent"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:26:01.959942+00:00\"></TimeCreated>\n<EventRecordID>41</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2344\" ThreadID=\"1620\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{ae50c081-ebd2-438a-8655-8a092e34987a}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Recent</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-29 12:33:53.754887+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{1777f761-68ad-4d8a-87bd-30b759fa33dd}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Favorites"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 12:33:53.754887+00:00\"></TimeCreated>\n<EventRecordID>42</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1772\" ThreadID=\"464\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{1777f761-68ad-4d8a-87bd-30b759fa33dd}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Favorites</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-29 12:33:53.770485+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 12:33:53.770485+00:00\"></TimeCreated>\n<EventRecordID>43</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1772\" ThreadID=\"464\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-29 12:33:53.770485+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 12:33:53.770485+00:00\"></TimeCreated>\n<EventRecordID>44</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1772\" ThreadID=\"464\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-01-29 12:33:53.770485+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 12:33:53.770485+00:00\"></TimeCreated>\n<EventRecordID>45</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1772\" ThreadID=\"464\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-03 12:06:58.314459+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{1777f761-68ad-4d8a-87bd-30b759fa33dd}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Favorites"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 12:06:58.314459+00:00\"></TimeCreated>\n<EventRecordID>46</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"500\" ThreadID=\"2140\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{1777f761-68ad-4d8a-87bd-30b759fa33dd}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Favorites</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-03 12:06:58.314459+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 12:06:58.314459+00:00\"></TimeCreated>\n<EventRecordID>47</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"500\" ThreadID=\"2140\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-03 12:06:58.314459+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 12:06:58.314459+00:00\"></TimeCreated>\n<EventRecordID>48</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"500\" ThreadID=\"2140\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-03 12:06:58.361259+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 12:06:58.361259+00:00\"></TimeCreated>\n<EventRecordID>49</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"500\" ThreadID=\"2140\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-03 15:20:52.680370+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 15:20:52.680370+00:00\"></TimeCreated>\n<EventRecordID>50</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3468\" ThreadID=\"2252\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-04 14:19:27.267309+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{1777f761-68ad-4d8a-87bd-30b759fa33dd}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Favorites"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 14:19:27.267309+00:00\"></TimeCreated>\n<EventRecordID>51</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1600\" ThreadID=\"1884\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{1777f761-68ad-4d8a-87bd-30b759fa33dd}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Favorites</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-04 14:19:27.282909+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 14:19:27.282909+00:00\"></TimeCreated>\n<EventRecordID>52</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1600\" ThreadID=\"1884\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-04 14:19:27.314110+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 14:19:27.314110+00:00\"></TimeCreated>\n<EventRecordID>53</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1600\" ThreadID=\"1884\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-04 14:19:27.392109+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 14:19:27.392109+00:00\"></TimeCreated>\n<EventRecordID>54</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1600\" ThreadID=\"1884\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-04 14:59:11.891273+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{1777f761-68ad-4d8a-87bd-30b759fa33dd}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Favorites"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 14:59:11.891273+00:00\"></TimeCreated>\n<EventRecordID>55</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3936\" ThreadID=\"2976\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{1777f761-68ad-4d8a-87bd-30b759fa33dd}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Favorites</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-04 14:59:12.061274+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 14:59:12.061274+00:00\"></TimeCreated>\n<EventRecordID>56</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3936\" ThreadID=\"2976\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-04 14:59:12.061274+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 14:59:12.061274+00:00\"></TimeCreated>\n<EventRecordID>57</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3936\" ThreadID=\"2976\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-04 14:59:12.061274+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 14:59:12.061274+00:00\"></TimeCreated>\n<EventRecordID>58</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3936\" ThreadID=\"2976\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-05 13:38:01.280029+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{1777f761-68ad-4d8a-87bd-30b759fa33dd}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Favorites"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 13:38:01.280029+00:00\"></TimeCreated>\n<EventRecordID>59</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2020\" ThreadID=\"2160\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{1777f761-68ad-4d8a-87bd-30b759fa33dd}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Favorites</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-05 13:38:01.280029+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 13:38:01.280029+00:00\"></TimeCreated>\n<EventRecordID>60</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2020\" ThreadID=\"2160\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-05 13:38:01.280029+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 13:38:01.280029+00:00\"></TimeCreated>\n<EventRecordID>61</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2020\" ThreadID=\"2160\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-05 13:38:01.280029+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 13:38:01.280029+00:00\"></TimeCreated>\n<EventRecordID>62</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2020\" ThreadID=\"2160\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-06 11:25:37.646389+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{1777f761-68ad-4d8a-87bd-30b759fa33dd}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Favorites"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 11:25:37.646389+00:00\"></TimeCreated>\n<EventRecordID>63</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2268\" ThreadID=\"2664\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{1777f761-68ad-4d8a-87bd-30b759fa33dd}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Favorites</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-06 11:25:37.646389+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 11:25:37.646389+00:00\"></TimeCreated>\n<EventRecordID>64</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2268\" ThreadID=\"2664\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-06 11:25:37.646389+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 11:25:37.646389+00:00\"></TimeCreated>\n<EventRecordID>65</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2268\" ThreadID=\"2664\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-06 11:25:37.646389+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 11:25:37.646389+00:00\"></TimeCreated>\n<EventRecordID>66</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2268\" ThreadID=\"2664\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-07 12:38:45.114290+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{1777f761-68ad-4d8a-87bd-30b759fa33dd}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Favorites"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 12:38:45.114290+00:00\"></TimeCreated>\n<EventRecordID>67</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2448\" ThreadID=\"2548\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{1777f761-68ad-4d8a-87bd-30b759fa33dd}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Favorites</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-07 12:38:45.114290+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 12:38:45.114290+00:00\"></TimeCreated>\n<EventRecordID>68</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2448\" ThreadID=\"2548\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-07 12:38:45.114290+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 12:38:45.114290+00:00\"></TimeCreated>\n<EventRecordID>69</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2448\" ThreadID=\"2548\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-07 12:38:45.114290+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 12:38:45.114290+00:00\"></TimeCreated>\n<EventRecordID>70</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2448\" ThreadID=\"2548\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-07 14:30:57.562376+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{2a00375e-224c-49de-b8d1-440df7ef3ddc}",
+      "Path": "C:\\Windows\\resources\\0409"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 14:30:57.562376+00:00\"></TimeCreated>\n<EventRecordID>71</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"372\" ThreadID=\"2284\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{2a00375e-224c-49de-b8d1-440df7ef3ddc}</Data>\n<Data Name=\"Path\">C:\\Windows\\resources\\0409</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-07 14:37:14.672915+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{1777f761-68ad-4d8a-87bd-30b759fa33dd}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Favorites"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 14:37:14.672915+00:00\"></TimeCreated>\n<EventRecordID>72</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3312\" ThreadID=\"2628\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{1777f761-68ad-4d8a-87bd-30b759fa33dd}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Favorites</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-07 14:37:14.672915+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 14:37:14.672915+00:00\"></TimeCreated>\n<EventRecordID>73</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3312\" ThreadID=\"2628\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-07 14:37:14.688515+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 14:37:14.688515+00:00\"></TimeCreated>\n<EventRecordID>74</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3312\" ThreadID=\"2628\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-07 14:37:14.688515+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 14:37:14.688515+00:00\"></TimeCreated>\n<EventRecordID>75</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3312\" ThreadID=\"2628\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-07 17:34:51.539593+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{1777f761-68ad-4d8a-87bd-30b759fa33dd}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Favorites"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 17:34:51.539593+00:00\"></TimeCreated>\n<EventRecordID>76</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1820\" ThreadID=\"2132\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{1777f761-68ad-4d8a-87bd-30b759fa33dd}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Favorites</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-07 17:34:51.539593+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 17:34:51.539593+00:00\"></TimeCreated>\n<EventRecordID>77</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1820\" ThreadID=\"2132\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-07 17:34:51.539593+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 17:34:51.539593+00:00\"></TimeCreated>\n<EventRecordID>78</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1820\" ThreadID=\"2132\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-07 17:34:51.539593+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 17:34:51.539593+00:00\"></TimeCreated>\n<EventRecordID>79</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"1820\" ThreadID=\"2132\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-10 14:54:06.503269+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{1777f761-68ad-4d8a-87bd-30b759fa33dd}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Favorites"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 14:54:06.503269+00:00\"></TimeCreated>\n<EventRecordID>80</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2560\" ThreadID=\"2784\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{1777f761-68ad-4d8a-87bd-30b759fa33dd}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Favorites</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-10 14:54:06.503269+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 14:54:06.503269+00:00\"></TimeCreated>\n<EventRecordID>81</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2560\" ThreadID=\"2784\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-10 14:54:06.503269+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 14:54:06.503269+00:00\"></TimeCreated>\n<EventRecordID>82</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2560\" ThreadID=\"2784\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-10 14:54:06.503269+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 14:54:06.503269+00:00\"></TimeCreated>\n<EventRecordID>83</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2560\" ThreadID=\"2784\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-11 13:28:33.241602+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{1777f761-68ad-4d8a-87bd-30b759fa33dd}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Favorites"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 13:28:33.241602+00:00\"></TimeCreated>\n<EventRecordID>84</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2484\" ThreadID=\"2688\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{1777f761-68ad-4d8a-87bd-30b759fa33dd}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Favorites</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-11 13:28:33.241602+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 13:28:33.241602+00:00\"></TimeCreated>\n<EventRecordID>85</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2484\" ThreadID=\"2688\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-11 13:28:33.241602+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 13:28:33.241602+00:00\"></TimeCreated>\n<EventRecordID>86</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2484\" ThreadID=\"2688\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-11 13:28:33.241602+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 13:28:33.241602+00:00\"></TimeCreated>\n<EventRecordID>87</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2484\" ThreadID=\"2688\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-11 17:45:07.579243+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{1777f761-68ad-4d8a-87bd-30b759fa33dd}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Favorites"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:45:07.579243+00:00\"></TimeCreated>\n<EventRecordID>88</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2384\" ThreadID=\"2620\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{1777f761-68ad-4d8a-87bd-30b759fa33dd}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Favorites</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-11 17:45:07.579243+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:45:07.579243+00:00\"></TimeCreated>\n<EventRecordID>89</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2384\" ThreadID=\"2620\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-11 17:45:07.579243+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:45:07.579243+00:00\"></TimeCreated>\n<EventRecordID>90</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2384\" ThreadID=\"2620\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-11 17:45:07.579243+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:45:07.579243+00:00\"></TimeCreated>\n<EventRecordID>91</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2384\" ThreadID=\"2620\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-11 17:54:02.911411+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{1777f761-68ad-4d8a-87bd-30b759fa33dd}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Favorites"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:54:02.911411+00:00\"></TimeCreated>\n<EventRecordID>92</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2996\" ThreadID=\"1224\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{1777f761-68ad-4d8a-87bd-30b759fa33dd}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Favorites</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-11 17:54:02.911411+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:54:02.911411+00:00\"></TimeCreated>\n<EventRecordID>93</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2996\" ThreadID=\"1224\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-11 17:54:02.911411+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:54:02.911411+00:00\"></TimeCreated>\n<EventRecordID>94</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2996\" ThreadID=\"1224\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-11 17:54:02.927011+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:54:02.927011+00:00\"></TimeCreated>\n<EventRecordID>95</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2996\" ThreadID=\"1224\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-16 19:09:21.532240+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{1777f761-68ad-4d8a-87bd-30b759fa33dd}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Favorites"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 19:09:21.532240+00:00\"></TimeCreated>\n<EventRecordID>96</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2924\" ThreadID=\"1608\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{1777f761-68ad-4d8a-87bd-30b759fa33dd}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Favorites</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-16 19:09:21.532240+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 19:09:21.532240+00:00\"></TimeCreated>\n<EventRecordID>97</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2924\" ThreadID=\"1608\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-16 19:09:21.532240+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 19:09:21.532240+00:00\"></TimeCreated>\n<EventRecordID>98</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2924\" ThreadID=\"1608\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-16 19:09:21.532240+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 19:09:21.532240+00:00\"></TimeCreated>\n<EventRecordID>99</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2924\" ThreadID=\"1608\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-16 21:54:25.309013+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{1777f761-68ad-4d8a-87bd-30b759fa33dd}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Favorites"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 21:54:25.309013+00:00\"></TimeCreated>\n<EventRecordID>100</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3060\" ThreadID=\"2376\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{1777f761-68ad-4d8a-87bd-30b759fa33dd}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Favorites</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-16 21:54:25.309013+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 21:54:25.309013+00:00\"></TimeCreated>\n<EventRecordID>101</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3060\" ThreadID=\"2376\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-16 21:54:25.309013+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 21:54:25.309013+00:00\"></TimeCreated>\n<EventRecordID>102</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3060\" ThreadID=\"2376\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-16 21:54:25.309013+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 21:54:25.309013+00:00\"></TimeCreated>\n<EventRecordID>103</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3060\" ThreadID=\"2376\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-16 21:56:50.560867+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 21:56:50.560867+00:00\"></TimeCreated>\n<EventRecordID>104</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3232\" ThreadID=\"3048\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-16 22:42:56.857138+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{1777f761-68ad-4d8a-87bd-30b759fa33dd}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Favorites"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 22:42:56.857138+00:00\"></TimeCreated>\n<EventRecordID>105</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3020\" ThreadID=\"1236\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{1777f761-68ad-4d8a-87bd-30b759fa33dd}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Favorites</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-16 22:42:56.857138+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 22:42:56.857138+00:00\"></TimeCreated>\n<EventRecordID>106</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3020\" ThreadID=\"1236\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-16 22:42:56.857138+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 22:42:56.857138+00:00\"></TimeCreated>\n<EventRecordID>107</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3020\" ThreadID=\"1236\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-16 22:42:56.857138+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 22:42:56.857138+00:00\"></TimeCreated>\n<EventRecordID>108</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"3020\" ThreadID=\"1236\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-19 13:34:03.391659+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{1777f761-68ad-4d8a-87bd-30b759fa33dd}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Favorites"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 13:34:03.391659+00:00\"></TimeCreated>\n<EventRecordID>109</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2988\" ThreadID=\"1516\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{1777f761-68ad-4d8a-87bd-30b759fa33dd}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Favorites</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-19 13:34:03.391659+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 13:34:03.391659+00:00\"></TimeCreated>\n<EventRecordID>110</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2988\" ThreadID=\"1516\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-19 13:34:03.391659+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 13:34:03.391659+00:00\"></TimeCreated>\n<EventRecordID>111</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2988\" ThreadID=\"1516\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-19 13:34:03.391659+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 13:34:03.391659+00:00\"></TimeCreated>\n<EventRecordID>112</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2988\" ThreadID=\"1516\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-20 14:30:34.907906+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{1777f761-68ad-4d8a-87bd-30b759fa33dd}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Favorites"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-20 14:30:34.907906+00:00\"></TimeCreated>\n<EventRecordID>113</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2772\" ThreadID=\"3008\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{1777f761-68ad-4d8a-87bd-30b759fa33dd}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Favorites</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-20 14:30:34.923506+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-20 14:30:34.923506+00:00\"></TimeCreated>\n<EventRecordID>114</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2772\" ThreadID=\"3008\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{625b53c3-ab48-4ec1-ba1f-a1ef4146fc19}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-20 14:30:34.923506+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{fdd39ad0-238f-46af-adb4-6c85480369c7}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Documents"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-20 14:30:34.923506+00:00\"></TimeCreated>\n<EventRecordID>115</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2772\" ThreadID=\"3008\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{fdd39ad0-238f-46af-adb4-6c85480369c7}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Documents</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1002,
+    "Timestamp": "2014-02-20 14:30:34.923506+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-Known Folders API Service",
+    "Level": "Warning",
+    "EventData": {
+      "hrError": "0x80070002",
+      "FolderId": "{b4bfcc3a-db2c-424c-b029-7fe99a87c641}",
+      "Path": "C:\\Windows\\system32\\config\\systemprofile\\Desktop"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-KnownFolders\" Guid=\"{8939299f-2315-4c5c-9b91-abb86aa0627d}\"></Provider>\n<EventID Qualifiers=\"\">1002</EventID>\n<Version>0</Version>\n<Level>3</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-20 14:30:34.923506+00:00\"></TimeCreated>\n<EventRecordID>116</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2772\" ThreadID=\"3008\"></Execution>\n<Channel>Microsoft-Windows-Known Folders API Service</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"hrError\">0x80070002</Data>\n<Data Name=\"FolderId\">{b4bfcc3a-db2c-424c-b029-7fe99a87c641}</Data>\n<Data Name=\"Path\">C:\\Windows\\system32\\config\\systemprofile\\Desktop</Data>\n</EventData>\n</Event>\n"
+  }
+]

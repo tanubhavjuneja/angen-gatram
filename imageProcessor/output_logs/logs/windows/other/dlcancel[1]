@@ -1,0 +1,19 @@
+<HTML>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8">
+<LINK ID="ridCSS" REL=STYLESHEET HREF=oestyle.css>
+<table>
+  <tr>
+    <td class=icon>
+    </td>
+    <td>
+        <h1 ID="ridTitle">Download canceled</h1>
+        <p ID="ridProblem">Windows Live Mail was unable to download the message you requested.<br>
+            <br>
+        <hr>
+        <p ID="ridResolution">If the message is taking too long to be displayed, it might be temporarily unavailable.
+            Please try to download the message later. </p>
+        <h2 ID="ridProductName">Windows Live Mail</h2>
+    </td>
+  </tr>
+</table>
+</HTML>

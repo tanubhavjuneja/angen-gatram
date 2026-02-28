@@ -1,0 +1,1512 @@
+[
+  {
+    "EventID": 1,
+    "Timestamp": "2014-01-25 04:23:26.550064+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "LogAlways",
+    "EventData": {
+      "StartTimeOfDay": "2014-01-25 04:23:26.550064+00:00"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>0</Level>\n<Task>1</Task>\n<Opcode>1</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:26.550064+00:00\"></TimeCreated>\n<EventRecordID>1</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"StartTimeOfDay\">2014-01-25 04:23:26.550064+00:00</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 04:23:26.550064+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "10",
+      "DescriptionSize": "25",
+      "Description": "Application Intializaton"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:26.550064+00:00\"></TimeCreated>\n<EventRecordID>2</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">10</Data>\n<Data Name=\"DescriptionSize\">25</Data>\n<Data Name=\"Description\">Application Intializaton</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 2,
+    "Timestamp": "2014-01-25 04:23:26.971266+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "LogAlways",
+    "EventData": {
+      "CommandLineSize": "139",
+      "CommandLine": "\"C:\\Windows\\system32\\winsat.exe\" moobe -cancelevent 041f4889-0645-4033-b94c-0299e82f9d57 -moobegoevent 0193ebbf-a6b4-446c-835e-60a36bc7333a"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">2</EventID>\n<Version>0</Version>\n<Level>0</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:26.971266+00:00\"></TimeCreated>\n<EventRecordID>3</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"CommandLineSize\">139</Data>\n<Data Name=\"CommandLine\">\"C:\\Windows\\system32\\winsat.exe\" moobe -cancelevent 041f4889-0645-4033-b94c-0299e82f9d57 -moobegoevent 0193ebbf-a6b4-446c-835e-60a36bc7333a</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 04:23:27.220865+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "20",
+      "DescriptionSize": "23",
+      "Description": "Modify system policies"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:27.220865+00:00\"></TimeCreated>\n<EventRecordID>4</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">20</Data>\n<Data Name=\"DescriptionSize\">23</Data>\n<Data Name=\"Description\">Modify system policies</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 04:23:31.495274+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "20"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:31.495274+00:00\"></TimeCreated>\n<EventRecordID>5</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">20</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 04:23:31.495274+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "30",
+      "DescriptionSize": "19",
+      "Description": "Gathering Key Info"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:31.495274+00:00\"></TimeCreated>\n<EventRecordID>6</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">30</Data>\n<Data Name=\"DescriptionSize\">19</Data>\n<Data Name=\"Description\">Gathering Key Info</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 04:23:31.495274+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "40",
+      "DescriptionSize": "23",
+      "Description": "Gather CPU information"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:31.495274+00:00\"></TimeCreated>\n<EventRecordID>7</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">40</Data>\n<Data Name=\"DescriptionSize\">23</Data>\n<Data Name=\"Description\">Gather CPU information</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 04:23:31.495274+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "40"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:31.495274+00:00\"></TimeCreated>\n<EventRecordID>8</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">40</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 04:23:31.495274+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "50",
+      "DescriptionSize": "28",
+      "Description": "Gather Graphics information"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:31.495274+00:00\"></TimeCreated>\n<EventRecordID>9</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">50</Data>\n<Data Name=\"DescriptionSize\">28</Data>\n<Data Name=\"Description\">Gather Graphics information</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 04:23:31.495274+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "60",
+      "DescriptionSize": "27",
+      "Description": "Gather Monitor information"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:31.495274+00:00\"></TimeCreated>\n<EventRecordID>10</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">60</Data>\n<Data Name=\"DescriptionSize\">27</Data>\n<Data Name=\"Description\">Gather Monitor information</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 04:23:31.495274+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "60"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:31.495274+00:00\"></TimeCreated>\n<EventRecordID>11</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">60</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 04:23:31.495274+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "70",
+      "DescriptionSize": "17",
+      "Description": "Initializing DX9"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:31.495274+00:00\"></TimeCreated>\n<EventRecordID>12</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">70</Data>\n<Data Name=\"DescriptionSize\">17</Data>\n<Data Name=\"Description\">Initializing DX9</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 04:23:31.495274+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "70"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:31.495274+00:00\"></TimeCreated>\n<EventRecordID>13</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">70</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 04:23:31.495274+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "80",
+      "DescriptionSize": "28",
+      "Description": "Get DX9 Device capabilities"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:31.495274+00:00\"></TimeCreated>\n<EventRecordID>14</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">80</Data>\n<Data Name=\"DescriptionSize\">28</Data>\n<Data Name=\"Description\">Get DX9 Device capabilities</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 04:23:31.542072+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "80"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:31.542072+00:00\"></TimeCreated>\n<EventRecordID>15</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">80</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 04:23:31.542072+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "90",
+      "DescriptionSize": "24",
+      "Description": "Get Adapter Description"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:31.542072+00:00\"></TimeCreated>\n<EventRecordID>16</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">90</Data>\n<Data Name=\"DescriptionSize\">24</Data>\n<Data Name=\"Description\">Get Adapter Description</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 04:23:31.557673+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "90"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:31.557673+00:00\"></TimeCreated>\n<EventRecordID>17</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">90</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 04:23:31.557673+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "50"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:31.557673+00:00\"></TimeCreated>\n<EventRecordID>18</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">50</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 04:23:31.557673+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "30"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:31.557673+00:00\"></TimeCreated>\n<EventRecordID>19</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">30</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 04:23:31.573273+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "10"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:31.573273+00:00\"></TimeCreated>\n<EventRecordID>20</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">10</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 04:23:31.573273+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1001",
+      "DescriptionSize": "27",
+      "Description": "Run Assessment, features, "
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:31.573273+00:00\"></TimeCreated>\n<EventRecordID>21</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1001</Data>\n<Data Name=\"DescriptionSize\">27</Data>\n<Data Name=\"Description\">Run Assessment, features, </Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 04:23:31.698072+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "120",
+      "DescriptionSize": "33",
+      "Description": "Get graphics adapter information"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:31.698072+00:00\"></TimeCreated>\n<EventRecordID>22</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">120</Data>\n<Data Name=\"DescriptionSize\">33</Data>\n<Data Name=\"Description\">Get graphics adapter information</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 04:23:33.117676+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "120"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:33.117676+00:00\"></TimeCreated>\n<EventRecordID>23</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">120</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 04:23:33.180077+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1001"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:33.180077+00:00\"></TimeCreated>\n<EventRecordID>24</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1001</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 04:23:33.180077+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1005",
+      "DescriptionSize": "166",
+      "Description": "Run Assessment, dwm, -aname DWM -time 10 -fbc 10 -disp off -normalw 12 -width 1280 -height 1024 -winwidth C(1144) -winheight C(915) -rendertotex 6 -rtdelta 3 -nolock"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:33.180077+00:00\"></TimeCreated>\n<EventRecordID>25</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1005</Data>\n<Data Name=\"DescriptionSize\">166</Data>\n<Data Name=\"Description\">Run Assessment, dwm, -aname DWM -time 10 -fbc 10 -disp off -normalw 12 -width 1280 -height 1024 -winwidth C(1144) -winheight C(915) -rendertotex 6 -rtdelta 3 -nolock</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 04:23:33.866478+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1005"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:33.866478+00:00\"></TimeCreated>\n<EventRecordID>26</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1005</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 04:23:33.866478+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "130",
+      "DescriptionSize": "16",
+      "Description": "Process Results"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:33.866478+00:00\"></TimeCreated>\n<EventRecordID>27</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">130</Data>\n<Data Name=\"DescriptionSize\">16</Data>\n<Data Name=\"Description\">Process Results</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 04:23:34.194078+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "130"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:34.194078+00:00\"></TimeCreated>\n<EventRecordID>28</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">130</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 04:23:34.194078+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "150",
+      "DescriptionSize": "17",
+      "Description": "Cleanup and exit"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:34.194078+00:00\"></TimeCreated>\n<EventRecordID>29</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">150</Data>\n<Data Name=\"DescriptionSize\">17</Data>\n<Data Name=\"Description\">Cleanup and exit</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 04:23:34.459278+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "140",
+      "DescriptionSize": "24",
+      "Description": "Restore system policies"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:34.459278+00:00\"></TimeCreated>\n<EventRecordID>30</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">140</Data>\n<Data Name=\"DescriptionSize\">24</Data>\n<Data Name=\"Description\">Restore system policies</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 04:23:34.708879+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "140"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:34.708879+00:00\"></TimeCreated>\n<EventRecordID>31</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">140</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 3,
+    "Timestamp": "2014-01-25 04:23:34.708879+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "LogAlways",
+    "EventData": {
+      "ExitCode": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">3</EventID>\n<Version>0</Version>\n<Level>0</Level>\n<Task>1</Task>\n<Opcode>2</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:23:34.708879+00:00\"></TimeCreated>\n<EventRecordID>32</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"764\" ThreadID=\"768\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData><Data Name=\"ExitCode\">0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1,
+    "Timestamp": "2014-01-25 16:14:34.511906+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "LogAlways",
+    "EventData": {
+      "StartTimeOfDay": "2014-01-25 16:14:34.511906+00:00"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>0</Level>\n<Task>1</Task>\n<Opcode>1</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:34.511906+00:00\"></TimeCreated>\n<EventRecordID>33</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"StartTimeOfDay\">2014-01-25 16:14:34.511906+00:00</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:34.511906+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "10",
+      "DescriptionSize": "25",
+      "Description": "Application Intializaton"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:34.511906+00:00\"></TimeCreated>\n<EventRecordID>34</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">10</Data>\n<Data Name=\"DescriptionSize\">25</Data>\n<Data Name=\"Description\">Application Intializaton</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 2,
+    "Timestamp": "2014-01-25 16:14:34.964306+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "LogAlways",
+    "EventData": {
+      "CommandLineSize": "92",
+      "CommandLine": "C:\\Windows\\system32\\winsat.exe formal -log -cancelevent e3b274fa-534c-46aa-9a4f-9b41a452f5dc"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">2</EventID>\n<Version>0</Version>\n<Level>0</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:34.964306+00:00\"></TimeCreated>\n<EventRecordID>35</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"CommandLineSize\">92</Data>\n<Data Name=\"CommandLine\">C:\\Windows\\system32\\winsat.exe formal -log -cancelevent e3b274fa-534c-46aa-9a4f-9b41a452f5dc</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:36.071909+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "20",
+      "DescriptionSize": "23",
+      "Description": "Modify system policies"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:36.071909+00:00\"></TimeCreated>\n<EventRecordID>36</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">20</Data>\n<Data Name=\"DescriptionSize\">23</Data>\n<Data Name=\"Description\">Modify system policies</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:37.070311+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "20"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:37.070311+00:00\"></TimeCreated>\n<EventRecordID>37</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">20</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:37.070311+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "30",
+      "DescriptionSize": "19",
+      "Description": "Gathering Key Info"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:37.070311+00:00\"></TimeCreated>\n<EventRecordID>38</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">30</Data>\n<Data Name=\"DescriptionSize\">19</Data>\n<Data Name=\"Description\">Gathering Key Info</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:37.070311+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "40",
+      "DescriptionSize": "23",
+      "Description": "Gather CPU information"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:37.070311+00:00\"></TimeCreated>\n<EventRecordID>39</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">40</Data>\n<Data Name=\"DescriptionSize\">23</Data>\n<Data Name=\"Description\">Gather CPU information</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:37.600712+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "40"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:37.600712+00:00\"></TimeCreated>\n<EventRecordID>40</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">40</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:37.600712+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "50",
+      "DescriptionSize": "28",
+      "Description": "Gather Graphics information"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:37.600712+00:00\"></TimeCreated>\n<EventRecordID>41</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">50</Data>\n<Data Name=\"DescriptionSize\">28</Data>\n<Data Name=\"Description\">Gather Graphics information</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:37.600712+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "60",
+      "DescriptionSize": "27",
+      "Description": "Gather Monitor information"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:37.600712+00:00\"></TimeCreated>\n<EventRecordID>42</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">60</Data>\n<Data Name=\"DescriptionSize\">27</Data>\n<Data Name=\"Description\">Gather Monitor information</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:37.600712+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "60"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:37.600712+00:00\"></TimeCreated>\n<EventRecordID>43</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">60</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:37.600712+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "70",
+      "DescriptionSize": "17",
+      "Description": "Initializing DX9"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:37.600712+00:00\"></TimeCreated>\n<EventRecordID>44</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">70</Data>\n<Data Name=\"DescriptionSize\">17</Data>\n<Data Name=\"Description\">Initializing DX9</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:37.600712+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "70"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:37.600712+00:00\"></TimeCreated>\n<EventRecordID>45</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">70</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:37.600712+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "80",
+      "DescriptionSize": "28",
+      "Description": "Get DX9 Device capabilities"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:37.600712+00:00\"></TimeCreated>\n<EventRecordID>46</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">80</Data>\n<Data Name=\"DescriptionSize\">28</Data>\n<Data Name=\"Description\">Get DX9 Device capabilities</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:37.881512+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "80"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:37.881512+00:00\"></TimeCreated>\n<EventRecordID>47</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">80</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:37.881512+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "90",
+      "DescriptionSize": "24",
+      "Description": "Get Adapter Description"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:37.881512+00:00\"></TimeCreated>\n<EventRecordID>48</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">90</Data>\n<Data Name=\"DescriptionSize\">24</Data>\n<Data Name=\"Description\">Get Adapter Description</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:37.928312+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "90"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:37.928312+00:00\"></TimeCreated>\n<EventRecordID>49</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">90</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:37.928312+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "50"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:37.928312+00:00\"></TimeCreated>\n<EventRecordID>50</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">50</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:37.928312+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "30"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:37.928312+00:00\"></TimeCreated>\n<EventRecordID>51</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">30</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:38.021912+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "10"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:38.021912+00:00\"></TimeCreated>\n<EventRecordID>52</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">10</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:38.021912+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1001",
+      "DescriptionSize": "27",
+      "Description": "Run Assessment, features, "
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:38.021912+00:00\"></TimeCreated>\n<EventRecordID>53</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1001</Data>\n<Data Name=\"DescriptionSize\">27</Data>\n<Data Name=\"Description\">Run Assessment, features, </Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:38.131111+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "120",
+      "DescriptionSize": "33",
+      "Description": "Get graphics adapter information"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:38.131111+00:00\"></TimeCreated>\n<EventRecordID>54</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">120</Data>\n<Data Name=\"DescriptionSize\">33</Data>\n<Data Name=\"Description\">Get graphics adapter information</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:38.224710+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "120"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:38.224710+00:00\"></TimeCreated>\n<EventRecordID>55</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">120</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:38.271513+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1001"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:38.271513+00:00\"></TimeCreated>\n<EventRecordID>56</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1001</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:38.271513+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1006",
+      "DescriptionSize": "179",
+      "Description": "Run Assessment, d3d, -aname Batch -time 5 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 300 -batchcnt C(10) -objs C(26) -rendertotex 6 -rtdelta 3 -texpobj C(1)"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:38.271513+00:00\"></TimeCreated>\n<EventRecordID>57</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1006</Data>\n<Data Name=\"DescriptionSize\">179</Data>\n<Data Name=\"Description\">Run Assessment, d3d, -aname Batch -time 5 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 300 -batchcnt C(10) -objs C(26) -rendertotex 6 -rtdelta 3 -texpobj C(1)</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:45.353924+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1006"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:45.353924+00:00\"></TimeCreated>\n<EventRecordID>58</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1006</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:45.353924+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1006",
+      "DescriptionSize": "179",
+      "Description": "Run Assessment, d3d, -aname Alpha -time 5 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 300 -batchcnt C(75) -objs C(26) -rendertotex 6 -rtdelta 3 -texpobj C(1)"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:45.353924+00:00\"></TimeCreated>\n<EventRecordID>59</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1006</Data>\n<Data Name=\"DescriptionSize\">179</Data>\n<Data Name=\"Description\">Run Assessment, d3d, -aname Alpha -time 5 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 300 -batchcnt C(75) -objs C(26) -rendertotex 6 -rtdelta 3 -texpobj C(1)</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:46.508327+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1006"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:46.508327+00:00\"></TimeCreated>\n<EventRecordID>60</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1006</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:46.508327+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1006",
+      "DescriptionSize": "211",
+      "Description": "Run Assessment, d3d, -aname Tex -time 5 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 500 -batchcnt C(125) -objs C(20) -noalpha -texshader -totaltex 10 -texpobj C(4) -rendertotex 6 -rtdelta 3"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:46.508327+00:00\"></TimeCreated>\n<EventRecordID>61</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1006</Data>\n<Data Name=\"DescriptionSize\">211</Data>\n<Data Name=\"Description\">Run Assessment, d3d, -aname Tex -time 5 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 500 -batchcnt C(125) -objs C(20) -noalpha -texshader -totaltex 10 -texpobj C(4) -rendertotex 6 -rtdelta 3</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:47.537930+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1006"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:47.537930+00:00\"></TimeCreated>\n<EventRecordID>62</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1006</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:47.537930+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1006",
+      "DescriptionSize": "211",
+      "Description": "Run Assessment, d3d, -aname ALU -time 5 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 500 -batchcnt C(125) -objs C(20) -noalpha -alushader -totaltex 10 -texpobj C(1) -rendertotex 6 -rtdelta 3"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:47.537930+00:00\"></TimeCreated>\n<EventRecordID>63</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1006</Data>\n<Data Name=\"DescriptionSize\">211</Data>\n<Data Name=\"Description\">Run Assessment, d3d, -aname ALU -time 5 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 500 -batchcnt C(125) -objs C(20) -noalpha -alushader -totaltex 10 -texpobj C(1) -rendertotex 6 -rtdelta 3</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:48.629930+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1006"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:48.629930+00:00\"></TimeCreated>\n<EventRecordID>64</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1006</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:48.629930+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1006",
+      "DescriptionSize": "186",
+      "Description": "Run Assessment, d3d, -dx10  -aname Batch -time 5 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 300 -batchcnt C(10) -objs C(26) -rendertotex 6 -rtdelta 3 -texpobj C(1)"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:48.629930+00:00\"></TimeCreated>\n<EventRecordID>65</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1006</Data>\n<Data Name=\"DescriptionSize\">186</Data>\n<Data Name=\"Description\">Run Assessment, d3d, -dx10  -aname Batch -time 5 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 300 -batchcnt C(10) -objs C(26) -rendertotex 6 -rtdelta 3 -texpobj C(1)</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:48.629930+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1006"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:48.629930+00:00\"></TimeCreated>\n<EventRecordID>66</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1006</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:48.629930+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1006",
+      "DescriptionSize": "186",
+      "Description": "Run Assessment, d3d, -dx10  -aname Alpha -time 5 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 300 -batchcnt C(75) -objs C(26) -rendertotex 6 -rtdelta 3 -texpobj C(1)"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:48.629930+00:00\"></TimeCreated>\n<EventRecordID>67</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1006</Data>\n<Data Name=\"DescriptionSize\">186</Data>\n<Data Name=\"Description\">Run Assessment, d3d, -dx10  -aname Alpha -time 5 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 300 -batchcnt C(75) -objs C(26) -rendertotex 6 -rtdelta 3 -texpobj C(1)</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:48.629930+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1006"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:48.629930+00:00\"></TimeCreated>\n<EventRecordID>68</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1006</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:48.629930+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1006",
+      "DescriptionSize": "218",
+      "Description": "Run Assessment, d3d, -dx10  -aname Tex -time 5 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 500 -batchcnt C(125) -objs C(20) -noalpha -texshader -totaltex 10 -texpobj C(4) -rendertotex 6 -rtdelta 3"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:48.629930+00:00\"></TimeCreated>\n<EventRecordID>69</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1006</Data>\n<Data Name=\"DescriptionSize\">218</Data>\n<Data Name=\"Description\">Run Assessment, d3d, -dx10  -aname Tex -time 5 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 500 -batchcnt C(125) -objs C(20) -noalpha -texshader -totaltex 10 -texpobj C(4) -rendertotex 6 -rtdelta 3</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:48.629930+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1006"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:48.629930+00:00\"></TimeCreated>\n<EventRecordID>70</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1006</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:48.629930+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1006",
+      "DescriptionSize": "218",
+      "Description": "Run Assessment, d3d, -dx10  -aname ALU -time 5 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 500 -batchcnt C(125) -objs C(20) -noalpha -alushader -totaltex 10 -texpobj C(1) -rendertotex 6 -rtdelta 3"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:48.629930+00:00\"></TimeCreated>\n<EventRecordID>71</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1006</Data>\n<Data Name=\"DescriptionSize\">218</Data>\n<Data Name=\"Description\">Run Assessment, d3d, -dx10  -aname ALU -time 5 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 500 -batchcnt C(125) -objs C(20) -noalpha -alushader -totaltex 10 -texpobj C(1) -rendertotex 6 -rtdelta 3</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:48.645531+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1006"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:48.645531+00:00\"></TimeCreated>\n<EventRecordID>72</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1006</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:48.645531+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1006",
+      "DescriptionSize": "271",
+      "Description": "Run Assessment, d3d, -dx10  -aname GeomF4 -time 7 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 150;200;241 -batchcnt C(50);C(200);C(300) -objs C(12);C(26);C(45) -noalpha -geomf4shader -texpobj C(0) -rendertotex 6 -rtdelta 3 -tierframes 60 -tiertime 1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:48.645531+00:00\"></TimeCreated>\n<EventRecordID>73</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1006</Data>\n<Data Name=\"DescriptionSize\">271</Data>\n<Data Name=\"Description\">Run Assessment, d3d, -dx10  -aname GeomF4 -time 7 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 150;200;241 -batchcnt C(50);C(200);C(300) -objs C(12);C(26);C(45) -noalpha -geomf4shader -texpobj C(0) -rendertotex 6 -rtdelta 3 -tierframes 60 -tiertime 1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:48.692331+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1006"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:48.692331+00:00\"></TimeCreated>\n<EventRecordID>74</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1006</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:48.692331+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1006",
+      "DescriptionSize": "269",
+      "Description": "Run Assessment, d3d, -dx10  -aname GeomV8 -time 7 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 75;100;120 -batchcnt C(25);C(100);C(150) -objs C(8);C(17);C(29) -noalpha -geomv8shader -texpobj C(0) -rendertotex 6 -rtdelta 3 -tierframes 60 -tiertime 1"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:48.692331+00:00\"></TimeCreated>\n<EventRecordID>75</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1006</Data>\n<Data Name=\"DescriptionSize\">269</Data>\n<Data Name=\"Description\">Run Assessment, d3d, -dx10  -aname GeomV8 -time 7 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 75;100;120 -batchcnt C(25);C(100);C(150) -objs C(8);C(17);C(29) -noalpha -geomv8shader -texpobj C(0) -rendertotex 6 -rtdelta 3 -tierframes 60 -tiertime 1</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:48.707932+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1006"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:48.707932+00:00\"></TimeCreated>\n<EventRecordID>76</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1006</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:48.707932+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1006",
+      "DescriptionSize": "228",
+      "Description": "Run Assessment, d3d, -dx10  -aname CBuffer -time 5 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 75 -batchcnt C(25) -objs C(8) -rendertotex 6 -rtdelta 3 -texpobj C(1) -cbuffershader -cbufa 2 -cbuff 5 -cbufp 6"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:48.707932+00:00\"></TimeCreated>\n<EventRecordID>77</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1006</Data>\n<Data Name=\"DescriptionSize\">228</Data>\n<Data Name=\"Description\">Run Assessment, d3d, -dx10  -aname CBuffer -time 5 -fbc 10 -disp off -animate 10 -width 1280 -height 1024 -totalobj 75 -batchcnt C(25) -objs C(8) -rendertotex 6 -rtdelta 3 -texpobj C(1) -cbuffershader -cbufa 2 -cbuff 5 -cbufp 6</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:48.707932+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1006"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:48.707932+00:00\"></TimeCreated>\n<EventRecordID>78</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1006</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:48.707932+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1008",
+      "DescriptionSize": "80",
+      "Description": "Run Assessment, mfmedia, -input C:\\Windows\\Performance\\WinSAT\\winsat.wmv -nopmp"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:48.707932+00:00\"></TimeCreated>\n<EventRecordID>79</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1008</Data>\n<Data Name=\"DescriptionSize\">80</Data>\n<Data Name=\"Description\">Run Assessment, mfmedia, -input C:\\Windows\\Performance\\WinSAT\\winsat.wmv -nopmp</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:54.413139+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1008"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:54.413139+00:00\"></TimeCreated>\n<EventRecordID>80</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1008</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:54.413139+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1009",
+      "DescriptionSize": "251",
+      "Description": "Run Assessment, mediaex, -input C:\\Windows\\Performance\\WinSAT\\Clip_1080_5sec_MPEG2_HD_15mbps.mpg -dshow -video offscreen -audio mute -width 100%m -height 100%m -constrain -savereg -autoprofname -expfrmmin 270 -expfrmmax 300 -overrideframetype int2fps"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:54.413139+00:00\"></TimeCreated>\n<EventRecordID>81</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1009</Data>\n<Data Name=\"DescriptionSize\">251</Data>\n<Data Name=\"Description\">Run Assessment, mediaex, -input C:\\Windows\\Performance\\WinSAT\\Clip_1080_5sec_MPEG2_HD_15mbps.mpg -dshow -video offscreen -audio mute -width 100%m -height 100%m -constrain -savereg -autoprofname -expfrmmin 270 -expfrmmax 300 -overrideframetype int2fps</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:54.423138+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1009"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:54.423138+00:00\"></TimeCreated>\n<EventRecordID>82</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1009</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:54.423138+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1009",
+      "DescriptionSize": "236",
+      "Description": "Run Assessment, mediaex, -input C:\\Windows\\Performance\\WinSAT\\Clip_1080_5sec_VC1_15mbps.wmv -video offscreen -audio mute -width 100%m -height 100%m -constrain -savereg -autoprofname -expfrmmin 135 -expfrmmax 150 -overrideframetype prog"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:54.423138+00:00\"></TimeCreated>\n<EventRecordID>83</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1009</Data>\n<Data Name=\"DescriptionSize\">236</Data>\n<Data Name=\"Description\">Run Assessment, mediaex, -input C:\\Windows\\Performance\\WinSAT\\Clip_1080_5sec_VC1_15mbps.wmv -video offscreen -audio mute -width 100%m -height 100%m -constrain -savereg -autoprofname -expfrmmin 135 -expfrmmax 150 -overrideframetype prog</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:54.423138+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1009"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:54.423138+00:00\"></TimeCreated>\n<EventRecordID>84</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1009</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:54.423138+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1009",
+      "DescriptionSize": "245",
+      "Description": "Run Assessment, mediaex, -input C:\\Windows\\Performance\\WinSAT\\Clip_480i_5sec_6mbps_new.mpg -dshow -video offscreen -audio mute -width 100%m -height 100%m -constrain -savereg -autoprofname -expfrmmin 270 -expfrmmax 300 -overrideframetype int2fps"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:54.423138+00:00\"></TimeCreated>\n<EventRecordID>85</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1009</Data>\n<Data Name=\"DescriptionSize\">245</Data>\n<Data Name=\"Description\">Run Assessment, mediaex, -input C:\\Windows\\Performance\\WinSAT\\Clip_480i_5sec_6mbps_new.mpg -dshow -video offscreen -audio mute -width 100%m -height 100%m -constrain -savereg -autoprofname -expfrmmin 270 -expfrmmax 300 -overrideframetype int2fps</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:54.423138+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1009"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:54.423138+00:00\"></TimeCreated>\n<EventRecordID>86</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1009</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:54.423138+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1009",
+      "DescriptionSize": "242",
+      "Description": "Run Assessment, mediaex, -input C:\\Windows\\Performance\\WinSAT\\Clip_480p_5sec_6mbps_new.mpg -dshow -video offscreen -audio mute -width 100%m -height 100%m -constrain -savereg -autoprofname -expfrmmin 135 -expfrmmax 150 -overrideframetype prog"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:54.423138+00:00\"></TimeCreated>\n<EventRecordID>87</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1009</Data>\n<Data Name=\"DescriptionSize\">242</Data>\n<Data Name=\"Description\">Run Assessment, mediaex, -input C:\\Windows\\Performance\\WinSAT\\Clip_480p_5sec_6mbps_new.mpg -dshow -video offscreen -audio mute -width 100%m -height 100%m -constrain -savereg -autoprofname -expfrmmin 135 -expfrmmax 150 -overrideframetype prog</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:54.423138+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1009"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:54.423138+00:00\"></TimeCreated>\n<EventRecordID>88</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1009</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:54.423138+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1009",
+      "DescriptionSize": "237",
+      "Description": "Run Assessment, mediaex, -input C:\\Windows\\Performance\\WinSAT\\Clip_1080_5sec_10mbps_h264.mp4 -video offscreen -audio mute -width 100%m -height 100%m -constrain -savereg -autoprofname -expfrmmin 135 -expfrmmax 150 -overrideframetype prog"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:54.423138+00:00\"></TimeCreated>\n<EventRecordID>89</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1009</Data>\n<Data Name=\"DescriptionSize\">237</Data>\n<Data Name=\"Description\">Run Assessment, mediaex, -input C:\\Windows\\Performance\\WinSAT\\Clip_1080_5sec_10mbps_h264.mp4 -video offscreen -audio mute -width 100%m -height 100%m -constrain -savereg -autoprofname -expfrmmin 135 -expfrmmax 150 -overrideframetype prog</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:54.423138+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1009"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:54.423138+00:00\"></TimeCreated>\n<EventRecordID>90</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1009</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:54.423138+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1009",
+      "DescriptionSize": "238",
+      "Description": "Run Assessment, mediaex, -input C:\\Windows\\Performance\\WinSAT\\Clip_480_5sec_6mbps_h264.mp4 -video offscreen -audio mute -width 100%m -height 100%m -constrain -savereg -autoprofname -expfrmmin 270 -expfrmmax 300 -overrideframetype int2fps"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:54.423138+00:00\"></TimeCreated>\n<EventRecordID>91</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1009</Data>\n<Data Name=\"DescriptionSize\">238</Data>\n<Data Name=\"Description\">Run Assessment, mediaex, -input C:\\Windows\\Performance\\WinSAT\\Clip_480_5sec_6mbps_h264.mp4 -video offscreen -audio mute -width 100%m -height 100%m -constrain -savereg -autoprofname -expfrmmin 270 -expfrmmax 300 -overrideframetype int2fps</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:14:54.438738+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1009"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:54.438738+00:00\"></TimeCreated>\n<EventRecordID>92</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1009</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:14:54.438738+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1007",
+      "DescriptionSize": "126",
+      "Description": "Run Assessment, media, -input C:\\Windows\\Performance\\WinSAT\\winsatencode.wmv -encode C:\\Windows\\Performance\\WinSAT\\winsat.prx"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:14:54.438738+00:00\"></TimeCreated>\n<EventRecordID>93</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1007</Data>\n<Data Name=\"DescriptionSize\">126</Data>\n<Data Name=\"Description\">Run Assessment, media, -input C:\\Windows\\Performance\\WinSAT\\winsatencode.wmv -encode C:\\Windows\\Performance\\WinSAT\\winsat.prx</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:15:04.188757+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1007"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:15:04.188757+00:00\"></TimeCreated>\n<EventRecordID>94</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1007</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:15:04.188757+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1010",
+      "DescriptionSize": "26",
+      "Description": "Run Assessment, moobego, "
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:15:04.188757+00:00\"></TimeCreated>\n<EventRecordID>95</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1010</Data>\n<Data Name=\"DescriptionSize\">26</Data>\n<Data Name=\"Description\">Run Assessment, moobego, </Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:15:04.188757+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1010"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:15:04.188757+00:00\"></TimeCreated>\n<EventRecordID>96</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1010</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:15:04.188757+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1002",
+      "DescriptionSize": "37",
+      "Description": "Run Assessment, cpu, -encryption -up"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:15:04.188757+00:00\"></TimeCreated>\n<EventRecordID>97</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1002</Data>\n<Data Name=\"DescriptionSize\">37</Data>\n<Data Name=\"Description\">Run Assessment, cpu, -encryption -up</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:15:07.542763+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1002"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:15:07.542763+00:00\"></TimeCreated>\n<EventRecordID>98</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1002</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:15:07.542763+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1002",
+      "DescriptionSize": "38",
+      "Description": "Run Assessment, cpu, -compression -up"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:15:07.542763+00:00\"></TimeCreated>\n<EventRecordID>99</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1002</Data>\n<Data Name=\"DescriptionSize\">38</Data>\n<Data Name=\"Description\">Run Assessment, cpu, -compression -up</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:15:17.589180+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1002"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:15:17.589180+00:00\"></TimeCreated>\n<EventRecordID>100</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1002</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:15:17.589180+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1002",
+      "DescriptionSize": "38",
+      "Description": "Run Assessment, cpu, -encryption2 -up"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:15:17.589180+00:00\"></TimeCreated>\n<EventRecordID>101</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1002</Data>\n<Data Name=\"DescriptionSize\">38</Data>\n<Data Name=\"Description\">Run Assessment, cpu, -encryption2 -up</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:15:20.646786+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1002"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:15:20.646786+00:00\"></TimeCreated>\n<EventRecordID>102</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1002</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:15:20.646786+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1002",
+      "DescriptionSize": "39",
+      "Description": "Run Assessment, cpu, -compression2 -up"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:15:20.646786+00:00\"></TimeCreated>\n<EventRecordID>103</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1002</Data>\n<Data Name=\"DescriptionSize\">39</Data>\n<Data Name=\"Description\">Run Assessment, cpu, -compression2 -up</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:15:30.708803+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1002"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:15:30.708803+00:00\"></TimeCreated>\n<EventRecordID>104</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1002</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:15:30.708803+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1002",
+      "DescriptionSize": "33",
+      "Description": "Run Assessment, cpu, -encryption"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:15:30.708803+00:00\"></TimeCreated>\n<EventRecordID>105</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1002</Data>\n<Data Name=\"DescriptionSize\">33</Data>\n<Data Name=\"Description\">Run Assessment, cpu, -encryption</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:15:33.891209+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1002"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:15:33.891209+00:00\"></TimeCreated>\n<EventRecordID>106</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1002</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:15:33.891209+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1002",
+      "DescriptionSize": "34",
+      "Description": "Run Assessment, cpu, -compression"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:15:33.891209+00:00\"></TimeCreated>\n<EventRecordID>107</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1002</Data>\n<Data Name=\"DescriptionSize\">34</Data>\n<Data Name=\"Description\">Run Assessment, cpu, -compression</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:15:44.046827+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1002"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:15:44.046827+00:00\"></TimeCreated>\n<EventRecordID>108</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1002</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:15:44.046827+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1002",
+      "DescriptionSize": "34",
+      "Description": "Run Assessment, cpu, -encryption2"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:15:44.046827+00:00\"></TimeCreated>\n<EventRecordID>109</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1002</Data>\n<Data Name=\"DescriptionSize\">34</Data>\n<Data Name=\"Description\">Run Assessment, cpu, -encryption2</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:15:47.213631+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1002"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:15:47.213631+00:00\"></TimeCreated>\n<EventRecordID>110</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1002</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:15:47.213631+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1002",
+      "DescriptionSize": "35",
+      "Description": "Run Assessment, cpu, -compression2"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:15:47.213631+00:00\"></TimeCreated>\n<EventRecordID>111</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1002</Data>\n<Data Name=\"DescriptionSize\">35</Data>\n<Data Name=\"Description\">Run Assessment, cpu, -compression2</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:15:57.431650+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1002"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:15:57.431650+00:00\"></TimeCreated>\n<EventRecordID>112</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1002</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:15:57.431650+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1003",
+      "DescriptionSize": "22",
+      "Description": "Run Assessment, mem, "
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:15:57.431650+00:00\"></TimeCreated>\n<EventRecordID>113</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1003</Data>\n<Data Name=\"DescriptionSize\">22</Data>\n<Data Name=\"Description\">Run Assessment, mem, </Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:16:02.595259+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1003"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:16:02.595259+00:00\"></TimeCreated>\n<EventRecordID>114</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1003</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:16:02.595259+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1004",
+      "DescriptionSize": "38",
+      "Description": "Run Assessment, disk, -seq -read -n 0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:16:02.595259+00:00\"></TimeCreated>\n<EventRecordID>115</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1004</Data>\n<Data Name=\"DescriptionSize\">38</Data>\n<Data Name=\"Description\">Run Assessment, disk, -seq -read -n 0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:16:06.802160+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1004"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:16:06.802160+00:00\"></TimeCreated>\n<EventRecordID>116</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1004</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:16:06.802160+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1004",
+      "DescriptionSize": "38",
+      "Description": "Run Assessment, disk, -ran -read -n 0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:16:06.802160+00:00\"></TimeCreated>\n<EventRecordID>117</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1004</Data>\n<Data Name=\"DescriptionSize\">38</Data>\n<Data Name=\"Description\">Run Assessment, disk, -ran -read -n 0</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:16:17.049715+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1004"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:16:17.049715+00:00\"></TimeCreated>\n<EventRecordID>118</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1004</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:16:17.049715+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1004",
+      "DescriptionSize": "43",
+      "Description": "Run Assessment, disk, -scen 2009 -drive C:"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:16:17.049715+00:00\"></TimeCreated>\n<EventRecordID>119</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1004</Data>\n<Data Name=\"DescriptionSize\">43</Data>\n<Data Name=\"Description\">Run Assessment, disk, -scen 2009 -drive C:</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:17:42.075912+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "1004"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:42.075912+00:00\"></TimeCreated>\n<EventRecordID>120</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">1004</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:17:42.075912+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "130",
+      "DescriptionSize": "16",
+      "Description": "Process Results"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:42.075912+00:00\"></TimeCreated>\n<EventRecordID>121</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">130</Data>\n<Data Name=\"DescriptionSize\">16</Data>\n<Data Name=\"Description\">Process Results</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:17:43.511116+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "130"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:43.511116+00:00\"></TimeCreated>\n<EventRecordID>122</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">130</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:17:43.511116+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "150",
+      "DescriptionSize": "17",
+      "Description": "Cleanup and exit"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:43.511116+00:00\"></TimeCreated>\n<EventRecordID>123</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">150</Data>\n<Data Name=\"DescriptionSize\">17</Data>\n<Data Name=\"Description\">Cleanup and exit</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 9,
+    "Timestamp": "2014-01-25 16:17:43.511116+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "140",
+      "DescriptionSize": "24",
+      "Description": "Restore system policies"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">9</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:43.511116+00:00\"></TimeCreated>\n<EventRecordID>124</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">140</Data>\n<Data Name=\"DescriptionSize\">24</Data>\n<Data Name=\"Description\">Restore system policies</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 10,
+    "Timestamp": "2014-01-25 16:17:44.119518+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "Information",
+    "EventData": {
+      "PhaseID": "140"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">10</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>1</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:44.119518+00:00\"></TimeCreated>\n<EventRecordID>125</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"PhaseID\">140</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 3,
+    "Timestamp": "2014-01-25 16:17:44.135118+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-WindowsSystemAssessmentTool/Operational",
+    "Level": "LogAlways",
+    "EventData": {
+      "ExitCode": "0"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-WindowsSystemAssessmentTool\" Guid=\"{11a75546-3234-465e-bec8-2d301cb501ac}\"></Provider>\n<EventID Qualifiers=\"\">3</EventID>\n<Version>0</Version>\n<Level>0</Level>\n<Task>1</Task>\n<Opcode>2</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:17:44.135118+00:00\"></TimeCreated>\n<EventRecordID>126</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2608\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-WindowsSystemAssessmentTool/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1001\"></Security>\n</System>\n<EventData><Data Name=\"ExitCode\">0</Data>\n</EventData>\n</Event>\n"
+  }
+]

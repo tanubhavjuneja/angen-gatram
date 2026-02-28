@@ -1,0 +1,178 @@
+*********************************************************************************
+*
+* Log opened: 2014-02-16T19:11:05Z
+*
+* Windows Live Communications Platform 16.4.3508.0205
+*
+*********************************************************************************
+[14:11:09.21] 04a8             Contacts:          Zone_UserState CUserState::SetOverride(410)@0x04232708: (User='default') -- setting "ABCH_Locale"="en-us"
+[14:11:09.21] 04a8             Contacts:          Zone_UserState CUserState::SetOverride(410)@0x04232708: (User='default') -- setting "ABCH_Market"="us"
+[14:11:09.21] 04a8             Contacts:          Zone_UserState CUserState::SetOverride(410)@0x04232708: (User='default') -- setting "ABCH_Locale"="en-us"
+[14:11:09.21] 04a8             Contacts:          Zone_UserState CUserState::SetOverride(410)@0x04232708: (User='default') -- setting "ABCH_Market"="us"
+[14:11:09.21] 04a8             Contacts:          Zone_UserState CUserState::OnSyncBegin(1010)@0x04232708: (User='default', Depth='0')
+[14:11:09.21] 04a8             Contacts:          Zone_UserState CUserState::RegisterApplication(177)@0x04232708: (User='default', Application='Live.Platform('wlmail.exe', contacts, e68)', Types='0x   10007') == '00783F58', auth='0x   10007', sync='0x       0'
+[14:11:09.21] 04a8             Contacts:          Zone_UserState CUserState::OnSyncBegin(1010)@0x04232708: (User='default', Depth='0') Nested
+[14:11:09.21] 04a8             Contacts:          Zone_UserState CUserState::OnSyncEnd(1108)@0x04232708: (User='default', Depth='0') Ending
+[14:11:09.21] 04a8             Contacts:          Zone_UserState CUserState::OnSyncEnd(1108)@0x04232708: (User='default', Depth='0') Nested
+[14:11:09.21] 04a8             Contacts:          Zone_UserState CUserState::OnSyncBegin(1010)@0x04232708: (User='default', Depth='0')
+[14:11:09.21] 04a8             Contacts:          Zone_UserState CUserState::RegisterApplication(177)@0x04232708: (User='default', Application='Live.Platform('wlmail.exe', profile, e68)', Types='0x   10024') == '00783FD0', auth='0x   10024', sync='0x       0'
+[14:11:09.21] 04a8             Contacts:          Zone_UserState CUserState::OnSyncBegin(1010)@0x04232708: (User='default', Depth='0') Nested
+[14:11:09.21] 04a8             Contacts:          Zone_UserState CUserState::OnSyncEnd(1108)@0x04232708: (User='default', Depth='0') Ending
+[14:11:09.21] 04a8             Contacts:          Zone_UserState CUserState::OnSyncEnd(1108)@0x04232708: (User='default', Depth='0') Nested
+[14:36:22.96] 0e5c             Contacts:          Zone_UserState CUserState::RemoveServicesFromServicesInterestedIn(1278)@0x04232708: (User='default', Authed='0x       0', Synced1='0x       0', Synced2='0x       0') for '0x       3' results in <enabled='0x               0', disabled='0x               0'>
+[14:36:22.96] 0e5c             Contacts:          Zone_UserState CUserState::UnregisterApplication(233)@0x04232708: (User='default', Application='Live.Platform('wlmail.exe', contacts, e68)') == '00783F58'
+[14:36:22.96] 0e5c             Contacts:          Zone_UserState CUserState::RemoveServicesFromServicesInterestedIn(1278)@0x04232708: (User='default', Authed='0x       0', Synced1='0x       0', Synced2='0x       0') for '0x   10024' results in <enabled='0x               0', disabled='0x               0'>
+[14:36:22.96] 0e5c             Contacts:          Zone_UserState CUserState::UnregisterApplication(233)@0x04232708: (User='default', Application='Live.Platform('wlmail.exe', profile, e68)') == '00783FD0'
+[14:36:22.96] 0c78             Contacts:          Zone_UserState CleanupBinaryObjectTable(179): Cleanup Binary Objects: hr = 0x0, Objects Removed = 0
+*********************************************************************************
+*
+* Log closed (normally) at 2014-02-16T19:36:28Z
+*
+*********************************************************************************
+*********************************************************************************
+*
+* Log opened: 2014-02-16T20:45:42Z
+*
+* Windows Live Communications Platform 16.4.3508.0205
+*
+*********************************************************************************
+[15:45:43.81] 05c4             Contacts:          Zone_UserState CUserState::SetOverride(410)@0x03F5C120: (User='default') -- setting "ABCH_Locale"="en-us"
+[15:45:43.81] 05c4             Contacts:          Zone_UserState CUserState::SetOverride(410)@0x03F5C120: (User='default') -- setting "ABCH_Market"="us"
+[15:45:43.81] 05c4             Contacts:          Zone_UserState CUserState::SetOverride(410)@0x03F5C120: (User='default') -- setting "ABCH_Locale"="en-us"
+[15:45:43.81] 05c4             Contacts:          Zone_UserState CUserState::SetOverride(410)@0x03F5C120: (User='default') -- setting "ABCH_Market"="us"
+[15:45:43.81] 05c4             Contacts:          Zone_UserState CUserState::OnSyncBegin(1010)@0x03F5C120: (User='default', Depth='0')
+[15:45:43.81] 05c4             Contacts:          Zone_UserState CUserState::RegisterApplication(177)@0x03F5C120: (User='default', Application='Live.Platform('wlmail.exe', contacts, 968)', Types='0x   10007') == '03F5BEE8', auth='0x   10007', sync='0x       0'
+[15:45:43.81] 05c4             Contacts:          Zone_UserState CUserState::OnSyncBegin(1010)@0x03F5C120: (User='default', Depth='0') Nested
+[15:45:43.81] 05c4             Contacts:          Zone_UserState CUserState::OnSyncEnd(1108)@0x03F5C120: (User='default', Depth='0') Ending
+[15:45:43.81] 05c4             Contacts:          Zone_UserState CUserState::OnSyncEnd(1108)@0x03F5C120: (User='default', Depth='0') Nested
+[15:45:43.81] 05c4             Contacts:          Zone_UserState CUserState::OnSyncBegin(1010)@0x03F5C120: (User='default', Depth='0')
+[15:45:43.81] 05c4             Contacts:          Zone_UserState CUserState::RegisterApplication(177)@0x03F5C120: (User='default', Application='Live.Platform('wlmail.exe', profile, 968)', Types='0x   10024') == '03F5EE48', auth='0x   10024', sync='0x       0'
+[15:45:43.81] 05c4             Contacts:          Zone_UserState CUserState::OnSyncBegin(1010)@0x03F5C120: (User='default', Depth='0') Nested
+[15:45:43.81] 05c4             Contacts:          Zone_UserState CUserState::OnSyncEnd(1108)@0x03F5C120: (User='default', Depth='0') Ending
+[15:45:43.81] 05c4             Contacts:          Zone_UserState CUserState::OnSyncEnd(1108)@0x03F5C120: (User='default', Depth='0') Nested
+[15:52:44.62] 05c4             Contacts:          Zone_UserState CUserState::RemoveServicesFromServicesInterestedIn(1278)@0x03F5C120: (User='default', Authed='0x       0', Synced1='0x       0', Synced2='0x       0') for '0x       3' results in <enabled='0x               0', disabled='0x               0'>
+[15:52:44.62] 05c4             Contacts:          Zone_UserState CUserState::UnregisterApplication(233)@0x03F5C120: (User='default', Application='Live.Platform('wlmail.exe', contacts, 968)') == '03F5BEE8'
+[15:52:44.62] 05c4             Contacts:          Zone_UserState CUserState::RemoveServicesFromServicesInterestedIn(1278)@0x03F5C120: (User='default', Authed='0x       0', Synced1='0x       0', Synced2='0x       0') for '0x   10024' results in <enabled='0x               0', disabled='0x               0'>
+[15:52:44.62] 05c4             Contacts:          Zone_UserState CUserState::UnregisterApplication(233)@0x03F5C120: (User='default', Application='Live.Platform('wlmail.exe', profile, 968)') == '03F5EE48'
+[15:52:44.62] 0d90             Contacts:          Zone_UserState CleanupBinaryObjectTable(179): Cleanup Binary Objects: hr = 0x0, Objects Removed = 0
+*********************************************************************************
+*
+* Log closed (normally) at 2014-02-16T20:52:50Z
+*
+*********************************************************************************
+*********************************************************************************
+*
+* Log opened: 2014-02-16T20:52:55Z
+*
+* Windows Live Communications Platform 16.4.3508.0205
+*
+*********************************************************************************
+[15:52:56.62] 0b00             Contacts:          Zone_UserState CUserState::SetOverride(410)@0x0414BCD0: (User='default') -- setting "ABCH_Locale"="en-us"
+[15:52:56.62] 0f34             Contacts:          Zone_UserState CUserState::SetOverride(410)@0x0414BCD0: (User='default') -- setting "ABCH_Market"="us"
+[15:52:56.64] 0b00             Contacts:          Zone_UserState CUserState::SetOverride(410)@0x0414BCD0: (User='default') -- setting "ABCH_Locale"="en-us"
+[15:52:56.64] 0b00             Contacts:          Zone_UserState CUserState::SetOverride(410)@0x0414BCD0: (User='default') -- setting "ABCH_Market"="us"
+[15:52:56.64] 0b00             Contacts:          Zone_UserState CUserState::OnSyncBegin(1010)@0x0414BCD0: (User='default', Depth='0')
+[15:52:56.64] 0b00             Contacts:          Zone_UserState CUserState::RegisterApplication(177)@0x0414BCD0: (User='default', Application='Live.Platform('wlmail.exe', contacts, d50)', Types='0x   10007') == '04144FE8', auth='0x   10007', sync='0x       0'
+[15:52:56.64] 0b00             Contacts:          Zone_UserState CUserState::OnSyncBegin(1010)@0x0414BCD0: (User='default', Depth='0') Nested
+[15:52:56.64] 0b00             Contacts:          Zone_UserState CUserState::OnSyncEnd(1108)@0x0414BCD0: (User='default', Depth='0') Ending
+[15:52:56.64] 0b00             Contacts:          Zone_UserState CUserState::OnSyncEnd(1108)@0x0414BCD0: (User='default', Depth='0') Nested
+[15:52:56.64] 0b00             Contacts:          Zone_UserState CUserState::OnSyncBegin(1010)@0x0414BCD0: (User='default', Depth='0')
+[15:52:56.64] 0b00             Contacts:          Zone_UserState CUserState::RegisterApplication(177)@0x0414BCD0: (User='default', Application='Live.Platform('wlmail.exe', profile, d50)', Types='0x   10024') == '04145060', auth='0x   10024', sync='0x       0'
+[15:52:56.64] 0b00             Contacts:          Zone_UserState CUserState::OnSyncBegin(1010)@0x0414BCD0: (User='default', Depth='0') Nested
+[15:52:56.64] 0b00             Contacts:          Zone_UserState CUserState::OnSyncEnd(1108)@0x0414BCD0: (User='default', Depth='0') Ending
+[15:52:56.64] 0b00             Contacts:          Zone_UserState CUserState::OnSyncEnd(1108)@0x0414BCD0: (User='default', Depth='0') Nested
+[15:56:07.07] 0b00             Contacts:          Zone_UserState CUserState::RemoveServicesFromServicesInterestedIn(1278)@0x0414BCD0: (User='default', Authed='0x       0', Synced1='0x       0', Synced2='0x       0') for '0x       3' results in <enabled='0x               0', disabled='0x               0'>
+[15:56:07.07] 0b00             Contacts:          Zone_UserState CUserState::UnregisterApplication(233)@0x0414BCD0: (User='default', Application='Live.Platform('wlmail.exe', contacts, d50)') == '04144FE8'
+[15:56:07.07] 0b00             Contacts:          Zone_UserState CUserState::RemoveServicesFromServicesInterestedIn(1278)@0x0414BCD0: (User='default', Authed='0x       0', Synced1='0x       0', Synced2='0x       0') for '0x   10024' results in <enabled='0x               0', disabled='0x               0'>
+[15:56:07.07] 0b00             Contacts:          Zone_UserState CUserState::UnregisterApplication(233)@0x0414BCD0: (User='default', Application='Live.Platform('wlmail.exe', profile, d50)') == '04145060'
+[15:56:07.07] 0c88             Contacts:          Zone_UserState CleanupBinaryObjectTable(179): Cleanup Binary Objects: hr = 0x0, Objects Removed = 0
+*********************************************************************************
+*
+* Log closed (normally) at 2014-02-16T20:56:12Z
+*
+*********************************************************************************
+*********************************************************************************
+*
+* Log opened: 2014-02-16T21:03:38Z
+*
+* Windows Live Communications Platform 16.4.3508.0205
+*
+*********************************************************************************
+[16:03:39.60] 0be4             Contacts:          Zone_UserState CUserState::SetOverride(410)@0x03F95A38: (User='default') -- setting "ABCH_Locale"="en-us"
+[16:03:39.60] 0be4             Contacts:          Zone_UserState CUserState::SetOverride(410)@0x03F95A38: (User='default') -- setting "ABCH_Market"="us"
+[16:03:39.60] 0be4             Contacts:          Zone_UserState CUserState::SetOverride(410)@0x03F95A38: (User='default') -- setting "ABCH_Locale"="en-us"
+[16:03:39.60] 0be4             Contacts:          Zone_UserState CUserState::SetOverride(410)@0x03F95A38: (User='default') -- setting "ABCH_Market"="us"
+[16:03:39.60] 0be4             Contacts:          Zone_UserState CUserState::OnSyncBegin(1010)@0x03F95A38: (User='default', Depth='0')
+[16:03:39.60] 0be4             Contacts:          Zone_UserState CUserState::RegisterApplication(177)@0x03F95A38: (User='default', Application='Live.Platform('wlmail.exe', contacts, 948)', Types='0x   10007') == '03F921F8', auth='0x   10007', sync='0x       0'
+[16:03:39.60] 0be4             Contacts:          Zone_UserState CUserState::OnSyncBegin(1010)@0x03F95A38: (User='default', Depth='0') Nested
+[16:03:39.60] 0be4             Contacts:          Zone_UserState CUserState::OnSyncEnd(1108)@0x03F95A38: (User='default', Depth='0') Ending
+[16:03:39.60] 0be4             Contacts:          Zone_UserState CUserState::OnSyncEnd(1108)@0x03F95A38: (User='default', Depth='0') Nested
+[16:03:39.60] 0be4             Contacts:          Zone_UserState CUserState::OnSyncBegin(1010)@0x03F95A38: (User='default', Depth='0')
+[16:03:39.60] 0be4             Contacts:          Zone_UserState CUserState::RegisterApplication(177)@0x03F95A38: (User='default', Application='Live.Platform('wlmail.exe', profile, 948)', Types='0x   10024') == '03F94328', auth='0x   10024', sync='0x       0'
+[16:03:39.60] 0be4             Contacts:          Zone_UserState CUserState::OnSyncBegin(1010)@0x03F95A38: (User='default', Depth='0') Nested
+[16:03:39.60] 0be4             Contacts:          Zone_UserState CUserState::OnSyncEnd(1108)@0x03F95A38: (User='default', Depth='0') Ending
+[16:03:39.60] 0be4             Contacts:          Zone_UserState CUserState::OnSyncEnd(1108)@0x03F95A38: (User='default', Depth='0') Nested
+[16:05:14.97] 0be4             Contacts:          Zone_UserState CUserState::RemoveServicesFromServicesInterestedIn(1278)@0x03F95A38: (User='default', Authed='0x       0', Synced1='0x       0', Synced2='0x       0') for '0x       3' results in <enabled='0x               0', disabled='0x               0'>
+[16:05:14.97] 0be4             Contacts:          Zone_UserState CUserState::UnregisterApplication(233)@0x03F95A38: (User='default', Application='Live.Platform('wlmail.exe', contacts, 948)') == '03F921F8'
+[16:05:14.97] 0be4             Contacts:          Zone_UserState CUserState::RemoveServicesFromServicesInterestedIn(1278)@0x03F95A38: (User='default', Authed='0x       0', Synced1='0x       0', Synced2='0x       0') for '0x   10024' results in <enabled='0x               0', disabled='0x               0'>
+[16:05:14.97] 0be4             Contacts:          Zone_UserState CUserState::UnregisterApplication(233)@0x03F95A38: (User='default', Application='Live.Platform('wlmail.exe', profile, 948)') == '03F94328'
+[16:05:14.97] 05ec             Contacts:          Zone_UserState CleanupBinaryObjectTable(179): Cleanup Binary Objects: hr = 0x0, Objects Removed = 0
+*********************************************************************************
+*
+* Log closed (normally) at 2014-02-16T21:05:20Z
+*
+*********************************************************************************
+*********************************************************************************
+*
+* Log opened: 2014-02-16T21:55:57Z
+*
+* Windows Live Communications Platform 16.4.3508.0205
+*
+*********************************************************************************
+[16:55:59.70] 0838             Contacts:          Zone_UserState CUserState::SetOverride(410)@0x03F51918: (User='default') -- setting "ABCH_Locale"="en-us"
+[16:55:59.70] 0698             Contacts:          Zone_UserState CUserState::SetOverride(410)@0x03F51918: (User='default') -- setting "ABCH_Market"="us"
+[16:55:59.70] 0698             Contacts:          Zone_UserState CUserState::SetOverride(410)@0x03F51918: (User='default') -- setting "ABCH_Locale"="en-us"
+[16:55:59.70] 0698             Contacts:          Zone_UserState CUserState::SetOverride(410)@0x03F51918: (User='default') -- setting "ABCH_Market"="us"
+[16:55:59.70] 0698             Contacts:          Zone_UserState CUserState::OnSyncBegin(1010)@0x03F51918: (User='default', Depth='0')
+[16:55:59.70] 0698             Contacts:          Zone_UserState CUserState::RegisterApplication(177)@0x03F51918: (User='default', Application='Live.Platform('wlmail.exe', contacts, 66c)', Types='0x   10007') == '00427190', auth='0x   10007', sync='0x       0'
+[16:55:59.70] 0698             Contacts:          Zone_UserState CUserState::OnSyncBegin(1010)@0x03F51918: (User='default', Depth='0') Nested
+[16:55:59.70] 0698             Contacts:          Zone_UserState CUserState::OnSyncEnd(1108)@0x03F51918: (User='default', Depth='0') Ending
+[16:55:59.70] 0698             Contacts:          Zone_UserState CUserState::OnSyncEnd(1108)@0x03F51918: (User='default', Depth='0') Nested
+[16:55:59.70] 0698             Contacts:          Zone_UserState CUserState::OnSyncBegin(1010)@0x03F51918: (User='default', Depth='0')
+[16:55:59.70] 0698             Contacts:          Zone_UserState CUserState::RegisterApplication(177)@0x03F51918: (User='default', Application='Live.Platform('wlmail.exe', profile, 66c)', Types='0x   10024') == '00427208', auth='0x   10024', sync='0x       0'
+[16:55:59.70] 0698             Contacts:          Zone_UserState CUserState::OnSyncBegin(1010)@0x03F51918: (User='default', Depth='0') Nested
+[16:55:59.70] 0698             Contacts:          Zone_UserState CUserState::OnSyncEnd(1108)@0x03F51918: (User='default', Depth='0') Ending
+[16:55:59.70] 0698             Contacts:          Zone_UserState CUserState::OnSyncEnd(1108)@0x03F51918: (User='default', Depth='0') Nested
+[16:56:40.54] 0698             Contacts:          Zone_UserState CUserState::RemoveServicesFromServicesInterestedIn(1278)@0x03F51918: (User='default', Authed='0x       0', Synced1='0x       0', Synced2='0x       0') for '0x       3' results in <enabled='0x               0', disabled='0x               0'>
+[16:56:40.54] 0698             Contacts:          Zone_UserState CUserState::UnregisterApplication(233)@0x03F51918: (User='default', Application='Live.Platform('wlmail.exe', contacts, 66c)') == '00427190'
+[16:56:40.54] 0698             Contacts:          Zone_UserState CUserState::RemoveServicesFromServicesInterestedIn(1278)@0x03F51918: (User='default', Authed='0x       0', Synced1='0x       0', Synced2='0x       0') for '0x   10024' results in <enabled='0x               0', disabled='0x               0'>
+[16:56:40.54] 0698             Contacts:          Zone_UserState CUserState::UnregisterApplication(233)@0x03F51918: (User='default', Application='Live.Platform('wlmail.exe', profile, 66c)') == '00427208'
+[16:56:40.56] 0e34             Contacts:          Zone_UserState CleanupBinaryObjectTable(179): Cleanup Binary Objects: hr = 0x0, Objects Removed = 0
+*********************************************************************************
+*
+* Log closed (normally) at 2014-02-16T21:56:46Z
+*
+*********************************************************************************
+*********************************************************************************
+*
+* Log opened: 2014-02-16T22:40:43Z
+*
+* Windows Live Communications Platform 16.4.3508.0205
+*
+*********************************************************************************
+[17:40:45.34] 0e44             Contacts:          Zone_UserState CUserState::SetOverride(410)@0x03FCD598: (User='default') -- setting "ABCH_Locale"="en-us"
+[17:40:45.34] 0e44             Contacts:          Zone_UserState CUserState::SetOverride(410)@0x03FCD598: (User='default') -- setting "ABCH_Market"="us"
+[17:40:45.34] 0e44             Contacts:          Zone_UserState CUserState::SetOverride(410)@0x03FCD598: (User='default') -- setting "ABCH_Locale"="en-us"
+[17:40:45.34] 0e44             Contacts:          Zone_UserState CUserState::SetOverride(410)@0x03FCD598: (User='default') -- setting "ABCH_Market"="us"
+[17:40:45.34] 0e44             Contacts:          Zone_UserState CUserState::OnSyncBegin(1010)@0x03FCD598: (User='default', Depth='0')
+[17:40:45.34] 0e44             Contacts:          Zone_UserState CUserState::RegisterApplication(177)@0x03FCD598: (User='default', Application='Live.Platform('wlmail.exe', contacts, d58)', Types='0x   10007') == '003D0E08', auth='0x   10007', sync='0x       0'
+[17:40:45.34] 0e44             Contacts:          Zone_UserState CUserState::OnSyncBegin(1010)@0x03FCD598: (User='default', Depth='0') Nested
+[17:40:45.34] 0e44             Contacts:          Zone_UserState CUserState::OnSyncEnd(1108)@0x03FCD598: (User='default', Depth='0') Ending
+[17:40:45.34] 0e44             Contacts:          Zone_UserState CUserState::OnSyncEnd(1108)@0x03FCD598: (User='default', Depth='0') Nested
+[17:40:45.34] 0e44             Contacts:          Zone_UserState CUserState::OnSyncBegin(1010)@0x03FCD598: (User='default', Depth='0')
+[17:40:45.34] 0e44             Contacts:          Zone_UserState CUserState::RegisterApplication(177)@0x03FCD598: (User='default', Application='Live.Platform('wlmail.exe', profile, d58)', Types='0x   10024') == '003D0E80', auth='0x   10024', sync='0x       0'
+[17:40:45.34] 0e44             Contacts:          Zone_UserState CUserState::OnSyncBegin(1010)@0x03FCD598: (User='default', Depth='0') Nested
+[17:40:45.34] 0e44             Contacts:          Zone_UserState CUserState::OnSyncEnd(1108)@0x03FCD598: (User='default', Depth='0') Ending
+[17:40:45.34] 0e44             Contacts:          Zone_UserState CUserState::OnSyncEnd(1108)@0x03FCD598: (User='default', Depth='0') Nested
+[17:47:23.65] 0e54             Contacts:          Zone_UserState CUserState::RemoveServicesFromServicesInterestedIn(1278)@0x03FCD598: (User='default', Authed='0x       0', Synced1='0x       0', Synced2='0x       0') for '0x       3' results in <enabled='0x               0', disabled='0x               0'>
+[17:47:23.65] 0e54             Contacts:          Zone_UserState CUserState::UnregisterApplication(233)@0x03FCD598: (User='default', Application='Live.Platform('wlmail.exe', contacts, d58)') == '003D0E08'

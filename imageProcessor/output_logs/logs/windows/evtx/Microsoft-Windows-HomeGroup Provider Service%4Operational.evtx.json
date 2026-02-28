@@ -1,0 +1,988 @@
+[
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-01-25 01:27:19.255030+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "0",
+      "NewStatus": "2"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 01:27:19.255030+00:00\"></TimeCreated>\n<EventRecordID>1</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"936\" ThreadID=\"952\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">0</Data>\n<Data Name=\"NewStatus\">2</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-01-25 01:27:19.255030+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "2",
+      "NewStatus": "4"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 01:27:19.255030+00:00\"></TimeCreated>\n<EventRecordID>2</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"936\" ThreadID=\"952\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">2</Data>\n<Data Name=\"NewStatus\">4</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5005,
+    "Timestamp": "2014-01-25 01:27:31.844252+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "Error": "Unspecified error\n"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5005</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 01:27:31.844252+00:00\"></TimeCreated>\n<EventRecordID>3</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"936\" ThreadID=\"952\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"Error\">Unspecified error\r\n</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-01-25 01:27:33.404255+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "4",
+      "NewStatus": "20"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 01:27:33.404255+00:00\"></TimeCreated>\n<EventRecordID>4</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"936\" ThreadID=\"1004\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">4</Data>\n<Data Name=\"NewStatus\">20</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-01-25 01:27:33.747456+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "20",
+      "NewStatus": "156"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 01:27:33.747456+00:00\"></TimeCreated>\n<EventRecordID>5</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"936\" ThreadID=\"952\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">20</Data>\n<Data Name=\"NewStatus\">156</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5010,
+    "Timestamp": "2014-01-25 01:27:33.747456+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5010</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 01:27:33.747456+00:00\"></TimeCreated>\n<EventRecordID>6</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"936\" ThreadID=\"952\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-01-25 02:16:51.756229+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "156",
+      "NewStatus": "140"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 02:16:51.756229+00:00\"></TimeCreated>\n<EventRecordID>7</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"936\" ThreadID=\"2840\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">156</Data>\n<Data Name=\"NewStatus\">140</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-01-25 13:39:28.454247+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "0",
+      "NewStatus": "2"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:39:28.454247+00:00\"></TimeCreated>\n<EventRecordID>8</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"744\" ThreadID=\"2336\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">0</Data>\n<Data Name=\"NewStatus\">2</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-01-25 13:39:28.516645+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "2",
+      "NewStatus": "140"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:39:28.516645+00:00\"></TimeCreated>\n<EventRecordID>9</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"744\" ThreadID=\"2336\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">2</Data>\n<Data Name=\"NewStatus\">140</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-01-25 13:39:52.603086+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "140",
+      "NewStatus": "156"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:39:52.603086+00:00\"></TimeCreated>\n<EventRecordID>10</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"744\" ThreadID=\"2736\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">140</Data>\n<Data Name=\"NewStatus\">156</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5006,
+    "Timestamp": "2014-01-25 13:39:53.164688+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5006</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:39:53.164688+00:00\"></TimeCreated>\n<EventRecordID>11</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"744\" ThreadID=\"2736\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-01-25 13:53:47.373306+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "0",
+      "NewStatus": "2"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:53:47.373306+00:00\"></TimeCreated>\n<EventRecordID>12</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"752\" ThreadID=\"1088\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">0</Data>\n<Data Name=\"NewStatus\">2</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-01-25 13:53:47.373306+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "2",
+      "NewStatus": "140"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:53:47.373306+00:00\"></TimeCreated>\n<EventRecordID>13</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"752\" ThreadID=\"1088\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">2</Data>\n<Data Name=\"NewStatus\">140</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-01-25 13:54:11.163349+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "140",
+      "NewStatus": "156"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:54:11.163349+00:00\"></TimeCreated>\n<EventRecordID>14</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"752\" ThreadID=\"2268\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">140</Data>\n<Data Name=\"NewStatus\">156</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5006,
+    "Timestamp": "2014-01-25 13:54:11.444149+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5006</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:54:11.444149+00:00\"></TimeCreated>\n<EventRecordID>15</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"752\" ThreadID=\"2268\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-01-25 14:50:43.425079+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "156",
+      "NewStatus": "140"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 14:50:43.425079+00:00\"></TimeCreated>\n<EventRecordID>16</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"752\" ThreadID=\"1320\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">156</Data>\n<Data Name=\"NewStatus\">140</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-01-29 12:32:42.275560+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "0",
+      "NewStatus": "2"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 12:32:42.275560+00:00\"></TimeCreated>\n<EventRecordID>17</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"860\" ThreadID=\"1508\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">0</Data>\n<Data Name=\"NewStatus\">2</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-01-29 12:32:42.322361+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "2",
+      "NewStatus": "140"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 12:32:42.322361+00:00\"></TimeCreated>\n<EventRecordID>18</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"860\" ThreadID=\"1508\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">2</Data>\n<Data Name=\"NewStatus\">140</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-01-29 12:33:32.320450+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "140",
+      "NewStatus": "156"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 12:33:32.320450+00:00\"></TimeCreated>\n<EventRecordID>19</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"860\" ThreadID=\"1836\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">140</Data>\n<Data Name=\"NewStatus\">156</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5006,
+    "Timestamp": "2014-01-29 12:33:33.880451+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5006</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 12:33:33.880451+00:00\"></TimeCreated>\n<EventRecordID>20</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"860\" ThreadID=\"1836\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-03 12:03:32.525423+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "0",
+      "NewStatus": "2"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 12:03:32.525423+00:00\"></TimeCreated>\n<EventRecordID>21</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"868\" ThreadID=\"884\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">0</Data>\n<Data Name=\"NewStatus\">2</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-03 12:03:32.525423+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "2",
+      "NewStatus": "140"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 12:03:32.525423+00:00\"></TimeCreated>\n<EventRecordID>22</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"868\" ThreadID=\"884\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">2</Data>\n<Data Name=\"NewStatus\">140</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-03 12:03:56.424665+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "140",
+      "NewStatus": "156"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 12:03:56.424665+00:00\"></TimeCreated>\n<EventRecordID>23</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"868\" ThreadID=\"2252\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">140</Data>\n<Data Name=\"NewStatus\">156</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5006,
+    "Timestamp": "2014-02-03 12:03:56.908266+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5006</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 12:03:56.908266+00:00\"></TimeCreated>\n<EventRecordID>24</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"868\" ThreadID=\"2252\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-04 14:14:31.729191+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "0",
+      "NewStatus": "2"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 14:14:31.729191+00:00\"></TimeCreated>\n<EventRecordID>25</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"872\" ThreadID=\"500\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">0</Data>\n<Data Name=\"NewStatus\">2</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-04 14:14:31.729191+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "2",
+      "NewStatus": "140"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 14:14:31.729191+00:00\"></TimeCreated>\n<EventRecordID>26</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"872\" ThreadID=\"500\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">2</Data>\n<Data Name=\"NewStatus\">140</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-04 14:14:54.489632+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "140",
+      "NewStatus": "156"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 14:14:54.489632+00:00\"></TimeCreated>\n<EventRecordID>27</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"872\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">140</Data>\n<Data Name=\"NewStatus\">156</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5006,
+    "Timestamp": "2014-02-04 14:14:54.817232+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5006</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 14:14:54.817232+00:00\"></TimeCreated>\n<EventRecordID>28</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"872\" ThreadID=\"2732\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-04 19:18:31.586132+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "156",
+      "NewStatus": "140"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 19:18:31.586132+00:00\"></TimeCreated>\n<EventRecordID>29</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"872\" ThreadID=\"1832\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">156</Data>\n<Data Name=\"NewStatus\">140</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-05 13:37:45.024801+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "0",
+      "NewStatus": "2"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 13:37:45.024801+00:00\"></TimeCreated>\n<EventRecordID>30</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"896\" ThreadID=\"2104\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">0</Data>\n<Data Name=\"NewStatus\">2</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-05 13:37:45.102800+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "2",
+      "NewStatus": "140"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 13:37:45.102800+00:00\"></TimeCreated>\n<EventRecordID>31</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"896\" ThreadID=\"2104\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">2</Data>\n<Data Name=\"NewStatus\">140</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-05 13:38:13.218050+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "140",
+      "NewStatus": "156"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 13:38:13.218050+00:00\"></TimeCreated>\n<EventRecordID>32</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"896\" ThreadID=\"2744\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">140</Data>\n<Data Name=\"NewStatus\">156</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5006,
+    "Timestamp": "2014-02-05 13:38:13.795252+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5006</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 13:38:13.795252+00:00\"></TimeCreated>\n<EventRecordID>33</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"896\" ThreadID=\"2744\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-05 18:18:02.787823+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "156",
+      "NewStatus": "140"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 18:18:02.787823+00:00\"></TimeCreated>\n<EventRecordID>34</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"896\" ThreadID=\"3068\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">156</Data>\n<Data Name=\"NewStatus\">140</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-05 18:19:21.302759+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "140",
+      "NewStatus": "156"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 18:19:21.302759+00:00\"></TimeCreated>\n<EventRecordID>35</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"896\" ThreadID=\"2948\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">140</Data>\n<Data Name=\"NewStatus\">156</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-05 18:20:57.866928+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "156",
+      "NewStatus": "140"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 18:20:57.866928+00:00\"></TimeCreated>\n<EventRecordID>36</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"896\" ThreadID=\"3764\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">156</Data>\n<Data Name=\"NewStatus\">140</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-05 18:21:30.439787+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "140",
+      "NewStatus": "156"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 18:21:30.439787+00:00\"></TimeCreated>\n<EventRecordID>37</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"896\" ThreadID=\"4044\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">140</Data>\n<Data Name=\"NewStatus\">156</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-06 11:22:36.828472+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "0",
+      "NewStatus": "2"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 11:22:36.828472+00:00\"></TimeCreated>\n<EventRecordID>38</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"848\" ThreadID=\"1612\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">0</Data>\n<Data Name=\"NewStatus\">2</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-06 11:22:36.828472+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "2",
+      "NewStatus": "140"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 11:22:36.828472+00:00\"></TimeCreated>\n<EventRecordID>39</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"848\" ThreadID=\"1612\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">2</Data>\n<Data Name=\"NewStatus\">140</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-06 11:22:59.914911+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "140",
+      "NewStatus": "156"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 11:22:59.914911+00:00\"></TimeCreated>\n<EventRecordID>40</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"848\" ThreadID=\"2744\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">140</Data>\n<Data Name=\"NewStatus\">156</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5006,
+    "Timestamp": "2014-02-06 11:23:00.336113+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5006</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 11:23:00.336113+00:00\"></TimeCreated>\n<EventRecordID>41</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"848\" ThreadID=\"2744\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-06 12:00:52.999704+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "156",
+      "NewStatus": "140"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 12:00:52.999704+00:00\"></TimeCreated>\n<EventRecordID>42</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"848\" ThreadID=\"2120\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">156</Data>\n<Data Name=\"NewStatus\">140</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-06 12:01:07.772930+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "140",
+      "NewStatus": "156"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 12:01:07.772930+00:00\"></TimeCreated>\n<EventRecordID>43</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"848\" ThreadID=\"3124\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">140</Data>\n<Data Name=\"NewStatus\">156</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-06 18:54:54.587517+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "0",
+      "NewStatus": "2"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 18:54:54.587517+00:00\"></TimeCreated>\n<EventRecordID>44</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"872\" ThreadID=\"1692\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">0</Data>\n<Data Name=\"NewStatus\">2</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-06 18:54:54.587517+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "2",
+      "NewStatus": "140"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 18:54:54.587517+00:00\"></TimeCreated>\n<EventRecordID>45</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"872\" ThreadID=\"1692\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">2</Data>\n<Data Name=\"NewStatus\">140</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-06 18:55:21.949965+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "140",
+      "NewStatus": "156"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 18:55:21.949965+00:00\"></TimeCreated>\n<EventRecordID>46</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"872\" ThreadID=\"2696\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">140</Data>\n<Data Name=\"NewStatus\">156</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5006,
+    "Timestamp": "2014-02-06 18:55:22.371166+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5006</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 18:55:22.371166+00:00\"></TimeCreated>\n<EventRecordID>47</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"872\" ThreadID=\"2696\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-07 12:35:49.317581+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "0",
+      "NewStatus": "2"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 12:35:49.317581+00:00\"></TimeCreated>\n<EventRecordID>48</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"880\" ThreadID=\"2032\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">0</Data>\n<Data Name=\"NewStatus\">2</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-07 12:35:49.317581+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "2",
+      "NewStatus": "140"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 12:35:49.317581+00:00\"></TimeCreated>\n<EventRecordID>49</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"880\" ThreadID=\"2032\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">2</Data>\n<Data Name=\"NewStatus\">140</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-07 12:36:12.998423+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "140",
+      "NewStatus": "156"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 12:36:12.998423+00:00\"></TimeCreated>\n<EventRecordID>50</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"880\" ThreadID=\"2828\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">140</Data>\n<Data Name=\"NewStatus\">156</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5006,
+    "Timestamp": "2014-02-07 12:36:13.279222+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5006</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 12:36:13.279222+00:00\"></TimeCreated>\n<EventRecordID>51</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"880\" ThreadID=\"2828\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-07 17:34:47.171585+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "0",
+      "NewStatus": "2"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 17:34:47.171585+00:00\"></TimeCreated>\n<EventRecordID>52</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"848\" ThreadID=\"2320\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">0</Data>\n<Data Name=\"NewStatus\">2</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-07 17:34:47.202787+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "2",
+      "NewStatus": "140"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 17:34:47.202787+00:00\"></TimeCreated>\n<EventRecordID>53</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"848\" ThreadID=\"2320\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">2</Data>\n<Data Name=\"NewStatus\">140</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-07 17:35:10.764027+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "140",
+      "NewStatus": "156"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 17:35:10.764027+00:00\"></TimeCreated>\n<EventRecordID>54</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"848\" ThreadID=\"824\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">140</Data>\n<Data Name=\"NewStatus\">156</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5006,
+    "Timestamp": "2014-02-07 17:35:10.998028+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5006</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 17:35:10.998028+00:00\"></TimeCreated>\n<EventRecordID>55</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"848\" ThreadID=\"824\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-10 14:51:07.505579+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "0",
+      "NewStatus": "2"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 14:51:07.505579+00:00\"></TimeCreated>\n<EventRecordID>56</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"860\" ThreadID=\"876\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">0</Data>\n<Data Name=\"NewStatus\">2</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-10 14:51:07.505579+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "2",
+      "NewStatus": "140"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 14:51:07.505579+00:00\"></TimeCreated>\n<EventRecordID>57</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"860\" ThreadID=\"876\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">2</Data>\n<Data Name=\"NewStatus\">140</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-10 14:51:34.665226+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "140",
+      "NewStatus": "156"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 14:51:34.665226+00:00\"></TimeCreated>\n<EventRecordID>58</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"860\" ThreadID=\"2948\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">140</Data>\n<Data Name=\"NewStatus\">156</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5006,
+    "Timestamp": "2014-02-10 14:51:35.086426+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5006</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 14:51:35.086426+00:00\"></TimeCreated>\n<EventRecordID>59</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"860\" ThreadID=\"2948\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-11 13:25:32.652740+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "0",
+      "NewStatus": "2"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 13:25:32.652740+00:00\"></TimeCreated>\n<EventRecordID>60</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"868\" ThreadID=\"1480\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">0</Data>\n<Data Name=\"NewStatus\">2</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-11 13:25:32.652740+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "2",
+      "NewStatus": "140"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 13:25:32.652740+00:00\"></TimeCreated>\n<EventRecordID>61</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"868\" ThreadID=\"1480\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">2</Data>\n<Data Name=\"NewStatus\">140</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-11 13:25:55.834381+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "140",
+      "NewStatus": "156"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 13:25:55.834381+00:00\"></TimeCreated>\n<EventRecordID>62</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"868\" ThreadID=\"2796\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">140</Data>\n<Data Name=\"NewStatus\">156</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5006,
+    "Timestamp": "2014-02-11 13:25:56.115181+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5006</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 13:25:56.115181+00:00\"></TimeCreated>\n<EventRecordID>63</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"868\" ThreadID=\"2796\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-11 17:42:07.336525+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "0",
+      "NewStatus": "2"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:42:07.336525+00:00\"></TimeCreated>\n<EventRecordID>64</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"884\" ThreadID=\"1108\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">0</Data>\n<Data Name=\"NewStatus\">2</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-11 17:42:07.336525+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "2",
+      "NewStatus": "140"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:42:07.336525+00:00\"></TimeCreated>\n<EventRecordID>65</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"884\" ThreadID=\"1108\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">2</Data>\n<Data Name=\"NewStatus\">140</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-11 17:42:31.610168+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "140",
+      "NewStatus": "156"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:42:31.610168+00:00\"></TimeCreated>\n<EventRecordID>66</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"884\" ThreadID=\"2764\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">140</Data>\n<Data Name=\"NewStatus\">156</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5006,
+    "Timestamp": "2014-02-11 17:42:31.875368+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5006</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:42:31.875368+00:00\"></TimeCreated>\n<EventRecordID>67</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"884\" ThreadID=\"2764\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-11 17:51:03.401896+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "0",
+      "NewStatus": "2"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:51:03.401896+00:00\"></TimeCreated>\n<EventRecordID>68</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"868\" ThreadID=\"2236\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">0</Data>\n<Data Name=\"NewStatus\">2</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-11 17:51:03.401896+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "2",
+      "NewStatus": "140"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:51:03.401896+00:00\"></TimeCreated>\n<EventRecordID>69</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"868\" ThreadID=\"2236\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">2</Data>\n<Data Name=\"NewStatus\">140</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-11 17:51:26.287136+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "140",
+      "NewStatus": "156"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:51:26.287136+00:00\"></TimeCreated>\n<EventRecordID>70</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"868\" ThreadID=\"2492\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">140</Data>\n<Data Name=\"NewStatus\">156</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5006,
+    "Timestamp": "2014-02-11 17:51:26.505535+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5006</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:51:26.505535+00:00\"></TimeCreated>\n<EventRecordID>71</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"868\" ThreadID=\"2492\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-16 19:09:22.047041+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "0",
+      "NewStatus": "2"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 19:09:22.047041+00:00\"></TimeCreated>\n<EventRecordID>72</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"868\" ThreadID=\"2512\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">0</Data>\n<Data Name=\"NewStatus\">2</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-16 19:09:22.047041+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "2",
+      "NewStatus": "140"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 19:09:22.047041+00:00\"></TimeCreated>\n<EventRecordID>73</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"868\" ThreadID=\"2512\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">2</Data>\n<Data Name=\"NewStatus\">140</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-16 19:09:45.587482+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "140",
+      "NewStatus": "156"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 19:09:45.587482+00:00\"></TimeCreated>\n<EventRecordID>74</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"868\" ThreadID=\"792\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">140</Data>\n<Data Name=\"NewStatus\">156</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5006,
+    "Timestamp": "2014-02-16 19:09:45.727882+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5006</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 19:09:45.727882+00:00\"></TimeCreated>\n<EventRecordID>75</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"868\" ThreadID=\"792\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-16 21:51:26.423498+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "0",
+      "NewStatus": "2"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 21:51:26.423498+00:00\"></TimeCreated>\n<EventRecordID>76</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"860\" ThreadID=\"880\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">0</Data>\n<Data Name=\"NewStatus\">2</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-16 21:51:26.423498+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "2",
+      "NewStatus": "140"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 21:51:26.423498+00:00\"></TimeCreated>\n<EventRecordID>77</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"860\" ThreadID=\"880\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">2</Data>\n<Data Name=\"NewStatus\">140</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-16 21:51:49.043539+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "140",
+      "NewStatus": "156"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 21:51:49.043539+00:00\"></TimeCreated>\n<EventRecordID>78</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"860\" ThreadID=\"2852\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">140</Data>\n<Data Name=\"NewStatus\">156</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5006,
+    "Timestamp": "2014-02-16 21:51:49.277538+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5006</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 21:51:49.277538+00:00\"></TimeCreated>\n<EventRecordID>79</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"860\" ThreadID=\"2852\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-16 22:40:00.323488+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "0",
+      "NewStatus": "2"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 22:40:00.323488+00:00\"></TimeCreated>\n<EventRecordID>80</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"868\" ThreadID=\"780\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">0</Data>\n<Data Name=\"NewStatus\">2</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-16 22:40:00.323488+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "2",
+      "NewStatus": "140"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 22:40:00.323488+00:00\"></TimeCreated>\n<EventRecordID>81</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"868\" ThreadID=\"780\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">2</Data>\n<Data Name=\"NewStatus\">140</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-16 22:40:22.374346+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "140",
+      "NewStatus": "156"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 22:40:22.374346+00:00\"></TimeCreated>\n<EventRecordID>82</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"868\" ThreadID=\"2764\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">140</Data>\n<Data Name=\"NewStatus\">156</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5006,
+    "Timestamp": "2014-02-16 22:40:22.608347+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5006</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 22:40:22.608347+00:00\"></TimeCreated>\n<EventRecordID>83</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"868\" ThreadID=\"2764\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-19 13:31:06.705748+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "0",
+      "NewStatus": "2"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 13:31:06.705748+00:00\"></TimeCreated>\n<EventRecordID>84</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"872\" ThreadID=\"892\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">0</Data>\n<Data Name=\"NewStatus\">2</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-19 13:31:06.705748+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "2",
+      "NewStatus": "140"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 13:31:06.705748+00:00\"></TimeCreated>\n<EventRecordID>85</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"872\" ThreadID=\"892\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">2</Data>\n<Data Name=\"NewStatus\">140</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5013,
+    "Timestamp": "2014-02-19 13:31:29.060589+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {
+      "OldStatus": "140",
+      "NewStatus": "156"
+    },
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5013</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 13:31:29.060589+00:00\"></TimeCreated>\n<EventRecordID>86</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"872\" ThreadID=\"2008\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData><Data Name=\"OldStatus\">140</Data>\n<Data Name=\"NewStatus\">156</Data>\n</EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 5006,
+    "Timestamp": "2014-02-19 13:31:29.310188+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-HomeGroup Provider Service/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-HomeGroup-ProviderService\" Guid=\"{c9bdb4eb-9287-4c8e-8378-6896f0d1c5ef}\"></Provider>\n<EventID Qualifiers=\"\">5006</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x8000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 13:31:29.310188+00:00\"></TimeCreated>\n<EventRecordID>87</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"872\" ThreadID=\"2008\"></Execution>\n<Channel>Microsoft-Windows-HomeGroup Provider Service/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-19\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  }
+]

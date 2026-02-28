@@ -10,7 +10,7 @@ __pycache__/
 node_modules/
 dist/
 build/
-
+Evidence/
 # OS specific
 .DS_Store
 Thumbs.db

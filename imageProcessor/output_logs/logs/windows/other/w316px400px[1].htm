@@ -1,0 +1,972 @@
+
+        
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <script type="text/javascript">si_ST=new Date;var Config=function(){function n(){}return n.TransitionInverval=9e3,n.ImageLoadDelay=2e3,n.SquareSelector="div.sq:not([ig])",n.ContentSelector="div.content > div",n.BottomTransparencySelector="div.bt",n.WidgetSelector="div.widget",n.IndexCookie="b_w",n.MouseInteractionLogDuration=2e3,n.VisibilityCheckInterval=500,n.BeforeAnimateInEvent="beforeanimatein",n.AfterAnimateInEvent="afteranimatein",n.BeforeAnimateOutEvent="beforeanimateout",n}(),Shared;(function(n){var t=function(){function n(){}return n.containerHeight=0,n.containerWidth=0,n.fixedClass="fixedimg",n.toFixImages=[],n.fixTimer=-1,n.Fix=function(t){var i,f,u,r;if(typeof jQuery=="undefined"){n.toFixImages.push({Data:t,Op:"Fix"}),n.StartFixTimer();return}i=$(t),i.hasClass(n.fixedClass)||(f=i.closest(Config.WidgetSelector),u=$(Config.SquareSelector+":first",f),n.containerHeight=u.innerHeight(),n.containerWidth=u.innerWidth(),r=i.height(),r<n.containerHeight?i.css("width","auto").css("height","100%").css("margin-left",(n.containerWidth-i.width())/2+"px"):r>n.containerHeight&&i.css("margin-top",(n.containerHeight-r)/2+"px"),i.addClass(n.fixedClass))},n.FixQueue=function(){for(var t,i=0;i<n.toFixImages.length;i++)t=n.toFixImages[i],t.Op==="Fix"?n.Fix(t.Data):t.Op==="FadeIn"&&n.FadeIn(t.Data)},n.FadeIn=function(t){if(typeof jQuery=="undefined"){n.toFixImages.push({Data:t,Op:"FadeIn"}),n.StartFixTimer();return}$(t).fadeIn(300)},n.StartFixTimer=function(){n.fixTimer===-1&&(n.fixTimer=window.setInterval(function(){typeof jQuery!="undefined"&&(window.clearInterval(n.fixTimer),n.FixQueue())},50))},n}();n.Images=t})(Shared||(Shared={}))</script>
+        <style type="text/css">body.fcbc1 div.bt{background-color:rgba(255,185,0,.9)}body.fcbbc1,body.fcbbc1 div.bottom{background-color:#3ab54b}body.fcbsq1 div.gor,body.fcbsq1 div.gol{background-color:rgba(238,102,0,.8)}body.fcbbc2 div.bottom{background-color:#505050}body.fcbbc3 div.bottom{background-color:#ffb900}body.fcbbc4 div.bottom{background:url('/widget/images/sleek2.png');background-position:0 -80px}body.fcnto1,body.fcnto1 div.bottom{color:#ffb900}body.fcnto2,body.fcnto2 div.bottom{color:#505050}body.fcbc2 div.bt{background-color:rgba(80,80,80,.9)}body.fcolt1 a{color:#ffb900}body.fctc1 div.bt,body.fctc1 div.bt div.attrib{color:#222}body.fcboc1 div.br{border-right:solid 2px #ffb900}body.fcboc1 div.bb{border-bottom:solid 2px #ffb900}body.fcboc2 div.br{border-right:solid 2px #d2d2d2}body.fcboc2 div.bb{border-bottom:solid 2px #d2d2d2}body{margin:0;padding:0;background-color:#000}body,a{font-family:Arial,Sans-Serif;font-size:12px;color:#fff;font-weight:bold}a{text-decoration:none;cursor:pointer}img{border:0}div.content,.vhidden{visibility:hidden}div.widget{overflow:hidden}div.content>div,div.sq,div.bottom{float:left;position:relative;overflow:hidden}div.botl{margin-left:1px;float:left}div.botl:active{margin-left:0;margin-right:1px;float:left}div.botr{margin-right:2px;float:right}.tr{position:absolute;top:5px;right:7px;background-color:#000}div.botr:active{margin-right:1px;margin-left:1px;float:right}div.content>div img,div.sq img{width:100%}div.sq .fixedimg{visibility:visible}div.bottom{width:100%;position:relative;top:-6px;text-align:center;z-index:100}div.bottom span.bla{display:inline-block;vertical-align:top;padding-top:10px}div.bt{background-color:rgba(0,0,0,.7);padding-top:5px;min-height:20px;height:auto;position:absolute;bottom:0;left:0;text-align:center;width:100%}div.vst{font-size:9px}.fs11{font-size:11px}div.ht{min-height:20px}div.ht.mht28{min-height:28px;white-space:normal;overflow:visible}div.mht28 .onel{padding-top:4px}.ellipsis,div.ellip div.ht{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;-o-text-overflow:ellipsis}div.ellip div.ht.expanded,div.ellip div.ht.expanding{white-space:normal;overflow:visible}div.attrib,div.news{font-size:9px;text-align:left;display:none}div.attrib,div.elc{overflow:hidden;width:100%;text-overflow:ellipsis;white-space:nowrap;margin-top:-2px}div.elc{padding:0 1px}div.attrib{color:#d3d3d3;font-weight:normal;padding:1px 0 0 1px}div.news{padding:1px 5px 1px 5px;visibility:hidden}span.copyr{width:12px;height:12px;text-align:center;line-height:12px;border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px;font-size:13px}div.sq>div{height:100%;overflow:hidden}.none{display:none}div.br{border-right:solid 2px #ddd}div.bb{border-bottom:solid 2px #ddd}.blogo,.bnext,.bprev{background:url('/widget/images/i.png')}.blogo{background-position:-1px -1px;width:68px;height:24px;display:inline-block;zoom:1;*display:inline;_height:24px;margin-top:4px}span.blogo{position:absolute;left:39px;top:30px}.bprev{background-position:-0 -29px}.bnext{background-position:-0 -61px}span.copyr,.bprev,.bnext,div.bottom{-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-o-user-select:none;-ms-user-select:none;user-select:none}span.copyr,.bprev,.bnext{cursor:pointer}.bprev,.bnext{width:29px;height:29px}.hidden{display:none}.leftarrow,.rightarrow{opacity:.6;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=60);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";position:absolute;top:15px;height:53px;width:30px;z-index:5001;cursor:pointer}.leftarrow:hover,.rightarrow:hover{opacity:1;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"}.leftarrow:active,.rightarrow:active{opacity:.8;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=80);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"}.leftarrow{background:transparent url('/widget/images/i.png') no-repeat -70px 0;left:0}.rightarrow{background:transparent url('/widget/images/i.png') no-repeat -34px -26px;right:0}body.ja-jp,body.ja-jp a{font-family:meiryo,Arial,Sans-Serif}</style>
+        
+        <!--[if IE]><style type="text/css">span.copyr{background-color:transparent;font-size:12px}div.bt{background-color:#000;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";background:transparent}div.classic div.bt{background-color:#fff;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99FFFFFF,endColorstr=#99FFFFFF);-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#99FFFFFF, endColorstr=#99FFFFFF)";background:transparent}div.bt,body{background-color:rgba(0,51,.7)}div.br{border-right:solid 2px #030}div.bb{border-bottom:solid 2px #030}</style><![endif]-->
+        <!--[if lte IE 7]><style type="text/css">.slogo{margin:4px 0 0 4px}</style><![endif]-->
+        
+    <style type="text/css">
+
+            
+            body
+            {
+                background-color : white;
+            }
+
+            div.w316x400xsleek > div.sq.br.bb, div.w316x400xsleek > div.sq.br, div.w316x400xsleek > div.content > div
+            {
+                width: 103px;
+                height: 99px;
+            }
+
+            div.w316x400xsleek > div.sq
+            {
+                width: 105px;
+                height: 99px;
+            }
+            
+            div.w316x400xsleek
+            {
+                width: 316px;
+                height: 400px;
+            }
+            
+            
+
+div.w300x250x4{width:300px;height:250px}div.br{border-right:solid 2px #fff}div.bb{border-bottom:solid 2px #fff}body.fcfa1 div.br{border-right:solid 4px #fff}body.fcfa1 div.bb{border-bottom:solid 4px #fff}div.bottom{width:100%;position:relative;top:0;text-align:center;z-index:100;font-family:'Segoe UI Light','Segoe UI',Arial,Helvetica,Sans-Serif;font-size:18px;height:30px}div.bottom span.bla{padding-top:2px}body.fcsb3 .slogo,body.fcsb3 .snext,body.fcsb3 .sprev{background:url('/widget/images/sleek3.png')}body.fcsb3 .sprev{background-position:0 0}body.fcsb3 .snext{background-position:0 -23px}body.fcsb2 .slogo,body.fcsb2 .snext,body.fcsb2 .sprev{background:url('/widget/images/sleek1.png')}body.fcsb2 .sprev{background-position:0 0}body.fcsb2 .snext{background-position:0 -23px}body.fcsb1 .slogo,body.fcsb1 .snext,body.fcsb1 .sprev{background:url('/widget/images/sleek2.png')}div.bt{font-family:'Segoe UI',Arial,Helvetica,Sans-Serif;font-weight:bold}body.fcsb1 .slogo,body.fcsb2 .slogo,body.fcsb3 .slogo{background-position:0 -46px;width:64px;height:24px;_height:24px;margin-top:2px}body.fclr1 .slogo{background-repeat:no-repeat;background-position:-26px -46px;margin-top:3px}body.fclr1 span.lmi{padding-left:20px}.slogo,.snext,.sprev{background:url('/widget/images/sleek.png')}.slogo{background-position:0 -46px;width:71px;height:25px;display:inline-block;zoom:1;*display:inline;_height:25px;margin:4px 0 0 1px}span.slogo{position:absolute;left:39px;top:31px}.sprev,body.fcsb1 .sprev{background-position:0 0;width:8px;height:13px}.snext,body.fcsb1 .snext{background-position:0 -23px;width:8px;height:13px}div.botl,div.botl:active{margin:8px 0 0 9px}div.botr,div.botr:active{margin:8px 9px 0 0}div.gol{float:left;width:27px;height:100%;display:none;cursor:pointer}div.gor{width:27px;height:100%;float:right;display:none;cursor:pointer}div.gor:hover{background-color:#8b8989}div.gol:hover{background-color:#8b8989}body.ja-jp div.bottom{font-family:meiryo,'Segoe UI Light',Arial,Helvetica,Sans-Serif}
+
+        </style>
+
+    </head>
+    <body class="en-us">
+        
+
+
+    <div class="widget w316x400xsleek" widgetpages="3" timerTransition="SlowSlideDown" manualTransition="FastSlideDown"  easing="easeOutQuart">
+        
+                <div class="sq br bb">
+                        <div index="0">
+        <a href="http://www.bing.com/widget/cr?q=doutzen%20kroes&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="doutzen kroes" >
+           
+                <img src="http://www.bing.com/imagenewsfetcher.aspx?q=http%3a%2f%2fcol.stb01.s-msn.com%2fi%2f9B%2f7135A9E5C918BCC07778C13C95A3F7.jpg&amp;sz=103x99&amp;c=1&amp;rs=2" alt="Model channels Demi Moore for pregnancy announcement" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Model channels</div>
+                        <div class="elc">Demi Moore for pregnancy announcement</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">Image: Model Doutzen Kroes (doutzen via Instagram)</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+                </div>
+                <div class="sq br bb">
+                        <div index="1">
+        <a href="http://www.bing.com/widget/cr?q=Kimberly%20Williams-Paisley&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Kimberly Williams-Paisley" >
+           
+                <img src="http://www.bing.com/th?id=OS.RTNews_hK-VkuXz28GmzPSV&amp;pid=BingWidget&amp;c=8&amp;rs=2&amp;w=103&amp;h=99" alt="Brad Paisley&#39;s wife" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Brad Paisley&#39;s</div>
+                        <div class="elc">wife</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">© REX/Jim Smeal/BEI</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+                </div>
+                <div class="sq bb">
+                        <div index="2">
+        <a href="http://www.bing.com/widget/cr?q=Iran%20warships&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Iran warships" >
+           
+                <img src="http://www.bing.com/th?id=OS.RTNews_6unB85ORib3dtKL1&amp;pid=BingWidget&amp;c=8&amp;rs=2&amp;w=103&amp;h=99" alt="Iran warships off US" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Iran warships</div>
+                        <div class="elc">off US</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">© MOHAMED NURELDIN ABDALLAH/Newscom/RTR</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+                </div>
+                <div class="sq br bb">
+                        <div index="3">
+        <a href="http://www.bing.com/widget/cr?q=Kate%20Mara%20hair&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Kate Mara hair" >
+           
+                <img src="http://www.bing.com/th?id=OS.RTNews_hvPB84HXir3Jnd6R&amp;pid=BingWidget&amp;c=8&amp;rs=2&amp;w=103&amp;h=99" alt="Kate Mara&#39;s new &#39;do" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Kate Mara&#39;s</div>
+                        <div class="elc">new &#39;do</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">© Evan Agostini/Invision/AP</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+                </div>
+                <div class="sq br bb">
+                        <div index="4">
+        <a href="http://www.bing.com/widget/cr?q=Ashley%20Wagner&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Ashley Wagner" >
+           
+                <img src="http://www.bing.com/th?id=OS.RTNews_6NvZ1oGejqjcuqf_&amp;pid=BingWidget&amp;c=8&amp;rs=2&amp;w=103&amp;h=99" alt="Wagner not impressed" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Wagner not</div>
+                        <div class="elc">impressed</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">© Robert Deutsch-USA TODAY Sports</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+                </div>
+                <div class="sq bb">
+                        <div index="5">
+        <a href="http://www.bing.com/widget/cr?q=Terrell%20Owens&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Terrell Owens" >
+           
+                <img src="http://www.bing.com/th?id=OS.RTNews_4avF7Yy2l6jd_cbi&amp;pid=BingWidget&amp;c=8&amp;rs=2&amp;w=103&amp;h=99" alt="Two-week marriage" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Two-week</div>
+                        <div class="elc">marriage</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">© WireImage/Getty Images</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+                </div>
+                <div class="sq br bb">
+                        <div index="6">
+        <a href="http://www.bing.com/widget/cr?q=sarah%20jessica%20parker%20chris%20christie&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="sarah jessica parker chris christie" >
+           
+                <img src="http://www.bing.com/imagenewsfetcher.aspx?q=http%3a%2f%2fcol.stb01.s-msn.com%2fi%2f7E%2f99219B7F22D67555A2BC3A9B84B7.jpg&amp;sz=103x99&amp;c=1&amp;rs=2" alt="Sarah Jessica Parker slams Chris Christie&#39;s &#39;bridgegate&#39; apology" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Sarah Jessica</div>
+                        <div class="elc">Parker slams Chris Christie&#39;s &#39;bridgegate&#39; apology</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">Image: Sarah Jessica Parker (© Andrew Kelly/Newscom/Reuters)</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+                </div>
+                <div class="sq br bb">
+                        <div index="7">
+        <a href="http://www.bing.com/widget/cr?q=Gwen%20Stefani&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Gwen Stefani" >
+           
+                <img src="http://www.bing.com/imagenewsfetcher.aspx?q=http%3a%2f%2fcol.stb01.s-msn.com%2fi%2f6D%2f537FA11C6940F15614D2779AF27.jpg&amp;sz=103x99&amp;c=1&amp;rs=2" alt="Gwen Stefani has star-studded baby shower" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Gwen Stefani</div>
+                        <div class="elc">has star-studded baby shower</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">Image: Gwen Stefani (PMB/ZOJ/WENN)</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+                </div>
+                <div class="sq bb">
+                        <div index="8">
+        <a href="http://www.bing.com/widget/cr?q=Kate%20Middleton%20makeover&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Kate Middleton makeover" >
+           
+                <img src="http://www.bing.com/th?id=OS.RTNews_9pTJ5YSVhbnB8_D7&amp;pid=BingWidget&amp;c=8&amp;rs=2&amp;w=103&amp;h=99" alt="Middleton makeover" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Middleton</div>
+                        <div class="elc">makeover</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">© REX/Tim Rooke</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+                </div>
+                <div class="sq br">
+                        <div index="9">
+        <a href="http://www.bing.com/widget/cr?q=missing%20baby&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="missing baby" >
+           
+                <img src="http://www.bing.com/imagenewsfetcher.aspx?q=http%3a%2f%2fcol.stb01.s-msn.com%2fi%2f2B%2fEA5DBA717AA2A5DE09149994ECD89.jpg&amp;sz=103x99&amp;c=1&amp;rs=2" alt="Missing newborn is found alive in tote bag" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Missing newborn</div>
+                        <div class="elc">is found alive in tote bag</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">Image: Kayden Powell (© Town of Beloit Police Department/AP)</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+                </div>
+                <div class="sq br">
+                        <div index="10">
+        <a href="http://www.bing.com/widget/cr?q=Kelly%20Ripa&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Kelly Ripa" >
+           
+                <img src="http://www.bing.com/imagenewsfetcher.aspx?q=http%3a%2f%2fcol.stb00.s-msn.com%2fi%2f89%2f8724A9B072D394D78A87FFC41BD6.jpg&amp;sz=103x99&amp;c=1&amp;rs=2" alt="Kelly Ripa goes makeup-free after losing Super Bowl bet" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Kelly Ripa goes</div>
+                        <div class="elc">makeup-free after losing Super Bowl bet</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">Image: Video Still of Kelly Ripa on &#39;Live with Kelly &amp; Michael&#39; (Courtesy of ABC)</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+                </div>
+                <div class="sq">
+                        <div index="11">
+        <a href="http://www.bing.com/widget/cr?q=Mark%20Brunell%20marijuana&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Mark Brunell marijuana" >
+           
+                <img src="http://www.bing.com/th?id=OS.RTNews_9tXi85WXhaHfpJr3&amp;pid=BingWidget&amp;c=8&amp;rs=2&amp;w=103&amp;h=99" alt="Weed &#39;ruins lives&#39;" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Weed &#39;ruins</div>
+                        <div class="elc">lives&#39;</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">© Chris Szagola/NewSport/Corbis</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+                </div>
+
+                <div class="content">
+    <div index="0">
+        <a href="http://www.bing.com/widget/cr?q=doutzen%20kroes&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="doutzen kroes" >
+           
+                <img data-src="http://www.bing.com/imagenewsfetcher.aspx?q=http%3a%2f%2fcol.stb01.s-msn.com%2fi%2f9B%2f7135A9E5C918BCC07778C13C95A3F7.jpg&amp;sz=103x99&amp;c=1&amp;rs=2" alt="Model channels Demi Moore for pregnancy announcement" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Model channels</div>
+                        <div class="elc">Demi Moore for pregnancy announcement</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">Image: Model Doutzen Kroes (doutzen via Instagram)</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="1">
+        <a href="http://www.bing.com/widget/cr?q=Kimberly%20Williams-Paisley&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Kimberly Williams-Paisley" >
+           
+                <img data-src="http://www.bing.com/th?id=OS.RTNews_hK-VkuXz28GmzPSV&amp;pid=BingWidget&amp;c=8&amp;rs=2&amp;w=103&amp;h=99" alt="Brad Paisley&#39;s wife" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Brad Paisley&#39;s</div>
+                        <div class="elc">wife</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">© REX/Jim Smeal/BEI</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="2">
+        <a href="http://www.bing.com/widget/cr?q=Iran%20warships&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Iran warships" >
+           
+                <img data-src="http://www.bing.com/th?id=OS.RTNews_6unB85ORib3dtKL1&amp;pid=BingWidget&amp;c=8&amp;rs=2&amp;w=103&amp;h=99" alt="Iran warships off US" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Iran warships</div>
+                        <div class="elc">off US</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">© MOHAMED NURELDIN ABDALLAH/Newscom/RTR</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="3">
+        <a href="http://www.bing.com/widget/cr?q=Kate%20Mara%20hair&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Kate Mara hair" >
+           
+                <img data-src="http://www.bing.com/th?id=OS.RTNews_hvPB84HXir3Jnd6R&amp;pid=BingWidget&amp;c=8&amp;rs=2&amp;w=103&amp;h=99" alt="Kate Mara&#39;s new &#39;do" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Kate Mara&#39;s</div>
+                        <div class="elc">new &#39;do</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">© Evan Agostini/Invision/AP</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="4">
+        <a href="http://www.bing.com/widget/cr?q=Ashley%20Wagner&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Ashley Wagner" >
+           
+                <img data-src="http://www.bing.com/th?id=OS.RTNews_6NvZ1oGejqjcuqf_&amp;pid=BingWidget&amp;c=8&amp;rs=2&amp;w=103&amp;h=99" alt="Wagner not impressed" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Wagner not</div>
+                        <div class="elc">impressed</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">© Robert Deutsch-USA TODAY Sports</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="5">
+        <a href="http://www.bing.com/widget/cr?q=Terrell%20Owens&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Terrell Owens" >
+           
+                <img data-src="http://www.bing.com/th?id=OS.RTNews_4avF7Yy2l6jd_cbi&amp;pid=BingWidget&amp;c=8&amp;rs=2&amp;w=103&amp;h=99" alt="Two-week marriage" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Two-week</div>
+                        <div class="elc">marriage</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">© WireImage/Getty Images</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="6">
+        <a href="http://www.bing.com/widget/cr?q=sarah%20jessica%20parker%20chris%20christie&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="sarah jessica parker chris christie" >
+           
+                <img data-src="http://www.bing.com/imagenewsfetcher.aspx?q=http%3a%2f%2fcol.stb01.s-msn.com%2fi%2f7E%2f99219B7F22D67555A2BC3A9B84B7.jpg&amp;sz=103x99&amp;c=1&amp;rs=2" alt="Sarah Jessica Parker slams Chris Christie&#39;s &#39;bridgegate&#39; apology" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Sarah Jessica</div>
+                        <div class="elc">Parker slams Chris Christie&#39;s &#39;bridgegate&#39; apology</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">Image: Sarah Jessica Parker (© Andrew Kelly/Newscom/Reuters)</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="7">
+        <a href="http://www.bing.com/widget/cr?q=Gwen%20Stefani&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Gwen Stefani" >
+           
+                <img data-src="http://www.bing.com/imagenewsfetcher.aspx?q=http%3a%2f%2fcol.stb01.s-msn.com%2fi%2f6D%2f537FA11C6940F15614D2779AF27.jpg&amp;sz=103x99&amp;c=1&amp;rs=2" alt="Gwen Stefani has star-studded baby shower" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Gwen Stefani</div>
+                        <div class="elc">has star-studded baby shower</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">Image: Gwen Stefani (PMB/ZOJ/WENN)</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="8">
+        <a href="http://www.bing.com/widget/cr?q=Kate%20Middleton%20makeover&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Kate Middleton makeover" >
+           
+                <img data-src="http://www.bing.com/th?id=OS.RTNews_9pTJ5YSVhbnB8_D7&amp;pid=BingWidget&amp;c=8&amp;rs=2&amp;w=103&amp;h=99" alt="Middleton makeover" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Middleton</div>
+                        <div class="elc">makeover</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">© REX/Tim Rooke</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="9">
+        <a href="http://www.bing.com/widget/cr?q=missing%20baby&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="missing baby" >
+           
+                <img data-src="http://www.bing.com/imagenewsfetcher.aspx?q=http%3a%2f%2fcol.stb01.s-msn.com%2fi%2f2B%2fEA5DBA717AA2A5DE09149994ECD89.jpg&amp;sz=103x99&amp;c=1&amp;rs=2" alt="Missing newborn is found alive in tote bag" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Missing newborn</div>
+                        <div class="elc">is found alive in tote bag</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">Image: Kayden Powell (© Town of Beloit Police Department/AP)</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="10">
+        <a href="http://www.bing.com/widget/cr?q=Kelly%20Ripa&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Kelly Ripa" >
+           
+                <img data-src="http://www.bing.com/imagenewsfetcher.aspx?q=http%3a%2f%2fcol.stb00.s-msn.com%2fi%2f89%2f8724A9B072D394D78A87FFC41BD6.jpg&amp;sz=103x99&amp;c=1&amp;rs=2" alt="Kelly Ripa goes makeup-free after losing Super Bowl bet" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Kelly Ripa goes</div>
+                        <div class="elc">makeup-free after losing Super Bowl bet</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">Image: Video Still of Kelly Ripa on &#39;Live with Kelly &amp; Michael&#39; (Courtesy of ABC)</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="11">
+        <a href="http://www.bing.com/widget/cr?q=Mark%20Brunell%20marijuana&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Mark Brunell marijuana" >
+           
+                <img data-src="http://www.bing.com/th?id=OS.RTNews_9tXi85WXhaHfpJr3&amp;pid=BingWidget&amp;c=8&amp;rs=2&amp;w=103&amp;h=99" alt="Weed &#39;ruins lives&#39;" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Weed &#39;ruins</div>
+                        <div class="elc">lives&#39;</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">© Chris Szagola/NewSport/Corbis</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="12">
+        <a href="http://www.bing.com/widget/cr?q=18-foot%20python&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="18-foot python" >
+           
+                <img data-src="http://www.bing.com/th?id=OS.RTNews_6aLph_H6hb7g8Y3-&amp;pid=BingWidget&amp;c=8&amp;rs=2&amp;w=103&amp;h=99" alt="That&#39;s a big snake" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">That&#39;s a</div>
+                        <div class="elc">big snake</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">© Wayne Lynch/Getty Images</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="13">
+        <a href="http://www.bing.com/widget/cr?q=farm%20bill%202014&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="farm bill 2014" >
+           
+                <img data-src="http://www.bing.com/imagenewsfetcher.aspx?q=http%3a%2f%2fcol.stb00.s-msn.com%2fi%2fDC%2f81DC17E512F0566295B476D52BAC3.jpg&amp;sz=103x99&amp;c=1&amp;rs=2" alt="President Barack Obama signs farm bill that trims food stamps" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">President</div>
+                        <div class="elc">Barack Obama signs farm bill that trims food stamps</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">Image: U.S. President Barack Obama tours the Michigan Biotechnology Institute (© Kevin Lamarque/Newscom/Reuters)</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="14">
+        <a href="http://www.bing.com/widget/cr?q=kate%20winslet%20scarlett%20johansson&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="kate winslet scarlett johansson" >
+           
+                <img data-src="http://www.bing.com/imagenewsfetcher.aspx?q=http%3a%2f%2fcol.stb00.s-msn.com%2fi%2f77%2f323A8A16321EF84E8DE8E8A4F3268A.jpg&amp;sz=103x99&amp;c=1&amp;rs=2" alt="Kate Winslet, Scarlett Johansson go makeup-free" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Kate Winslet,</div>
+                        <div class="elc">Scarlett Johansson go makeup-free</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">Image: (From left) Brad Pitt, Scarlett Johansson &amp; Kate Winslet (© Chuck Close/Vanity Fair)</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="15">
+        <a href="http://www.bing.com/widget/cr?q=Justine%20Davis&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Justine Davis" >
+           
+                <img data-src="http://www.bing.com/th?id=OS.RTNews_jd_E4K2WjePb8J6H&amp;pid=BingWidget&amp;c=8&amp;rs=2&amp;w=103&amp;h=99" alt="Canadian mom freed" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Canadian</div>
+                        <div class="elc">mom freed</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">Courtesy Cameron Davis Foundation via MSN</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="16">
+        <a href="http://www.bing.com/widget/cr?q=Sandra%20Bullock&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Sandra Bullock" >
+           
+                <img data-src="http://www.bing.com/imagenewsfetcher.aspx?q=http%3a%2f%2fcol.stb01.s-msn.com%2fi%2f79%2f12FB951F87E932FA4CFA80CC9CAFB5.jpg&amp;sz=103x99&amp;c=1&amp;rs=2" alt="Sandra Bullock gives Jay Leno an emotional goodbye" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Sandra Bullock</div>
+                        <div class="elc">gives Jay Leno an emotional goodbye</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">Image: Video still of Sandra Bullock &amp; Jay Leno (© NBC via MSN Entertainment)</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="17">
+        <a href="http://www.bing.com/widget/cr?q=lindsey%20vonn&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="lindsey vonn" >
+           
+                <img data-src="http://www.bing.com/imagenewsfetcher.aspx?q=http%3a%2f%2fcol.stb00.s-msn.com%2fi%2f57%2f65728A7ABFE5A4A810884BDCBB289B.jpg&amp;sz=103x99&amp;c=1&amp;rs=2" alt="Injured Vonn rocks the runway in red" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Injured Vonn</div>
+                        <div class="elc">rocks the runway in red</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">Image: Lindsey Vonn raises her crutches on the runway on Thursday during New York Fashion Week (© Joshua Lott/Reuters)</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="18">
+        <a href="http://www.bing.com/widget/cr?q=Oprah%20Winfrey&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Oprah Winfrey" >
+           
+                <img data-src="http://www.bing.com/imagenewsfetcher.aspx?q=http%3a%2f%2fcol.stb00.s-msn.com%2fi%2f6C%2f52968E2F5B27A660D0DED152DCC29.jpg&amp;sz=103x99&amp;c=1&amp;rs=2" alt="Oprah Winfrey in talks to make her Broadway debut" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Oprah Winfrey</div>
+                        <div class="elc">in talks to make her Broadway debut</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">Image: Oprah Winfrey (© Lucy Nicholson/Newscom/Reuters)</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="19">
+        <a href="http://www.bing.com/widget/cr?q=john%20berlin&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="john berlin" >
+           
+                <img data-src="http://www.bing.com/imagenewsfetcher.aspx?q=http%3a%2f%2fcol.stb01.s-msn.com%2fi%2fE7%2fB3235DB8F21D42D254883A6D9E7DDE.jpg&amp;sz=103x99&amp;c=1&amp;rs=2" alt="Facebook grants father&#39;s wish to see dead son&#39;s video" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Facebook grants</div>
+                        <div class="elc">father&#39;s wish to see dead son&#39;s video</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">Image: Video still of John Berlin (© John Berlin via YouTube)</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="20">
+        <a href="http://www.bing.com/widget/cr?q=darryl%20robinson&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="darryl robinson" >
+           
+                <img data-src="http://www.bing.com/imagenewsfetcher.aspx?q=http%3a%2f%2fcol.stb01.s-msn.com%2fi%2f53%2f68739B11BE86DA6E58EBF5555FDC32.jpg&amp;sz=103x99&amp;c=1&amp;rs=2" alt="Former Cooking Channel host Darryl Robinson found dead" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Former Cooking</div>
+                        <div class="elc">Channel host Darryl Robinson found dead</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">Image: Darryl Robinson in 2012 (© Kristen Blush/Getty Images)</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="21">
+        <a href="http://www.bing.com/widget/cr?q=560-hp%20Beetle&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="560-hp Beetle" >
+           
+                <img data-src="http://www.bing.com/th?id=OS.RTNews_odvF9YyczqfB5_Wy&amp;pid=BingWidget&amp;c=8&amp;rs=2&amp;w=103&amp;h=99" alt="VW&#39;s 560-hp Beetle" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">VW&#39;s 560-hp</div>
+                        <div class="elc">Beetle</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">© Scott Olson/Getty Images via MSN</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="22">
+        <a href="http://www.bing.com/widget/cr?q=maria%20sharapova&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="maria sharapova" >
+           
+                <img data-src="http://www.bing.com/imagenewsfetcher.aspx?q=http%3a%2f%2fcol.stb01.s-msn.com%2fi%2f15%2fEF353E2FD16188C68276E6C5D18AA9.jpg&amp;sz=103x99&amp;c=1&amp;rs=2" alt="Maria Sharapova leads Russian athletes in Olympic torch lighting" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Maria Sharapova</div>
+                        <div class="elc">leads Russian athletes in Olympic torch lighting</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">Image: Maria Sharapova carries the torch during the opening ceremony of the 2014 Winter Olympics in Sochi on Friday (© Matt Dunham/AP)</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="23">
+        <a href="http://www.bing.com/widget/cr?q=sarah%20wolfe&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="sarah wolfe" >
+           
+                <img data-src="http://www.bing.com/imagenewsfetcher.aspx?q=http%3a%2f%2fcol.stb01.s-msn.com%2fi%2fBD%2f37375AF33D7E967E2B5F38363A7B24.jpg&amp;sz=103x99&amp;c=1&amp;rs=2" alt="2 sisters of Iowa state Rep. Mary Wolfe found dead in Pa. home" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">2 sisters of</div>
+                        <div class="elc">Iowa state Rep. Mary Wolfe found dead in Pa. home</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">Image: Rep. Mary Wolfe of Iowa (via iowahouse.org)</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+        </div>
+            <div class="reserves vhidden">
+    <div index="24">
+        <a href="http://www.bing.com/widget/cr?q=leonard%20nimoy&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="leonard nimoy" >
+           
+                <img data-src="http://www.bing.com/imagenewsfetcher.aspx?q=http%3a%2f%2fcol.stb01.s-msn.com%2fi%2f41%2f6559613C4E5A80F592F49D3492944.jpg&amp;sz=103x99&amp;c=1&amp;rs=2" alt="Leonard Nimoy: I have lung disease" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Leonard Nimoy:</div>
+                        <div class="elc">I have lung disease</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">Image: Leonard Nimoy (© Mario Anzouni/Newscom/Reuters)</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="25">
+        <a href="http://www.bing.com/widget/cr?q=rosie%20o%27donnell%20the%20view&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="rosie o&#39;donnell the view" >
+           
+                <img data-src="http://www.bing.com/imagenewsfetcher.aspx?q=http%3a%2f%2fcol.stb01.s-msn.com%2fi%2fEB%2f6DC1C3FAC390264322A1F843EF99AE.jpg&amp;sz=103x99&amp;c=1&amp;rs=2" alt="Rosie O&#39;Donnell disagrees with Barbara Walters on &#39;The View&#39;" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Rosie O&#39;Donnell</div>
+                        <div class="elc">disagrees with Barbara Walters on &#39;The View&#39;</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">Image: (From left) Barbara Walters &amp; Rosie O&#39;Donnell on The View (© Lou Rocco/ABC via Getty Images)</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="26">
+        <a href="http://www.bing.com/widget/cr?q=ashton%20kutcher&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="ashton kutcher" >
+           
+                <img data-src="http://www.bing.com/imagenewsfetcher.aspx?q=http%3a%2f%2fcol.stb01.s-msn.com%2fi%2f28%2fE9FFF6CA90B44E97EB497B0F0F434.jpg&amp;sz=103x99&amp;c=1&amp;rs=2" alt="Ashton Kutcher to Charlie Sheen: &#39;Enough already&#39;" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Ashton Kutcher</div>
+                        <div class="elc">to Charlie Sheen: &#39;Enough already&#39;</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">Image: (From left) Ashton Kutcher &amp; Charlie Sheen (© Jordan Strauss/Invision/AP; Chris Pizzello/Invision/AP)</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="27">
+        <a href="http://www.bing.com/widget/cr?q=Channing%20Tatum&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Channing Tatum" >
+           
+                <img data-src="http://www.bing.com/th?id=OS.RTNews_6KCp6I6etKzH-5Sh&amp;pid=BingWidget&amp;c=8&amp;rs=2&amp;w=103&amp;h=99" alt="Tatum OK with weight" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Tatum OK</div>
+                        <div class="elc">with weight</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">© REX/Curtis Means</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="28">
+        <a href="http://www.bing.com/widget/cr?q=Hijacker%20Turkish%20airport&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Hijacker Turkish airport" >
+           
+                <img data-src="http://www.bing.com/th?id=OS.RTNews_p7WzjYWLtLjC45D2&amp;pid=BingWidget&amp;c=8&amp;rs=2&amp;w=103&amp;h=99" alt="Failed hijacking" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Failed</div>
+                        <div class="elc">hijacking</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">© Moritz Hanusch/Getty Images</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="29">
+        <a href="http://www.bing.com/widget/cr?q=Bob%20Costas%20eye%20infection&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Bob Costas eye infection" >
+           
+                <img data-src="http://www.bing.com/th?id=OS.RTNews_gf3P8pSYk-Pb_p-J&amp;pid=BingWidget&amp;c=8&amp;rs=2&amp;w=103&amp;h=99" alt="Costas eye infection" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Costas eye</div>
+                        <div class="elc">infection</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">© Peter Kramer/NBCU Photo Bank via Getty Images</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="30">
+        <a href="http://www.bing.com/widget/cr?q=Jimmy%20Fallon&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Jimmy Fallon" >
+           
+                <img data-src="http://www.bing.com/imagenewsfetcher.aspx?q=http%3a%2f%2fcol.stb00.s-msn.com%2fi%2fD0%2fE2207542F996555A7B9FE2ED597B2D.jpg&amp;sz=103x99&amp;c=1&amp;rs=2" alt="Fallon bids &#39;Late Night&#39; an emotional goodbye" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Fallon bids</div>
+                        <div class="elc">&#39;Late Night&#39; an emotional goodbye</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">Image: Jimmy Fallon hosts  &#39;Late Night With Jimmy Fallon&#39; on Friday  (©Jamie McCarthy/Getty Images)</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="31">
+        <a href="http://www.bing.com/widget/cr?q=Thiago%20Silva&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Thiago Silva" >
+           
+                <img data-src="http://www.bing.com/imagenewsfetcher.aspx?q=http%3a%2f%2fcol.stb01.s-msn.com%2fi%2f7B%2fB9F98829F380E052A6C9C1A7729F5.jpg&amp;sz=103x99&amp;c=1&amp;rs=2" alt="UFC&#39;s Thiago Silva arrested after police standoff" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">UFC&#39;s Thiago</div>
+                        <div class="elc">Silva arrested after police standoff</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">Image: Thiago Silva in 2013 (© Jeff Bottari/Zuffa LLC/Getty Images)</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="32">
+        <a href="http://www.bing.com/widget/cr?q=White%20House%20lockdown&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="White House lockdown" >
+           
+                <img data-src="http://www.bing.com/th?id=OS.RTNews_7qWyp6Hm48__4onn&amp;pid=BingWidget&amp;c=8&amp;rs=2&amp;w=103&amp;h=99" alt="White House lockdown" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">White House</div>
+                        <div class="elc">lockdown</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">© Terry Moore/Stocktrek Images</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="33">
+        <a href="http://www.bing.com/widget/cr?q=Racist%20school%20lunch&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Racist school lunch" >
+           
+                <img data-src="http://www.bing.com/th?id=OS.RTNews_59fT9ayMjq7boIfz&amp;pid=BingWidget&amp;c=8&amp;rs=2&amp;w=103&amp;h=99" alt="Racist school lunch?" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Racist school</div>
+                        <div class="elc">lunch?</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">© Burazin/Getty Images</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="34">
+        <a href="http://www.bing.com/widget/cr?q=Jack%20Del%20Rio&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Jack Del Rio" >
+           
+                <img data-src="http://www.bing.com/th?id=OS.RTNews_gNXk5IyriaKe4oXn&amp;pid=BingWidget&amp;c=8&amp;rs=2&amp;w=103&amp;h=99" alt="Del Rio remains DC" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Del Rio</div>
+                        <div class="elc">remains DC</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">© Dustin Bradford/Getty Images</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div index="35">
+        <a href="http://www.bing.com/widget/cr?q=Wade%20Phillips&amp;form=BWVPST&amp;mkt=en-US&amp;dest=Serp" target="_top" q="Wade Phillips" >
+           
+                <img data-src="http://www.bing.com/imagenewsfetcher.aspx?q=http%3a%2f%2fcol.stb01.s-msn.com%2fi%2fC8%2f8AFB7EB74D4EC6C93DD139A7955756.jpg&amp;sz=103x99&amp;c=1&amp;rs=2" alt="Wade Phillips wants Texans to draft Johnny Manziel" class='fixedimg' />
+            
+            <div class="bt">
+                <div class="ht mht28 fs11">
+                    
+                        <div class="elc">Wade Phillips</div>
+                        <div class="elc">wants Texans to draft Johnny Manziel</div>
+                
+                    
+                            <div class="news">                                <div class="attrib">Image: (From left) Johnny Manziel &amp; Wade Phillips (© Daniel Shirey/Newscom/Reuters; Matthew Emmons/USA Today Sports)</div>
+                            </div>
+                </div>
+            </div>
+        </a>
+    </div>
+            </div>
+
+    </div>
+
+
+
+
+
+        <script type="text/javascript">si_RB = new Date;</script>
+            <script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript">si_CF=new Date;var _b_w_c={'httpBingHost':'http://www.bing.com','sslBingHost':'https://www.bing.com','httpBingLogHost':'http://a4.bing.com','sslBingLogHost':'https://ssl.bing.com','prefix':'/widget','addImp':'','addClick':'','snapshot':true,'snapshotDelay':100,'snapshotRefresh':14400,'form':'MSNBPN','ewdform':'BW3PUB','ewdformin':'BWTPFO','sigSample':0,'sigDelay':3000,'fallback':{'':'default300x250.jpg','300px250px':'default300x250.jpg','316px400px':'default316x400.jpg','320px290px':'default320x290.jpg','120px600px':'default120x600.jpg','160px600px':'default160x600.jpg','180px150px':'default180x150.jpg','728px90px':'default728x90.jpg','468px60px':'default468x60.jpg','468px26px':'default468x26.jpg','600px250px':'default600x250.jpg','630px138px':'default630x138.jpg','728px26px':'default728x26.jpg','956px26px':'default956x26.jpg','956px90px':'default956x90.jpg'},'extRandomTypes': ['mixbingnow~dqs=1,sz=20,naf=12,l=sleek,pil=49,plc=1,lsxp=1440,rl=1,fcsb=3,fclr=3','mixbingnow~dqs=1,sz=20,naf=12,l=sleek,pil=49,plc=1,lsxp=2880,rl=1,fcsb=3,fclr=3','mixbingnow~l=sleek,dqs=1,fcsb=3','mixbingnow~l=sleek,dqs=1,fcsb=3,fclr=3','mixbingnow~l=sleek,dqs=1,fcsb=3,fclr=3','mixbingnow~l=sleek,dqs=1,fcsb=3,fclr=3','mixbingnow~l=sleek,dqs=1,fcsb=3,fclr=3,pil=4,lsixp=120,plc=1,lscxp=2880,rl=1,sz=20,naf=12','mixbingnow~l=sleek,dqs=1,fcsb=3,fclr=3,pil=8,lsixp=120,plc=1,lscxp=2880,rl=1,sz=20,naf=12','mixbingnow~l=sleek,dqs=1,fcsb=3,fclr=3,pil=8,lsixp=240,plc=1,lscxp=2880,rl=1,sz=16,naf=12','mixbingnow~l=sleek,dqs=1,fcsb=3,fclr=3,pil=8,lsixp=240,plc=1,lscxp=2880,rl=1,sz=20,naf=12'],'extRandomBackupTypes': ['bingnowedit~l=slicebox,nc=1'],'newsRandomTypes': ['mixbingnow~l=sleek,dqs=1,fcsb=3,fclr=3,nnews=1'],'extRandomTextTypes': ['bingnowedit~l=text'],'randomTypes': ['mixbingnownewscat~l=sleek,dqs=1,fcsb=3,fclr=2','mixbingnownewscat~l=sleek,dqs=1,fcsb=3,fclr=2','mixbingnownewscat~l=sleek,dqs=1,fcsb=3,fclr=2','mixbingnownewscat~l=sleek,dqs=1,fcsb=3,fclr=2','mixbingnownewscat~l=sleek,dqs=1,fcsb=3,fclr=2','mixhostbingnowtop~l=sleek,dqs=1'],'organicTypes': ['miximage~irank=1,nohost=1,news=1','miximage~irank=1,nohost=1,news=1','miximage~irank=1,nohost=1,news=1','now~news=1','now~news=1','now~news=1'],'intlTypes': ['mixintl~l=sleek,dqs=1'],'topMoversTypes': ['mixbingnow~dqs=1,mp=1,ta=1,mad=11,rad=7,sz=85,asz=24,fp=0,op=.4,l=textflex,decay=1,frsz=3,stq=1,pil=10,plc=1,lscxp=2880,lsixp=480,rl=1','mixbingnow~dqs=1,mp=1,ta=1,mad=11,rad=7,sz=85,asz=24,fp=0,op=.4,l=textflex,decay=1,frsz=3,stq=1,pil=10,plc=2,lscxp=2880,lsixp=480,rl=1'],'topMovers2Types': ['mixbingnow~dqs=1,mp=1,sz=85,asz=24,fp=0,op=.4,l=textflex,decay=1,frsz=3,stq=1,pil=10,plc=1,lscxp=2880,lsixp=480,rl=1','mixbingnow~dqs=1,mp=1,sz=85,asz=24,fp=0,op=.4,l=textflex,decay=1,frsz=3,stq=1,pil=10,plc=2,lscxp=2880,lsixp=480,rl=1'],'topMovers3Types': ['mixbingnow~dqs=1,mp=1,ta=1,mad=11,rad=7,mpa=1,sz=85,asz=24,fp=0,op=.4,l=textflex,decay=1,frsz=3,stq=1,pil=10,plc=1,lscxp=2880,lsixp=480,rl=1','mixbingnow~dqs=1,mp=1,ta=1,mad=11,rad=7,mpa=1,sz=85,asz=24,fp=0,op=.4,l=textflex,decay=1,frsz=3,stq=1,pil=10,plc=2,lscxp=2880,lsixp=480,rl=1'],'topMovers4Types': ['mixbingnow~dqs=1,mp=1,mpa=1,sz=85,asz=24,fp=0,op=.4,l=textflex,decay=1,frsz=3,stq=1,pil=10,plc=1,lscxp=2880,lsixp=480,rl=1','mixbingnow~dqs=1,mp=1,mpa=1,sz=85,asz=24,fp=0,op=.4,l=textflex,decay=1,frsz=3,stq=1,pil=10,plc=2,lscxp=2880,lsixp=480,rl=1'],'mixBingNowImagesTypes': ['mixbingnow~dqs=1,pil=10,lsixp=480,plc=1,lscxp=360,rl=1,sz=36,naf=24','mixbingnow~dqs=1,pil=10,lsixp=480,plc=2,lscxp=2880,rl=1,sz=36,naf=24','mixbingnow~dqs=1,pil=10,lsixp=480,plc=2,lscxp=2880,rl=1,sz=36,naf=24,frsz=2','mixbingnow~dqs=1,pil=10,lsixp=480,plc=2,lscxp=2880,rl=1,sz=36,naf=24,frsz=3','mixbingnow~dqs=1,pil=10,lsixp=480,plc=2,lscxp=2880,rl=1,sz=36,naf=24,nc=1'],'msnAutoTypes': ['mixbingnow~l=sleek,dqs=1,fcsb=3,auto=1','mixbingnow~l=sleek,dqs=1,fcsb=3,fclr=3,pil=8,lsixp=120,plc=1,lscxp=2880,rl=1,sz=20,naf=12,auto=1','wpcars~l=sleek,dqs=1,fcsb=3,auto=1','wpcars~l=sleek,dqs=1,fcsb=3,fclr=3,auto=1'],'trendingImagesTypes': ['mixbingnow~dqs=1,treat=1'],'snapshotHosts': {'www.bing.com':'2a9fe2c85e5449fe8003f438d48901a5','bing.com':'2a9fe2c85e5449fe8003f438d48901a5','tv.msn.com':'32f5d5e107454dd795a632ebb7d9cfc9','music.msn.com':'533ea8cc8dca4e91a210293fc99fbceb','movies.msn.com':'b9ecaa928d254e12b2c8535ab8a71ff1','t.entertainment.msn.com':'ae179c28ef3546828c93dd6162465b17','entertainment.msn.com':'ae179c28ef3546828c93dd6162465b17','social.entertainment.msn.com':'67360dfa278d43bba30998c7edf95529','local.msn.com':'4303dbe5cf16456dac7e26625f09c000','msn.com':'a3a5a00caf9e44958e8cd838597c9b5a','www.msn.com':'a3a5a00caf9e44958e8cd838597c9b5a','living.msn.com':'49602c02466b49d2b320c9a4be89c874','healthyliving.msn.com':'21b8656845314d9c87cefb8256a96e0e','money.msn.com':'1489b21dec3446a39b3e67cd6b49b1e4','investing.money.msn.com':'1113717a28b74ea39ae50b112450f628','realestate.msn.com':'069dd763a92a4b04be0122d1ad0404d8','weather.msn.com':'8023ba4ac1214d83abdf696dbdc0f8ae','news.msn.com':'dd20ded6fedc407787be5918bd2a222c','dev.news.msn-int.com':'dd20ded6fedc407787be5918bd2a222c','microsoft.com':'6581f67640b34c1688e2fe382ffb1e23','www.microsoft.com':'6581f67640b34c1688e2fe382ffb1e23'}};function _ge(n){return _d.getElementById(n)}function sj_be(n,t,i,r){(n==_w||n==_d.body)&&t=="load"?sj_evt.bind("onP1",i,1):n.addEventListener?n.addEventListener(t,i,r):n.attachEvent?n.attachEvent("on"+t,i):n["on"+t]=i}function sj_ue(n,t,i,r){(n==_w||n==_d.body)&&t=="load"?sj_evt.unbind("onP1",i):n.removeEventListener?n.removeEventListener(t,i,r):n.detachEvent?n.detachEvent("on"+t,i):n["on"+t]=null}function sj_gx(){return sb_i6?new ActiveXObject("MSXML2.XMLHTTP"):new XMLHttpRequest}function sj_wf(n){var t=arguments;return function(){n.apply(null,[].slice.apply(t).slice(1))}}function sj_so(n,t){n.style.filter=t>=100?"":"alpha(opacity="+t+")",n.style.opacity=t/100}function sj_anim(n){var t=this,s,u,h,e,r,f,c,i,o;t.init=function(n,e,h,l,a){s=n,r=e,f=h,c=l,o=a,i||(i=r),!u&&t.start()},t.start=function(){h=sb_gt(),e=Math.abs(f-r-i)/c*25,u=setInterval(t.next,25)},t.stop=function(){clearInterval(u),u=0},t.next=function(){var u=sb_gt()-h;i=r+(f-r)*u/e,u>=e&&(t.stop(),i=f,o&&o()),n(s,i)}}function sj_fader(){return new sj_anim(function(n,t){sj_so(n,t)})}function makeLog(){_w.Log=new function(){function y(t,f,s,h,c){var p="",y,v,l;if(c)for(y=0;y<c.length;y+=2)v=c[y],l=c[y+1],(typeof v!="string"||v[o]('"')<0)&&(v='"'+v+'"'),typeof l=="string"&&l[o]("{")<0&&l[o]('"')<0&&(l='"'+l+'"'),p+=n(v+":"+l+",");p+=n('"T":"CI.'+t+'",'+(typeof f=="number"?'"K":'+f:'"FID":"'+f+'"')+',"Name":"'+s+'","TS":'+sb_gt()),a[e]+r[e]+p[e]>=2048&&i(),r+=n(u?",":"")+n("{")+p+n("}"),u=1,h&&i()}function i(){f&&sb_ct(f),u&&(t.ping.src=h+a+r+n("]"),u=0,r=n("[")),f=sb_st(i,c)}var t=this,n=escape,e="length",o="indexOf",s="apply",c=2e3,r=n("["),u=0,l=0,f,h=_G.lsHost!=""?_G.lsHost:"",a=_G.lsUrl+"&TYPE=Event.ClientInst&DATA=",v=location.hostname.match(/([^.]+\.[^.]*)$/);h==""&&v&&(h="http://a4."+v[0]),t.ping=new Image,t.Log=function(n,t,r,u){l||(y("Init","CI","Base",!1),f=sb_st(i,c),l=1,sj_be(_w,"beforeunload",i,!1)),y(n,t,r,u,[].slice.apply(arguments).slice(4))},t.RenderPixels=function(n){var r,t,i,u;if(typeof n!="undefined"&&n!=null)for(r=n.split(";"),t=0;t<r.length;t++)r[t].length>5&&(i=r[t],i+=i.indexOf("?")>-1?"&r"+Math.random():"?r"+Math.random(),u=new Image,u.src=i)},t.Wrap=function(n,t,i,r){var u=n[t];n[t]=function(){var n=arguments,e,t,f;if(r&&i[s](this,n),e=u[s](this,n),!r){for(t=[],f=0;f<n.length;f++)t.push(n[f]);t.push(e),i[s](this,t)}return e}}}}var shared,Shared,Colors,Logging;_w=window,_d=document,sb_de=_d.documentElement,sb_ie=!!_w.ActiveXObject,sb_i6=sb_ie&&!_w.XMLHttpRequest,sb_st=_w.setTimeout,sb_ct=_w.clearTimeout,sb_gt=function(){return+new Date},_G=window._G||{ST:si_ST?si_ST:new Date,Mkt:"en-US",RTL:!1,IG:"",gpUrl:"/fd/ls/GLinkPing.aspx?"},_H={},function(){var e=window.location.href.split("#"),t=e.length>1?e[1]:null,i,r,n,f,u;if(t!==null&&t.length>0)for(t=t.substr(1,t.length-1).split("&"),i=decodeURIComponent,r=0;r<t.length;r++)if(n=t[r].split("="),n.length==2)_H[n[0]]=i(n[1]);else if(n.length>2){for(f=[],u=1;u<n.length;u++)f.push(i(n[u]));_H[n[0]]=i(f.join("="))}}(),function(){if(_H.IG&&_H.IG.length>0)_G.IG=_H.IG;else if(!_G.IG){function n(){var n=Math.floor(Math.random()*65536).toString(16);return"000".substr(0,4-n.length)+n}_G.IG=[n(),n(),n(),n(),n(),n(),n(),n()].join("").toLowerCase()}}(),_G.lsUrl=(_b_w_c.prefix!=null?_b_w_c.prefix:"")+"/ls/l?IG="+_G.IG,_G.lsHost=_d.location.href.indexOf("https:")==0?_b_w_c.sslBingHost:_b_w_c.httpBingHost,function(n){function r(n){var t=[n.type],r=!1,i,u;for(i in n)i!=="type"&&(r||(t.push("~"),r=!0),t.push(i),u=n[i],u!=null&&(t.push("="),t.push(u)),t.push(","));return r&&t.pop(),t.join("")}function t(n){var t={};return i(n,t)}function i(n,t){var u=n.split("~"),f,r,i;if(t.type=u[0],u.length==1)return t;for(f=u[1].split(","),r=0;r<f.length;r++)i=f[r].split("="),i.length==1&&i[0].length>0?t[i[0]]=null:i.length>=2&&(t[i[0]]=i[1]);return t}function u(n){var t=_d.createElement("script"),i;t.type="text/javascript",t.src=n,i=_d.getElementsByTagName("script")[0],i.parentNode.insertBefore(t,i)}function f(n){return'"'+n.replace(/"/gi,'\\"').replace(/[\r\n]+/gi," ")+'"'}function e(n,t,i,r){var f="",e="",u;r&&(u=new Date,u.setTime(u.getTime()+r*36e5),f="; expires="+u.toUTCString()),i&&(e="path="+i),document.cookie=[n,"=",t,f,"; ",e].join("")}function o(n){for(var r=n+"=",u=document.cookie.split(";"),t,i=0;i<u.length;i++){for(t=u[i];t.charAt(0)==" ";)t=t.substring(1,t.length);if(t.indexOf(r)==0)return t.substring(r.length,t.length)}return null}function s(){_H&&_H.instance&&(_H.slicedinstance=t(_H.instance))}n.serializeInstance=r,n.sliceInstance=t,n.sliceInstancePreserve=i,n.callJsonP=u,n.encodeString=f,n.setCookie=e,n.getCookie=o,s()}(shared||(shared={})),sj_evt=window.sj_evt||new function(){function i(t){return n[t]||(n[t]=[])}var n={},t=this;t.fire=function(n){for(var r=i(n),u=r.e=arguments,t=0;t<r.length;t++)r[t].d?sb_st(sj_wf(r[t],u),r[t].d):r[t](u)},t.bind=function(n,t,r,u){var f=i(n);t.d=u,f.push(t),r&&f.e&&t(f.e)},t.unbind=function(t,i){for(var r=0,u=n[t];u&&r<u.length;r++)if(u[r]==i){u.splice(r,1);break}}},function(n){var t=function(){function n(n,t){this.objectKey=n,this.expiryInMinutes=t}return n.prototype.IncrementLocalStorageValue=function(n){this.updateLocalStorageValue(n,!0)},n.prototype.DecrementLocalStorageValue=function(n){this.updateLocalStorageValue(n,!1)},n.prototype.GetLocalStorageValue=function(n){var t,i;return i=this.Obj[n],t=0,i&&(t=parseInt(i)),t},n.prototype.ReadLocalStorageObject=function(){var n=localStorage.getItem(this.objectKey);this.Obj=n?JSON.parse(n):{creationDate:+new Date}},n.prototype.WriteLocalStorageObject=function(){localStorage.setItem(this.objectKey,JSON.stringify(this.Obj))},n.prototype.ExpireLocalStorageItem=function(){var t=localStorage[this.objectKey],n,i,r;t&&(n=JSON.parse(t),n.creationDate&&(i=+new Date,r=parseInt(n.creationDate)+6e4*this.expiryInMinutes,i>r&&(localStorage.removeItem(this.objectKey),this.Obj={})))},n.IsLocalStorageSupported=function(){if(typeof JSON!="undefined")try{return"localStorage"in window&&window.localStorage!==null}catch(n){return!1}return!1},n.prototype.updateLocalStorageValue=function(n,t){var i,r;r=this.Obj[n],i=0,r&&(i=parseInt(r)),t?++i:i>0?--i:i,this.Obj[n]=i},n}();n.Personalization=t}(Shared||(Shared={})),function(n){var t=function(){function n(){}return n.PersonalizationImpressionLimit="pil",n.PersonalizationClickLimit="plc",n.PersonalizationLocalStorageExpiryInMinutes="lsxp",n.PersonalizationLocalStorageImpressionExpiryInMinutes="lsixp",n.PersonalizationLocalStorageClickExpiryInMinutes="lscxp",n.PersonalizationReserveSupport="rl",n.TextFlexMultiplePageSupport="mp",n.TextFlexMultiplePageArrow="mpa",n.TextFlexMultiplePageAnimate="ta",n.TextFlexMainPageAnimationDuration="mad",n.TextFlexReservePagesAnimationDuration="rad",n.TextFlexShowMoreEnabled="sm",n}();n.Flights=t}(Shared||(Shared={})),function(n){var t=function(){function t(t,i,r,u){typeof u=="undefined"&&(u=-1),this.ClickLimit=1,this.ImpressionLimit=10,this.PageNumber=i,this.Element=t,this.lines=this.Element.querySelectorAll("div.line"),this.reserveLineIndex=0,r&&(r[n.Flights.PersonalizationImpressionLimit]&&(this.ImpressionLimit=parseInt(r[n.Flights.PersonalizationImpressionLimit])),r[n.Flights.PersonalizationClickLimit]&&(this.ClickLimit=parseInt(r[n.Flights.PersonalizationClickLimit]))),this.FirstQueryIndex=u,this.NumberOfQueries=this.Element.querySelectorAll("span.sq").length}return t.prototype.SetStorageElements=function(n,t){this.StoredClicks=n,this.StoredImpressions=t},t.prototype.GetNextReserveLine=function(){var n,f,t,i,r,u;if(this.reserveLineIndex==this.lines.length)return null;for(;this.reserveLineIndex<this.lines.length;this.reserveLineIndex++)for(f=!0,t=this.lines[this.reserveLineIndex].querySelectorAll("a.queryLink"),n=0;n<t.length;n++)if(t[n].hasAttributes()&&(i=t[n].attributes.q,i&&(r=this.StoredClicks.GetLocalStorageValue(i.value),u=this.StoredImpressions.GetLocalStorageValue(i.value),r<this.ClickLimit&&u<this.ImpressionLimit)))return this.lines[this.reserveLineIndex++];return null},t}();n.Page=t}(Shared||(Shared={})),function(n){(function(n){function i(n,i,r,u){var o,c,k,s,w,y,a,v,b,d,f,g,e;if(typeof u=="undefined"&&(u=!0),k=n.Element,f=k.querySelectorAll("div.line"),f.length!=0){for(s=f[0].parentNode,w=[],o=0;o<f.length;o++){for(y=!0,a=f[o].querySelectorAll("a.queryLink"),c=0;c<a.length;c++)a[c].hasAttributes()&&(v=a[c].attributes.q,v&&(b=n.StoredClicks.GetLocalStorageValue(v.value),d=n.StoredImpressions.GetLocalStorageValue(v.value),b<n.ClickLimit&&d<n.ImpressionLimit&&(y=!1)));if(y){for(var p=n.PageNumber,l=p+1,h=f[o],s=h.parentNode;l<r.length;){if(e=r[l].GetNextReserveLine(),s=h.parentNode,e)g=e.parentNode,s.removeChild(h),s.appendChild(e),g.appendChild(h),l==p&&t(n,e);else break;l++}l==r.length&&(e=i.GetNextReserveLine(),e?(s=h.parentNode,s.removeChild(h),s.appendChild(e)):u&&t(n,f[o]))}else u&&t(n,f[o])}return u&&n.StoredImpressions.WriteLocalStorageObject(),w}}function t(n,t){for(var r=t.querySelectorAll("a.queryLink"),u,i=0;i<r.length;i++)r[i].hasAttributes()&&(u=r[i].attributes.q,u&&n.StoredImpressions.IncrementLocalStorageValue(u.value))}n.SwapLines=i})(n.TextShared||(n.TextShared={}));var t=n.TextShared}(Shared||(Shared={})),function(n){function u(){var n=$(this),t=n.attr("q"),r=n.attr("href"),i=n.attr("aq");i&&(t=i),f(t,r)}function f(i,r){var o=_H.clicktracking||"",u,f,e;return Logging.Dims(_H.width,_H.height,_H.instance||_H.type||"",_H.market||"",_H.formcode||""),Logging.ClickQuery(Logging.encodeString(i),_H.url||"",t,o,r),n.Personalization.IsLocalStorageSupported()&&_H.clicksLocalStorage&&(_H.clicksLocalStorage.IncrementLocalStorageValue(i),_H.clicksLocalStorage.WriteLocalStorageObject()),u=_H.clickaction||"",u&&u.indexOf("http://view.atdmt.com/jaction/")==0&&(f=_d.createElement("script"),f.type="text/javascript",f.src=u,e=$("script")[0],e.parentNode.insertBefore(f,e)),!0}function y(){$("a[q]").mousedown(u)}function v(){var n=_H.clickredirect||"",t=_H.clickparams||"",i=_H.clicktarget||"",r=_H.IG||"";$("a[q]").each(function(){var f=$(this),o=f.attr("href"),e,u;o.indexOf("/widget/cr")==-1?(e=o+t,n.length>0&&(e=n+encodeURIComponent(e)),f.attr("href",e)):(u=[o],t.length>0&&(u.push("&cp="),u.push(encodeURIComponent(t))),n.length>0&&(u.push("&cr="),u.push(encodeURIComponent(n))),u.push("&ig="),u.push(encodeURIComponent(r)),f.attr("href",u.join(""))),i.length>0&&f.attr("target",i)})}function l(u,f){var e=[],o=[];u.each(function(){var u=$(this).attr("q"),f=$(this).attr("aq");f&&(u=f),u!=null&&u.indexOf("|")<0&&(i[u]||(i[u]=!0,e.push(u)),t&&!r[u]&&(r[u]=!0,o.push(u),n.Personalization.IsLocalStorageSupported()&&_H.impressionLocalStorage&&_H.impressionLocalStorage.IncrementLocalStorageValue(u)))}),e.length>0&&Logging.ShowQuery(Logging.encodeString(e.join("|")),f,_H.width,_H.height,_H.instance||_H.type||"",_H.url||"",!1),o.length>0&&Logging.ShowQuery(Logging.encodeString(o.join("|")),f,_H.width,_H.height,_H.instance||_H.type||"",_H.url||"",!0),n.Personalization.IsLocalStorageSupported()&&_H.impressionLocalStorage&&_H.impressionLocalStorage.WriteLocalStorageObject()}function p(){var n=0,t=!1,i=new o(Config.WidgetSelector);$(Config.WidgetSelector).bind("mouseenter",function(){t||n!=0||(n=window.setTimeout(function(){i.isHoveringOver()&&(Logging.MouseHover(),t=!0),window.clearTimeout(n),n=0},Config.MouseInteractionLogDuration))})}function o(n){this.hovering=!1;var t=this;this.isHoveringOver=function(){return t.hovering},$(n).hover(function(){t.hovering=!0},function(){t.hovering=!1})}function c(n){this.eventHandler=function(t){t.which==13&&n.call(this)}}function h(){$("div[index] > a[q]").mouseenter(function(){if(!$(this).hasClass("prefetched")){var t=$(this).attr("href");$("<link />",{rel:"prefetch",href:t}).appendTo("head"),$("<link />",{rel:"prerender",href:t}).appendTo("head"),$(this).addClass("prefetched")}})}function s(){return t}function e(){var n=_d.location.hash,i=n.indexOf("visible=1")>=0;i?(t=!0,$("body").trigger("widgetvisible")):setTimeout(e,Config.VisibilityCheckInterval)}function a(){if(n.Personalization.IsLocalStorageSupported()&&_H.slicedinstance&&_H.slicedinstance[n.Flights.PersonalizationReserveSupport]){var i=_H.slicedinstance[n.Flights.PersonalizationLocalStorageExpiryInMinutes],t=60,r=_H.slicedinstance[n.Flights.PersonalizationLocalStorageClickExpiryInMinutes],u=_H.slicedinstance[n.Flights.PersonalizationLocalStorageImpressionExpiryInMinutes],f=t,e=t;i&&(t=parseInt(i)),r&&(f=parseInt(r)),u&&(e=parseInt(u)),_H.impressionLocalStorage=new n.Personalization("an_impressions",e),_H.clicksLocalStorage=new n.Personalization("an_clicks",f),_H.impressionLocalStorage.ExpireLocalStorageItem(),_H.clicksLocalStorage.ExpireLocalStorageItem(),_H.impressionLocalStorage.ReadLocalStorageObject(),_H.clicksLocalStorage.ReadLocalStorageObject()}}function w(){v()}var t=!1,i,r;n.QueryClicked=u,n.QueryClickedImpl=f,i={},r={},n.QueryImpressionImpl=l,n.HoverWatcher=o,n.OnEnterPressExecute=c,n.IsVisible=s,w(),$(document).ready(function(){Logging.Load("WD",sb_gt()-si_ST.getTime()),y(),p(),h(),e(),a(),_H&&_H.slicedinstance&&_H.slicedinstance.l==="text"&&n.TextIframe.setupWidget()})}(Shared||(Shared={})),function(){function t(n){var i=null,t;return n?(n.indexOf("#")===0?i=e(n):n.indexOf("r")===0&&(t=n.replace(/[rgba\(\)\s]/gi,"").split(","),(t.length==3||t.length==4)&&(i={r:t[0],g:t[1],b:t[2]})),i):i}function r(){var r,u,l,c;try{if(_H.background!=null&&_H.slicedinstance&&_H.slicedinstance.nc!=1&&(r=t(_H.background),r!=null&&!(r.r>250&&r.g>250&&r.b>250))){u=o(r),l=$("#imageSlider").length>0,l||(u.v=Math.max(u.v-30,0),u.v>35&&(u.v=35));var i=s(u),e=["rgb(",i.r,",",i.g,",",i.b,")"].join(""),a=["rgba(",i.r,",",i.g,",",i.b,",.7)"].join(""),n=[];l&&(n=[" div.sb-description {border-left: 4px solid ",a,";}"]),$("div.bt").css("background-color")==="transparent"&&(c=h(i),n.push("div.bt { filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99"),n.push(c),n.push(",  endColorstr=#99"),n.push(c),n.push(");"),n.push("-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99"),n.push(c),n.push(",  endColorstr=#99"),n.push(c),n.push(");")),f()?$(["<style type='text/css'>div.bt,body{background-color: ",a,";} div.br{border-right: solid 2px ",e,";} div.bb{border-bottom: solid 2px ",e,";} ",n.join("")," </style>"].join("")).appendTo("head"):$(["<style type='text/css'>body{background-color: ",e,";} div.br{border-right: solid 2px ",e,";} div.bb{border-bottom: solid 2px ",e,";} ",n.join("")," </style>"].join("")).appendTo("head")}}catch(v){}}function u(){var n,i;try{if(_H.color!=null&&_H.color.length>0&&_H.background!=null&&(n=t(_H.background),i=t(_H.color),n!=null&&i!=null)){var r={r:255-n.r,g:255-n.g,b:255-n.b},u=["rgb(",n.r,",",n.g,",",n.b,")"].join(""),f=["rgb(",r.r,",",r.g,",",r.b,")"].join(""),e=["rgb(",i.r,",",i.g,",",i.b,")"].join("");$(["<style type='text/css'>body,.clr-bg{background-color: ",u,";} .clr-inv{color: ",f,";} .clr-main, .clr-main a {color: ",e,";} </style>"].join("")).appendTo("head")}}catch(o){}}function f(){var n=$('<div style="background-color:rgba(3,3,3,.3);"></div>');return n.css("background-color").indexOf("rgba")>-1}function e(n){var i=/^#?([a-f\d])([a-f\d])([a-f\d])$/i,t;return n=n.replace(i,function(n,t,i,r){return t+t+i+i+r+r}),t=/^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(n),t?{r:parseInt(t[1],16),g:parseInt(t[2],16),b:parseInt(t[3],16)}:null}function o(n){var t={h:-1,s:-1,v:-1},i=Math.max(n.r,n.g,n.b),r=i-Math.min(n.r,n.g,n.b);return t.s=i==0?0:100*r/i,t.s==0?t.h=0:n.r==i?t.h=60*(n.g-n.b)/r:n.g==i?t.h=120+60*(n.b-n.r)/r:n.b==i&&(t.h=240+60*(n.r-n.g)/r),t.h<0&&(t.h+=360),t.v=Math.round(i*100/255),t.h=Math.round(t.h),t.s=Math.round(t.s),t}function s(n){var t={r:-1,g:-1,b:-1};if(n.s==0)t.r=t.g=t.b=Math.round(n.v*2.55);else{n.h/=60,n.s/=100,n.v/=100;var f=Math.floor(n.h),e=n.h-f,i=n.v*(1-n.s),r=n.v*(1-n.s*e),u=n.v*(1-n.s*(1-e));switch(f){case 0:t.r=n.v,t.g=u,t.b=i;break;case 1:t.r=r,t.g=n.v,t.b=i;break;case 2:t.r=i,t.g=n.v,t.b=u;break;case 3:t.r=i,t.g=r,t.b=n.v;break;case 4:t.r=u,t.g=i,t.b=n.v;break;default:t.r=n.v,t.g=i,t.b=r}t.r=Math.round(t.r*255).toString(),t.g=Math.round(t.g*255).toString(),t.b=Math.round(t.b*255).toString()}return t}function h(n){return i(n.r)+i(n.g)+i(n.b)}function i(n){return(n=parseInt(n,10),isNaN(n))?"00":(n=Math.max(0,Math.min(n,255)),"0123456789ABCDEF".charAt((n-n%16)/16)+"0123456789ABCDEF".charAt(n%16))}$("div.widget.nc").length==0&&r(),$("div.widget").hasClass("clr")&&u()}(Colors||(Colors={})),void 0,function(n){function i(n){return'"'+n.replace(/"/gi,'\\"')+'"'}function t(){return typeof Log!="undefined"&&typeof Log.Log!="undefined"}function r(){t()&&Log.Log("DHTMLClick","BW","LT",!1)}function u(){t()&&Log.Log("DHTMLClick","BW","RT",!1)}function f(){t()&&Log.Log("Hover","BW","HV",!1,"HType","h")}function e(n,r,u,f,e){if(t()){if(Log.Log("DHTMLClick","BW","Q",!0,"Meta",n,"URL",i(r),"Pos",u?1:0),f){var o=[f,"&hl=",encodeURIComponent(n),"&du=",encodeURIComponent(e)].join("");Log.RenderPixels(o)}_b_w_c.addClick&&Log.RenderPixels(_b_w_c.addClick)}}function o(n,r,u,f,e,o,s){t()&&Log.Log("Show","BW","Q",!0,"Meta",n,"Count",r,"W",u,"H",f,"TYPE",e,"URL",i(o),"Pos",s?1:0)}function s(n,i){t()&&Log.Log("Load","BW",n,!1,"Time",i)}function h(n,i,r,u,f){t()&&n&&i&&r!==undefined&&Log.Log("Dims","BW","AP",!1,"W",n,"H",i,"Meta",r,"MKT",u,"FC",f)}n.encodeString=i,n.isLoggingEnabled=t,n.ClickLeft=r,n.ClickRight=u,n.MouseHover=f,n.ClickQuery=e,n.ShowQuery=o,n.Load=s,n.Dims=h,window.makeLog!=undefined&&makeLog()}(Logging||(Logging={}))</script>
+        
+    <script type="text/javascript">var Animation,BottomText;(function(n){var i=function(){function n(n,t,i,r,u,f,e){this.LastFeedIndex=0,this.LastPageIndex=0,this.MaxFeeds=0,this.MaxPages=0,this.SquarePlaceholders=n,this.LastFeedIndex=t,this.LastPageIndex=i,this.SquarePlaceholders=n,this.MaxFeeds=r,this.MaxPages=u,this.TimerTransition=f,this.ManualTransition=e}return n}(),t=function(){function t(r){if(t.defaultWidgetTransition=r,t.jqWidgets=$(Config.WidgetSelector),t.jqWidgets.length!=0){t.SetImageLoadTimer(),t.jqWidgets.each(function(r){var u=t.jqWidgets[r],e=$(Config.SquareSelector,u),o=e.length-1,s=$(Config.ContentSelector,u).length,h=u.getAttribute("widgetpages"),f=u.getAttribute("timerTransition"),c=u.getAttribute("manualTransition"),l=typeof f=="undefined"?"SlowSlideDown":f,a=typeof f=="undefined"?"FastSlideDown":c,v=new i(e,o,0,s,h,n.FeedAnimations.Transitions[l],n.FeedAnimations.Transitions[a]);t.widgetsArray.push(v),$("div.gol",t.jqWidgets[r]).click(t.LeftClicked).fadeIn(200),$("div.gor",t.jqWidgets[r]).click(t.RightClicked).fadeIn(200),$("div.gon",t.jqWidgets[r]).click(t.StopAnimationClick).fadeIn(200),$("div.goa",t.jqWidgets[r]).click(t.StartAnimationClick)}),t.jqWidgets.bind("mouseenter",function(){t.StopAnimation()}).bind("mouseleave",function(){t.StartAnimation()});var u=t.widgetsArray[t.activeWidgetIndex];Shared.QueryImpressionImpl($("a[q]",u.SquarePlaceholders),u.LastFeedIndex),Shared.IsVisible()||$("body").bind("widgetvisible",function(){var n=t.widgetsArray[t.activeWidgetIndex];Shared.QueryImpressionImpl($("a[q]",n.SquarePlaceholders),n.LastFeedIndex)}),$("div.widget:not(:eq(0))").css("visibility","hidden"),t.StartAnimation()}}return t.timer=0,t.activeWidgetIndex=0,t.defaultWidgetTransition=null,t.userStoppedAnimation=!1,t.jqWidgets=null,t.widgetsArray=[],t.imageLoaded=!1,t.imageLoadTimer=0,t.StartAnimation=function(){t.StopAnimation(),t.userStoppedAnimation||t.SetAnimationTimer()},t.StopAnimationClick=function(){t.userStoppedAnimation=!0,t.StopAnimation(),$("div.gon").hide(),$("div.goa").show()},t.StartAnimationClick=function(){t.userStoppedAnimation=!1,t.StartAnimation(),$("div.gon").show(),$("div.goa").hide()},t.StopAnimation=function(){t.timer!==undefined&&clearInterval(t.timer)},t.SetAnimationTimer=function(){var n=t.widgetsArray[t.activeWidgetIndex];t.timer=setInterval(function(){t.AnimateRight(t.defaultWidgetTransition,n.TimerTransition)},Config.TransitionInverval)},t.RightClicked=function(){var i=t.widgetsArray[t.activeWidgetIndex];Logging.ClickRight(),t.StopAnimation(),t.AnimateRight(n.WidgetAnimations.FastSlideDown,i.ManualTransition),t.SetAnimationTimer()},t.LeftClicked=function(){var i=t.widgetsArray[t.activeWidgetIndex];Logging.ClickLeft(),t.StopAnimation(),t.AnimateLeft(n.WidgetAnimations.FastSlideDown,i.ManualTransition),t.SetAnimationTimer()},t.AnimateRight=function(n,i){t.LoadImagesIfNeeded();var r=t.widgetsArray[t.activeWidgetIndex];t.jqWidgets.length>1&&r.LastPageIndex+1>=r.MaxPages?(t.AnimateWidget(t.GetRightWidgetIndex(),n),t.widgetsArray[t.activeWidgetIndex].LastPageIndex=0):t.AnimateFeeds(t.GetRightFeedContent(),i,!0)},t.AnimateLeft=function(n,i){t.LoadImagesIfNeeded();var r=t.widgetsArray[t.activeWidgetIndex];t.jqWidgets.length>1&&r.LastPageIndex<=0?(t.AnimateWidget(t.GetLeftWidgetIndex(),n),t.widgetsArray[t.activeWidgetIndex].LastPageIndex=r.MaxPages-1):t.AnimateFeeds(t.GetLeftFeedContent(),i,!1)},t.GetRightWidgetIndex=function(){return t.activeWidgetIndex<t.jqWidgets.length-1?t.activeWidgetIndex+1:0},t.GetLeftWidgetIndex=function(){return t.activeWidgetIndex>0?t.activeWidgetIndex-1:t.jqWidgets.length-1},t.AnimateWidget=function(n,i){var f=$(t.jqWidgets[n]),u,r;$(t.jqWidgets[t.activeWidgetIndex]).trigger(Config.BeforeAnimateInEvent),i.Go(f,$(t.jqWidgets[t.activeWidgetIndex])),u=t.activeWidgetIndex!=n,t.activeWidgetIndex=n,u&&(r=t.widgetsArray[n],Shared.QueryImpressionImpl($("a[q]",r.SquarePlaceholders),r.LastFeedIndex))},t.AnimateFeeds=function(n,i,r){for(var s=t.widgetsArray[t.activeWidgetIndex],f,e,o,u=0;u<n.length;u++)f=$(s.SquarePlaceholders[u]),e=$(f.children()[0]),e.trigger(Config.BeforeAnimateOutEvent),o=$(n[u]),o.trigger(Config.BeforeAnimateInEvent),i.Go(f,o,e,u,r);Shared.QueryImpressionImpl($("a[q]",n),s.LastFeedIndex)},t.GetRightFeedContent=function(){for(var n=t.widgetsArray[t.activeWidgetIndex],f=t.jqWidgets[t.activeWidgetIndex],e=$(Config.ContentSelector,f),u=[],i=n.LastFeedIndex,r=0;r<n.SquarePlaceholders.length;r++)++i>=n.MaxFeeds&&(i=0),u.push(e.filter("[index='"+i+"']")[0]);return n.LastPageIndex++,n.LastFeedIndex=i,u},t.GetLeftFeedContent=function(){for(var n=t.widgetsArray[t.activeWidgetIndex],e=t.jqWidgets[t.activeWidgetIndex],o=$(Config.ContentSelector,e),f=[],i=n.LastFeedIndex-n.SquarePlaceholders.length+1,r,i=i<0?n.MaxFeeds+i:i,u=0;u<n.SquarePlaceholders.length;u++)--i<0&&(i=n.MaxFeeds-1),f.unshift(o.filter("[index='"+i+"']")[0]);return n.LastPageIndex--,r=i+n.SquarePlaceholders.length-1,n.LastFeedIndex=r>n.MaxFeeds-1?r-n.MaxFeeds:r,f},t.SetImageLoadTimer=function(){t.imageLoadTimer=setTimeout(t.LoadImages,Config.ImageLoadDelay)},t.LoadImagesIfNeeded=function(){t.imageLoaded||t.LoadImages()},t.LoadImages=function(){t.imageLoadTimer&&(clearTimeout(t.imageLoadTimer),t.imageLoadTimer=0),t.imageLoaded||(t.imageLoaded=!0,$("img[data-src]",t.jqWidgets).each(function(){var n=$(this),t=n.attr("data-src");t&&(n.removeAttr("data-src"),n.attr("src",t))}),$("div[data-src]").each(function(){var n=$(this),t=n.attr("data-src");t&&(n.removeAttr("data-src"),n.css("background-image",["url(",t,")"].join("")))}))},t.ConfigureReserves=function(){var i,a,r,o;if(Shared.Personalization.IsLocalStorageSupported()&&_H.slicedinstance&&_H.slicedinstance[Shared.Flights.PersonalizationReserveSupport]){var u=5,f=1,v,s=_H.slicedinstance[Shared.Flights.PersonalizationClickLimit],h=_H.slicedinstance[Shared.Flights.PersonalizationImpressionLimit],y=_H.slicedinstance[Shared.Flights.PersonalizationReserveSupport];s&&(f=parseInt(s)),h&&(u=parseInt(h));var l=$("div.reserves > div > a",t.jqWidgets),n=$("div.content > div > a",t.jqWidgets),c=$("div.sq > div > a",t.jqWidgets),e=[];l.each(function(){var t=$(this),n=t.attr("q");n&&_H.impressionLocalStorage.GetLocalStorageValue(n)<u&&_H.clicksLocalStorage.GetLocalStorageValue(n)<f&&e.push(t)}),i=0,n.each(function(){var n=$(this),t=n.attr("q"),r;t&&(_H.impressionLocalStorage.GetLocalStorageValue(t)>=u||_H.clicksLocalStorage.GetLocalStorageValue(t)>=f)&&i<e.length&&(r=e[i].parent(),e[i].insertAfter(n),r.append(n),i++)}),a=!0,r=0,n=$("div.content > div > a",t.jqWidgets),o=[],c.each(function(){var t=$(this),n=t.attr("q");n&&o.push(n)}),c.each(function(){var t=$(this),h=t.attr("q"),c,e,l,a,s,i;if(h&&(_H.impressionLocalStorage.GetLocalStorageValue(h)>=u||_H.clicksLocalStorage.GetLocalStorageValue(h)>=f)){for(e=$(n[r++]).attr("q"),c=!1;r<n.length;){if(e&&e!==h&&$.inArray(e,o)<0){c=!0;break}e=$(n[r++]).attr("q")}if(!c)return;l=$(n[r-1]).clone(),a=t.parent(),a.append(l),t.remove(),s=$("img",l),s&&(i=s.attr("data-src"),i&&(s.removeAttr("data-src"),s.attr("src",i))),t=$("div[data-src]"),t&&(i=t.attr("data-src"),i&&(t.removeAttr("data-src"),t.css("background-image",["url(",i,")"].join(""))))}})}},t}();$(document).ready(function(){t.ConfigureReserves(),new n.WidgetAnimations,new n.FeedAnimations,new t(n.WidgetAnimations.SlowSlideDown)})})(Animation||(Animation={})),function(n){var u=function(){function n(){n.Transitions.SlowSlideDown=new t,n.Transitions.FastSlideDown=new t(10,50,50),n.Transitions.SlowSlideRightLeft=new i,n.Transitions.FastSlideRightLeft=new i(400,200),n.Transitions.InstantReplace=new r}return n.Transitions={},n}(),r,t,i;n.FeedAnimations=u,r=function(){function n(){}return n.prototype.Go=function(n,t,i){var f=$("div.content",i.closest("div.widget"));t.prependTo(n),i.appendTo(f),t.trigger(Config.AfterAnimateInEvent)},n}(),n.StompOnPreviousFeed=r,t=function(){function n(n,t,i){this.DelayMultiplier=400,this.StatslideDownSpeed=1e3,this.LabelFadeInSpeed=600,this.DelayMultiplier=n||this.DelayMultiplier,this.StatslideDownSpeed=t||this.StatslideDownSpeed,this.LabelFadeInSpeed=i||this.LabelFadeInSpeed}return n.prototype.Go=function(n,t,i,r){var f=i.closest("div.widget"),e=$("div.content",f),o=f.attr("easing"),s=$("div.bt",t).hide();$("div.bt",i).delay(r*this.DelayMultiplier).fadeOut("fast"),t.css({"margin-top":-n.height()}).prependTo(n).delay(r*this.DelayMultiplier).animate({"margin-top":"0px"},{queue:!0,duration:this.StatslideDownSpeed,easing:o,complete:function(){i.appendTo(e),s.fadeIn(this.LabelFadeInSpeed),t.trigger(Config.AfterAnimateInEvent)}})},n}(),n.SlideDownOnPreviousFeed=t,i=function(){function n(n,t){this.TileSlideSpeed=600,this.LabelFadeInSpeed=600,this.TileSlideSpeed=n||this.TileSlideSpeed,this.LabelFadeInSpeed=t||this.LabelFadeInSpeed}return n.prototype.Go=function(t,i,r,u,f){var e=r.closest("div.widget"),h=$("div.content",e),o=e.width(),c=e.attr("easing"),s;$("div.bt",r).fadeOut("fast"),s=$("div.bt",i).hide(),t.width(o*3),f?i.prependTo(t).css({"margin-left":-o}).animate({"margin-left":"0"},this.TileSlideSpeed,c,function(){n.AnimationCleanup(t,h,s,f),i.trigger(Config.AfterAnimateInEvent)}):(i.appendTo(t),r.animate({"margin-left":-o},this.TileSlideSpeed,c,function(){n.AnimationCleanup(t,h,s,f),i.trigger(Config.AfterAnimateInEvent)}))},n.AnimationCleanup=function(n,t,i,r){var u=n.children(),f=r?u.last():u.first();f.appendTo(t).css({"margin-left":"0px"}),i.slideDown(600)},n}(),n.SlideRightLeft=i}(Animation||(Animation={})),function(n){var r=function(){function n(){n.SlowSlideDown=new t,n.FastSlideDown=new t(50),n.InstantReplace=new i}return n.SlowSlideDown=null,n.FastSlideDown=null,n.InstantReplace=null,n}(),i,t;n.WidgetAnimations=r,i=function(){function n(){}return n.prototype.Go=function(n){n.prependTo("body")},n}(),n.StompOnPreviousWidget=i,t=function(){function n(n){this.WidgetSlideDownSpeed=600,this.WidgetSlideDownSpeed=n||this.WidgetSlideDownSpeed}return n.prototype.Go=function(n,t){n.css("visibility","visible").hide().prependTo("body").slideDown(this.WidgetSlideDownSpeed,function(){t.hide()})},n}(),n.SlideDownOnPreviousWidget=t}(Animation||(Animation={})),function(){function i(){var n=$("input.csb");n.length>0&&$("div.sq").bind("mouseenter",function(){var t=$("a[q]",this).attr("q");n.val(t)}),n.keyup(new Shared.OnEnterPressExecute(t).eventHandler),$("input.csbi").click(t)}function t(){var t=$("input.csb").val(),n=$("div.csbc").attr("data-submit");n+="&q="+encodeURIComponent(t),Shared.QueryClickedImpl(t,n),window.top.location.href=n}function r(){for(var i=$("div.sq div.bt"),t,n=0;n<i.length;n++)t=$(i[n]),t.height(t.height())}function u(){var t="expanded",n="expanding",i="collapsing",r="shouldExpand",u="shouldCollapse",f="animating";$("div.sq").bind("mouseenter",function(){var e=$("div.news",this),h=$("div.ht",this),o,c,s;e.length>0&&(e.hasClass(i)?e.addClass(r):e.hasClass(t)||e.hasClass(n)||e.hasClass(f)||(o=$(Config.BottomTransparencySelector,this),e.addClass(n),h.addClass(n),$(".attrib",e).show(),c=o.height(),e.show().css("visibility","visible"),s=o.children("div.ht").height(),o.attr("adh",s-c),o.animate({height:s+"px"},200,"easeOutQuart",function(){e.removeClass(n).addClass("expanded"),h.removeClass(n).addClass("expanded"),e.hasClass(u)&&(e.removeClass(u),e.parents("div.sq").trigger("mouseleave"))})))}),$("div.sq").bind("mouseleave",function(){var e=$("div.news",this),h=$("div.ht",this),o,s;e.length>0&&(e.hasClass(n)?e.addClass(u):!e.hasClass(t)||e.hasClass(i)||e.hasClass(f)||(h.removeClass(t),$(".attrib",e).hide(),e.removeClass(t).addClass(i),o=$(Config.BottomTransparencySelector,this),s=o.height()-parseInt(o.attr("adh")),o.animate({height:s+"px"},200,"easeOutQuart",function(){e.removeClass(i).hide(),e.hasClass(r)&&(e.removeClass(r),e.parents("div.sq").trigger("mouseenter"))})))}),$("div[index]").bind(Config.BeforeAnimateInEvent,function(){$("div.news",this).addClass(f)}),$("div[index]").bind(Config.AfterAnimateInEvent,function(){var o=$("div.news",this),e,s;o.length>0&&(o.hide().removeClass(t).removeClass(n).removeClass(i).removeClass(r).removeClass(u).removeClass(f),e=$(Config.BottomTransparencySelector,this).removeAttr("adh"),s=e.children("div.ht").height(),e.css("height",s+"px"))})}var f=11;$(document).ready(function(){u(),i(),r()})}(BottomText||(BottomText={}))</script>
+
+        <script type="text/javascript">jQuery.easing.jswing=jQuery.easing.swing,jQuery.extend(jQuery.easing,{def:"easeOutQuad",swing:function(n,t,i,r,u){return jQuery.easing[jQuery.easing.def](n,t,i,r,u)},easeInQuad:function(n,t,i,r,u){return r*(t/=u)*t+i},easeOutQuad:function(n,t,i,r,u){return-r*(t/=u)*(t-2)+i},easeInOutQuad:function(n,t,i,r,u){return(t/=u/2)<1?r/2*t*t+i:-r/2*(--t*(t-2)-1)+i},easeInCubic:function(n,t,i,r,u){return r*(t/=u)*t*t+i},easeOutCubic:function(n,t,i,r,u){return r*((t=t/u-1)*t*t+1)+i},easeInOutCubic:function(n,t,i,r,u){return(t/=u/2)<1?r/2*t*t*t+i:r/2*((t-=2)*t*t+2)+i},easeInQuart:function(n,t,i,r,u){return r*(t/=u)*t*t*t+i},easeOutQuart:function(n,t,i,r,u){return-r*((t=t/u-1)*t*t*t-1)+i},easeInOutQuart:function(n,t,i,r,u){return(t/=u/2)<1?r/2*t*t*t*t+i:-r/2*((t-=2)*t*t*t-2)+i},easeInQuint:function(n,t,i,r,u){return r*(t/=u)*t*t*t*t+i},easeOutQuint:function(n,t,i,r,u){return r*((t=t/u-1)*t*t*t*t+1)+i},easeInOutQuint:function(n,t,i,r,u){return(t/=u/2)<1?r/2*t*t*t*t*t+i:r/2*((t-=2)*t*t*t*t+2)+i},easeInSine:function(n,t,i,r,u){return-r*Math.cos(t/u*(Math.PI/2))+r+i},easeOutSine:function(n,t,i,r,u){return r*Math.sin(t/u*(Math.PI/2))+i},easeInOutSine:function(n,t,i,r,u){return-r/2*(Math.cos(Math.PI*t/u)-1)+i},easeInExpo:function(n,t,i,r,u){return t==0?i:r*Math.pow(2,10*(t/u-1))+i},easeOutExpo:function(n,t,i,r,u){return t==u?i+r:r*(-Math.pow(2,-10*t/u)+1)+i},easeInOutExpo:function(n,t,i,r,u){return t==0?i:t==u?i+r:(t/=u/2)<1?r/2*Math.pow(2,10*(t-1))+i:r/2*(-Math.pow(2,-10*--t)+2)+i},easeInCirc:function(n,t,i,r,u){return-r*(Math.sqrt(1-(t/=u)*t)-1)+i},easeOutCirc:function(n,t,i,r,u){return r*Math.sqrt(1-(t=t/u-1)*t)+i},easeInOutCirc:function(n,t,i,r,u){return(t/=u/2)<1?-r/2*(Math.sqrt(1-t*t)-1)+i:r/2*(Math.sqrt(1-(t-=2)*t)+1)+i},easeInElastic:function(n,t,i,r,u){var o=1.70158,f=0,e=r;return t==0?i:(t/=u)==1?i+r:(f||(f=u*.3),e<Math.abs(r)?(e=r,o=f/4):o=f/(2*Math.PI)*Math.asin(r/e),-(e*Math.pow(2,10*(t-=1))*Math.sin((t*u-o)*2*Math.PI/f))+i)},easeOutElastic:function(n,t,i,r,u){var o=1.70158,f=0,e=r;return t==0?i:(t/=u)==1?i+r:(f||(f=u*.3),e<Math.abs(r)?(e=r,o=f/4):o=f/(2*Math.PI)*Math.asin(r/e),e*Math.pow(2,-10*t)*Math.sin((t*u-o)*2*Math.PI/f)+r+i)},easeInOutElastic:function(n,t,i,r,u){var o=1.70158,f=0,e=r;return t==0?i:(t/=u/2)==2?i+r:(f||(f=u*.3*1.5),e<Math.abs(r)?(e=r,o=f/4):o=f/(2*Math.PI)*Math.asin(r/e),t<1)?-.5*e*Math.pow(2,10*(t-=1))*Math.sin((t*u-o)*2*Math.PI/f)+i:e*Math.pow(2,-10*(t-=1))*Math.sin((t*u-o)*2*Math.PI/f)*.5+r+i},easeInBack:function(n,t,i,r,u,f){return f==undefined&&(f=1.70158),r*(t/=u)*t*((f+1)*t-f)+i},easeOutBack:function(n,t,i,r,u,f){return f==undefined&&(f=1.70158),r*((t=t/u-1)*t*((f+1)*t+f)+1)+i},easeInOutBack:function(n,t,i,r,u,f){return(f==undefined&&(f=1.70158),(t/=u/2)<1)?r/2*t*t*(((f*=1.525)+1)*t-f)+i:r/2*((t-=2)*t*(((f*=1.525)+1)*t+f)+2)+i},easeInBounce:function(n,t,i,r,u){return r-jQuery.easing.easeOutBounce(n,u-t,0,r,u)+i},easeOutBounce:function(n,t,i,r,u){return(t/=u)<1/2.75?r*7.5625*t*t+i:t<2/2.75?r*(7.5625*(t-=1.5/2.75)*t+.75)+i:t<2.5/2.75?r*(7.5625*(t-=2.25/2.75)*t+.9375)+i:r*(7.5625*(t-=2.625/2.75)*t+.984375)+i},easeInOutBounce:function(n,t,i,r,u){return t<u/2?jQuery.easing.easeInBounce(n,t*2,0,r,u)*.5+i:jQuery.easing.easeOutBounce(n,t*2-u,0,r,u)*.5+r*.5+i}}),Logging.Load("WDF",sb_gt()-si_ST.getTime()),Logging.Load("WDJQ",si_CF.getTime()-si_RB.getTime()),Logging.Load("WDRB",si_RB.getTime()-si_ST.getTime())</script>
+    </body>
+</html>

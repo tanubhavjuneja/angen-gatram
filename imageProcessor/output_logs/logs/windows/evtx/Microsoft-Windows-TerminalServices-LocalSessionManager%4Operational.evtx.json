@@ -1,0 +1,866 @@
+[
+  {
+    "EventID": 21,
+    "Timestamp": "2014-01-25 01:27:57.561125+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 01:27:57.561125+00:00\"></TimeCreated>\n<EventRecordID>1</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"476\" ThreadID=\"820\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\BillyBob</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-01-25 01:27:57.795124+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 01:27:57.795124+00:00\"></TimeCreated>\n<EventRecordID>2</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"476\" ThreadID=\"720\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\BillyBob</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-01-25 08:53:48.559261+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 08:53:48.559261+00:00\"></TimeCreated>\n<EventRecordID>3</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"476\" ThreadID=\"1016\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\BillyBob</User>\n<SessionID>1</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-01-25 13:32:37.320724+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:32:37.320724+00:00\"></TimeCreated>\n<EventRecordID>4</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"504\" ThreadID=\"788\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\BillyBob</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-01-25 13:32:37.367525+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:32:37.367525+00:00\"></TimeCreated>\n<EventRecordID>5</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"504\" ThreadID=\"788\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\BillyBob</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-01-25 13:49:51.581341+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:49:51.581341+00:00\"></TimeCreated>\n<EventRecordID>6</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"504\" ThreadID=\"3044\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\BillyBob</User>\n<SessionID>1</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-01-25 13:53:33.895884+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:53:33.895884+00:00\"></TimeCreated>\n<EventRecordID>7</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"496\" ThreadID=\"760\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\BillyBob</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-01-25 13:53:34.535484+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:53:34.535484+00:00\"></TimeCreated>\n<EventRecordID>8</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"496\" ThreadID=\"760\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\BillyBob</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-01-25 14:49:59.885403+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 14:49:59.885403+00:00\"></TimeCreated>\n<EventRecordID>9</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"496\" ThreadID=\"2388\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\BillyBob</User>\n<SessionID>1</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-01-25 15:25:50.829769+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 15:25:50.829769+00:00\"></TimeCreated>\n<EventRecordID>10</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"520\" ThreadID=\"764\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\BillyBob</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-01-25 15:25:50.892170+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 15:25:50.892170+00:00\"></TimeCreated>\n<EventRecordID>11</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"520\" ThreadID=\"568\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\BillyBob</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-01-25 16:45:07.245203+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:45:07.245203+00:00\"></TimeCreated>\n<EventRecordID>12</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"520\" ThreadID=\"2068\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\BillyBob</User>\n<SessionID>1</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-01-25 18:19:51.682491+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:19:51.682491+00:00\"></TimeCreated>\n<EventRecordID>13</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"520\" ThreadID=\"796\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\BillyBob</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-01-25 18:19:51.729290+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:19:51.729290+00:00\"></TimeCreated>\n<EventRecordID>14</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"520\" ThreadID=\"796\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\BillyBob</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-01-25 18:25:02.461437+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:25:02.461437+00:00\"></TimeCreated>\n<EventRecordID>15</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"520\" ThreadID=\"2600\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\BillyBob</User>\n<SessionID>1</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 24,
+    "Timestamp": "2014-01-25 18:25:03.023039+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">24</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:25:03.023039+00:00\"></TimeCreated>\n<EventRecordID>16</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"520\" ThreadID=\"2600\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\BillyBob</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-01-25 18:25:42.194706+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:25:42.194706+00:00\"></TimeCreated>\n<EventRecordID>17</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"520\" ThreadID=\"1144\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>2</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-01-25 18:25:42.381908+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:25:42.381908+00:00\"></TimeCreated>\n<EventRecordID>18</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"520\" ThreadID=\"1144\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>2</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-01-25 18:27:16.880474+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:27:16.880474+00:00\"></TimeCreated>\n<EventRecordID>19</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"520\" ThreadID=\"1036\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>2</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 24,
+    "Timestamp": "2014-01-25 18:27:17.582476+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">24</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:27:17.582476+00:00\"></TimeCreated>\n<EventRecordID>20</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"520\" ThreadID=\"1036\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>2</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-01-25 18:27:39.890514+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:27:39.890514+00:00\"></TimeCreated>\n<EventRecordID>21</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"520\" ThreadID=\"1144\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-01-25 18:27:39.984114+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:27:39.984114+00:00\"></TimeCreated>\n<EventRecordID>22</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"520\" ThreadID=\"1144\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-01-25 18:29:45.404337+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:29:45.404337+00:00\"></TimeCreated>\n<EventRecordID>23</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"520\" ThreadID=\"1144\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 24,
+    "Timestamp": "2014-01-25 18:29:46.168739+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">24</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:29:46.168739+00:00\"></TimeCreated>\n<EventRecordID>24</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"520\" ThreadID=\"1144\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-01-29 12:30:50.094606+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 12:30:50.094606+00:00\"></TimeCreated>\n<EventRecordID>25</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"516\" ThreadID=\"1516\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-01-29 12:30:50.125805+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 12:30:50.125805+00:00\"></TimeCreated>\n<EventRecordID>26</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"516\" ThreadID=\"780\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-01-29 15:36:09.390284+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 15:36:09.390284+00:00\"></TimeCreated>\n<EventRecordID>27</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"516\" ThreadID=\"3512\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>1</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-02-03 12:03:18.963600+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 12:03:18.963600+00:00\"></TimeCreated>\n<EventRecordID>28</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"516\" ThreadID=\"784\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\BillyBob</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-02-03 12:03:19.026001+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 12:03:19.026001+00:00\"></TimeCreated>\n<EventRecordID>29</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"516\" ThreadID=\"1100\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\BillyBob</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-02-03 15:16:48.447540+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 15:16:48.447540+00:00\"></TimeCreated>\n<EventRecordID>30</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"516\" ThreadID=\"3284\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\BillyBob</User>\n<SessionID>1</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 24,
+    "Timestamp": "2014-02-03 15:16:49.586342+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">24</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 15:16:49.586342+00:00\"></TimeCreated>\n<EventRecordID>31</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"516\" ThreadID=\"3284\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\BillyBob</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-02-03 15:17:10.131578+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 15:17:10.131578+00:00\"></TimeCreated>\n<EventRecordID>32</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"516\" ThreadID=\"4072\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>2</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-02-03 15:17:10.193979+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 15:17:10.193979+00:00\"></TimeCreated>\n<EventRecordID>33</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"516\" ThreadID=\"3652\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>2</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-02-03 18:01:17.020081+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 18:01:17.020081+00:00\"></TimeCreated>\n<EventRecordID>34</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"516\" ThreadID=\"3908\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>2</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-02-04 14:14:20.727770+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 14:14:20.727770+00:00\"></TimeCreated>\n<EventRecordID>35</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"520\" ThreadID=\"1820\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-02-04 14:14:20.774570+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 14:14:20.774570+00:00\"></TimeCreated>\n<EventRecordID>36</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"520\" ThreadID=\"1820\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-02-04 19:18:35.002539+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 19:18:35.002539+00:00\"></TimeCreated>\n<EventRecordID>37</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"520\" ThreadID=\"3900\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>1</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-02-05 13:37:14.306747+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 13:37:14.306747+00:00\"></TimeCreated>\n<EventRecordID>38</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"520\" ThreadID=\"2940\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-02-05 13:37:19.673157+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 13:37:19.673157+00:00\"></TimeCreated>\n<EventRecordID>39</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"520\" ThreadID=\"2936\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-02-05 18:30:13.504705+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 18:30:13.504705+00:00\"></TimeCreated>\n<EventRecordID>40</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"520\" ThreadID=\"3316\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>1</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-02-06 11:22:18.792040+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 11:22:18.792040+00:00\"></TimeCreated>\n<EventRecordID>41</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"484\" ThreadID=\"328\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-02-06 11:22:19.182039+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 11:22:19.182039+00:00\"></TimeCreated>\n<EventRecordID>42</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"484\" ThreadID=\"328\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-02-06 14:58:39.000547+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 14:58:39.000547+00:00\"></TimeCreated>\n<EventRecordID>43</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"484\" ThreadID=\"808\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>1</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 24,
+    "Timestamp": "2014-02-06 14:58:40.466951+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">24</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 14:58:40.466951+00:00\"></TimeCreated>\n<EventRecordID>44</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"484\" ThreadID=\"3216\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-02-06 18:54:41.808294+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 18:54:41.808294+00:00\"></TimeCreated>\n<EventRecordID>45</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"772\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-02-06 18:54:41.901894+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 18:54:41.901894+00:00\"></TimeCreated>\n<EventRecordID>46</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"772\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-02-06 18:57:23.701382+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 18:57:23.701382+00:00\"></TimeCreated>\n<EventRecordID>47</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"2008\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>1</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-02-07 12:35:38.215563+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 12:35:38.215563+00:00\"></TimeCreated>\n<EventRecordID>48</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"792\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-02-07 12:35:38.355963+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 12:35:38.355963+00:00\"></TimeCreated>\n<EventRecordID>49</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"792\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-02-07 14:01:36.971827+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 14:01:36.971827+00:00\"></TimeCreated>\n<EventRecordID>50</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"3940\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>1</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 24,
+    "Timestamp": "2014-02-07 14:01:38.188629+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">24</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 14:01:38.188629+00:00\"></TimeCreated>\n<EventRecordID>51</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"3940\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-02-07 14:21:27.253918+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 14:21:27.253918+00:00\"></TimeCreated>\n<EventRecordID>52</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"2260\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>2</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-02-07 14:21:27.300718+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 14:21:27.300718+00:00\"></TimeCreated>\n<EventRecordID>53</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"3656\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>2</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-02-07 14:25:08.348808+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 14:25:08.348808+00:00\"></TimeCreated>\n<EventRecordID>54</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"2260\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>2</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 24,
+    "Timestamp": "2014-02-07 14:25:08.926008+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">24</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 14:25:08.926008+00:00\"></TimeCreated>\n<EventRecordID>55</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"2260\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>2</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-02-07 14:27:00.965405+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 14:27:00.965405+00:00\"></TimeCreated>\n<EventRecordID>56</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"2260\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-02-07 14:27:01.027803+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 14:27:01.027803+00:00\"></TimeCreated>\n<EventRecordID>57</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"2260\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-02-07 14:37:27.644537+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 14:37:27.644537+00:00\"></TimeCreated>\n<EventRecordID>58</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"3460\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>1</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 24,
+    "Timestamp": "2014-02-07 14:37:28.393339+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">24</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 14:37:28.393339+00:00\"></TimeCreated>\n<EventRecordID>59</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"4068\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-02-07 15:10:38.769634+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 15:10:38.769634+00:00\"></TimeCreated>\n<EventRecordID>60</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"2084\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>2</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-02-07 15:10:38.832035+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 15:10:38.832035+00:00\"></TimeCreated>\n<EventRecordID>61</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"3252\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>2</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-02-07 15:12:42.434252+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 15:12:42.434252+00:00\"></TimeCreated>\n<EventRecordID>62</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"2084\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>2</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-02-07 17:34:28.698353+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 17:34:28.698353+00:00\"></TimeCreated>\n<EventRecordID>63</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"484\" ThreadID=\"2940\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-02-07 17:34:31.443958+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 17:34:31.443958+00:00\"></TimeCreated>\n<EventRecordID>64</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"484\" ThreadID=\"544\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-02-07 17:35:57.012909+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 17:35:57.012909+00:00\"></TimeCreated>\n<EventRecordID>65</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"484\" ThreadID=\"2592\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Sgt. Joe T. Nameless</User>\n<SessionID>1</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-02-10 14:50:53.117554+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 14:50:53.117554+00:00\"></TimeCreated>\n<EventRecordID>66</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"520\" ThreadID=\"772\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-02-10 14:50:53.195553+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 14:50:53.195553+00:00\"></TimeCreated>\n<EventRecordID>67</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"520\" ThreadID=\"644\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-02-10 18:26:03.626627+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 18:26:03.626627+00:00\"></TimeCreated>\n<EventRecordID>68</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"520\" ThreadID=\"3892\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-02-11 13:25:17.993916+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 13:25:17.993916+00:00\"></TimeCreated>\n<EventRecordID>69</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"520\" ThreadID=\"1168\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-02-11 13:25:18.056314+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 13:25:18.056314+00:00\"></TimeCreated>\n<EventRecordID>70</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"520\" ThreadID=\"1168\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-02-11 17:40:05.313078+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:40:05.313078+00:00\"></TimeCreated>\n<EventRecordID>71</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"520\" ThreadID=\"3700\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-02-11 17:41:56.728708+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:41:56.728708+00:00\"></TimeCreated>\n<EventRecordID>72</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"868\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-02-11 17:41:56.791109+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:41:56.791109+00:00\"></TimeCreated>\n<EventRecordID>73</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"868\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-02-11 17:49:40.334126+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:49:40.334126+00:00\"></TimeCreated>\n<EventRecordID>74</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"1672\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-02-11 17:50:54.957481+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:50:54.957481+00:00\"></TimeCreated>\n<EventRecordID>75</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"1004\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-02-11 17:50:55.051081+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:50:55.051081+00:00\"></TimeCreated>\n<EventRecordID>76</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"1004\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-02-11 19:08:47.020088+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 19:08:47.020088+00:00\"></TimeCreated>\n<EventRecordID>77</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"3596\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-02-16 19:09:13.688623+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 19:09:13.688623+00:00\"></TimeCreated>\n<EventRecordID>78</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"1092\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-02-16 19:09:13.751024+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 19:09:13.751024+00:00\"></TimeCreated>\n<EventRecordID>79</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"1116\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-02-16 21:05:27.109276+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 21:05:27.109276+00:00\"></TimeCreated>\n<EventRecordID>80</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"1240\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-02-16 21:51:17.770683+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 21:51:17.770683+00:00\"></TimeCreated>\n<EventRecordID>81</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"360\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-02-16 21:51:17.817484+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 21:51:17.817484+00:00\"></TimeCreated>\n<EventRecordID>82</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"792\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-02-16 21:59:14.668722+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 21:59:14.668722+00:00\"></TimeCreated>\n<EventRecordID>83</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"4060\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-02-16 22:39:52.105473+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 22:39:52.105473+00:00\"></TimeCreated>\n<EventRecordID>84</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"932\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-02-16 22:39:52.167873+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 22:39:52.167873+00:00\"></TimeCreated>\n<EventRecordID>85</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"932\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-02-16 22:47:25.706808+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 22:47:25.706808+00:00\"></TimeCreated>\n<EventRecordID>86</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"2036\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-02-19 13:30:58.546124+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 13:30:58.546124+00:00\"></TimeCreated>\n<EventRecordID>87</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"784\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-02-19 13:30:58.592922+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 13:30:58.592922+00:00\"></TimeCreated>\n<EventRecordID>88</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"800\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-02-19 13:49:35.491697+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 13:49:35.491697+00:00\"></TimeCreated>\n<EventRecordID>89</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"2016\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 24,
+    "Timestamp": "2014-02-19 13:49:38.564901+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">24</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 13:49:38.564901+00:00\"></TimeCreated>\n<EventRecordID>90</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"2016\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\Jimmy Wilson</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-02-19 17:19:42.965841+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 17:19:42.965841+00:00\"></TimeCreated>\n<EventRecordID>91</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"240\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\BillyBob</User>\n<SessionID>2</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-02-19 17:19:43.043840+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 17:19:43.043840+00:00\"></TimeCreated>\n<EventRecordID>92</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"240\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\BillyBob</User>\n<SessionID>2</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-02-19 18:17:19.366535+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 18:17:19.366535+00:00\"></TimeCreated>\n<EventRecordID>93</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"692\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\BillyBob</User>\n<SessionID>2</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 21,
+    "Timestamp": "2014-02-20 14:30:26.215889+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">21</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-20 14:30:26.215889+00:00\"></TimeCreated>\n<EventRecordID>94</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"2360\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\BillyBob</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 22,
+    "Timestamp": "2014-02-20 14:30:26.309488+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">22</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-20 14:30:26.309488+00:00\"></TimeCreated>\n<EventRecordID>95</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"2332\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\BillyBob</User>\n<SessionID>1</SessionID>\n<Address>LOCAL</Address>\n</EventXML>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 23,
+    "Timestamp": "2014-02-20 19:23:12.959351+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-TerminalServices-LocalSessionManager/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-TerminalServices-LocalSessionManager\" Guid=\"{5d896912-022d-40aa-a3a8-4fa5515c76d7}\"></Provider>\n<EventID Qualifiers=\"\">23</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x1000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-02-20 19:23:12.959351+00:00\"></TimeCreated>\n<EventRecordID>96</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"524\" ThreadID=\"844\"></Execution>\n<Channel>Microsoft-Windows-TerminalServices-LocalSessionManager/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><EventXML xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"Event_NS\"><User>IACIS-HDD-2014\\BillyBob</User>\n<SessionID>1</SessionID>\n</EventXML>\n</UserData>\n</Event>\n"
+  }
+]

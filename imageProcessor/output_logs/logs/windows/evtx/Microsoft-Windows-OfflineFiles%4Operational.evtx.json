@@ -1,0 +1,758 @@
+[
+  {
+    "EventID": 1,
+    "Timestamp": "2014-01-25 04:19:34.081299+00:00",
+    "Computer": "37L4247F27-25",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000010</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:19:34.081299+00:00\"></TimeCreated>\n<EventRecordID>1</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"844\" ThreadID=\"936\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>37L4247F27-25</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1,
+    "Timestamp": "2014-01-25 04:24:39.901394+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000010</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 04:24:39.901394+00:00\"></TimeCreated>\n<EventRecordID>2</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"864\" ThreadID=\"1056\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-01-25 01:27:57.576725+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 01:27:57.576725+00:00\"></TimeCreated>\n<EventRecordID>3</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"864\" ThreadID=\"212\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\BillyBob</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-01-25 08:53:51.024067+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 08:53:51.024067+00:00\"></TimeCreated>\n<EventRecordID>4</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"864\" ThreadID=\"1660\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\BillyBob</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 1,
+    "Timestamp": "2014-01-25 13:25:21.673267+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000010</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:25:21.673267+00:00\"></TimeCreated>\n<EventRecordID>5</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"800\" ThreadID=\"936\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1,
+    "Timestamp": "2014-01-25 13:29:12.348862+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000010</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:29:12.348862+00:00\"></TimeCreated>\n<EventRecordID>6</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"800\" ThreadID=\"984\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1,
+    "Timestamp": "2014-01-25 13:32:05.326870+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000010</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:32:05.326870+00:00\"></TimeCreated>\n<EventRecordID>7</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"808\" ThreadID=\"984\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-01-25 13:32:37.336325+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:32:37.336325+00:00\"></TimeCreated>\n<EventRecordID>8</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"808\" ThreadID=\"1112\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\BillyBob</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-01-25 13:49:53.702946+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:49:53.702946+00:00\"></TimeCreated>\n<EventRecordID>9</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"808\" ThreadID=\"2960\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\BillyBob</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 1,
+    "Timestamp": "2014-01-25 13:53:08.822041+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000010</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:53:08.822041+00:00\"></TimeCreated>\n<EventRecordID>10</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"808\" ThreadID=\"996\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-01-25 13:53:34.551085+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 13:53:34.551085+00:00\"></TimeCreated>\n<EventRecordID>11</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"808\" ThreadID=\"308\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\BillyBob</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-01-25 14:50:03.723009+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 14:50:03.723009+00:00\"></TimeCreated>\n<EventRecordID>12</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"808\" ThreadID=\"1132\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\BillyBob</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 1,
+    "Timestamp": "2014-01-25 15:25:29.999268+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000010</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 15:25:29.999268+00:00\"></TimeCreated>\n<EventRecordID>13</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"904\" ThreadID=\"352\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-01-25 15:25:50.845369+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 15:25:50.845369+00:00\"></TimeCreated>\n<EventRecordID>14</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"904\" ThreadID=\"920\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\BillyBob</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-01-25 16:45:07.338804+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 16:45:07.338804+00:00\"></TimeCreated>\n<EventRecordID>15</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"904\" ThreadID=\"1448\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\BillyBob</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 1,
+    "Timestamp": "2014-01-25 18:19:36.662844+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000010</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:19:36.662844+00:00\"></TimeCreated>\n<EventRecordID>16</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"344\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-01-25 18:19:51.698092+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:19:51.698092+00:00\"></TimeCreated>\n<EventRecordID>17</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"932\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\BillyBob</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-01-25 18:25:03.038639+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:25:03.038639+00:00\"></TimeCreated>\n<EventRecordID>18</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"2784\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\BillyBob</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-01-25 18:25:42.194706+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:25:42.194706+00:00\"></TimeCreated>\n<EventRecordID>19</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"932\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Sgt. Joe T. Nameless</Account>\n<Session>2</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-01-25 18:27:16.896074+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:27:16.896074+00:00\"></TimeCreated>\n<EventRecordID>20</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"932\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Sgt. Joe T. Nameless</Account>\n<Session>2</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-01-25 18:27:39.906115+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:27:39.906115+00:00\"></TimeCreated>\n<EventRecordID>21</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"932\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Jimmy Wilson</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-01-25 18:29:45.419937+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-01-25 18:29:45.419937+00:00\"></TimeCreated>\n<EventRecordID>22</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"2592\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Jimmy Wilson</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 1,
+    "Timestamp": "2014-01-29 12:27:53.404036+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000010</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 12:27:53.404036+00:00\"></TimeCreated>\n<EventRecordID>23</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"900\" ThreadID=\"360\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-01-29 12:30:50.094606+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 12:30:50.094606+00:00\"></TimeCreated>\n<EventRecordID>24</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"900\" ThreadID=\"2036\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Sgt. Joe T. Nameless</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-01-29 15:36:09.561884+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 15:36:09.561884+00:00\"></TimeCreated>\n<EventRecordID>25</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"900\" ThreadID=\"2568\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Sgt. Joe T. Nameless</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 1,
+    "Timestamp": "2014-02-03 12:00:41.890833+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000010</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 12:00:41.890833+00:00\"></TimeCreated>\n<EventRecordID>26</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"904\" ThreadID=\"364\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 1,
+    "Timestamp": "2014-02-03 12:01:57.986031+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000010</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 12:01:57.986031+00:00\"></TimeCreated>\n<EventRecordID>27</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"900\" ThreadID=\"364\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-02-03 12:03:18.963600+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 12:03:18.963600+00:00\"></TimeCreated>\n<EventRecordID>28</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"900\" ThreadID=\"916\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\BillyBob</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-02-03 15:16:48.853140+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 15:16:48.853140+00:00\"></TimeCreated>\n<EventRecordID>29</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"900\" ThreadID=\"968\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\BillyBob</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-02-03 15:17:10.162779+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 15:17:10.162779+00:00\"></TimeCreated>\n<EventRecordID>30</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"900\" ThreadID=\"968\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Sgt. Joe T. Nameless</Account>\n<Session>2</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-02-03 18:01:17.020081+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-03 18:01:17.020081+00:00\"></TimeCreated>\n<EventRecordID>31</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"900\" ThreadID=\"2164\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Sgt. Joe T. Nameless</Account>\n<Session>2</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 1,
+    "Timestamp": "2014-02-04 14:11:39.258459+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000010</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 14:11:39.258459+00:00\"></TimeCreated>\n<EventRecordID>32</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"352\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-02-04 14:14:20.727770+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 14:14:20.727770+00:00\"></TimeCreated>\n<EventRecordID>33</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"1844\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Sgt. Joe T. Nameless</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-02-04 19:18:35.220938+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-04 19:18:35.220938+00:00\"></TimeCreated>\n<EventRecordID>34</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"3932\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Sgt. Joe T. Nameless</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 1,
+    "Timestamp": "2014-02-05 13:30:34.010839+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000010</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 13:30:34.010839+00:00\"></TimeCreated>\n<EventRecordID>35</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"928\" ThreadID=\"400\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-02-05 13:37:15.211548+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 13:37:15.211548+00:00\"></TimeCreated>\n<EventRecordID>36</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"928\" ThreadID=\"2420\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Sgt. Joe T. Nameless</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-02-05 18:30:13.598305+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-05 18:30:13.598305+00:00\"></TimeCreated>\n<EventRecordID>37</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"928\" ThreadID=\"2584\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Sgt. Joe T. Nameless</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 1,
+    "Timestamp": "2014-02-06 11:20:31.828432+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000010</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 11:20:31.828432+00:00\"></TimeCreated>\n<EventRecordID>38</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"888\" ThreadID=\"272\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-02-06 11:22:18.792040+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 11:22:18.792040+00:00\"></TimeCreated>\n<EventRecordID>39</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"888\" ThreadID=\"908\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Sgt. Joe T. Nameless</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-02-06 14:58:39.031748+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 14:58:39.031748+00:00\"></TimeCreated>\n<EventRecordID>40</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"888\" ThreadID=\"3780\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Sgt. Joe T. Nameless</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 1,
+    "Timestamp": "2014-02-06 18:54:11.407232+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000010</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 18:54:11.407232+00:00\"></TimeCreated>\n<EventRecordID>41</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"904\" ThreadID=\"376\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-02-06 18:54:41.777094+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 18:54:41.777094+00:00\"></TimeCreated>\n<EventRecordID>42</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"904\" ThreadID=\"356\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Sgt. Joe T. Nameless</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-02-06 18:57:24.387783+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-06 18:57:24.387783+00:00\"></TimeCreated>\n<EventRecordID>43</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"904\" ThreadID=\"3244\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Sgt. Joe T. Nameless</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 1,
+    "Timestamp": "2014-02-07 12:34:38.126431+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000010</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 12:34:38.126431+00:00\"></TimeCreated>\n<EventRecordID>44</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"380\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-02-07 12:35:38.199963+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 12:35:38.199963+00:00\"></TimeCreated>\n<EventRecordID>45</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"712\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Sgt. Joe T. Nameless</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-02-07 14:01:37.299427+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 14:01:37.299427+00:00\"></TimeCreated>\n<EventRecordID>46</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"856\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Sgt. Joe T. Nameless</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-02-07 14:21:27.285118+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 14:21:27.285118+00:00\"></TimeCreated>\n<EventRecordID>47</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"856\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Sgt. Joe T. Nameless</Account>\n<Session>2</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-02-07 14:25:08.348808+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 14:25:08.348808+00:00\"></TimeCreated>\n<EventRecordID>48</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"3964\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Sgt. Joe T. Nameless</Account>\n<Session>2</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-02-07 14:27:00.996605+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 14:27:00.996605+00:00\"></TimeCreated>\n<EventRecordID>49</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"1756\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Sgt. Joe T. Nameless</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-02-07 14:37:27.691338+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 14:37:27.691338+00:00\"></TimeCreated>\n<EventRecordID>50</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"1008\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Sgt. Joe T. Nameless</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-02-07 15:10:38.785234+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 15:10:38.785234+00:00\"></TimeCreated>\n<EventRecordID>51</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"1008\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Sgt. Joe T. Nameless</Account>\n<Session>2</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-02-07 15:12:42.434252+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 15:12:42.434252+00:00\"></TimeCreated>\n<EventRecordID>52</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"328\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Sgt. Joe T. Nameless</Account>\n<Session>2</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 1,
+    "Timestamp": "2014-02-07 16:51:51.118441+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000010</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 16:51:51.118441+00:00\"></TimeCreated>\n<EventRecordID>53</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"888\" ThreadID=\"332\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-02-07 17:34:29.291155+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 17:34:29.291155+00:00\"></TimeCreated>\n<EventRecordID>54</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"888\" ThreadID=\"1180\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Sgt. Joe T. Nameless</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-02-07 17:35:57.012909+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-07 17:35:57.012909+00:00\"></TimeCreated>\n<EventRecordID>55</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"888\" ThreadID=\"2028\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Sgt. Joe T. Nameless</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 1,
+    "Timestamp": "2014-02-10 14:49:43.613230+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000010</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 14:49:43.613230+00:00\"></TimeCreated>\n<EventRecordID>56</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"904\" ThreadID=\"372\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-02-10 14:50:53.148752+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 14:50:53.148752+00:00\"></TimeCreated>\n<EventRecordID>57</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"904\" ThreadID=\"632\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Jimmy Wilson</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-02-10 18:26:04.047829+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-10 18:26:04.047829+00:00\"></TimeCreated>\n<EventRecordID>58</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"904\" ThreadID=\"2576\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Jimmy Wilson</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 1,
+    "Timestamp": "2014-02-11 13:24:37.942429+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000010</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 13:24:37.942429+00:00\"></TimeCreated>\n<EventRecordID>59</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"376\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-02-11 13:25:17.993916+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 13:25:17.993916+00:00\"></TimeCreated>\n<EventRecordID>60</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"716\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Jimmy Wilson</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-02-11 17:40:05.890278+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:40:05.890278+00:00\"></TimeCreated>\n<EventRecordID>61</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"1916\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Jimmy Wilson</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 1,
+    "Timestamp": "2014-02-11 17:41:37.132061+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000010</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:41:37.132061+00:00\"></TimeCreated>\n<EventRecordID>62</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"924\" ThreadID=\"412\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-02-11 17:41:56.728708+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:41:56.728708+00:00\"></TimeCreated>\n<EventRecordID>63</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"924\" ThreadID=\"980\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Jimmy Wilson</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-02-11 17:49:40.334126+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:49:40.334126+00:00\"></TimeCreated>\n<EventRecordID>64</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"924\" ThreadID=\"1116\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Jimmy Wilson</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 1,
+    "Timestamp": "2014-02-11 17:50:31.426029+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000010</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:50:31.426029+00:00\"></TimeCreated>\n<EventRecordID>65</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"908\" ThreadID=\"372\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-02-11 17:50:54.957481+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 17:50:54.957481+00:00\"></TimeCreated>\n<EventRecordID>66</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"908\" ThreadID=\"492\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Jimmy Wilson</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-02-11 19:08:47.051287+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-11 19:08:47.051287+00:00\"></TimeCreated>\n<EventRecordID>67</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"908\" ThreadID=\"3688\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Jimmy Wilson</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 1,
+    "Timestamp": "2014-02-16 18:59:54.270029+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000010</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 18:59:54.270029+00:00\"></TimeCreated>\n<EventRecordID>68</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"908\" ThreadID=\"348\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-02-16 19:09:13.704224+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 19:09:13.704224+00:00\"></TimeCreated>\n<EventRecordID>69</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"908\" ThreadID=\"1264\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Jimmy Wilson</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-02-16 21:05:27.468077+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 21:05:27.468077+00:00\"></TimeCreated>\n<EventRecordID>70</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"908\" ThreadID=\"3664\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Jimmy Wilson</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 1,
+    "Timestamp": "2014-02-16 21:50:45.724028+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000010</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 21:50:45.724028+00:00\"></TimeCreated>\n<EventRecordID>71</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"908\" ThreadID=\"348\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-02-16 21:51:17.786283+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 21:51:17.786283+00:00\"></TimeCreated>\n<EventRecordID>72</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"908\" ThreadID=\"928\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Jimmy Wilson</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-02-16 21:59:14.668722+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 21:59:14.668722+00:00\"></TimeCreated>\n<EventRecordID>73</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"908\" ThreadID=\"3736\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Jimmy Wilson</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 1,
+    "Timestamp": "2014-02-16 22:39:36.302826+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000010</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 22:39:36.302826+00:00\"></TimeCreated>\n<EventRecordID>74</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"908\" ThreadID=\"376\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-02-16 22:39:52.121073+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 22:39:52.121073+00:00\"></TimeCreated>\n<EventRecordID>75</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"908\" ThreadID=\"1264\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Jimmy Wilson</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-02-16 22:47:25.706808+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-16 22:47:25.706808+00:00\"></TimeCreated>\n<EventRecordID>76</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"908\" ThreadID=\"3344\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Jimmy Wilson</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 1,
+    "Timestamp": "2014-02-19 13:30:23.599228+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000010</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 13:30:23.599228+00:00\"></TimeCreated>\n<EventRecordID>77</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"352\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-02-19 13:30:58.561722+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 13:30:58.561722+00:00\"></TimeCreated>\n<EventRecordID>78</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"304\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Jimmy Wilson</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-02-19 13:49:36.022097+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 13:49:36.022097+00:00\"></TimeCreated>\n<EventRecordID>79</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"3944\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\Jimmy Wilson</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-02-19 17:19:43.012642+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 17:19:43.012642+00:00\"></TimeCreated>\n<EventRecordID>80</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"3384\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\BillyBob</Account>\n<Session>2</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-02-19 18:17:19.366535+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-19 18:17:19.366535+00:00\"></TimeCreated>\n<EventRecordID>81</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"2768\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\BillyBob</Account>\n<Session>2</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 1,
+    "Timestamp": "2014-02-20 14:22:17.098429+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">1</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000010</Keywords>\n<TimeCreated SystemTime=\"2014-02-20 14:22:17.098429+00:00\"></TimeCreated>\n<EventRecordID>82</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"352\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<EventData></EventData>\n</Event>\n"
+  },
+  {
+    "EventID": 7,
+    "Timestamp": "2014-02-20 14:30:26.231489+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">7</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-20 14:30:26.231489+00:00\"></TimeCreated>\n<EventRecordID>83</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"3004\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\BillyBob</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  },
+  {
+    "EventID": 8,
+    "Timestamp": "2014-02-20 19:23:12.990549+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-OfflineFiles/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-OfflineFiles\" Guid=\"{95353826-4fbe-41d4-9c42-f521c6e86360}\"></Provider>\n<EventID Qualifiers=\"\">8</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000008</Keywords>\n<TimeCreated SystemTime=\"2014-02-20 19:23:12.990549+00:00\"></TimeCreated>\n<EventRecordID>84</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"912\" ThreadID=\"516\"></Execution>\n<Channel>Microsoft-Windows-OfflineFiles/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-18\"></Security>\n</System>\n<UserData><Info xmlns:auto-ns3=\"http://schemas.microsoft.com/win/2004/08/events\" xmlns=\"UserSessionNs\"><Account>IACIS-HDD-2014\\BillyBob</Account>\n<Session>1</Session>\n</Info>\n</UserData>\n</Event>\n"
+  }
+]

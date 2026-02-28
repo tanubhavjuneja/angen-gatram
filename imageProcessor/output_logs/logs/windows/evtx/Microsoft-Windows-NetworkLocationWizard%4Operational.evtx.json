@@ -1,0 +1,11 @@
+[
+  {
+    "EventID": 1007,
+    "Timestamp": "2014-01-29 12:32:11.075504+00:00",
+    "Computer": "IACIS-HDD-2014",
+    "Channel": "Microsoft-Windows-NetworkLocationWizard/Operational",
+    "Level": "Information",
+    "EventData": {},
+    "RawXml": "<Event xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><System><Provider Name=\"Microsoft-Windows-PrimaryNetworkIcon\" Guid=\"{8ce93926-bdae-4409-9155-2fe4799ef4d3}\"></Provider>\n<EventID Qualifiers=\"\">1007</EventID>\n<Version>0</Version>\n<Level>4</Level>\n<Task>0</Task>\n<Opcode>0</Opcode>\n<Keywords>0x4000000000000000</Keywords>\n<TimeCreated SystemTime=\"2014-01-29 12:32:11.075504+00:00\"></TimeCreated>\n<EventRecordID>1</EventRecordID>\n<Correlation ActivityID=\"\" RelatedActivityID=\"\"></Correlation>\n<Execution ProcessID=\"2120\" ThreadID=\"2696\"></Execution>\n<Channel>Microsoft-Windows-NetworkLocationWizard/Operational</Channel>\n<Computer>IACIS-HDD-2014</Computer>\n<Security UserID=\"S-1-5-21-1171287513-3642516788-2358256967-1003\"></Security>\n</System>\n<ProcessingErrorData><ErrorCode>15005</ErrorCode>\n<DataItemName>GUID</DataItemName>\n<EventPayload>ENiLoXKCIkYBAAAA</EventPayload>\n</ProcessingErrorData>\n</Event>\n"
+  }
+]
