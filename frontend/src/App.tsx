@@ -21,13 +21,12 @@ import {
   startForensicAnalysis,
   getForensicStatus,
   getForensicResults,
-  downloadForensicPdf,
+  downloadReportFile,
   getDrives,
   browseDirectory,
   selectImage,
-  type ForensicHealthResponse,
-  type ForensicResultsResponse,
-  type FileItem,
+  ForensicHealthResponse,
+  ForensicResultsResponse,
 } from './api';
 
 function App() {
@@ -46,7 +45,7 @@ function App() {
   const [showFileBrowser, setShowFileBrowser] = useState(false);
   const [drives, setDrives] = useState<string[]>([]);
   const [currentPath, setCurrentPath] = useState('C:/');
-  const [browseItems, setBrowseItems] = useState<FileItem[]>([]);
+  const [browseItems, setBrowseItems] = useState<any[]>([]);
   const [browseLoading, setBrowseLoading] = useState(false);
 
   const openFileBrowser = async () => {
@@ -78,7 +77,7 @@ function App() {
     setBrowseLoading(false);
   };
 
-  const selectFile = async (item: FileItem) => {
+  const selectFile = async (item: any) => {
     if (item.is_dir) {
       await navigateTo(item.path);
     } else {
@@ -179,9 +178,36 @@ function App() {
   const handleDownloadPdf = async () => {
     if (!taskId) return;
     try {
-      await downloadForensicPdf(taskId);
+      await downloadReportFile(taskId, 'html');
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Failed to download PDF');
+      setError(err instanceof Error ? err.message : 'Failed to download HTML');
+    }
+  };
+
+  const handleDownloadTxt = async () => {
+    if (!taskId) return;
+    try {
+      await downloadReportFile(taskId, 'txt');
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to download TXT');
+    }
+  };
+
+  const handleDownloadJson = async () => {
+    if (!taskId) return;
+    try {
+      await downloadReportFile(taskId, 'json');
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to download JSON');
+    }
+  };
+
+  const handleDownloadCsv = async () => {
+    if (!taskId) return;
+    try {
+      await downloadReportFile(taskId, 'csv');
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to download CSV');
     }
   };
 
@@ -352,10 +378,19 @@ function App() {
                 </div>
               </div>
               <div className="header-actions">
-                <button className="btn" onClick={handleDownloadPdf}>
-                  <Download size={18} /> Download PDF
+                <button className="btn btn-primary" onClick={handleDownloadPdf}>
+                  <Download size={18} /> HTML Report
                 </button>
-                <button className="btn" onClick={reset}>
+                <button className="btn" onClick={handleDownloadTxt}>
+                  <Download size={18} /> TXT
+                </button>
+                <button className="btn" onClick={handleDownloadJson}>
+                  <Download size={18} /> JSON
+                </button>
+                <button className="btn" onClick={handleDownloadCsv}>
+                  <Download size={18} /> CSV
+                </button>
+                <button className="btn btn-secondary" onClick={reset}>
                   <RefreshCw size={18} /> New Analysis
                 </button>
               </div>
@@ -487,6 +522,102 @@ function App() {
                 </div>
               )}
             </div>
+
+            {results.integrated_analysis && results.integrated_analysis.summary && (
+              <div className="card integrated-card">
+                <h3><Clock size={20} /> Advanced Timestomp Analysis</h3>
+                
+                <div className="analysis-stats">
+                  <div className="stat-box critical">
+                    <span className="stat-number">{results.integrated_analysis.summary.critical_count || 0}</span>
+                    <span className="stat-label">Critical</span>
+                  </div>
+                  <div className="stat-box high">
+                    <span className="stat-number">{results.integrated_analysis.summary.high_count || 0}</span>
+                    <span className="stat-label">High</span>
+                  </div>
+                  <div className="stat-box medium">
+                    <span className="stat-number">{results.integrated_analysis.summary.medium_count || 0}</span>
+                    <span className="stat-label">Medium</span>
+                  </div>
+                  <div className="stat-box low">
+                    <span className="stat-number">{results.integrated_analysis.summary.low_count || 0}</span>
+                    <span className="stat-label">Low</span>
+                  </div>
+                </div>
+                
+                <p className="analysis-summary">
+                  Files Analyzed: {results.integrated_analysis.summary.total_files_analyzed || 0} | 
+                  Suspicious: {results.integrated_analysis.summary.suspicious_files || 0}
+                </p>
+                
+                {results.integrated_analysis.critical_findings && results.integrated_analysis.critical_findings.length > 0 && (
+                  <div className="findings-list">
+                    <h4>Critical Findings ({results.integrated_analysis.critical_findings.length})</h4>
+                    {results.integrated_analysis.critical_findings.slice(0, 5).map((finding: any, idx: number) => (
+                      <div key={idx} className="finding-item critical">
+                        <span className="filename">{finding.filename}</span>
+                        <span className="score">Score: {finding.overall_score}</span>
+                        {finding.si_fn_created_delta > 0 && (
+                          <span className="delta">SI/FN Delta: {finding.si_fn_created_delta.toFixed(0)}s</span>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                )}
+
+                {/* Suspicious Timestamp Files List */}
+                {results.integrated_analysis && results.integrated_analysis.partition_results && (
+                  <div className="suspicious-files-list">
+                    <h4>Files with Suspicious Timestamps</h4>
+                    {(() => {
+                      const suspiciousFiles: any[] = [];
+                      results.integrated_analysis.partition_results.forEach((part: any) => {
+                        if (part.findings) {
+                          part.findings.forEach((f: any) => {
+                            if (f.is_timestomped || f.overall_score > 0) {
+                              suspiciousFiles.push(f);
+                            }
+                          });
+                        }
+                      });
+                      if (suspiciousFiles.length === 0) return null;
+                      return (
+                        <div className="suspicious-table-container">
+                          <table className="suspicious-table">
+                            <thead>
+                              <tr>
+                                <th>Filename</th>
+                                <th>Severity</th>
+                                <th>Score</th>
+                                <th>SI/FN Delta</th>
+                                <th>SI Created</th>
+                                <th>FN Created</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {suspiciousFiles.slice(0, 20).map((f: any, idx: number) => (
+                                <tr key={idx} className={`severity-${f.overall_severity?.toLowerCase()}`}>
+                                  <td className="filename-cell">{f.filename}</td>
+                                  <td><span className={`severity-badge ${f.overall_severity?.toLowerCase()}`}>{f.overall_severity}</span></td>
+                                  <td>{f.overall_score}</td>
+                                  <td>{f.si_fn_created_delta ? f.si_fn_created_delta.toFixed(1) + 's' : '-'}</td>
+                                  <td className="timestamp">{f.si_timestamps?.created?.split('T')[0] || '-'}</td>
+                                  <td className="timestamp">{f.fn_timestamps?.created?.split('T')[0] || '-'}</td>
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                          {suspiciousFiles.length > 20 && (
+                            <p className="more-files">... and {suspiciousFiles.length - 20} more files</p>
+                          )}
+                        </div>
+                      );
+                    })()}
+                  </div>
+                )}
+              </div>
+            )}
 
             <div className="card data-wipe-card">
               <h3><Activity size={20} /> Data Wipe Detection</h3>

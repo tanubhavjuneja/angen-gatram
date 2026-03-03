@@ -195,6 +195,12 @@ class DataWipeDetector:
         """Check for file shredder tool artifacts in directory."""
         indicators = []
         
+        EXCLUDED_PATTERNS = [
+            'analysis.json', 'analysis_', 'preprocessed_', 'report_',
+            'timestamp_', 'metadata_', 'antiforensic_', 'hidden_volume_',
+            'data_wipe_', 'forensic_', '.json', '.txt', '.csv'
+        ]
+        
         try:
             dir_path = Path(directory)
             if not dir_path.exists():
@@ -205,9 +211,13 @@ class DataWipeDetector:
                     continue
                 
                 name = item.name.lower()
+                stem = item.stem.lower()
+                
+                if any(excl in stem for excl in EXCLUDED_PATTERNS):
+                    continue
                 
                 for tool in self.KNOWN_SHRED_TOOLS:
-                    if tool in name:
+                    if tool in name and len(name) < 50:
                         indicators.append(WipeIndicator(
                             indicator_type="shredder_artifact",
                             severity="high",

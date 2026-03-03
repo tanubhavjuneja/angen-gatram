@@ -984,3 +984,254 @@ body {
   font-size: 1rem;
   font-weight: 600;
 }
+
+.integrated-card {
+  border-left: 4px solid #8b5cf6;
+}
+
+.integrated-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #8b5cf6;
+  margin-bottom: 1rem;
+}
+
+.analysis-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.stat-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.stat-box.critical {
+  border: 2px solid #dc2626;
+}
+
+.stat-box.high {
+  border: 2px solid #ea580c;
+}
+
+.stat-box.medium {
+  border: 2px solid #eab308;
+}
+
+.stat-box.low {
+  border: 2px solid #22c55e;
+}
+
+.stat-box .stat-number {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #e2e8f0;
+}
+
+.stat-box .stat-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: #94a3b8;
+}
+
+.analysis-summary {
+  color: #94a3b8;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.findings-list h4 {
+  color: #e2e8f0;
+  margin-bottom: 0.5rem;
+}
+
+.finding-item {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  background: rgba(0, 0, 0, 0.2);
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.finding-item.critical {
+  border-left: 3px solid #dc2626;
+}
+
+.finding-item .filename {
+  color: #fca5a5;
+  font-weight: 600;
+  flex: 1;
+}
+
+.finding-item .score,
+.finding-item .delta {
+  color: #94a3b8;
+}
+
+.reports-card {
+  border-left: 4px solid #00d9ff;
+}
+
+.reports-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #00d9ff;
+  margin-bottom: 1rem;
+}
+
+.reports-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.report-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: #0f3460;
+  color: #00d9ff;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.report-link:hover {
+  background: #1a4a7a;
+}
+
+.report-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: #0f3460;
+  color: #94a3b8;
+  border-radius: 0.5rem;
+}
+
+.suspicious-files-list {
+  margin-top: 1.5rem;
+}
+
+.suspicious-files-list h4 {
+  color: #e2e8f0;
+  margin-bottom: 0.75rem;
+}
+
+.suspicious-table-container {
+  overflow-x: auto;
+}
+
+.suspicious-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.suspicious-table th,
+.suspicious-table td {
+  padding: 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid #334155;
+}
+
+.suspicious-table th {
+  background: #0f3460;
+  color: #94a3b8;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+
+.suspicious-table td {
+  color: #cbd5e1;
+}
+
+.suspicious-table .filename-cell {
+  color: #00d9ff;
+  font-weight: 500;
+}
+
+.suspicious-table .timestamp {
+  font-family: monospace;
+  color: #94a3b8;
+}
+
+.suspicious-table tr.critical {
+  background: rgba(220, 38, 38, 0.1);
+}
+
+.suspicious-table tr.high {
+  background: rgba(234, 88, 12, 0.1);
+}
+
+.suspicious-table tr.medium {
+  background: rgba(234, 179, 8, 0.1);
+}
+
+.suspicious-table .severity-badge {
+  padding: 0.15rem 0.4rem;
+  border-radius: 0.2rem;
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.suspicious-table .severity-badge.critical {
+  background: #dc2626;
+  color: white;
+}
+
+.suspicious-table .severity-badge.high {
+  background: #ea580c;
+  color: white;
+}
+
+.suspicious-table .severity-badge.medium {
+  background: #eab308;
+  color: black;
+}
+
+.suspicious-table .severity-badge.low {
+  background: #22c55e;
+  color: white;
+}
+
+.more-files {
+  color: #94a3b8;
+  font-style: italic;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.btn-primary {
+  background: #00d9ff;
+  color: #000;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background: #00b8d9;
+}
+
+.btn-secondary {
+  background: #64748b;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background: #475569;
+}

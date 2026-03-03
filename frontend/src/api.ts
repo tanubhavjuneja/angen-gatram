@@ -56,6 +56,22 @@ export interface HiddenVolumeAnalysis {
   partitions?: any[];
 }
 
+export interface IntegratedAnalysis {
+  partition_results?: any[];
+  summary?: {
+    total_partitions?: number;
+    total_files_analyzed?: number;
+    suspicious_files?: number;
+    critical_count?: number;
+    high_count?: number;
+    medium_count?: number;
+    low_count?: number;
+  };
+  critical_findings?: any[];
+  high_findings?: any[];
+  medium_findings?: any[];
+}
+
 export interface ForensicResultsResponse {
   task_id: string;
   status: string;
@@ -67,6 +83,7 @@ export interface ForensicResultsResponse {
   timestamp: string;
   timestamp_analysis?: any;
   metadata_analysis?: any;
+  integrated_analysis?: IntegratedAnalysis;
   data_wipe_analysis?: DataWipeAnalysis;
   hidden_volume_analysis?: HiddenVolumeAnalysis;
   partitions?: PartitionInfo[];
@@ -180,12 +197,41 @@ export async function downloadForensicPdf(taskId: string): Promise<void> {
   }
 
   if (!response.ok) {
-    const error = await response.json().catch(() => ({ detail: 'Unknown error' }));
-    throw new Error(error.detail || `Failed to download report: ${response.statusText}`);
+    const errorText = await response.text();
+    if (errorText.includes('not found') || response.status === 404) {
+      throw new Error('No report available. Analysis may still be processing or failed.');
+    }
+    throw new Error(errorText || `Failed to download report: ${response.statusText}`);
   }
 
   const contentType = response.headers.get('content-type') || 'text/plain';
   const extension = contentType.includes('html') ? 'html' : 'txt';
+  const blob = await response.blob();
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `forensic_report_${taskId}.${extension}`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+export async function downloadReportFile(taskId: string, format: string): Promise<void> {
+  const response = await fetch(`${API_BASE}/report/${taskId}?format=${format}`);
+  
+  if (!response.ok) {
+    const errorText = await response.text();
+    throw new Error(errorText || `Failed to download ${format} report: ${response.statusText}`);
+  }
+
+  const contentType = response.headers.get('content-type') || 'text/plain';
+  let extension = format;
+  if (contentType.includes('html')) extension = 'html';
+  else if (contentType.includes('json')) extension = 'json';
+  else if (contentType.includes('csv')) extension = 'csv';
+  else if (contentType.includes('text')) extension = 'txt';
+  
   const blob = await response.blob();
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');

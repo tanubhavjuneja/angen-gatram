@@ -18,7 +18,7 @@ from PySide6.QtGui import QIcon, QAction
 
 import uvicorn
 from fastapi import FastAPI, HTTPException
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, Response
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import json
@@ -119,6 +119,7 @@ class ForensicResultsResponse(BaseModel):
     analysis_time_seconds: float = 0.0
     timestamp_analysis: dict = {}
     metadata_analysis: dict = {}
+    integrated_analysis: dict = {}
     data_wipe_analysis: dict = {}
     hidden_volume_analysis: dict = {}
     partitions: list = []
@@ -284,6 +285,38 @@ def run_forensic_analysis(task_id: str, image_path: str):
         except Exception as e:
             pass
 
+        task.progress = 65
+        task.stage = "integrated_timestomp_analysis"
+        task.message = "Running advanced timestamp analysis (SI/FN comparison)..."
+
+        integrated_results = {}
+        try:
+            from imageProcessor.integrated_forensic_analyzer import run_integrated_analysis
+
+            partitions_for_analysis = extractor.partitions if extractor else []
+            integrated_results = run_integrated_analysis(str(image_file), str(output_dir), partitions_for_analysis)
+
+            integrated_json_file = output_dir / "integrated_forensic_analysis.json"
+            with open(integrated_json_file, "w") as f:
+                json.dump(integrated_results, f, indent=2, default=str)
+
+            for partition_result in integrated_results.get("partition_results", []):
+                for finding in partition_result.get("findings", []):
+                    if finding.get("is_timestomped"):
+                        indicators_list = finding.get("indicators", [])
+                        first_indicator = indicators_list[0] if indicators_list else {}
+                        findings.append({
+                            "technique": f"Timestomp Detection - {finding.get('filename', 'unknown')}",
+                            "severity": finding.get("overall_severity", "HIGH").upper(),
+                            "evidence": f"Score: {finding.get('overall_score', 0)}, Delta: {finding.get('si_fn_created_delta', 0)}s",
+                            "explanation": f"SI/FN timestamp mismatch detected. {first_indicator.get('description', '')}",
+                            "recommendation": "Investigate file for timestamp manipulation",
+                            "confidence": finding.get("overall_score", 75) / 100.0,
+                        })
+        except Exception as e:
+            print(f"[DEBUG] Integrated analysis error: {e}")
+            integrated_results = {}
+
         task.progress = 68
         task.stage = "data_wipe_detection"
         task.message = "Analyzing for data wiping evidence..."
@@ -377,6 +410,7 @@ def run_forensic_analysis(task_id: str, image_path: str):
             "analysis_time_seconds": 0,
             "timestamp_analysis": timestamp_analysis,
             "metadata_analysis": metadata_analysis,
+            "integrated_analysis": integrated_results,
             "data_wipe_analysis": data_wipe_results,
             "hidden_volume_analysis": hidden_volume_results,
             "partitions": [
@@ -395,14 +429,25 @@ def run_forensic_analysis(task_id: str, image_path: str):
             ] if extractor else [],
         }
 
-        # Generate reports
+        # Generate comprehensive reports
         try:
-            from imageProcessor.forensic_report import generate_report
+            from imageProcessor.integrated_report_generator import generate_integrated_report
             image_name = Path(image_file).name
-            reports = generate_report(str(output_dir), task.results, image_name)
+            task.results["analysis_metadata"] = {
+                "image_path": str(image_file),
+                "output_directory": str(output_dir),
+                "analyzed_at": datetime.now().isoformat(),
+            }
+            reports = generate_integrated_report(str(output_dir), task.results)
             task.results["report_files"] = reports
         except Exception as e:
             print(f"[DEBUG] Report generation error: {e}")
+            try:
+                from imageProcessor.forensic_report import generate_report
+                reports = generate_report(str(output_dir), task.results, image_name)
+                task.results["report_files"] = reports
+            except Exception as e2:
+                print(f"[DEBUG] Fallback report generation error: {e2}")
 
         task.progress = 100
         task.stage = "complete"
@@ -503,6 +548,7 @@ async def get_forensic_results(task_id: str):
         analysis_time_seconds=task.results.get("analysis_time_seconds", 0) if task.results else 0,
         timestamp_analysis=task.results.get("timestamp_analysis", {}) if task.results else {},
         metadata_analysis=task.results.get("metadata_analysis", {}) if task.results else {},
+        integrated_analysis=task.results.get("integrated_analysis", {}) if task.results else {},
         data_wipe_analysis=task.results.get("data_wipe_analysis", {}) if task.results else {},
         hidden_volume_analysis=task.results.get("hidden_volume_analysis", {}) if task.results else {},
         partitions=task.results.get("partitions", []) if task.results else [],
@@ -595,7 +641,7 @@ async def select_image(path: str):
 
 @app.get("/forensics/report/{task_id}")
 async def download_report(task_id: str, format: str = "html"):
-    """Download forensic report."""
+    """Download forensic report in various formats."""
     task = task_manager["tasks"].get(task_id)
     if not task or not task.output_dir:
         raise HTTPException(status_code=404, detail="Task not found")
@@ -603,15 +649,36 @@ async def download_report(task_id: str, format: str = "html"):
     output_dir = Path(task.output_dir)
     
     if format == "html":
-        reports = list(output_dir.glob("forensic_report_*.html"))
+        reports = list(output_dir.glob("forensic_report.html"))
         if reports:
-            return FileResponse(reports[0], media_type="text/html")
+            return FileResponse(reports[0], media_type="text/html", filename="forensic_report.html")
+        reports = list(output_dir.glob("*.html"))
+        if reports:
+            return FileResponse(reports[0], media_type="text/html", filename="forensic_report.html")
     
-    reports = list(output_dir.glob("forensic_report_*.txt"))
-    if reports:
-        return FileResponse(reports[0], media_type="text/plain")
+    if format == "txt":
+        reports = list(output_dir.glob("forensic_report.txt"))
+        if reports:
+            return FileResponse(reports[0], media_type="text/plain", filename="forensic_report.txt")
+        reports = list(output_dir.glob("*.txt"))
+        for r in reports:
+            if "report" in r.name.lower():
+                return FileResponse(r, media_type="text/plain", filename="forensic_report.txt")
     
-    raise HTTPException(status_code=404, detail="Report not found")
+    if format == "json":
+        reports = list(output_dir.glob("forensic_report.json"))
+        if reports:
+            return FileResponse(reports[0], media_type="application/json", filename="forensic_report.json")
+        reports = list(output_dir.glob("integrated_forensic_analysis.json"))
+        if reports:
+            return FileResponse(reports[0], media_type="application/json", filename="forensic_report.json")
+    
+    if format == "csv":
+        reports = list(output_dir.glob("forensic_report.csv"))
+        if reports:
+            return FileResponse(reports[0], media_type="text/csv", filename="forensic_report.csv")
+    
+    raise HTTPException(status_code=404, detail=f"Report format '{format}' not found")
 
 
 @app.get("/")
@@ -620,6 +687,16 @@ async def serve_frontend():
     if index_path.exists():
         return FileResponse(index_path)
     return {"message": "Frontend not found. Run 'npm run build' in frontend directory."}
+
+
+
+@app.get("/favicon.svg")
+async def serve_favicon():
+    favicon_svg = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="45" fill="#00d9ff"/>
+  <path d="M30 50 L45 65 L70 35" stroke="white" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>"""
+    return Response(content=favicon_svg, media_type="image/svg+xml")
 
 
 @app.get("/assets/{path:path}")

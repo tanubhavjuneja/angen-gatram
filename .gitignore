@@ -14,7 +14,7 @@ Evidence/
 # OS specific
 .DS_Store
 Thumbs.db
-
+forensic_output
 # Logs and temp files
 *.log
 *.tmp

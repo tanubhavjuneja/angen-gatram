@@ -451,8 +451,11 @@ class RawImageExtractor:
         """Detect filesystem type at given offset."""
         try:
             with open(self.image_path, 'rb') as f:
-                f.seek(offset_sectors * 512 + 0x03)
-                boot_sector = f.read(512)
+                f.seek(offset_sectors * 512)
+                boot_sector = f.read(1024)
+                
+                if len(boot_sector) < 512:
+                    return None
                 
                 if boot_sector[3:11] == b'NTFS    ':
                     return "ntfs"
@@ -469,12 +472,31 @@ class RawImageExtractor:
                 if boot_sector[0x38:0x3C] == b'FAT    ':
                     return "fat"
                 
-                if boot_sector[0x38:0x3C] == b'FAT    ':
-                    return "fat"
-                
                 ext2_magic = struct.unpack('<H', boot_sector[0x38:0x3A])[0]
                 if ext2_magic == 0xEF53:
                     return "ext2"
+                
+                if boot_sector[0x38:0x3C] == b'exfAT':
+                    return "exfat"
+                
+                if boot_sector[0x00:0x08] == b'android':
+                    return "android"
+                
+                if boot_sector[0x00:0x08] == b'-FVE-FS-':
+                    return "bitlocker"
+                
+                if boot_sector[0x00:0x08] == b'-VRAW--':
+                    return "veracrypt"
+                
+                if boot_sector[0x00:0x08] == b'TRUECRYP':
+                    return "truecrypt"
+                
+                zeros_count = boot_sector[:512].count(b'\x00')
+                if zeros_count > 500:
+                    return "empty"
+                
+                if boot_sector[0x00:0x10] == b'\x00' * 16:
+                    return "unallocated"
                 
         except Exception:
             pass
